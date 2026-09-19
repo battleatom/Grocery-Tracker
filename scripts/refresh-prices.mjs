@@ -153,7 +153,7 @@ async function thunderbitSams(){
  let matched=0;
  try{
   for(const item of data.items){
-   if(/^Receipt item:/i.test(item.name))continue;
+   if(/^Receipt item:/i.test(item.name)||!selected.has(item.id))continue;
    const q=encodeURIComponent(item.name.replace(/—.*/,'').trim());
    const url=`https://www.samsclub.com/s/${q}?xid=hdr_search-typeahead_${q}`;
    const r=await fetch('https://openapi.thunderbit.com/openapi/v1/extract',{
@@ -212,16 +212,48 @@ async function thunderbitWalmart(){
   checks.push({source:'Thunderbit / Walmart',status:200,checked_at:now,attempted:selected.size,matched});return matched;
  }catch(e){checks.push({source:'Thunderbit / Walmart',status:'error',checked_at:now,error:e.message});return matched}
 }
+
+function walmartEmbeddedProducts(html){
+ const out=[];
+ const marker='<script id="__NEXT_DATA__" type="application/json">';
+ const a=html.indexOf(marker);
+ if(a>=0){const b=html.indexOf('</script>',a);if(b>a)try{const j=JSON.parse(html.slice(a+marker.length,b));const walk=x=>{if(!x||typeof x!=='object')return;if(x.name&&x.priceInfo?.currentPrice?.price)out.push({name:x.name,price:x.priceInfo.currentPrice.price,regular_price:x.priceInfo?.wasPrice?.price||x.priceInfo?.listPrice?.price||null,url:x.canonicalUrl||x.productPageUrl||null});for(const v of Object.values(x))walk(v)};walk(j)}catch{}}
+ return out;
+}
+async function scrapeOpsWalmart(){
+ const key=process.env.SCRAPEOPS_API_KEY;
+ if(!key){checks.push({source:'ScrapeOps / Walmart',status:'credentials_missing',checked_at:now});return 0}
+ const week=Math.floor(Date.now()/604800000), eligible=data.items.filter(x=>!/^Receipt item:/i.test(x.name)&&!x.offers[1]);
+ // Stay safely below 1,000 requests/month: max 120 search pages/week, no retries.
+ const selected=eligible.slice((week*120)%Math.max(1,eligible.length)).concat(eligible).slice(0,Math.min(120,eligible.length));
+ let matched=0,attempted=0;
+ for(const item of selected){attempted++;
+  const target='https://www.walmart.com/search?'+new URLSearchParams({q:item.name.replace(/—.*/, '').trim(),sort:'best_match',page:'1',affinityOverride:'default'}).toString();
+  const proxy='https://proxy.scrapeops.io/v1/?'+new URLSearchParams({api_key:key,url:target,country:'us'}).toString();
+  try{
+   const r=await fetch(proxy,{headers:{Accept:'text/html','User-Agent':'Mozilla/5.0'}});
+   if([401,402,403,429].includes(r.status)){checks.push({source:'ScrapeOps / Walmart',status:r.status,checked_at:now,attempted,matched});return matched}
+   if(!r.ok)continue;const products=walmartEmbeddedProducts(await r.text());
+   const wanted=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen','boneless'].includes(x));let best=null,score=0;
+   for(const p of products){const words=new Set(clean(p.name).split(' ')),hits=wanted.filter(t=>words.has(t)).length,req=wanted.length===1?1:Math.min(2,wanted.length);if(hits>=req&&hits/Math.max(1,wanted.length)>=.5&&hits>score){best=p;score=hits}}
+   if(!best)continue;const cur=priceNum(best.price),reg=priceNum(best.regular_price)||cur;if(!cur)continue;
+   const sale=reg>cur,offer={price:reg,promo_price:sale?cur:null,unit_price:null,unit:item.comparison_unit,label:String(best.name).slice(0,120),sale,deal_type:sale?'sale':'regular',source:'Walmart.com via ScrapeOps — New Mexico fallback',source_scope:'new_mexico',source_url:best.url?('https://www.walmart.com'+best.url):target,observed:now.slice(0,10),observed_at:now,automated:true};
+   item.offers[1]=offer;addHistory(item,'Walmart',offer);matched++;
+  }catch{}
+ }
+ checks.push({source:'ScrapeOps / Walmart',status:200,checked_at:now,attempted,matched,budget:'max 120 requests/week'});return matched;
+}
+
 async function openPrices(){let n=0;try{const r=await fetch('https://prices.openfoodfacts.org/api/v1/prices?lat=36.7281&lon=-108.2187&radius_km=12&currency=USD&ordering=-date&page_size=100');if(!r.ok){checks.push({source:'Open Prices',status:r.status,checked_at:now});return 0}const j=await r.json(),rows=j.results||[];for(const p of rows){const place=clean([p.location?.osm_name,p.location?.osm_address_city].join(' '));if(!place.includes('farmington'))continue;const map=[["sam's",0,"Sam's Club"],['walmart',1,'Walmart'],['albertsons',2,'Albertsons'],['safeway',3,'Safeway'],["smith's",4,"Smith's"]],st=map.find(x=>place.includes(x[0]));if(!st)continue;const name=String(p.product?.product_name||p.product_name||'').trim();if(!name)continue;const words=new Set(clean(name).split(' '));let hit=null,score=0;for(const item of data.items){const w=clean(item.name.replace(/—.*/,'')).split(' ').filter(x=>x.length>3),h=w.filter(x=>words.has(x)).length;if(h>=Math.min(2,w.length)&&h>score){hit=item;score=h}}if(!hit)continue;const val=priceNum(p.price),date=String(p.date||'');if(!val||hit.offers[st[1]]?.observed>=date)continue;const o={price:val,promo_price:null,unit_price:null,unit:hit.comparison_unit,label:name,sale:!!p.price_is_discounted,deal_type:'observed',source:'Open Food Facts Open Prices',observed:date||now.slice(0,10),observed_at:now,automated:true,product_code:p.product_code||null};hit.offers[st[1]]=o;addHistory(hit,st[2],o);n++}checks.push({source:'Open Prices',status:200,checked_at:now,nearby_rows:rows.length,matched:n});return n}catch(e){checks.push({source:'Open Prices',status:'error',checked_at:now,error:e.message});return n}}
 async function legacyPages(){
  const srcs=[["Sam's Club",0,'https://www.samsclub.com/club/6347/grocery'],['Walmart',1,'https://www.walmart.com/store/3428-farmington-nm/shopping-services']];
  for(const [name,idx,url] of srcs)try{const r=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});const body=await r.text();checks.push({source:name,status:r.status,checked_at:now,blocked:/robot or human|captcha/i.test(body)});}catch(e){checks.push({source:name,status:'error',checked_at:now,error:e.message})}
 }
-const [fm,km,am,sm,wm,om]=await Promise.all([flipp(),kroger(),albertsonsPrices(),thunderbitSams(),thunderbitWalmart(),openPrices(),legacyPages().then(()=>0)]);
-data.meta.automation={last_run:now,matched:fm+km+am+sm+wm+om,schedule:'daily',source_checks:checks,policy:'Public weekly-ad deals via Flipp; Smith\'s full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails.'};
-if(fm+km+am+sm+wm+om>0)data.meta.updated_at=now;
+const [fm,km,am,sm,wm,swm,om]=await Promise.all([flipp(),kroger(),albertsonsPrices(),thunderbitSams(),thunderbitWalmart(),scrapeOpsWalmart(),openPrices(),legacyPages().then(()=>0)]);
+data.meta.automation={last_run:now,matched:fm+km+am+sm+wm+swm+om,schedule:'daily',source_checks:checks,policy:'Public weekly-ad deals via Flipp; Smith\'s full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails.'};
+if(fm+km+am+sm+wm+swm+om>0)data.meta.updated_at=now;
 deals.meta.updated_at=now;deals.meta.source_checks=checks;
 await fs.writeFile(FILE,JSON.stringify(data,null,2)+'\n');
 await fs.writeFile(HISTORY,JSON.stringify(history.slice(-5000),null,2)+'\n');
 await fs.writeFile(DEALS,JSON.stringify(deals,null,2)+'\n');
-console.log('verified matches',fm+km+am+sm+wm+om,'flipp',fm,'kroger',km,'abs',am,'sams',sm,'walmart',wm);
+console.log('verified matches',fm+km+am+sm+wm+swm+om,'flipp',fm,'kroger',km,'abs',am,'sams',sm,'walmart',wm,'scrapeops_walmart',swm);
