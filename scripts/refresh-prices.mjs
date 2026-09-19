@@ -110,7 +110,7 @@ async function resolveABSStore(banner){
 async function albertsonsPrices(){
  // Farmington E Main stores. Resolver remains a fallback because Albertsons' resolver payload changes shape.
  // Validate these IDs through the price endpoint on each run; failed calls do not overwrite existing verified data.
- const configured={safeway:process.env.SAFEWAY_STORE_ID||null,albertsons:process.env.ALBERTSONS_STORE_ID||null};
+ const configured={safeway:process.env.SAFEWAY_STORE_ID||null,albertsons:process.env.ALBERTSONS_STORE_ID||'824'};
  const [rsid,raid]=await Promise.all([configured.safeway?null:resolveABSStore('safeway'),configured.albertsons?null:resolveABSStore('albertsons')]);
  const sid=configured.safeway||rsid, aid=configured.albertsons||raid;
  let n=0;
