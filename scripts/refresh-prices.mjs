@@ -12,29 +12,47 @@ function relevant(name,item){const n=clean(name),terms=clean(item.name).split(' 
 function priceNum(v){const n=Number(v);return Number.isFinite(n)&&n>0?n:null}
 function addHistory(item,store,offer){const last=history.at(-1);history.push({at:now,item:item.id,store,price:offer.price,promo_price:offer.promo_price??null,unit_price:offer.unit_price??null,unit:offer.unit??item.comparison_unit,source_type:offer.deal_type||'price',verified:true})}
 async function flipp(){
- const url=`https://backflipp.wishabi.com/flipp/items/search?locale=en-us&postal_code=${ZIP}&q=grocery`;
  try{
-  const r=await fetch(url,{headers:{Accept:'application/json','User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});
-  checks.push({source:'Flipp/Wishabi',status:r.status,checked_at:now});
-  if(!r.ok)return 0;
-  const j=await r.json(), rows=j?.items??(Array.isArray(j)?j:[]);
-  let matched=0; const out={Safeway:[],Albertsons:[],Walmart:[]};
-  for(const row of rows){
-   const merchant=clean(row.merchant_name);
+  const listUrl=`https://backflipp.wishabi.com/flipp/flyers?locale=en-us&postal_code=${ZIP}`;
+  const r=await fetch(listUrl,{headers:{Accept:'application/json','User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});
+  if(!r.ok){checks.push({source:'Flipp/Wishabi',status:r.status,checked_at:now,stage:'flyers'});return 0}
+  const j=await r.json(), flyers=Array.isArray(j)?j:(j.flyers||[]);
+  const wanted=flyers.filter(f=>/safeway|albertsons|walmart/i.test(f.merchant_name||f.merchant||''));
+  let matched=0, totalItems=0; const out={Safeway:[],Albertsons:[],Walmart:[]};
+  for(const flyer of wanted){
+   const merchant=clean(flyer.merchant_name||flyer.merchant);
    const store=merchant.includes('safeway')?'Safeway':merchant.includes('albertsons')?'Albertsons':merchant.includes('walmart')?'Walmart':null;
    if(!store)continue;
-   const p=priceNum(row.current_price??row.price); if(!p)continue;
-   const deal={name:row.name,price:p,regular_price:priceNum(row.original_price),valid_from:row.valid_from??null,valid_to:row.valid_to??null,type:'weekly_ad',source:'Flipp/Wishabi',source_url:row.flyer_url??url};
-   out[store].push(deal);
-   for(const item of data.items){
-    if(!relevant(row.name,item))continue;
-    const idx=storeIndex[store], old=item.offers[idx];
-    const regular=deal.regular_price&&deal.regular_price>p?deal.regular_price:p;
-    const offer={...(old||{}),price:regular,promo_price:deal.regular_price&&deal.regular_price>p?p:null,unit_price:null,unit:item.comparison_unit,label:String(row.name).slice(0,100),sale:true,deal_type:'weekly_ad',deal_ends:deal.valid_to,source:`Flipp weekly ad — ${store}`,source_url:deal.source_url,observed:now.slice(0,10),observed_at:now,automated:true};
-    item.offers[idx]=offer; addHistory(item,store,offer); matched++; break;
+   const id=flyer.id||flyer.flyer_id;if(!id)continue;
+   const detailUrl=`https://backflipp.wishabi.com/flipp/flyers/${id}?locale=en-us&postal_code=${ZIP}`;
+   const dr=await fetch(detailUrl,{headers:{Accept:'application/json','User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});
+   if(!dr.ok)continue;
+   const dj=await dr.json();
+   let rows=[];
+   for(const key of ['flyer_items','items','ecom_items'])if(Array.isArray(dj?.[key]))rows.push(...dj[key]);
+   if(!rows.length)for(const v of Object.values(dj||{}))if(Array.isArray(v)&&v.some(x=>x&&typeof x==='object'&&'name'in x)){rows=v;break}
+   totalItems+=rows.length;
+   for(const row of rows){
+    if(!row?.name||row.display_type===5||row.ttm_url)continue;
+    const p=priceNum(row.current_price??(row.price!==''?row.price:null));
+    if(!p)continue;
+    const regular=priceNum(row.original_price);
+    const deal={name:row.name,price:p,regular_price:regular,valid_from:row.valid_from??flyer.valid_from??null,valid_to:row.valid_to??flyer.valid_to??null,type:row.display_type===25?'coupon':'weekly_ad',source:'Flipp/Wishabi',source_url:row.flyer_url??detailUrl};
+    out[store].push(deal);
+    let best=null,bestScore=0;
+    for(const item of data.items){
+      const terms=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen'].includes(x));
+      const n=clean(row.name);const score=terms.reduce((a,t)=>a+(n.includes(t)?1:0),0);
+      if(score>bestScore){best=item;bestScore=score}
+    }
+    if(!best||bestScore<1)continue;
+    const idx=storeIndex[store], old=best.offers[idx];
+    const offer={...(old||{}),price:regular&&regular>p?regular:p,promo_price:regular&&regular>p?p:null,unit_price:null,unit:best.comparison_unit,label:String(row.name).slice(0,100),sale:true,deal_type:deal.type,deal_ends:deal.valid_to,source:`Flipp weekly ad — ${store}`,source_url:deal.source_url,observed:now.slice(0,10),observed_at:now,automated:true};
+    best.offers[idx]=offer;addHistory(best,store,offer);matched++;
    }
   }
   for(const store of ['Safeway','Albertsons','Walmart']){let rec=deals.stores.find(x=>x.store===store);if(!rec){rec={store,deals:[]};deals.stores.push(rec)}rec.deals=out[store]}
+  checks.push({source:'Flipp/Wishabi',status:200,checked_at:now,flyers:wanted.length,items:totalItems,deals:Object.fromEntries(Object.entries(out).map(([k,v])=>[k,v.length]))});
   return matched;
  }catch(e){checks.push({source:'Flipp/Wishabi',status:'error',checked_at:now,error:e.message});return 0}
 }
