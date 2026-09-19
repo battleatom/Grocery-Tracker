@@ -70,7 +70,7 @@ async function albertsonsBanner(store,banner,storeid){
  let matched=0, searched=0;
  try{
   for(const item of data.items){
-   if(/^Receipt item:/i.test(item.name)||!selected.has(item.id))continue;
+   if(/^Receipt item:/i.test(item.name))continue;
    const q=item.name.replace(/—.*/,'').trim(); if(!q)continue; searched++;
    const host=banner==='safeway'?'www.safeway.com':'www.albertsons.com';
    const u=new URL(`https://${host}/abs/pub/xapi/search/substitute`);
