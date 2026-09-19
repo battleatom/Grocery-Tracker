@@ -1,4 +1,5 @@
 name: Refresh local grocery prices
+# Trigger fresh run after ScrapeOps secret configuration
 on:
   push:
     paths:
