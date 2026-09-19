@@ -14,6 +14,9 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/refresh-prices.mjs
+        env:
+          KROGER_CLIENT_ID: ${{ secrets.KROGER_CLIENT_ID }}
+          KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}
       - name: Commit verified changes
         run: |
           git config user.name "grocery-price-bot"
