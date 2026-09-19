@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T08:48:00-06:00",
+    "updated_at": "2026-09-19T14:58:56.572Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -23,7 +23,45 @@
       "digital_coupon",
       "member_price",
       "personalized_coupon"
-    ]
+    ],
+    "automation": {
+      "last_run": "2026-09-19T14:58:56.572Z",
+      "matched": 1,
+      "schedule": "daily",
+      "source_checks": [
+        {
+          "store": "Sam's #6347",
+          "status": 200,
+          "checked_at": "2026-09-19T14:58:56.572Z",
+          "url": "https://www.samsclub.com/club/6347/grocery"
+        },
+        {
+          "store": "Walmart #3428",
+          "status": 200,
+          "checked_at": "2026-09-19T14:58:56.572Z",
+          "url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services"
+        },
+        {
+          "store": "Albertsons 4909 E Main",
+          "status": 200,
+          "checked_at": "2026-09-19T14:58:56.572Z",
+          "url": "https://local.albertsons.com/nm/farmington/4909-e-main-st.html"
+        },
+        {
+          "store": "Safeway 3540 E Main",
+          "status": 200,
+          "checked_at": "2026-09-19T14:58:56.572Z",
+          "url": "https://local.safeway.com/safeway/nm/farmington/3540-e-main-st.html"
+        },
+        {
+          "store": "Smith's Farmington pickup",
+          "status": 429,
+          "checked_at": "2026-09-19T14:58:56.572Z",
+          "url": "https://www.smithsfoodanddrug.com/?cid=loc_70600376_order&setModalityTo=PICKUP_70600376"
+        }
+      ],
+      "policy": "retain last verified value when a source cannot be parsed; last_run is a check time, not a price freshness claim"
+    }
   },
   "items": [
     {
@@ -923,10 +961,10 @@
           "unit": "each",
           "label": "Member's Mark Ultra Dinner Paper Plates 10 in, 204 ct",
           "sale": false,
-          "source": "Sam's Club #6347 Farmington grocery page",
+          "source": "Sam's #6347",
           "source_url": "https://www.samsclub.com/club/6347/grocery",
           "observed": "2026-09-19",
-          "automated": false
+          "automated": true
         },
         null,
         null,

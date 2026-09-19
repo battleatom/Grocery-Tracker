@@ -322,5 +322,13 @@
     "receipt_label": "MMPANCAKE10F",
     "verified": true,
     "note": "Receipt image crop did not show purchase date; retained as verified historical receipt price, not current offer."
+  },
+  {
+    "at": "2026-09-19T14:58:56.572Z",
+    "item": "paper-plates",
+    "store": "Sam's Club",
+    "price": 18.98,
+    "unit_price": 0.09,
+    "unit": "each"
   }
 ]
