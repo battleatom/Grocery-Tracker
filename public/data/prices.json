@@ -11,7 +11,8 @@
       "Smith's"
     ],
     "note": "Current cells are populated only from Farmington-specific retailer pages or other verified observations. Historical receipt prices remain in history and are not silently promoted to current.",
-    "receipt_catalog_note": "User receipts expand the master catalog and historical price record. Receipt prices are not treated as current offers unless freshness and package/unit details are known."
+    "receipt_catalog_note": "User receipts expand the master catalog and historical price record. Receipt prices are not treated as current offers unless freshness and package/unit details are known.",
+    "catalog_note": "Receipt-derived catalog includes every legible food line from the supplied Sam's receipts; unclear receipt abbreviations are retained verbatim instead of guessed."
   },
   "items": [
     {
@@ -177,13 +178,15 @@
       "offers": [
         null,
         {
-          "price": 0.26,
+          "price": 0.18,
           "unit_price": 1.32,
           "unit": "lb",
-          "label": "each / final by weight",
+          "label": "Fresh Jalapeño, each / final by weight",
           "sale": true,
           "source": "Walmart #3428 Farmington grocery page",
-          "observed": "2026-09-19"
+          "source_url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services",
+          "observed": "2026-09-19",
+          "automated": false
         },
         null,
         null,
@@ -788,6 +791,297 @@
           "source": "Walmart #3428 Farmington grocery page",
           "observed": "2026-09-19"
         },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "country-fried-steak",
+      "name": "Country Fried Steak",
+      "category": "Frozen",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cm-fv-crm-6",
+      "name": "Receipt item: CM FV CRM 6",
+      "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cmcp-8pk-40",
+      "name": "Receipt item: CMCP 8PK/40",
+      "category": "Frozen",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "bowl-chicken-guac",
+      "name": "Chicken Guacamole Bowl",
+      "category": "Prepared",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "jl-orig-bfs",
+      "name": "Jack Link's Original Beef Sticks",
+      "category": "Snacks",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "172-bc-torff",
+      "name": "Receipt item: 172 BC TORFF",
+      "category": "Frozen",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "hs-dry-scl",
+      "name": "Receipt item: H&S DRY SCL",
+      "category": "Pantry",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "bp-hd-cvty",
+      "name": "Receipt item: BP HD CVTY",
+      "category": "Pantry",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "paper-plates",
+      "name": "Paper Plates",
+      "category": "Household",
+      "comparison_unit": "each",
+      "offers": [
+        {
+          "price": 18.98,
+          "unit_price": 0.09,
+          "unit": "each",
+          "label": "Member's Mark Ultra Dinner Paper Plates 10 in, 204 ct",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "source_url": "https://www.samsclub.com/club/6347/grocery",
+          "observed": "2026-09-19",
+          "automated": false
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "crunchable-variety",
+      "name": "Crunchable Variety Pack",
+      "category": "Snacks",
+      "comparison_unit": "each",
+      "offers": [
+        {
+          "price": 11.48,
+          "unit_price": 0.64,
+          "unit": "each",
+          "label": "That's It Crunchable Variety Pack 18 pk",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "source_url": "https://www.samsclub.com/club/6347/grocery",
+          "observed": "2026-09-19",
+          "automated": false
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mini-rice-cakes",
+      "name": "Mini Rice Cakes Variety Pack",
+      "category": "Snacks",
+      "comparison_unit": "oz",
+      "offers": [
+        {
+          "price": 14.98,
+          "unit_price": 0.63,
+          "unit": "oz",
+          "label": "Drizzilicious Mini Rice Cakes 0.74 oz, 32 pk",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "source_url": "https://www.samsclub.com/club/6347/grocery",
+          "observed": "2026-09-19",
+          "automated": false
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chocolate-chip-muffins",
+      "name": "Chocolate Chip Muffins",
+      "category": "Bakery",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        {
+          "price": 3.98,
+          "unit_price": 0.284,
+          "unit": "oz",
+          "label": "Marketside Chocolate Chip Muffins 14 oz, 4 ct",
+          "sale": true,
+          "source": "Walmart #3428 Farmington grocery page",
+          "source_url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services",
+          "observed": "2026-09-19",
+          "automated": false
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "avocado-large",
+      "name": "Large Avocado",
+      "category": "Produce",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "price": 0.99,
+          "unit_price": 0.99,
+          "unit": "each",
+          "label": "Large avocado",
+          "sale": true,
+          "source": "Smith's Farmington pickup page",
+          "source_url": "https://www.smithsfoodanddrug.com/?cid=loc_70600376_order&setModalityTo=PICKUP_70600376",
+          "observed": "2026-09-19",
+          "automated": false
+        }
+      ]
+    },
+    {
+      "id": "honeycrisp-apples",
+      "name": "Honeycrisp Apples",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "price": 1.99,
+          "unit_price": 1.99,
+          "unit": "lb",
+          "label": "Honeycrisp apples",
+          "sale": true,
+          "source": "Smith's Farmington pickup page",
+          "source_url": "https://www.smithsfoodanddrug.com/?cid=loc_70600376_order&setModalityTo=PICKUP_70600376",
+          "observed": "2026-09-19",
+          "automated": false
+        }
+      ]
+    },
+    {
+      "id": "mandarins-3lb",
+      "name": "Mandarins 3 lb",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "price": 8.97,
+          "unit_price": 2.99,
+          "unit": "lb",
+          "label": "Mandarins 3 lb",
+          "sale": true,
+          "source": "Smith's Farmington pickup page",
+          "source_url": "https://www.smithsfoodanddrug.com/?cid=loc_70600376_order&setModalityTo=PICKUP_70600376",
+          "observed": "2026-09-19",
+          "automated": false
+        }
+      ]
+    },
+    {
+      "id": "sour-cream",
+      "name": "Sour Cream",
+      "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cottage-cheese",
+      "name": "Cottage Cheese",
+      "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
         null,
         null,
         null
