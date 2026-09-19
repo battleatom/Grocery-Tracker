@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "grocery-tracker",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-19",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "UPLOADS",
+      "database_name": "REPLACE_WITH_EXISTING_UPLOAD_DATABASE_NAME",
+      "database_id": "REPLACE_WITH_EXISTING_UPLOAD_DATABASE_ID"
+    }
+  ]
+}
