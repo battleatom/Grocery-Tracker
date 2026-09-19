@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 const FILE='public/data/prices.json',HISTORY='public/data/history.json',DEALS='public/data/deals.json';
-const ZIP='87401';
+const ZIP='87401'; // refresh credentials check 2026-09-19
 const data=JSON.parse(await fs.readFile(FILE,'utf8'));
 let history=[];try{history=JSON.parse(await fs.readFile(HISTORY,'utf8'))}catch{}
 let deals={meta:{location:'Farmington, NM'},stores:[]};try{deals=JSON.parse(await fs.readFile(DEALS,'utf8'))}catch{}
