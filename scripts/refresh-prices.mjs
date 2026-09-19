@@ -229,7 +229,7 @@ async function scrapeOpsWalmart(){
  let matched=0,attempted=0;
  for(const item of selected){attempted++;
   const target='https://www.walmart.com/search?'+new URLSearchParams({q:item.name.replace(/—.*/, '').trim(),sort:'best_match',page:'1',affinityOverride:'default'}).toString();
-  const proxy='https://proxy.scrapeops.io/v1/?'+new URLSearchParams({api_key:key,url:target,country:'us'}).toString();
+  const proxy='https://proxy.scrapeops.io/v1/?'+new URLSearchParams({api_key:key,url:target}).toString();
   try{
    const r=await fetch(proxy,{headers:{Accept:'text/html','User-Agent':'Mozilla/5.0'}});
    if([401,402,403,429].includes(r.status)){checks.push({source:'ScrapeOps / Walmart',status:r.status,checked_at:now,attempted,matched});return matched}
@@ -237,7 +237,7 @@ async function scrapeOpsWalmart(){
    const wanted=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen','boneless'].includes(x));let best=null,score=0;
    for(const p of products){const words=new Set(clean(p.name).split(' ')),hits=wanted.filter(t=>words.has(t)).length,req=wanted.length===1?1:Math.min(2,wanted.length);if(hits>=req&&hits/Math.max(1,wanted.length)>=.5&&hits>score){best=p;score=hits}}
    if(!best)continue;const cur=priceNum(best.price),reg=priceNum(best.regular_price)||cur;if(!cur)continue;
-   const sale=reg>cur,offer={price:reg,promo_price:sale?cur:null,unit_price:null,unit:item.comparison_unit,label:String(best.name).slice(0,120),sale,deal_type:sale?'sale':'regular',source:'Walmart.com via ScrapeOps — New Mexico fallback',source_scope:'new_mexico',source_url:best.url?('https://www.walmart.com'+best.url):target,observed:now.slice(0,10),observed_at:now,automated:true};
+   const sale=reg>cur,offer={price:reg,promo_price:sale?cur:null,unit_price:null,unit:item.comparison_unit,label:String(best.name).slice(0,120),sale,deal_type:sale?'sale':'regular',source:'Walmart.com via ScrapeOps — online price',source_scope:'online',source_url:best.url?('https://www.walmart.com'+best.url):target,observed:now.slice(0,10),observed_at:now,automated:true};
    item.offers[1]=offer;addHistory(item,'Walmart',offer);matched++;
   }catch{}
  }
