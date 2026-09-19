@@ -1,5 +1,8 @@
 name: Refresh local grocery prices
 on:
+  push:
+    paths:
+      - 'scripts/refresh-prices.mjs'
   schedule:
     - cron: '17 12 * * *'
   workflow_dispatch:
