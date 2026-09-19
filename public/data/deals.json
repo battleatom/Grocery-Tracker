@@ -1,18 +1,28 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T15:29:58.951Z",
+    "updated_at": "2026-09-19T15:39:04.799Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Kroger API / Smith's",
         "status": "credentials_missing",
-        "checked_at": "2026-09-19T15:29:58.951Z"
+        "checked_at": "2026-09-19T15:39:04.799Z"
+      },
+      {
+        "source": "Safeway product API",
+        "status": "store_not_found",
+        "checked_at": "2026-09-19T15:39:04.799Z"
+      },
+      {
+        "source": "Albertsons product API",
+        "status": "store_not_found",
+        "checked_at": "2026-09-19T15:39:04.799Z"
       },
       {
         "source": "Flipp/Wishabi",
         "status": 200,
-        "checked_at": "2026-09-19T15:29:58.951Z",
+        "checked_at": "2026-09-19T15:39:04.799Z",
         "flyers": 5,
         "items": 1115,
         "deals": {
@@ -24,13 +34,13 @@
       {
         "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-09-19T15:29:58.951Z",
+        "checked_at": "2026-09-19T15:39:04.799Z",
         "blocked": true
       },
       {
         "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-09-19T15:29:58.951Z",
+        "checked_at": "2026-09-19T15:39:04.799Z",
         "blocked": true
       }
     ]
