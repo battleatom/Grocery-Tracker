@@ -27,6 +27,7 @@ jobs:
           KROGER_CLIENT_ID: ${{ secrets.KROGER_CLIENT_ID }}
           KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}
           THUNDERBIT_API_SCRAPER: ${{ secrets.THUNDERBIT_API_SCRAPER }}
+          SCRAPEOPS_API_KEY: ${{ secrets.SCRAPEOPS_API_KEY }}
       - name: Commit verified changes
         run: |
           git config user.name "grocery-price-bot"
