@@ -12,7 +12,18 @@
     ],
     "note": "Current cells are populated only from Farmington-specific retailer pages or other verified observations. Historical receipt prices remain in history and are not silently promoted to current.",
     "receipt_catalog_note": "User receipts expand the master catalog and historical price record. Receipt prices are not treated as current offers unless freshness and package/unit details are known.",
-    "catalog_note": "Receipt-derived catalog includes every legible food line from the supplied Sam's receipts; unclear receipt abbreviations are retained verbatim instead of guessed."
+    "catalog_note": "Receipt-derived catalog includes every legible food line from the supplied Sam's receipts; unclear receipt abbreviations are retained verbatim instead of guessed.",
+    "target_inventory": "Core Farmington household grocery inventory; daily collectors populate only verified local observations.",
+    "deal_types": [
+      "regular",
+      "sale",
+      "rollback",
+      "instant_savings",
+      "weekly_ad",
+      "digital_coupon",
+      "member_price",
+      "personalized_coupon"
+    ]
   },
   "items": [
     {
@@ -1078,6 +1089,812 @@
       "id": "cottage-cheese",
       "name": "Cottage Cheese",
       "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "whole-chicken",
+      "name": "Whole Chicken",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chicken-thighs",
+      "name": "Chicken Thighs",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chicken-drumsticks",
+      "name": "Chicken Drumsticks",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ground-turkey",
+      "name": "Ground Turkey",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "bacon",
+      "name": "Bacon",
+      "category": "Meat",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pork-chops",
+      "name": "Pork Chops",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pork-shoulder",
+      "name": "Pork Shoulder",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "sirloin-steak",
+      "name": "Sirloin Steak",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chuck-roast",
+      "name": "Chuck Roast",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ground-beef-90",
+      "name": "Ground Beef 90/10",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "eggs-12",
+      "name": "Large Eggs 12 ct",
+      "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "milk-2",
+      "name": "2% Milk",
+      "category": "Dairy",
+      "comparison_unit": "gal",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "milk-1",
+      "name": "1% Milk",
+      "category": "Dairy",
+      "comparison_unit": "gal",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cheddar-cheese",
+      "name": "Cheddar Cheese",
+      "category": "Dairy",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mozzarella-cheese",
+      "name": "Mozzarella Cheese",
+      "category": "Dairy",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cream-cheese",
+      "name": "Cream Cheese",
+      "category": "Dairy",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "half-half",
+      "name": "Half & Half",
+      "category": "Dairy",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "white-bread",
+      "name": "White Sandwich Bread",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "wheat-bread",
+      "name": "Wheat Sandwich Bread",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "All-Purpose Flour",
+      "category": "Pantry",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "Granulated Sugar",
+      "category": "Pantry",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Long Grain Rice",
+      "category": "Pantry",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Spaghetti Pasta",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pasta-sauce",
+      "name": "Pasta Sauce",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "peanut-butter",
+      "name": "Peanut Butter",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "jelly",
+      "name": "Grape Jelly",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cereal",
+      "name": "Breakfast Cereal",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "oatmeal",
+      "name": "Oatmeal",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "canned-tuna",
+      "name": "Canned Tuna",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "black-beans",
+      "name": "Black Beans",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pinto-beans",
+      "name": "Pinto Beans",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "canned-corn",
+      "name": "Canned Corn",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "canned-tomatoes",
+      "name": "Canned Tomatoes",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "vegetable-oil",
+      "name": "Vegetable Oil",
+      "category": "Pantry",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive Oil",
+      "category": "Pantry",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yellow-onion",
+      "name": "Yellow Onion",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "carrots",
+      "name": "Carrots",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "russet-potatoes",
+      "name": "Russet Potatoes",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "lettuce",
+      "name": "Lettuce",
+      "category": "Produce",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "Fresh Spinach",
+      "category": "Produce",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "strawberries",
+      "name": "Strawberries",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "blueberries",
+      "name": "Blueberries",
+      "category": "Produce",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "oranges",
+      "name": "Oranges",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "lemons",
+      "name": "Lemons",
+      "category": "Produce",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "bell-peppers",
+      "name": "Bell Peppers",
+      "category": "Produce",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "Produce",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "frozen-corn",
+      "name": "Frozen Corn",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "frozen-peas",
+      "name": "Frozen Peas",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "frozen-mixed-veg",
+      "name": "Frozen Mixed Vegetables",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "frozen-pizza",
+      "name": "Frozen Pizza",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "frozen-fries",
+      "name": "Frozen French Fries",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "name": "Ice Cream",
+      "category": "Frozen",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "tortillas",
+      "name": "Flour Tortillas",
+      "category": "Pantry",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "salsa",
+      "name": "Salsa",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "Ground Coffee",
+      "category": "Beverages",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "category": "Beverages",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "soda-12pk",
+      "name": "Soda 12 Pack",
+      "category": "Beverages",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "toilet-paper",
+      "name": "Toilet Paper",
+      "category": "Household",
+      "comparison_unit": "roll",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "paper-towels",
+      "name": "Paper Towels",
+      "category": "Household",
+      "comparison_unit": "roll",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "dish-soap",
+      "name": "Dish Soap",
+      "category": "Household",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "laundry-detergent",
+      "name": "Laundry Detergent",
+      "category": "Household",
+      "comparison_unit": "floz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "trash-bags",
+      "name": "Trash Bags",
+      "category": "Household",
       "comparison_unit": "each",
       "offers": [
         null,
