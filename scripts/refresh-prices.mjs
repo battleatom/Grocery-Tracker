@@ -70,7 +70,7 @@ async function albertsonsBanner(store,banner,storeid){
  let matched=0, searched=0;
  try{
   for(const item of data.items){
-   if(/^Receipt item:/i.test(item.name))continue;
+   if(/^Receipt item:/i.test(item.name)||!selected.has(item.id))continue;
    const q=item.name.replace(/—.*/,'').trim(); if(!q)continue; searched++;
    const host=banner==='safeway'?'www.safeway.com':'www.albertsons.com';
    const u=new URL(`https://${host}/abs/pub/xapi/search/substitute`);
@@ -141,6 +141,10 @@ async function kroger(){
 }
 async function thunderbitSams(){
  const key=process.env.THUNDERBIT_API_SCRAPER;
+ // Thunderbit Extract costs 20 API units/page. Use it only for a small rotating discovery slice.
+ const day=Math.floor(Date.now()/86400000), batchSize=3;
+ const eligible=data.items.filter(x=>!/^Receipt item:/i.test(x.name));
+ const selected=new Set(Array.from({length:batchSize},(_,n)=>eligible[(day*batchSize+n)%eligible.length]?.id).filter(Boolean));
  if(!key){checks.push({source:"Thunderbit / Sam's Club",status:'credentials_missing',checked_at:now});return 0}
  let matched=0;
  try{
@@ -185,15 +189,34 @@ async function thunderbitSams(){
   checks.push({source:"Thunderbit / Sam's Club",status:200,checked_at:now,matched});return matched;
  }catch(e){checks.push({source:"Thunderbit / Sam's Club",status:'error',checked_at:now,error:e.message});return matched}
 }
+async function thunderbitWalmart(){
+ const key=process.env.THUNDERBIT_API_SCRAPER;if(!key)return 0;
+ const day=Math.floor(Date.now()/86400000), batchSize=3;
+ const eligible=data.items.filter(x=>!/^Receipt item:/i.test(x.name));
+ const selected=new Set(Array.from({length:batchSize},(_,n)=>eligible[((day*batchSize+n)+Math.floor(eligible.length/2))%eligible.length]?.id).filter(Boolean));
+ let matched=0;
+ try{
+  for(const item of eligible){if(!selected.has(item.id))continue;
+   const q=encodeURIComponent(item.name.replace(/—.*/,'').trim()),url=`https://www.walmart.com/search?q=${q}`;
+   const r=await fetch('https://openapi.thunderbit.com/openapi/v1/extract',{method:'POST',headers:{Authorization:'Bearer '+key,'Content-Type':'application/json'},body:JSON.stringify({url,forceRefresh:true,schema:{type:'object',properties:{products:{type:'array',items:{type:'object',properties:{name:{type:'string'},price:{type:'number'},regular_price:{type:'number'},unit_price:{type:'number'},unit:{type:'string'},url:{type:'string'},in_stock:{type:'boolean'}},required:['name','price']}}},required:['products']}})});
+   if([401,402,403,429].includes(r.status)){checks.push({source:'Thunderbit / Walmart',status:r.status,checked_at:now});return matched} if(!r.ok)continue;
+   const j=await r.json(),out=j?.data?.data||j?.data?.result||j?.data||{},products=out.products||[];
+   const wanted=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen','boneless'].includes(x));let best=null,score=0;
+   for(const p of products){const words=new Set(clean(p.name).split(' ')),hits=wanted.filter(t=>words.has(t)).length,req=wanted.length===1?1:Math.min(2,wanted.length);if(hits>=req&&hits/Math.max(1,wanted.length)>=.5&&hits>score&&p.in_stock!==false){best=p;score=hits}}
+   if(!best)continue;const cur=priceNum(best.price),reg=priceNum(best.regular_price)||cur;if(!cur)continue;const sale=reg>cur,offer={price:reg,promo_price:sale?cur:null,unit_price:priceNum(best.unit_price),unit:best.unit||item.comparison_unit,label:String(best.name).slice(0,120),sale,deal_type:sale?'sale':'regular',source:'Thunderbit live extraction — Walmart Farmington',source_url:best.url||url,observed:now.slice(0,10),observed_at:now,automated:true};item.offers[1]=offer;addHistory(item,'Walmart',offer);matched++;
+  }
+  checks.push({source:'Thunderbit / Walmart',status:200,checked_at:now,attempted:selected.size,matched});return matched;
+ }catch(e){checks.push({source:'Thunderbit / Walmart',status:'error',checked_at:now,error:e.message});return matched}
+}
 async function legacyPages(){
  const srcs=[["Sam's Club",0,'https://www.samsclub.com/club/6347/grocery'],['Walmart',1,'https://www.walmart.com/store/3428-farmington-nm/shopping-services']];
  for(const [name,idx,url] of srcs)try{const r=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});const body=await r.text();checks.push({source:name,status:r.status,checked_at:now,blocked:/robot or human|captcha/i.test(body)});}catch(e){checks.push({source:name,status:'error',checked_at:now,error:e.message})}
 }
-const [fm,km,am,sm]=await Promise.all([flipp(),kroger(),albertsonsPrices(),thunderbitSams(),legacyPages().then(()=>0)]);
-data.meta.automation={last_run:now,matched:fm+km+am+sm,schedule:'daily',source_checks:checks,policy:'Public weekly-ad deals via Flipp; Smith\'s full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails.'};
-if(fm+km+am+sm>0)data.meta.updated_at=now;
+const [fm,km,am,sm,wm]=await Promise.all([flipp(),kroger(),albertsonsPrices(),thunderbitSams(),thunderbitWalmart(),legacyPages().then(()=>0)]);
+data.meta.automation={last_run:now,matched:fm+km+am+sm+wm,schedule:'daily',source_checks:checks,policy:'Public weekly-ad deals via Flipp; Smith\'s full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails.'};
+if(fm+km+am+sm+wm>0)data.meta.updated_at=now;
 deals.meta.updated_at=now;deals.meta.source_checks=checks;
 await fs.writeFile(FILE,JSON.stringify(data,null,2)+'\n');
 await fs.writeFile(HISTORY,JSON.stringify(history.slice(-5000),null,2)+'\n');
 await fs.writeFile(DEALS,JSON.stringify(deals,null,2)+'\n');
-console.log('verified matches',fm+km+am+sm,'flipp',fm,'kroger',km,'abs',am,'sams',sm);
+console.log('verified matches',fm+km+am+sm+wm,'flipp',fm,'kroger',km,'abs',am,'sams',sm,'walmart',wm);
