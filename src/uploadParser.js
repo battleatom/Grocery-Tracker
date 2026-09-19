@@ -54,7 +54,7 @@ export function parseSpreadsheetSheets(sheets,filename,importedAt=new Date().toI
    }else{
     const current=strings.find(v=>v.startsWith('current price'))||'';
     const currentMatch=current.match(/current price (?:Now )?\$([\d.]+)/);
-    price=currentMatch?Number(currentMatch[1]):numberFrom(first(row,['price','Price','current_price','Current Price','f2']));
+    price=currentMatch?Number(currentMatch[1]):(()=>{const dollars=numberFrom(first(row,['price','Price','current_price','Current Price','f2']));const cents=numberFrom(first(row,['f6 2']));return dollars!=null&&cents!=null&&cents<100?dollars+cents/100:dollars})();
     const was=current.match(/Was \$([\d.]+)/);
     regularPrice=was?Number(was[1]):numberFrom(first(row,['regular_price','Regular Price','f5','strike']));
     packageText=String(first(row,['package','Package','size','Size'])||productName||'');
