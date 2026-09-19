@@ -43,7 +43,7 @@ export function parseSpreadsheetSheets(sheets,filename,importedAt=new Date().toI
    const store=match?.retailer?.store;
    const sku=match?skuFromUrl(match.url,store):null;
 
-   let productName=store==="Smith's"?first(row,['color-text-primary','name','normal','title']):first(row,['normal','color-text-primary','name','title','Product']);
+   let productName=store==="Smith's"?first(row,['color-text-primary','name','normal','title']):store==='Albertsons'||store==='Safeway'?first(row,['title-xxs 2','title-xxs','name','normal','title','Product']):first(row,['normal','color-text-primary','name','title','Product']);
    let price=null,regularPrice=null,packageText='';
    if(store==="Smith's"){
     price=numberFrom(first(row,['citrus-Price--current-price','citrus-RelativePrice--current-price-value','price']));
