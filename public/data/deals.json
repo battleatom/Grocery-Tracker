@@ -1,36 +1,49 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T16:40:43.381Z",
+    "updated_at": "2026-09-19T16:51:21.942Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Safeway product API",
         "status": "error",
-        "checked_at": "2026-09-19T16:40:43.381Z",
+        "checked_at": "2026-09-19T16:51:21.942Z",
         "error": "selected is not defined"
       },
       {
         "source": "Albertsons product API",
         "status": "error",
-        "checked_at": "2026-09-19T16:40:43.381Z",
+        "checked_at": "2026-09-19T16:51:21.942Z",
         "error": "selected is not defined"
-      },
-      {
-        "source": "Thunderbit / Walmart",
-        "status": 402,
-        "checked_at": "2026-09-19T16:40:43.381Z"
       },
       {
         "source": "Thunderbit / Sam's Club",
         "status": 402,
-        "checked_at": "2026-09-19T16:40:43.381Z",
+        "checked_at": "2026-09-19T16:51:21.942Z",
         "error": "insufficient_credits"
+      },
+      {
+        "source": "Thunderbit / Walmart",
+        "status": 402,
+        "checked_at": "2026-09-19T16:51:21.942Z"
+      },
+      {
+        "source": "Sam's Club",
+        "status": 200,
+        "checked_at": "2026-09-19T16:51:21.942Z",
+        "blocked": true
+      },
+      {
+        "source": "Open Prices",
+        "status": 200,
+        "checked_at": "2026-09-19T16:51:21.942Z",
+        "nearby_rows": 0,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi",
         "status": 200,
-        "checked_at": "2026-09-19T16:40:43.381Z",
+        "checked_at": "2026-09-19T16:51:21.942Z",
         "flyers": 5,
         "items": 1115,
         "deals": {
@@ -40,21 +53,15 @@
         }
       },
       {
-        "source": "Sam's Club",
-        "status": 200,
-        "checked_at": "2026-09-19T16:40:43.381Z",
-        "blocked": true
-      },
-      {
         "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-09-19T16:40:43.381Z",
+        "checked_at": "2026-09-19T16:51:21.942Z",
         "blocked": true
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-09-19T16:40:43.381Z",
+        "checked_at": "2026-09-19T16:51:21.942Z",
         "location_id": "70600409"
       }
     ]

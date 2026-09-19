@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T16:40:43.381Z",
+    "updated_at": "2026-09-19T16:51:21.942Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -25,37 +25,50 @@
       "personalized_coupon"
     ],
     "automation": {
-      "last_run": "2026-09-19T16:40:43.381Z",
-      "matched": 287,
+      "last_run": "2026-09-19T16:51:21.942Z",
+      "matched": 288,
       "schedule": "daily",
       "source_checks": [
         {
           "source": "Safeway product API",
           "status": "error",
-          "checked_at": "2026-09-19T16:40:43.381Z",
+          "checked_at": "2026-09-19T16:51:21.942Z",
           "error": "selected is not defined"
         },
         {
           "source": "Albertsons product API",
           "status": "error",
-          "checked_at": "2026-09-19T16:40:43.381Z",
+          "checked_at": "2026-09-19T16:51:21.942Z",
           "error": "selected is not defined"
-        },
-        {
-          "source": "Thunderbit / Walmart",
-          "status": 402,
-          "checked_at": "2026-09-19T16:40:43.381Z"
         },
         {
           "source": "Thunderbit / Sam's Club",
           "status": 402,
-          "checked_at": "2026-09-19T16:40:43.381Z",
+          "checked_at": "2026-09-19T16:51:21.942Z",
           "error": "insufficient_credits"
+        },
+        {
+          "source": "Thunderbit / Walmart",
+          "status": 402,
+          "checked_at": "2026-09-19T16:51:21.942Z"
+        },
+        {
+          "source": "Sam's Club",
+          "status": 200,
+          "checked_at": "2026-09-19T16:51:21.942Z",
+          "blocked": true
+        },
+        {
+          "source": "Open Prices",
+          "status": 200,
+          "checked_at": "2026-09-19T16:51:21.942Z",
+          "nearby_rows": 0,
+          "matched": 0
         },
         {
           "source": "Flipp/Wishabi",
           "status": 200,
-          "checked_at": "2026-09-19T16:40:43.381Z",
+          "checked_at": "2026-09-19T16:51:21.942Z",
           "flyers": 5,
           "items": 1115,
           "deals": {
@@ -65,21 +78,15 @@
           }
         },
         {
-          "source": "Sam's Club",
-          "status": 200,
-          "checked_at": "2026-09-19T16:40:43.381Z",
-          "blocked": true
-        },
-        {
           "source": "Walmart",
           "status": 200,
-          "checked_at": "2026-09-19T16:40:43.381Z",
+          "checked_at": "2026-09-19T16:51:21.942Z",
           "blocked": true
         },
         {
           "source": "Kroger API / Smith's",
           "status": 200,
-          "checked_at": "2026-09-19T16:40:43.381Z",
+          "checked_at": "2026-09-19T16:51:21.942Z",
           "location_id": "70600409"
         }
       ],
@@ -107,10 +114,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960129763",
-          "upc": "0020089700000"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5.99,
@@ -124,7 +129,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -137,7 +142,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -162,10 +167,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971245775",
-          "upc": "0002718256550"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 10.99,
@@ -179,7 +182,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -192,7 +195,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -233,7 +236,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -266,10 +269,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "184020192",
-          "upc": "0002113000750"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5.99,
@@ -283,7 +284,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -296,7 +297,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -329,10 +330,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "184100012",
-          "upc": "0048410001201"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 0.99,
@@ -346,7 +345,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -359,7 +358,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -408,7 +407,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -457,7 +456,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -492,7 +491,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         null,
@@ -506,7 +505,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -547,7 +546,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -596,7 +595,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -621,10 +620,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960471787",
-          "upc": "0004280010921"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 8.99,
@@ -638,7 +635,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -651,7 +648,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -692,7 +689,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -717,10 +714,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960190061",
-          "upc": "0076770700214"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 1.99,
@@ -734,7 +729,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -747,7 +742,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -772,10 +767,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960477492",
-          "upc": "0007989316035"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 4.49,
@@ -789,7 +782,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -802,7 +795,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -827,10 +820,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960050144",
-          "upc": "0068954408302"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 4.99,
@@ -844,7 +835,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -857,7 +848,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -898,7 +889,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -939,7 +930,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -980,7 +971,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1005,10 +996,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "184500022",
-          "upc": "0048450006901"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5.99,
@@ -1022,7 +1011,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1035,7 +1024,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1076,7 +1065,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1101,10 +1090,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960481362",
-          "upc": "0084886000255"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 17.99,
@@ -1118,7 +1105,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1131,7 +1118,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1156,10 +1143,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971044178",
-          "upc": "0002113034818"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5.99,
@@ -1173,7 +1158,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1186,7 +1171,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1227,7 +1212,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1268,7 +1253,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1306,10 +1291,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960304347",
-          "upc": "0002113003152"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 6.99,
@@ -1323,7 +1306,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         null
@@ -1365,7 +1348,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1406,7 +1389,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1447,7 +1430,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1472,7 +1455,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1513,7 +1496,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1538,10 +1521,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960226484",
-          "upc": "0001480000369"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 6,
@@ -1555,7 +1536,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1568,7 +1549,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1593,10 +1574,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960053166",
-          "upc": "0001590023554"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5.99,
@@ -1610,7 +1589,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1623,7 +1602,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1648,10 +1627,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "970107176",
-          "upc": "0003000065960"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 1.99,
@@ -1665,7 +1642,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1678,7 +1655,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1703,10 +1680,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971138419",
-          "upc": "0060205001324"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 9.99,
@@ -1720,7 +1695,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -1733,7 +1708,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1774,7 +1749,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1799,10 +1774,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "970029151",
-          "upc": "0021347300000"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 6,
@@ -1816,7 +1789,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         null
@@ -1858,7 +1831,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1899,7 +1872,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -1953,10 +1926,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971262727",
-          "upc": "0002113035410"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 4.49,
@@ -1970,7 +1941,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         null
@@ -2003,7 +1974,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2018,10 +1989,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "970094606",
-          "upc": "0078113871011"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 1.99,
@@ -2035,7 +2004,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2048,7 +2017,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2081,10 +2050,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960570041",
-          "upc": "0085176900775"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 10,
@@ -2098,7 +2065,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2111,7 +2078,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2160,7 +2127,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2209,7 +2176,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2258,7 +2225,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2307,7 +2274,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2348,7 +2315,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2444,7 +2411,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2517,7 +2484,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2548,7 +2515,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2599,7 +2566,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2689,7 +2656,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2730,7 +2697,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2755,10 +2722,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960525704",
-          "upc": "0002113004552"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 1.49,
@@ -2772,7 +2737,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2785,7 +2750,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2810,10 +2775,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960021862",
-          "upc": "0002113019345"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 3.99,
@@ -2827,7 +2790,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2863,10 +2826,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "136200097",
-          "upc": "0007342000024"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 2.49,
@@ -2880,7 +2841,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -2893,7 +2854,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2934,7 +2895,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -2975,7 +2936,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3016,7 +2977,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3057,7 +3018,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3082,10 +3043,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960157363",
-          "upc": "0002265571561"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 4.99,
@@ -3099,7 +3058,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -3112,7 +3071,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3137,10 +3096,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "188560274",
-          "upc": "0007080004118"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 3.99,
@@ -3154,7 +3111,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -3167,7 +3124,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3208,7 +3165,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3249,7 +3206,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3290,7 +3247,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3315,10 +3272,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960109081",
-          "upc": "0020195600000"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 6.99,
@@ -3332,7 +3287,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -3345,7 +3300,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3386,7 +3341,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3411,10 +3366,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960304347",
-          "upc": "0002113003152"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 4.99,
@@ -3428,7 +3381,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -3441,7 +3394,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3482,7 +3435,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3523,7 +3476,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3564,7 +3517,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3605,7 +3558,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3630,10 +3583,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "137100631",
-          "upc": "0002100000014"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 1.99,
@@ -3647,7 +3598,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -3660,7 +3611,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3701,7 +3652,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3742,7 +3693,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3783,7 +3734,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3824,7 +3775,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3849,10 +3800,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "117200038",
-          "upc": "0007989340251"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 3.49,
@@ -3866,7 +3815,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -3879,7 +3828,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3920,7 +3869,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3961,7 +3910,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -3986,10 +3935,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "128350143",
-          "upc": "0004112907712"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 1.99,
@@ -4003,7 +3950,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -4016,7 +3963,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4057,7 +4004,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4098,7 +4045,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4139,7 +4086,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4180,7 +4127,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4205,7 +4152,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4230,10 +4177,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960051977",
-          "upc": "0002113034016"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5,
@@ -4247,7 +4192,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -4260,7 +4205,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4301,7 +4246,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4326,7 +4271,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4351,7 +4296,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4376,10 +4321,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "115150054",
-          "upc": "0002113051284"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 4.99,
@@ -4393,7 +4336,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -4406,7 +4349,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4431,10 +4374,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "970103314",
-          "upc": "0007040400820"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 32.99,
@@ -4448,7 +4389,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -4461,7 +4402,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4502,7 +4443,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4543,7 +4484,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4584,7 +4525,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4625,7 +4566,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4666,7 +4607,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4707,7 +4648,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4748,7 +4689,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4789,7 +4730,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4830,7 +4771,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4871,7 +4812,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4912,7 +4853,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -4937,10 +4878,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960143197",
-          "upc": "0001450002099"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 2.99,
@@ -4954,7 +4893,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -4967,7 +4906,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5008,7 +4947,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5049,7 +4988,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5073,7 +5012,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5088,10 +5027,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971230103",
-          "upc": "0002113033969"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 5.99,
@@ -5105,7 +5042,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5118,7 +5055,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5159,7 +5096,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:34:30.693Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5183,7 +5120,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5198,10 +5135,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "142100633",
-          "upc": "0002113008818"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 3.99,
@@ -5215,7 +5150,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         null
@@ -5241,10 +5176,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "138500011",
-          "upc": "0004494619036"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 6,
@@ -5258,7 +5191,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5271,7 +5204,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5296,10 +5229,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "970015427",
-          "upc": "0085471200434"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 2.99,
@@ -5313,7 +5244,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5326,7 +5257,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5367,7 +5298,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5392,10 +5323,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "960042370",
-          "upc": "0001630016574"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 3.99,
@@ -5409,7 +5338,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5422,7 +5351,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5463,7 +5392,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5487,7 +5416,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5518,7 +5447,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5543,10 +5472,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971312319",
-          "upc": "0003040022276"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 17.99,
@@ -5560,7 +5487,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5573,7 +5500,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5614,7 +5541,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5638,7 +5565,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5653,10 +5580,8 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
-          "automated": true,
-          "pid": "971208601",
-          "upc": "0007261347415"
+          "observed_at": "2026-09-19T16:51:21.942Z",
+          "automated": true
         },
         {
           "price": 9.99,
@@ -5670,7 +5595,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         },
         {
@@ -5683,7 +5608,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
@@ -5724,7 +5649,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:40:43.381Z",
+          "observed_at": "2026-09-19T16:51:21.942Z",
           "automated": true
         }
       ]
