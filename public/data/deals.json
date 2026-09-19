@@ -1,18 +1,36 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T16:34:30.693Z",
+    "updated_at": "2026-09-19T16:40:43.381Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Safeway product API",
-        "status": "store_not_found",
-        "checked_at": "2026-09-19T16:34:30.693Z"
+        "status": "error",
+        "checked_at": "2026-09-19T16:40:43.381Z",
+        "error": "selected is not defined"
+      },
+      {
+        "source": "Albertsons product API",
+        "status": "error",
+        "checked_at": "2026-09-19T16:40:43.381Z",
+        "error": "selected is not defined"
+      },
+      {
+        "source": "Thunderbit / Walmart",
+        "status": 402,
+        "checked_at": "2026-09-19T16:40:43.381Z"
+      },
+      {
+        "source": "Thunderbit / Sam's Club",
+        "status": 402,
+        "checked_at": "2026-09-19T16:40:43.381Z",
+        "error": "insufficient_credits"
       },
       {
         "source": "Flipp/Wishabi",
         "status": 200,
-        "checked_at": "2026-09-19T16:34:30.693Z",
+        "checked_at": "2026-09-19T16:40:43.381Z",
         "flyers": 5,
         "items": 1115,
         "deals": {
@@ -24,34 +42,20 @@
       {
         "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-09-19T16:34:30.693Z",
+        "checked_at": "2026-09-19T16:40:43.381Z",
         "blocked": true
       },
       {
         "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-09-19T16:34:30.693Z",
+        "checked_at": "2026-09-19T16:40:43.381Z",
         "blocked": true
-      },
-      {
-        "source": "Albertsons product API",
-        "status": 200,
-        "checked_at": "2026-09-19T16:34:30.693Z",
-        "store_id": "824",
-        "searched": 121,
-        "matched": 114
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-09-19T16:34:30.693Z",
+        "checked_at": "2026-09-19T16:40:43.381Z",
         "location_id": "70600409"
-      },
-      {
-        "source": "Thunderbit / Sam's Club",
-        "status": 402,
-        "checked_at": "2026-09-19T16:34:30.693Z",
-        "error": "insufficient_credits"
       }
     ]
   },
