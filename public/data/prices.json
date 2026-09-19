@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T00:00:00-06:00",
+    "updated_at": "2026-09-19T08:48:00-06:00",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -10,7 +10,7 @@
       "Safeway",
       "Smith's"
     ],
-    "note": "Only retailer-local observations verified from public local retailer pages are populated.",
+    "note": "Current cells are populated only from Farmington-specific retailer pages or other verified observations. Historical receipt prices remain in history and are not silently promoted to current.",
     "receipt_catalog_note": "User receipts expand the master catalog and historical price record. Receipt prices are not treated as current offers unless freshness and package/unit details are known."
   },
   "items": [
@@ -177,12 +177,12 @@
       "offers": [
         null,
         {
-          "price": 0.18,
+          "price": 0.26,
           "unit_price": 1.32,
           "unit": "lb",
           "label": "each / final by weight",
           "sale": true,
-          "source": "Walmart #3428",
+          "source": "Walmart #3428 Farmington grocery page",
           "observed": "2026-09-19"
         },
         null,
@@ -620,6 +620,174 @@
       "offers": [
         null,
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "hot-pizza-16",
+      "name": "16-inch Hot Baked Pizza",
+      "category": "Prepared",
+      "comparison_unit": "each",
+      "offers": [
+        {
+          "price": 8.98,
+          "unit_price": 8.98,
+          "unit": "each",
+          "label": "Member's Mark 16-inch Hot Baked Cafe Pizza",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "water-40",
+      "name": "Purified Water 16.9 oz 40 pk",
+      "category": "Beverages",
+      "comparison_unit": "floz",
+      "offers": [
+        {
+          "price": 4.28,
+          "unit_price": 0.01,
+          "unit": "floz",
+          "label": "Member's Mark Purified Water 16.9 fl oz, 40 pk",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "tortilla-chips",
+      "name": "Tortilla Chips",
+      "category": "Snacks",
+      "comparison_unit": "oz",
+      "offers": [
+        {
+          "price": 3.98,
+          "unit_price": 0.17,
+          "unit": "oz",
+          "label": "On The Border Cafe Tortilla Chips 23.5 oz",
+          "sale": true,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "taco-seasoning",
+      "name": "Taco Seasoning",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        {
+          "price": 5.98,
+          "unit_price": 0.26,
+          "unit": "oz",
+          "label": "Member's Mark Taco Seasoning 23 oz",
+          "sale": true,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "greek-yogurt",
+      "name": "Whole Milk Greek Yogurt",
+      "category": "Dairy",
+      "comparison_unit": "oz",
+      "offers": [
+        {
+          "price": 5.94,
+          "unit_price": 0.12,
+          "unit": "oz",
+          "label": "Member's Mark Honey Vanilla Whole Milk Greek Yogurt 48 oz",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "gogo-applesauce-28",
+      "name": "GoGo SqueeZ Applesauce 28 pk",
+      "category": "Snacks",
+      "comparison_unit": "oz",
+      "offers": [
+        {
+          "price": 13.98,
+          "unit_price": 0.16,
+          "unit": "oz",
+          "label": "GoGo SqueeZ Fruit & Veggiez 3.2 oz 28 pk",
+          "sale": false,
+          "source": "Sam's Club #6347 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "roma-tomato",
+      "name": "Roma Tomato",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        {
+          "price": 0.22,
+          "unit_price": 0.97,
+          "unit": "lb",
+          "label": "Fresh Roma Tomato, each / final by weight",
+          "sale": true,
+          "source": "Walmart #3428 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "green-grapes",
+      "name": "Green Seedless Grapes",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        {
+          "price": 3.98,
+          "unit_price": 1.77,
+          "unit": "lb",
+          "label": "Green Seedless Grapes ~2.25 lb bag",
+          "sale": true,
+          "source": "Walmart #3428 Farmington grocery page",
+          "observed": "2026-09-19"
+        },
         null,
         null,
         null
