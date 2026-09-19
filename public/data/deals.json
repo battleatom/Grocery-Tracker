@@ -1,25 +1,19 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T16:58:33.757Z",
+    "updated_at": "2026-09-19T17:01:47.486Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
-        "source": "Safeway product API",
-        "status": "error",
-        "checked_at": "2026-09-19T16:58:33.757Z",
-        "error": "selected is not defined"
-      },
-      {
-        "source": "Albertsons product API",
-        "status": "error",
-        "checked_at": "2026-09-19T16:58:33.757Z",
-        "error": "selected is not defined"
+        "source": "Thunderbit / Sam's Club",
+        "status": 402,
+        "checked_at": "2026-09-19T17:01:47.486Z",
+        "error": "insufficient_credits"
       },
       {
         "source": "Flipp/Wishabi",
         "status": 200,
-        "checked_at": "2026-09-19T16:58:33.757Z",
+        "checked_at": "2026-09-19T17:01:47.486Z",
         "flyers": 5,
         "items": 1115,
         "deals": {
@@ -29,40 +23,50 @@
         }
       },
       {
-        "source": "Thunderbit / Sam's Club",
-        "status": 402,
-        "checked_at": "2026-09-19T16:58:33.757Z",
-        "error": "insufficient_credits"
-      },
-      {
         "source": "Thunderbit / Walmart",
         "status": 402,
-        "checked_at": "2026-09-19T16:58:33.757Z"
+        "checked_at": "2026-09-19T17:01:47.486Z"
       },
       {
         "source": "Open Prices",
         "status": 200,
-        "checked_at": "2026-09-19T16:58:33.757Z",
+        "checked_at": "2026-09-19T17:01:47.486Z",
         "nearby_rows": 0,
         "matched": 0
       },
       {
         "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-09-19T16:58:33.757Z",
+        "checked_at": "2026-09-19T17:01:47.486Z",
         "blocked": true
       },
       {
         "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-09-19T16:58:33.757Z",
+        "checked_at": "2026-09-19T17:01:47.486Z",
         "blocked": true
+      },
+      {
+        "source": "Safeway product API",
+        "status": 200,
+        "checked_at": "2026-09-19T17:01:47.486Z",
+        "store_id": "2004",
+        "searched": 121,
+        "matched": 114
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-09-19T16:58:33.757Z",
+        "checked_at": "2026-09-19T17:01:47.486Z",
         "location_id": "70600409"
+      },
+      {
+        "source": "Albertsons product API",
+        "status": 200,
+        "checked_at": "2026-09-19T17:01:47.486Z",
+        "store_id": "824",
+        "searched": 121,
+        "matched": 113
       }
     ]
   },
