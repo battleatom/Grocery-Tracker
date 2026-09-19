@@ -2,7 +2,7 @@ import React,{useEffect,useMemo,useState}from'react';import{createRoot}from'reac
 const STORE_NAMES=["Sam's Club","Walmart","Albertsons","Safeway","Smith's"];
 const money=n=>'$'+Number(n).toFixed(2);
 function App(){const[data,setData]=useState(null),[q,setQ]=useState(''),[cat,setCat]=useState('All'),[err,setErr]=useState('');
-useEffect(()=>{fetch('/data/prices.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Price feed unavailable');return r.json()}).then(setData).catch(e=>setErr(e.message))},[]);
+useEffect(()=>{fetch('/data/prices.json?refresh='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).then(r=>{if(!r.ok)throw Error('Price feed unavailable');return r.json()}).then(setData).catch(e=>setErr(e.message))},[]);
 const items=data?.items||[];const cats=['All',...new Set(items.map(x=>x.category))];
 const shown=useMemo(()=>items.filter(x=>(cat==='All'||x.category===cat)&&x.name.toLowerCase().includes(q.toLowerCase())),[items,cat,q]);
 const count=items.reduce((n,x)=>n+x.offers.filter(Boolean).length,0);
