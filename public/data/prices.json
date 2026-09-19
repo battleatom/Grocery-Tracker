@@ -10,7 +10,8 @@
       "Safeway",
       "Smith's"
     ],
-    "note": "Only retailer-local observations verified from public local retailer pages are populated."
+    "note": "Only retailer-local observations verified from public local retailer pages are populated.",
+    "receipt_catalog_note": "User receipts expand the master catalog and historical price record. Receipt prices are not treated as current offers unless freshness and package/unit details are known."
   },
   "items": [
     {
@@ -343,6 +344,279 @@
       "name": "Broccoli — Frozen",
       "category": "Frozen",
       "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Potatoes",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "idahoan-potatoes",
+      "name": "Idahoan Potatoes",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "gogo-variety",
+      "name": "GoGo Squeez Variety Pack",
+      "category": "Snacks",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cupcakes",
+      "name": "Cupcakes",
+      "category": "Bakery",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "teriyaki-bowl",
+      "name": "Teriyaki Bowl",
+      "category": "Prepared",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "brioche-buns",
+      "name": "Brioche Buns",
+      "category": "Bakery",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chuck-sliders",
+      "name": "Chuck Sliders",
+      "category": "Meat",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "cage-free-eggs-60",
+      "name": "Cage-Free Eggs 60 ct",
+      "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "beef-taquitos",
+      "name": "Beef Taquitos",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "hawaiian-rolls",
+      "name": "Hawaiian Rolls",
+      "category": "Bakery",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "colby-jack",
+      "name": "Colby Jack Cheese",
+      "category": "Dairy",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "wrap-tray",
+      "name": "Wrap Tray",
+      "category": "Prepared",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "beef-sticks",
+      "name": "Beef Sticks",
+      "category": "Snacks",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "motts-applesauce-36",
+      "name": "Mott's Applesauce 36 Pack",
+      "category": "Snacks",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "sausage-2lb",
+      "name": "Sausage 2 lb",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pearl-milling-syrup",
+      "name": "Pearl Milling Syrup",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "505-green-chile",
+      "name": "505 Green Chile",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pancake-mix",
+      "name": "Pancake Mix",
+      "category": "Pantry",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "fried-chicken-item",
+      "name": "Fried Chicken / Chicken Fried Item",
+      "category": "Prepared",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chicken-item",
+      "name": "Chicken",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mini-variety-pack",
+      "name": "Mini Variety Pack",
+      "category": "Snacks",
+      "comparison_unit": "each",
       "offers": [
         null,
         null,
