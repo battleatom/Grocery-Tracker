@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T15:41:10.536Z",
+    "updated_at": "2026-09-19T15:42:43.382Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -25,19 +25,24 @@
       "personalized_coupon"
     ],
     "automation": {
-      "last_run": "2026-09-19T15:41:10.536Z",
-      "matched": 176,
+      "last_run": "2026-09-19T15:42:43.382Z",
+      "matched": 289,
       "schedule": "daily",
       "source_checks": [
         {
           "source": "Kroger API / Smith's",
           "status": "credentials_missing",
-          "checked_at": "2026-09-19T15:41:10.536Z"
+          "checked_at": "2026-09-19T15:42:43.382Z"
+        },
+        {
+          "source": "Safeway product API",
+          "status": "store_not_found",
+          "checked_at": "2026-09-19T15:42:43.382Z"
         },
         {
           "source": "Flipp/Wishabi",
           "status": 200,
-          "checked_at": "2026-09-19T15:41:10.536Z",
+          "checked_at": "2026-09-19T15:42:43.382Z",
           "flyers": 5,
           "items": 1115,
           "deals": {
@@ -47,26 +52,24 @@
           }
         },
         {
-          "source": "Safeway product API",
-          "status": "store_not_found",
-          "checked_at": "2026-09-19T15:41:10.536Z"
-        },
-        {
-          "source": "Albertsons product API",
-          "status": "store_not_found",
-          "checked_at": "2026-09-19T15:41:10.536Z"
-        },
-        {
           "source": "Sam's Club",
           "status": 200,
-          "checked_at": "2026-09-19T15:41:10.536Z",
+          "checked_at": "2026-09-19T15:42:43.382Z",
           "blocked": true
         },
         {
           "source": "Walmart",
           "status": 200,
-          "checked_at": "2026-09-19T15:41:10.536Z",
+          "checked_at": "2026-09-19T15:42:43.382Z",
           "blocked": true
+        },
+        {
+          "source": "Albertsons product API",
+          "status": 200,
+          "checked_at": "2026-09-19T15:42:43.382Z",
+          "store_id": "824",
+          "searched": 121,
+          "matched": 113
         }
       ],
       "policy": "Public weekly-ad deals via Flipp; Smith's full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails."
@@ -82,19 +85,21 @@
         null,
         null,
         {
-          "price": 6.99,
+          "price": 9.98,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 4.99,
           "unit": "lb",
-          "label": "Signature SELECT Boneless Skinless Chicken Breast",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Hand Trimmed Boneless Skinless Chicken Breast - 2 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960129763",
+          "upc": "0020089700000"
         },
         {
           "price": 5.99,
@@ -108,7 +113,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
@@ -131,19 +136,21 @@
         null,
         null,
         {
-          "price": 5.99,
+          "price": 8.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.28,
           "unit": "lb",
-          "label": "Signature Select 85% Lean 15% Fat Ground Beef",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Ground Beef And Pork Blend 80% Lean 20% Fat - 32 OZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971245775",
+          "upc": "0002718256550"
         },
         {
           "price": 10.99,
@@ -157,7 +164,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
@@ -179,7 +186,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 7.49,
+          "promo_price": null,
+          "unit_price": 0.62,
+          "unit": "each",
+          "label": "Open Nature Eggs Brown Free Range Large - 12 Count",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960453266",
+          "upc": "0007989310834"
+        },
         null,
         null
       ]
@@ -203,17 +226,19 @@
         {
           "price": 5.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 2,
           "unit": "lb",
-          "label": "Signature Select Gala Apples",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "label": "Signature SELECT/FARMS Gala Apples Prepacked Bag - 3 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184020192",
+          "upc": "0002113000750"
         },
         {
           "price": 5.99,
@@ -227,7 +252,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -250,19 +275,21 @@
         },
         null,
         {
-          "price": 0.99,
+          "price": 6.98,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 3.49,
           "unit": "lb",
-          "label": "Green, Red or Black Seedless Grapes",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Red Seedless Grapes Prepacked Bag - 2 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184100012",
+          "upc": "0048410001201"
         },
         {
           "price": 0.99,
@@ -276,7 +303,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -298,7 +325,23 @@
           "observed": "2026-09-19"
         },
         null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": null,
+          "unit_price": 0.31,
+          "unit": "lb",
+          "label": "Signature Select Bananas Sliced - 16 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970862402",
+          "upc": "0002113032339"
+        },
         null,
         null
       ]
@@ -319,7 +362,23 @@
           "source": "Walmart #3428",
           "observed": "2026-09-19"
         },
-        null,
+        {
+          "price": 5.99,
+          "promo_price": null,
+          "unit_price": 5.99,
+          "unit": "each",
+          "label": "Fresh Cut Kiwi Pineapple & Strawberry Bowl - 20 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960131364",
+          "upc": "0024204100000"
+        },
         null,
         null
       ]
@@ -354,7 +413,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null,
@@ -369,7 +428,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": null,
+          "unit_price": 0.37,
+          "unit": "oz",
+          "label": "New York Bakery Texas Toast Five Cheese 8 Count - 13.5 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960085786",
+          "upc": "0007045900573"
+        },
         null,
         null
       ]
@@ -390,7 +465,23 @@
           "observed": "2026-09-19"
         },
         null,
-        null,
+        {
+          "price": 15.99,
+          "promo_price": 13.99,
+          "unit_price": 0.22,
+          "unit": "lb",
+          "label": "Tyson Frozen Chicken Nuggets Family Pack - 4 Lb",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-29T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971098950",
+          "upc": "0002370006025"
+        },
         null,
         null
       ]
@@ -404,19 +495,21 @@
         null,
         null,
         {
-          "price": 8.99,
+          "price": 7.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.32,
           "unit": "oz",
-          "label": "Totino's Pizza Rolls",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "label": "Totinos Pizza Rolls Cheese 50 Count - 24.8 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960471787",
+          "upc": "0004280010921"
         },
         {
           "price": 8.99,
@@ -430,7 +523,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -444,7 +537,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": 4.49,
+          "unit_price": 0.19,
+          "unit": "oz",
+          "label": "Pepperidge Farm Whole Grain Honey Wheat Bread - 24 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-11-01T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "196052271",
+          "upc": "0001410008597"
+        },
         null,
         null
       ]
@@ -458,19 +567,21 @@
         null,
         null,
         {
-          "price": 1.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 5.49,
+          "promo_price": 3.99,
+          "unit_price": 0.5,
           "unit": "lb",
-          "label": "Lucerne Butter",
+          "label": "Kerrygold Butter Pure Irish Two Sticks - 8 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960190061",
+          "upc": "0076770700214"
         },
         {
           "price": 1.99,
@@ -484,7 +595,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -499,19 +610,21 @@
         null,
         null,
         {
-          "price": 4.49,
+          "price": 7.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.06,
           "unit": "gal",
-          "label": "A2 Milk",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "label": "O Organics Whole Milk Vitamin D - 1 Gallon",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960477492",
+          "upc": "0007989316035"
         },
         {
           "price": 4.49,
@@ -525,7 +638,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -540,19 +653,21 @@
         null,
         null,
         {
-          "price": 4.99,
+          "price": 7.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.23,
           "unit": "oz",
-          "label": "Yasso Frozen Greek Yogurt or Bars",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "FAGE Total 2% Milkfat Plain Greek Yogurt - 32 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960050144",
+          "upc": "0068954408302"
         },
         {
           "price": 4.99,
@@ -566,7 +681,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -580,7 +695,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 8.99,
+          "promo_price": null,
+          "unit_price": 5.99,
+          "unit": "lb",
+          "label": "Signature SELECT Boneless Pork Top Loin Chops - 1.5 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "188260029",
+          "upc": "0020332800000"
+        },
         null,
         null
       ]
@@ -593,7 +724,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 5.19,
+          "promo_price": null,
+          "unit_price": 3.99,
+          "unit": "lb",
+          "label": "Organic Broccoli",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184710086",
+          "upc": "0048471040601"
+        },
         null,
         null
       ]
@@ -606,7 +753,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 5.19,
+          "promo_price": null,
+          "unit_price": 3.99,
+          "unit": "lb",
+          "label": "Organic Broccoli",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184710086",
+          "upc": "0048471040601"
+        },
         null,
         null
       ]
@@ -620,19 +783,21 @@
         null,
         null,
         {
-          "price": 5.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 0.85,
+          "promo_price": 0.68,
+          "unit_price": 0.79,
           "unit": "lb",
-          "label": "Signature Select Red or Gold Potatoes",
+          "label": "Russet Potatoes",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-29T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184500022",
+          "upc": "0048450006901"
         },
         {
           "price": 5.99,
@@ -646,7 +811,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -660,7 +825,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 1.69,
+          "promo_price": null,
+          "unit_price": 0.42,
+          "unit": "oz",
+          "label": "Idahoan Four Cheese Mashed Potatoes Pouch - 4 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "126400101",
+          "upc": "0002970000145"
+        },
         null,
         null
       ]
@@ -674,19 +855,21 @@
         null,
         null,
         {
-          "price": 17.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 10.99,
+          "promo_price": 8.99,
+          "unit_price": 0.23,
           "unit": "each",
-          "label": "Frito Lay Variety Pack Chips",
+          "label": "GoGo squeeZ Applesauce Variety Pack Apple Banana Strawberry - 12-3.2 Oz",
           "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960208423",
+          "upc": "0084886000049"
         },
         {
           "price": 17.99,
@@ -700,7 +883,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -715,19 +898,21 @@
         null,
         null,
         {
-          "price": 5.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 6.49,
+          "promo_price": 5.99,
+          "unit_price": 0.6,
           "unit": "each",
-          "label": "Overjoyed Mini Cupcakes",
+          "label": "Overjoyed Vanilla Mini Cupcakes - 12 Count",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971044178",
+          "upc": "0002113034818"
         },
         {
           "price": 5.99,
@@ -741,7 +926,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -755,7 +940,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.49,
+          "promo_price": null,
+          "unit_price": 0.28,
+          "unit": "each",
+          "label": "Marie Callender's Sweet Pineapple Chicken Teriyaki Bowl Frozen Meal - 12.3 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960453509",
+          "upc": "0002113190553"
+        },
         null,
         null
       ]
@@ -768,7 +969,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 5.99,
+          "promo_price": null,
+          "unit_price": 0.37,
+          "unit": "each",
+          "label": "Artesano Brioche Buns - 16.4 OZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971379303",
+          "upc": "0007016295873"
+        },
         null,
         null
       ]
@@ -795,19 +1012,21 @@
         null,
         null,
         {
-          "price": 6.99,
+          "price": 2.09,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.17,
           "unit": "each",
-          "label": "Open Nature Cage Free Large Brown Eggs",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Lucerne Farms Eggs Cage Free Extra Large - 12 Count",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960304347",
+          "upc": "0002113003152"
         },
         {
           "price": 6.99,
@@ -821,7 +1040,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -835,7 +1054,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 8.49,
+          "promo_price": 7.99,
+          "unit_price": 0.48,
+          "unit": "oz",
+          "label": "Jose Ole Double Stuffed Beef Corn Taquitos, 16.5 Oz - 16.5 OZ",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971134255",
+          "upc": "0007320251203"
+        },
         null,
         null
       ]
@@ -848,7 +1083,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 2.49,
+          "promo_price": null,
+          "unit_price": 0.62,
+          "unit": "each",
+          "label": "King's Hawaiian Original Sweet Rolls - 4 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970065380",
+          "upc": "0007343500026"
+        },
         null,
         null
       ]
@@ -861,7 +1112,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.49,
+          "promo_price": null,
+          "unit_price": 0.28,
+          "unit": "oz",
+          "label": "Lucerne Cheese Natural Colby Jack - 16 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "137050208",
+          "upc": "0002113004223"
+        },
         null,
         null
       ]
@@ -887,7 +1154,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 21.99,
+          "promo_price": null,
+          "unit_price": 2.39,
+          "unit": "oz",
+          "label": "Chomps Original Beef Sticks - 8-1.15 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970762026",
+          "upc": "0085001589252"
+        },
         null,
         null
       ]
@@ -901,19 +1184,21 @@
         null,
         null,
         {
-          "price": 6,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 9.49,
+          "promo_price": 8.99,
+          "unit_price": 0.23,
           "unit": "each",
-          "label": "Mott's Applesauce Cups",
+          "label": "Mott's No Sugar Added Applesauce In Clear Pouches 12 Count - 3.2 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-29T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960226484",
+          "upc": "0001480000369"
         },
         {
           "price": 6,
@@ -927,7 +1212,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -942,19 +1227,21 @@
         null,
         null,
         {
-          "price": 3.99,
+          "price": 6.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.17,
           "unit": "lb",
-          "label": "Aidells Smoked Sausage",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Bar-S Sausage Smoked With Cheese Skinless - 40 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960053166",
+          "upc": "0001590023554"
         },
         {
           "price": 5.99,
@@ -968,7 +1255,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -983,19 +1270,21 @@
         null,
         null,
         {
-          "price": 1.99,
+          "price": 6.79,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.19,
           "unit": "oz",
-          "label": "Pearl Milling Co Syrup or Pancake & Waffle Mix",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Pearl Milling Company Regular Syrup - 36 FZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970107176",
+          "upc": "0003000065960"
         },
         {
           "price": 1.99,
@@ -1009,7 +1298,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1024,19 +1313,21 @@
         null,
         null,
         {
-          "price": 9.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 9.49,
+          "promo_price": 8.99,
+          "unit_price": 0.22,
           "unit": "oz",
-          "label": "505 Southwestern Flame Roasted Green Chile",
+          "label": "505 Southwestern Hatch Valley Sauce Green Chile Medium Jar - 40 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-11-08T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960229597",
+          "upc": "0060205010381"
         },
         {
           "price": 9.99,
@@ -1050,7 +1341,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1064,7 +1355,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.99,
+          "promo_price": 2.99,
+          "unit_price": 0.09,
+          "unit": "lb",
+          "label": "Hungry Jack Complete Buttermilk Pancake And Waffle Mix Box - 32 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-27T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970002211",
+          "upc": "0001330028064"
+        },
         null,
         null
       ]
@@ -1078,19 +1385,21 @@
         null,
         null,
         {
-          "price": 6,
+          "price": 8.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 8.99,
           "unit": "each",
-          "label": "Signature Select Whole Roasted Chicken",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Fried Chicken Dark 8 Piece Hot - Each",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970029151",
+          "upc": "0021347300000"
         },
         {
           "price": 6,
@@ -1104,7 +1413,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1118,7 +1427,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 9.99,
+          "promo_price": null,
+          "unit_price": 9.99,
+          "unit": "lb",
+          "label": "Deli Fried Chicken Mixed 8 Piece Hot - Each",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970028885",
+          "upc": "0021343700000"
+        },
         null,
         null
       ]
@@ -1131,7 +1456,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 10.99,
+          "promo_price": 9.99,
+          "unit_price": 0.5,
+          "unit": "each",
+          "label": "OREO Mini Mix Sandwich Cookies Variety Pack Snack Packs - 20 Count",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-12-31T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960279886",
+          "upc": "0004400005296"
+        },
         null,
         null
       ]
@@ -1174,19 +1515,21 @@
         },
         null,
         {
-          "price": 4.49,
+          "price": 3.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.04,
           "unit": "floz",
-          "label": "Signature Select Refreshe Purified Water",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Signature Select Refreshe Purified Drinking Water - 8-12 Fl. Oz.",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971262727",
+          "upc": "0002113035410"
         },
         {
           "price": 4.49,
@@ -1200,7 +1543,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1233,23 +1576,25 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
-          "price": 1.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 4.29,
+          "promo_price": 3.5,
+          "unit_price": 0.32,
           "unit": "oz",
-          "label": "Mission Tortilla Chips",
+          "label": "On the Border Café Style Tortilla Chips - 11 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-10-06T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970094606",
+          "upc": "0078113871011"
         },
         {
           "price": 1.99,
@@ -1263,7 +1608,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1286,19 +1631,21 @@
         },
         null,
         {
-          "price": 10,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 2.99,
+          "promo_price": 2.5,
+          "unit_price": 1.91,
           "unit": "oz",
-          "label": "Old El Paso Taco or Fajita Seasoning Mix",
+          "label": "Siete Mild Taco Seasoning - 1.31 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-27T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960570041",
+          "upc": "0085176900775"
         },
         {
           "price": 10,
@@ -1312,7 +1659,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1334,7 +1681,23 @@
           "observed": "2026-09-19"
         },
         null,
-        null,
+        {
+          "price": 5.29,
+          "promo_price": null,
+          "unit_price": 0.17,
+          "unit": "oz",
+          "label": "Lucerne Greek Yogurt Whole Milk Plain - 32 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970672013",
+          "upc": "0002113032831"
+        },
         null,
         null
       ]
@@ -1355,7 +1718,23 @@
           "observed": "2026-09-19"
         },
         null,
-        null,
+        {
+          "price": 10.99,
+          "promo_price": 8.99,
+          "unit_price": 0.23,
+          "unit": "oz",
+          "label": "GoGo squeeZ Applesauce Variety Pack Apple Banana Strawberry - 12-3.2 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960208423",
+          "upc": "0084886000049"
+        },
         null,
         null
       ]
@@ -1376,7 +1755,23 @@
           "source": "Walmart #3428 Farmington grocery page",
           "observed": "2026-09-19"
         },
-        null,
+        {
+          "price": 0.37,
+          "promo_price": null,
+          "unit_price": 1.49,
+          "unit": "lb",
+          "label": "Red Roma Tomato",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184570068",
+          "upc": "0048457006801"
+        },
         null,
         null
       ]
@@ -1397,7 +1792,23 @@
           "source": "Walmart #3428 Farmington grocery page",
           "observed": "2026-09-19"
         },
-        null,
+        {
+          "price": 8.03,
+          "promo_price": null,
+          "unit_price": 3.49,
+          "unit": "lb",
+          "label": "Green Seedless Grapes Prepacked Bag - 2.3 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184100014",
+          "upc": "0048410001401"
+        },
         null,
         null
       ]
@@ -1410,7 +1821,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.49,
+          "promo_price": 3.99,
+          "unit_price": 0.3,
+          "unit": "each",
+          "label": "Boston Market Country Fried Steak - 13.2 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960248107",
+          "upc": "0073891202241"
+        },
         null,
         null
       ]
@@ -1449,7 +1876,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 5.99,
+          "promo_price": 4.99,
+          "unit_price": 0.77,
+          "unit": "each",
+          "label": "Bonduelle Bistro Bowl Loaded Grilled Chicken with Guacamole - 8 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971102466",
+          "upc": "0007774527677"
+        },
         null,
         null
       ]
@@ -1462,7 +1905,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 11.99,
+          "promo_price": null,
+          "unit_price": 2,
+          "unit": "oz",
+          "label": "Jack Links Beef Sticks Original 6oz - 6 OZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971295573",
+          "upc": "0001708201640"
+        },
         null,
         null
       ]
@@ -1535,10 +1994,26 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
-        null,
+        {
+          "price": 6.99,
+          "promo_price": null,
+          "unit_price": 0.07,
+          "unit": "each",
+          "label": "Signature SELECT Everyday Coated 9 Inch White Paper Plates - 100 Count",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "130030382",
+          "upc": "0002113027327"
+        },
         null,
         null
       ]
@@ -1561,7 +2036,23 @@
           "automated": false
         },
         null,
-        null,
+        {
+          "price": 13.99,
+          "promo_price": 11.99,
+          "unit_price": 0.67,
+          "unit": "each",
+          "label": "Frito Lay Fiery Mix Variety Pack - 18 Count",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-10-06T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970782386",
+          "upc": "0002840073756"
+        },
         null,
         null
       ]
@@ -1584,7 +2075,23 @@
           "automated": false
         },
         null,
-        null,
+        {
+          "price": 10.99,
+          "promo_price": null,
+          "unit_price": 1.24,
+          "unit": "oz",
+          "label": "Drizzilicious Rice Cakes Mini Variety 12pc - 8.88 OZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971307777",
+          "upc": "0085004632183"
+        },
         null,
         null
       ]
@@ -1607,7 +2114,23 @@
           "observed": "2026-09-19",
           "automated": false
         },
-        null,
+        {
+          "price": 5.99,
+          "promo_price": 3.99,
+          "unit_price": 3.99,
+          "unit": "oz",
+          "label": "Bakery Chocolate Chip Muffins 4 Count",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "195150023",
+          "upc": "0022822700000"
+        },
         null,
         null
       ]
@@ -1620,7 +2143,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 12.99,
+          "promo_price": null,
+          "unit_price": 0.51,
+          "unit": "each",
+          "label": "Signature SELECT Oil Avocado 100% - 25.4 Fl. Oz.",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960311660",
+          "upc": "0002113051301"
+        },
         null,
         {
           "price": 0.99,
@@ -1644,19 +2183,21 @@
         null,
         null,
         {
-          "price": 1.49,
+          "price": 5.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 3,
           "unit": "lb",
-          "label": "Honeycrisp Apples",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Signature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960525704",
+          "upc": "0002113004552"
         },
         {
           "price": 1.49,
@@ -1670,7 +2211,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
@@ -1695,19 +2236,21 @@
         null,
         null,
         {
-          "price": 3.99,
+          "price": 6.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 2.33,
           "unit": "lb",
-          "label": "Signature Select Mandarins 3 lb or Jumbo Blueberries 9.8 oz",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Mandarins Clementine Prepacked Bag - 3 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960021862",
+          "upc": "0002113019345"
         },
         {
           "price": 3.99,
@@ -1721,7 +2264,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
@@ -1746,19 +2289,21 @@
         null,
         null,
         {
-          "price": 2.49,
+          "price": 4.69,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.2,
           "unit": "each",
-          "label": "Lucerne Sour Cream",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Daisy Sour Cream Pure & Natural - 24 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "136200097",
+          "upc": "0007342000024"
         },
         {
           "price": 2.49,
@@ -1772,7 +2317,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1786,7 +2331,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 2.79,
+          "promo_price": null,
+          "unit_price": 0.17,
+          "unit": "each",
+          "label": "Lucerne Cottage Cheese Lowfat 2% Calcium Fortified - 16 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "136250026",
+          "upc": "0002113007361"
+        },
         null,
         null
       ]
@@ -1799,7 +2360,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 8.99,
+          "promo_price": 7.99,
+          "unit_price": 0.27,
+          "unit": "lb",
+          "label": "Signature CAFE Rosemary & Garlic Whole Rotisserie Chicken Hot - Each",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960463300",
+          "upc": "0002113010128"
+        },
         null,
         null
       ]
@@ -1812,7 +2389,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 10.49,
+          "promo_price": 9.99,
+          "unit_price": 0.25,
+          "unit": "lb",
+          "label": "Signature Select/Farms Chicken Thighs Boneless Skinless Frozen - 40 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2027-01-05T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960151172",
+          "upc": "0002113021055"
+        },
         null,
         null
       ]
@@ -1825,7 +2418,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.99,
+          "promo_price": null,
+          "unit_price": 3.99,
+          "unit": "lb",
+          "label": "Red Bird Farms Chicken Drumsticks - 1 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960233350",
+          "upc": "0020581900000"
+        },
         null,
         null
       ]
@@ -1839,19 +2448,21 @@
         null,
         null,
         {
-          "price": 4.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 6.49,
+          "promo_price": 4.99,
+          "unit_price": 0.31,
           "unit": "lb",
-          "label": "Butterball 93% Lean Ground Turkey",
+          "label": "Butterball 93% Lean 7% Fat Ground Turkey - 16 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960157363",
+          "upc": "0002265571561"
         },
         {
           "price": 4.99,
@@ -1865,7 +2476,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1880,19 +2491,21 @@
         null,
         null,
         {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 9.99,
+          "promo_price": 3.99,
+          "unit_price": 0.25,
           "unit": "oz",
-          "label": "Smithfield Loin Filets Tenderloins 18.4-27.2 oz or Premium Smoked Bacon 16 oz",
+          "label": "Smithfield Hometown Original Naturally Hickory Smoked Bacon - 16 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "188560274",
+          "upc": "0007080004118"
         },
         {
           "price": 3.99,
@@ -1906,7 +2519,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -1920,7 +2533,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 8.99,
+          "promo_price": null,
+          "unit_price": 5.99,
+          "unit": "lb",
+          "label": "Thin Bone-In Pork Loin Chops - 1.5 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "188250043",
+          "upc": "0020331300000"
+        },
         null,
         null
       ]
@@ -1933,7 +2562,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 10.49,
+          "promo_price": 9.99,
+          "unit_price": 0.25,
+          "unit": "lb",
+          "label": "Prairie Fresh Boneless Roast Pork Shoulder With Rotisserie Seasoning - 40 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-10-27T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970115576",
+          "upc": "0073649000973"
+        },
         null,
         null
       ]
@@ -1946,7 +2591,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 19.49,
+          "promo_price": null,
+          "unit_price": 12.99,
+          "unit": "lb",
+          "label": "USDA Choice Beef Petite Sirloin Steak Thin - 1.50 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960162980",
+          "upc": "0020221300000"
+        },
         null,
         null
       ]
@@ -1960,19 +2621,21 @@
         null,
         null,
         {
-          "price": 6.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 29.98,
+          "promo_price": 22.48,
+          "unit_price": 8.99,
           "unit": "lb",
-          "label": "USDA CHOICE Chuck Roast",
+          "label": "USDA Choice Beef Chuck Pot Roast Boneless - 2.5 Lb",
           "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960109081",
+          "upc": "0020195600000"
         },
         {
           "price": 6.99,
@@ -1986,7 +2649,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2000,7 +2663,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 10.49,
+          "promo_price": null,
+          "unit_price": 10.49,
+          "unit": "lb",
+          "label": "93% Lean 7% Fat Ground Beef - 1 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960136572",
+          "upc": "0027789400000"
+        },
         null,
         null
       ]
@@ -2014,19 +2693,21 @@
         null,
         null,
         {
-          "price": 4.99,
+          "price": 2.09,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.17,
           "unit": "each",
-          "label": "Eggland's Best Eggs",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Lucerne Farms Eggs Cage Free Extra Large - 12 Count",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960304347",
+          "upc": "0002113003152"
         },
         {
           "price": 4.99,
@@ -2040,7 +2721,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2054,7 +2735,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.79,
+          "promo_price": null,
+          "unit_price": 0.08,
+          "unit": "gal",
+          "label": "O Organics Milk Reduced Fat 2% Milkfat - Half Gallon",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "136010475",
+          "upc": "0007989340065"
+        },
         null,
         null
       ]
@@ -2067,7 +2764,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 2.69,
+          "promo_price": null,
+          "unit_price": 0.04,
+          "unit": "gal",
+          "label": "Lucerne Fat Free Milk - Half Gallon",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "136010014",
+          "upc": "0002113007012"
+        },
         null,
         null
       ]
@@ -2080,7 +2793,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 15.99,
+          "promo_price": null,
+          "unit_price": 0.5,
+          "unit": "oz",
+          "label": "Tillamook Medium Cheddar Cheese Block - 2 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "137050302",
+          "upc": "0007283000201"
+        },
         null,
         null
       ]
@@ -2093,7 +2822,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": 2.5,
+          "unit_price": 0.31,
+          "unit": "oz",
+          "label": "Sargento Shredded Mozzarella Natural Cheese Traditional Cut - 8 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960105158",
+          "upc": "0004610040012"
+        },
         null,
         null
       ]
@@ -2107,19 +2852,21 @@
         null,
         null,
         {
-          "price": 1.49,
+          "price": 4.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.62,
           "unit": "oz",
-          "label": "Lucerne Cream Cheese",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Philadelphia Original Cream Cheese Spread - 8 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "137100631",
+          "upc": "0002100000014"
         },
         {
           "price": 1.99,
@@ -2133,7 +2880,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2147,7 +2894,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": null,
+          "unit_price": 0.16,
+          "unit": "floz",
+          "label": "O Organics Half & Half Grade A - Quart",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960547061",
+          "upc": "0007989312245"
+        },
         null,
         null
       ]
@@ -2160,7 +2923,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.29,
+          "promo_price": null,
+          "unit_price": 0.21,
+          "unit": "oz",
+          "label": "Wonder Bread Classic White Sandwich Bread Sliced White Bread Loaf - 20 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960094483",
+          "upc": "0007225001137"
+        },
         null,
         null
       ]
@@ -2173,7 +2952,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.79,
+          "promo_price": null,
+          "unit_price": 0.24,
+          "unit": "oz",
+          "label": "Nature's Own Honey Wheat Sandwich Bread - 20 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960002359",
+          "upc": "0007225003706"
+        },
         null,
         null
       ]
@@ -2186,7 +2981,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 7.99,
+          "promo_price": null,
+          "unit_price": 1.6,
+          "unit": "lb",
+          "label": "King Arthur Non-GMO Project Verified Certified Kosher No Preservatives All Purpose Unbleached Flour ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "117100058",
+          "upc": "0007101201050"
+        },
         null,
         null
       ]
@@ -2200,19 +3011,21 @@
         null,
         null,
         {
-          "price": 3.49,
+          "price": 5.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.17,
           "unit": "lb",
-          "label": "Signature SELECT Fine Granulated Sugar",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "O Organics Organic Sugar Granulated - 32 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "117200038",
+          "upc": "0007989340251"
         },
         {
           "price": 3.49,
@@ -2226,7 +3039,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2240,7 +3053,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 14.99,
+          "promo_price": 12.99,
+          "unit_price": 0.04,
+          "unit": "lb",
+          "label": "Mahatma Rice Enriched Extra Long Grain - 320 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-12-31T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "126150689",
+          "upc": "0001740011130"
+        },
         null,
         null
       ]
@@ -2253,7 +3082,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.99,
+          "promo_price": 3,
+          "unit_price": 0.19,
+          "unit": "oz",
+          "label": "De Cecco Pasta No. 12 Spaghetti Box - 1 Lb",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "128250110",
+          "upc": "0002409407012"
+        },
         null,
         null
       ]
@@ -2267,19 +3112,21 @@
         null,
         null,
         {
-          "price": 1.99,
+          "price": 3.79,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.16,
           "unit": "oz",
-          "label": "Prego Italian Sauce, Prego Alfredo Sauce, Rao's Pasta",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Classico Tomato & Basil Pasta Sauce - 24 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "128350143",
+          "upc": "0004112907712"
         },
         {
           "price": 1.99,
@@ -2293,7 +3140,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2307,7 +3154,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.99,
+          "promo_price": null,
+          "unit_price": 0.24,
+          "unit": "oz",
+          "label": "SKIPPY® Peanut Butter Spread Creamy - 16.3 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960110940",
+          "upc": "0003760011075"
+        },
         null,
         null
       ]
@@ -2320,7 +3183,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 2.99,
+          "promo_price": null,
+          "unit_price": 0.09,
+          "unit": "oz",
+          "label": "Signature SELECT Jelly Concord Grape - 32 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960241056",
+          "upc": "0002113046251"
+        },
         null,
         null
       ]
@@ -2333,7 +3212,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 6.49,
+          "promo_price": 5.99,
+          "unit_price": 0.3,
+          "unit": "oz",
+          "label": "Kellogg's Frosted Mini-Wheats Original High Fiber Breakfast Cereal - 20 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970962745",
+          "upc": "0004119210375"
+        },
         null,
         null
       ]
@@ -2346,7 +3241,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 5.49,
+          "promo_price": 2.99,
+          "unit_price": 0.37,
+          "unit": "oz",
+          "label": "Quaker Instant Oatmeal Low Sugar Variety - 9.3 OZ",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970105994",
+          "upc": "0003000056860"
+        },
         null,
         null
       ]
@@ -2373,19 +3284,21 @@
         null,
         null,
         {
-          "price": 5,
+          "price": 0.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.07,
           "unit": "oz",
-          "label": "Bush's Black, Kidney or Pinto Beans",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "label": "Signature SELECT Beans Black Low Sodium - 15 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960051977",
+          "upc": "0002113034016"
         },
         {
           "price": 5,
@@ -2399,7 +3312,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2413,7 +3326,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 1.69,
+          "promo_price": 1.25,
+          "unit_price": 0.08,
+          "unit": "oz",
+          "label": "Bush's Pinto Beans - 15.5 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971422359",
+          "upc": "0003940001160"
+        },
         null,
         null
       ]
@@ -2453,19 +3382,21 @@
         null,
         null,
         {
-          "price": 4.99,
+          "price": 10.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.08,
           "unit": "floz",
-          "label": "Signature SELECT canola or Vegetable or Corn Oil",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Signature SELECT Oil Vegetable Pure - 1 Gallon",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "115150054",
+          "upc": "0002113051284"
         },
         {
           "price": 4.99,
@@ -2479,7 +3410,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2494,19 +3425,21 @@
         null,
         null,
         {
-          "price": 32.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 26.99,
+          "promo_price": 16.99,
+          "unit_price": 0.53,
           "unit": "floz",
-          "label": "Signature SELECT Extra Virgin Olive Oil",
+          "label": "Pompeian Organic Smooth Extra Virgin Olive Oil - 32 Fl. Oz.",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-12-29T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970103314",
+          "upc": "0007040400820"
         },
         {
           "price": 32.99,
@@ -2520,7 +3453,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2534,7 +3467,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 0.74,
+          "promo_price": null,
+          "unit_price": 0.99,
+          "unit": "lb",
+          "label": "Yellow Onion",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184450054",
+          "upc": "0048445004401"
+        },
         null,
         null
       ]
@@ -2547,7 +3496,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 0.35,
+          "promo_price": null,
+          "unit_price": 1.39,
+          "unit": "lb",
+          "label": "Carrots",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184320053",
+          "upc": "0048432001701"
+        },
         null,
         null
       ]
@@ -2573,7 +3538,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 6.99,
+          "promo_price": null,
+          "unit_price": 6.99,
+          "unit": "each",
+          "label": "O Organics Lettuce Romaine Hearts 3 Count - 3 CT",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971391344",
+          "upc": "0007989340851"
+        },
         null,
         null
       ]
@@ -2586,7 +3567,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 2.49,
+          "promo_price": null,
+          "unit_price": 2.49,
+          "unit": "oz",
+          "label": "Spinach - 1 Bunch",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "184550002",
+          "upc": "0048455000201"
+        },
         null,
         null
       ]
@@ -2599,7 +3596,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 8.99,
+          "promo_price": 6.49,
+          "unit_price": 0.81,
+          "unit": "lb",
+          "label": "Tru Fru Frozen Fresh Strawberries in Milk & White Chocolate  - 8 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-28T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970531563",
+          "upc": "0085001211716"
+        },
         null,
         null
       ]
@@ -2612,7 +3625,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 8.99,
+          "promo_price": null,
+          "unit_price": 0.19,
+          "unit": "oz",
+          "label": "Signature SELECT Blueberries Whole Unsweetened - 48 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960070164",
+          "upc": "0002113009499"
+        },
         null,
         null
       ]
@@ -2625,7 +3654,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 6.99,
+          "promo_price": null,
+          "unit_price": 2.33,
+          "unit": "lb",
+          "label": "Navel Oranges Prepacked Bag - 3 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960162611",
+          "upc": "0002113019598"
+        },
         null,
         null
       ]
@@ -2638,7 +3683,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.49,
+          "promo_price": null,
+          "unit_price": 3.49,
+          "unit": "each",
+          "label": "Wonderful Seedless Lemons Prepacked Bag - 1 Lb",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970056457",
+          "upc": "0007224054678"
+        },
         null,
         null
       ]
@@ -2651,7 +3712,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": null,
+          "unit_price": 4.99,
+          "unit": "each",
+          "label": "Fresh Cut Sliced Bell Peppers - 8 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960131566",
+          "upc": "0024212600000"
+        },
         null,
         null
       ]
@@ -2664,7 +3741,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.49,
+          "promo_price": null,
+          "unit_price": 3.49,
+          "unit": "each",
+          "label": "Organic Long English Hot House Cucumber - Each",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970004388",
+          "upc": "0048471041001"
+        },
         null,
         null
       ]
@@ -2678,19 +3771,21 @@
         null,
         null,
         {
-          "price": 2.99,
+          "price": 1.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.2,
           "unit": "oz",
-          "label": "Brach's Candy Corn",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Birds Eye Steamfresh Super Sweet Corn Frozen Vegetables - 10 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960143197",
+          "upc": "0001450002099"
         },
         {
           "price": 2.99,
@@ -2704,7 +3799,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2718,7 +3813,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 2.79,
+          "promo_price": null,
+          "unit_price": 0.23,
+          "unit": "oz",
+          "label": "O Organics Green Peas Steam in Bag - 12 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971006223",
+          "upc": "0007989316424"
+        },
         null,
         null
       ]
@@ -2731,7 +3842,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 3.79,
+          "promo_price": 3.29,
+          "unit_price": 0.21,
+          "unit": "oz",
+          "label": "Birds Eye C&W Petite Frozen Mixed Vegetables - 16 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-10-13T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "247100154",
+          "upc": "0007033200129"
+        },
         null,
         null
       ]
@@ -2755,23 +3882,25 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
-          "price": 3.99,
+          "price": 4.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.37,
           "unit": "oz",
-          "label": "Wild Mike's Prime Time Pizza",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Signature Select Pizza Thin Crust Pepperoni 13.55 Ounce - 13.55 OZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971230103",
+          "upc": "0002113033969"
         },
         {
           "price": 5.99,
@@ -2785,7 +3914,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2799,7 +3928,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 5.99,
+          "promo_price": 5.49,
+          "unit_price": 0.21,
+          "unit": "oz",
+          "label": "Ore-Ida Extra Crispy Fast Food French Fries French Fried Potatoes - 26 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-12-26T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "147150021",
+          "upc": "0001312001417"
+        },
         null,
         null
       ]
@@ -2823,23 +3968,25 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
           "price": 4.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 3.33,
           "unit": "floz",
-          "label": "Halo Top Ice Cream",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Signature SELECT Denali Moose Tracks Ice Cream - 1.50 Quart",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "142100633",
+          "upc": "0002113008818"
         },
         {
           "price": 3.99,
@@ -2853,7 +4000,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2868,19 +4015,21 @@
         null,
         null,
         {
-          "price": 6,
+          "price": 4.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.22,
           "unit": "each",
-          "label": "Guerrero Caseras Fajita Flour Tortillas",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "label": "TortillaLand Uncooked Soft Taco Size Flour Tortillas - 12 Count",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "138500011",
+          "upc": "0004494619036"
         },
         {
           "price": 6,
@@ -2894,7 +4043,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2909,19 +4058,21 @@
         null,
         null,
         {
-          "price": 2.99,
+          "price": 4.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.42,
           "unit": "oz",
-          "label": "Tostitos Chips & Salsa",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "Silver Fork Gourmet Traditional Cantina Style Mild Salsa - 12 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "970015427",
+          "upc": "0085471200434"
         },
         {
           "price": 2.99,
@@ -2935,7 +4086,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -2949,7 +4100,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 9.99,
+          "promo_price": null,
+          "unit_price": 0.83,
+          "unit": "oz",
+          "label": "Signature SELECT Coffee Ground Medium Roasted Kona Blend - 12 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "119010022",
+          "upc": "0002113045269"
+        },
         null,
         null
       ]
@@ -2963,19 +4130,21 @@
         null,
         null,
         {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 8.79,
+          "promo_price": 7.99,
+          "unit_price": 0.09,
           "unit": "floz",
-          "label": "Simply Orange or Variety Juice",
+          "label": "Florida's Natural Orange Juice No Pulp Chilled - 89 Fl. Oz.",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960042370",
+          "upc": "0001630016574"
         },
         {
           "price": 3.99,
@@ -2989,7 +4158,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -3003,7 +4172,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 11.99,
+          "promo_price": null,
+          "unit_price": 0.08,
+          "unit": "floz",
+          "label": "Diet Coke Diet Soda Soft Drinks Cans Fridge Pack - 12-12 Fl. Oz.",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "108010224",
+          "upc": "0004900002891"
+        },
         null,
         null
       ]
@@ -3027,10 +4212,26 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
-        null,
+        {
+          "price": 14.99,
+          "promo_price": 12.99,
+          "unit_price": 1.03,
+          "unit": "roll",
+          "label": "Scott 1000 Toilet Paper 1000 Sheets Per Roll Toilet Paper - 12 Count",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-29T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960044714",
+          "upc": "0005400010060"
+        },
         null,
         null
       ]
@@ -3044,19 +4245,21 @@
         null,
         null,
         {
-          "price": 17.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 9.99,
+          "promo_price": 8.99,
+          "unit_price": 0.08,
           "unit": "roll",
-          "label": "Charmin Bath Tissue, Bounty Paper Towels",
+          "label": "Sparkle Tear-A-Square Paper Towels Pack - 6 Rolls",
           "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971312319",
+          "upc": "0003040022276"
         },
         {
           "price": 17.99,
@@ -3070,7 +4273,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -3084,7 +4287,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 6.99,
+          "promo_price": 5.99,
+          "unit_price": 0.37,
+          "unit": "floz",
+          "label": "Dawn Platinum Powerwash Dish Spray Dish Soap Fresh Scent - 16 Fl. Oz.",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-11-03T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960542787",
+          "upc": "0003700052364"
+        },
         null,
         null
       ]
@@ -3108,23 +4327,25 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         {
-          "price": 9.99,
+          "price": 11.99,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.16,
           "unit": "floz",
-          "label": "Tide Laundry Detergent, Downy or Bounce Fabric Care",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "label": "All Ultra Liquid Laundry Detergent, Free & Clear - 73 FZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
-          "automated": true
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "971208601",
+          "upc": "0007261347415"
         },
         {
           "price": 9.99,
@@ -3138,7 +4359,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:41:10.536Z",
+          "observed_at": "2026-09-19T15:42:43.382Z",
           "automated": true
         },
         null
@@ -3152,7 +4373,23 @@
       "offers": [
         null,
         null,
-        null,
+        {
+          "price": 13.99,
+          "promo_price": 10.99,
+          "unit_price": 0.27,
+          "unit": "each",
+          "label": "Glad Forceflex With Febreze Gain Tall Kitchen Drawstring Trash Bags 13 Gallon - 40 Count",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:42:43.382Z",
+          "automated": true,
+          "pid": "960133876",
+          "upc": "0001258778685"
+        },
         null,
         null
       ]
