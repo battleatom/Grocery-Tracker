@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T15:39:04.799Z",
+    "updated_at": "2026-09-19T15:41:10.536Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -25,29 +25,19 @@
       "personalized_coupon"
     ],
     "automation": {
-      "last_run": "2026-09-19T15:39:04.799Z",
+      "last_run": "2026-09-19T15:41:10.536Z",
       "matched": 176,
       "schedule": "daily",
       "source_checks": [
         {
           "source": "Kroger API / Smith's",
           "status": "credentials_missing",
-          "checked_at": "2026-09-19T15:39:04.799Z"
-        },
-        {
-          "source": "Safeway product API",
-          "status": "store_not_found",
-          "checked_at": "2026-09-19T15:39:04.799Z"
-        },
-        {
-          "source": "Albertsons product API",
-          "status": "store_not_found",
-          "checked_at": "2026-09-19T15:39:04.799Z"
+          "checked_at": "2026-09-19T15:41:10.536Z"
         },
         {
           "source": "Flipp/Wishabi",
           "status": 200,
-          "checked_at": "2026-09-19T15:39:04.799Z",
+          "checked_at": "2026-09-19T15:41:10.536Z",
           "flyers": 5,
           "items": 1115,
           "deals": {
@@ -57,15 +47,25 @@
           }
         },
         {
+          "source": "Safeway product API",
+          "status": "store_not_found",
+          "checked_at": "2026-09-19T15:41:10.536Z"
+        },
+        {
+          "source": "Albertsons product API",
+          "status": "store_not_found",
+          "checked_at": "2026-09-19T15:41:10.536Z"
+        },
+        {
           "source": "Sam's Club",
           "status": 200,
-          "checked_at": "2026-09-19T15:39:04.799Z",
+          "checked_at": "2026-09-19T15:41:10.536Z",
           "blocked": true
         },
         {
           "source": "Walmart",
           "status": 200,
-          "checked_at": "2026-09-19T15:39:04.799Z",
+          "checked_at": "2026-09-19T15:41:10.536Z",
           "blocked": true
         }
       ],
@@ -93,7 +93,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -108,7 +108,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -142,7 +142,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -157,7 +157,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -212,7 +212,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -227,7 +227,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -261,7 +261,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -276,7 +276,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -354,7 +354,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null,
@@ -415,7 +415,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -430,7 +430,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -469,7 +469,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -484,7 +484,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -510,7 +510,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -525,7 +525,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -551,7 +551,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -566,7 +566,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -631,7 +631,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -646,7 +646,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -685,7 +685,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -700,7 +700,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -726,7 +726,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -741,7 +741,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -806,7 +806,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -821,7 +821,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -912,7 +912,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -927,7 +927,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -953,7 +953,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -968,7 +968,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -994,7 +994,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1009,7 +1009,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1035,7 +1035,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1050,7 +1050,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1089,7 +1089,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1104,7 +1104,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1185,7 +1185,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1200,7 +1200,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1233,7 +1233,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1248,7 +1248,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1263,7 +1263,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1297,7 +1297,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1312,7 +1312,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1535,7 +1535,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null,
@@ -1655,7 +1655,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1670,7 +1670,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1706,7 +1706,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1721,7 +1721,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1757,7 +1757,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1772,7 +1772,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1850,7 +1850,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1865,7 +1865,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1891,7 +1891,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1906,7 +1906,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -1971,7 +1971,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -1986,7 +1986,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2025,7 +2025,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2040,7 +2040,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2118,7 +2118,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2133,7 +2133,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2211,7 +2211,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2226,7 +2226,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2278,7 +2278,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2293,7 +2293,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2384,7 +2384,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2399,7 +2399,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2464,7 +2464,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2479,7 +2479,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2505,7 +2505,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2520,7 +2520,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2689,7 +2689,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2704,7 +2704,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2755,7 +2755,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2770,7 +2770,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2785,7 +2785,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2823,7 +2823,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2838,7 +2838,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2853,7 +2853,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2879,7 +2879,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2894,7 +2894,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2920,7 +2920,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2935,7 +2935,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -2974,7 +2974,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -2989,7 +2989,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -3027,7 +3027,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null,
@@ -3055,7 +3055,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -3070,7 +3070,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
@@ -3108,7 +3108,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -3123,7 +3123,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         {
@@ -3138,7 +3138,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:39:04.799Z",
+          "observed_at": "2026-09-19T15:41:10.536Z",
           "automated": true
         },
         null
