@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'scripts/refresh-prices.mjs'
+      - '.github/workflows/refresh-prices.yml'
   schedule:
     - cron: '17 12 * * *'
   workflow_dispatch:
