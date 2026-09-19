@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T17:37:54.296Z",
+    "updated_at": "2026-09-19T17:47:31.580Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -160,7 +160,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 8.14,
+          "promo_price": null,
+          "unit_price": 3.57,
+          "unit": "lb",
+          "label": "Tyson All Natural, Fresh, Boneless, Skinless Chicken Breasts, 1.0 - 3.3 lb Tray",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Tyson-All-Natural-Fresh-Boneless-Skinless-Chicken-Breasts-1-75-3-0-lb-Tray/50067993",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 9.98,
           "promo_price": null,
@@ -217,7 +231,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 6.93,
+          "promo_price": null,
+          "unit_price": 6.93,
+          "unit": "lb",
+          "label": "80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/80-Lean-20-Fat-Ground-Beef-Chuck-1-lb-Roll-Fresh-All-Natural/15136791",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 8.99,
           "promo_price": null,
@@ -878,7 +906,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.94,
+          "promo_price": null,
+          "unit_price": 3.88,
+          "unit": "lb",
+          "label": "Great Value Salted Butter Sticks, 8 oz, 2 Sticks",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Salted-Butter-Sticks-8-oz-2-Sticks/1416786932",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 5.49,
           "promo_price": 3.99,
@@ -935,7 +977,21 @@
       "comparison_unit": "gal",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.92,
+          "promo_price": null,
+          "unit_price": 3.84,
+          "unit": "gal",
+          "label": "Great Value Milk Whole Vitamin D, Half Gallon, 64 fl oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Milk-Whole-Vitamin-D-Half-Gallon-Plastic-Jug-64oz/10450118",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 7.99,
           "promo_price": null,
@@ -992,7 +1048,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 0.82,
+          "promo_price": null,
+          "unit_price": 0.155,
+          "unit": "oz",
+          "label": "Great Value Plain Nonfat Greek Yogurt, 5.3 oz Cup",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Greek-Plain-Nonfat-Yogurt-5-3-oz-Cups-Plastic-Container/166046751",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 7.49,
           "promo_price": null,
@@ -1106,7 +1176,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.81,
+          "promo_price": null,
+          "unit_price": 2.24,
+          "unit": "lb",
+          "label": "Fresh Whole Green Broccoli Crowns, 1 Each",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Broccoli-Crowns-Each/51259378",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 5.19,
           "promo_price": null,
@@ -3350,7 +3434,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.78,
+          "promo_price": null,
+          "unit_price": 3.17,
+          "unit": "lb",
+          "label": "Fresh Honeycrisp Apple, Each",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Honeycrisp-Apple-Each/44390950",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 5.99,
           "promo_price": null,
@@ -3633,7 +3731,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 8.62,
+          "promo_price": null,
+          "unit_price": 1.77,
+          "unit": "lb",
+          "label": "Tyson All Natural Fresh Chicken Thighs, Family Pack",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Tyson-All-Natural-Fresh-Chicken-Thighs-Family-Pack-4-75-6-0-lb-Tray/51259108",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 10.49,
           "promo_price": 9.99,
@@ -3690,7 +3802,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 5.94,
+          "promo_price": null,
+          "unit_price": 1.19,
+          "unit": "lb",
+          "label": "Freshness Guaranteed Fresh Chicken Drumsticks, 5 lb Bag",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Freshness-Guaranteed-Fresh-Chicken-Drumsticks-5-lb-Bag/613823324",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 3.99,
           "promo_price": null,
@@ -3747,7 +3873,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 5.56,
+          "promo_price": null,
+          "unit_price": 5.56,
+          "unit": "lb",
+          "label": "JENNIE-O Fresh Lean Ground Turkey, 93% Lean/7% Fat, 16 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/JENNIE-O-Fresh-Lean-Ground-Turkey-Fresh-Meat-93-Lean-7-Fat-All-Natural-16-oz-Plastic-Tray/177404094",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 6.49,
           "promo_price": 4.99,
@@ -3804,7 +3944,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 4.18,
+          "promo_price": null,
+          "unit_price": 0.2613,
+          "unit": "oz",
+          "label": "Great Value Naturally Hickory Smoked Thick Cut Sliced Bacon, 16 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Hickory-Smoked-Thick-Cut-Bacon-16-oz/44391087",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 9.99,
           "promo_price": 3.99,
@@ -3918,7 +4072,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 19.04,
+          "promo_price": null,
+          "unit_price": 2.24,
+          "unit": "lb",
+          "label": "Smithfield Fresh Pork Shoulder Butt Roast, 5.5-11.5 lb",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Smithfield-Pork-Shoulder-Butt-Roast-5-5-8-5lbs-Fresh/33284326",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 10.49,
           "promo_price": 9.99,
@@ -3975,7 +4143,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 19.1,
+          "promo_price": null,
+          "unit_price": 11.94,
+          "unit": "lb",
+          "label": "Top Sirloin Steak, Choice Angus Beef, Family Pack",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Beef-Choice-Top-Sirloin-Steak-Family-Pack/5010664322",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 19.49,
           "promo_price": null,
@@ -4032,7 +4214,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 17.93,
+          "promo_price": null,
+          "unit_price": 7.97,
+          "unit": "lb",
+          "label": "Chuck Roast, Choice Angus Beef, Fresh, 1.6-2.85 lb",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Chuck-Roast-Choice-Angus-Beef-Fresh-1-6-2-85-lb/8386854802",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 29.98,
           "promo_price": 22.48,
@@ -4146,7 +4342,21 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.67,
+          "promo_price": null,
+          "unit_price": 0.1392,
+          "unit": "each",
+          "label": "Great Value Large White Eggs, 12 Count",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Large-White-Eggs-12-Count/145051970",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 2.09,
           "promo_price": null,
@@ -4203,7 +4413,21 @@
       "comparison_unit": "gal",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.92,
+          "promo_price": null,
+          "unit_price": 3.84,
+          "unit": "gal",
+          "label": "Great Value 2% Reduced Fat Milk, Half Gallon, 64 fl oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Milk-2-Reduced-Fat-Half-Gallon-64-fl-oz-Jug/10450119",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 5.99,
           "promo_price": 4.99,
@@ -4317,7 +4541,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.67,
+          "promo_price": null,
+          "unit_price": 0.209,
+          "unit": "oz",
+          "label": "Great Value Medium Cheddar Deli Style Sliced Cheese, 8 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Deli-Style-Sliced-Medium-Cheddar-Cheese-8-oz-12-Count/129427454",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 15.99,
           "promo_price": null,
@@ -4374,7 +4612,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.67,
+          "promo_price": null,
+          "unit_price": 0.209,
+          "unit": "oz",
+          "label": "Great Value Low-Moisture Part-Skim Sliced Mozzarella Cheese, 8 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Deli-Style-Low-Moisture-Part-Skim-Sliced-Mozzarella-Cheese-8-oz-12-Count/10452495",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 4.99,
           "promo_price": 2.5,
@@ -4431,7 +4683,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.56,
+          "promo_price": null,
+          "unit_price": 0.195,
+          "unit": "oz",
+          "label": "Great Value Cream Cheese Brick, 8 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Cream-Cheese-Brick-8-oz-Refrigerated/10452429",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 4.99,
           "promo_price": null,
@@ -4830,7 +5096,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.74,
+          "promo_price": null,
+          "unit_price": 0.109,
+          "unit": "oz",
+          "label": "Great Value Whole Wheat Spaghetti, 16 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Whole-Wheat-Spaghetti-16-oz/45653171",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 3.99,
           "promo_price": 3,
@@ -4887,7 +5167,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 2.93,
+          "promo_price": null,
+          "unit_price": 0.122,
+          "unit": "oz",
+          "label": "Bertolli Tomato and Basil Pasta Sauce, 24 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Bertolli-Tomato-and-Basil-Pasta-Sauce-Made-with-Vine-Ripened-Tomatoes-Basil-and-Olive-Oil-24-oz/10291086",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 3.79,
           "promo_price": null,
@@ -4944,7 +5238,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.98,
+          "promo_price": null,
+          "unit_price": 0.124,
+          "unit": "oz",
+          "label": "Great Value Creamy Peanut Butter, 16 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Creamy-Peanut-Butter-16-oz/3716446909",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 3.99,
           "promo_price": null,
@@ -5001,7 +5309,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 2.83,
+          "promo_price": null,
+          "unit_price": 0.142,
+          "unit": "oz",
+          "label": "Great Value Squeezable Grape Jelly, 20 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Squeezable-Grape-Jelly-20-oz/10315755",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 2.99,
           "promo_price": null,
@@ -5197,7 +5519,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 0.92,
+          "promo_price": null,
+          "unit_price": 0.061,
+          "unit": "oz",
+          "label": "Great Value Black Beans, 15 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Black-Beans-15-oz-Can/10534038",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 0.99,
           "promo_price": null,
@@ -5254,7 +5590,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 0.92,
+          "promo_price": null,
+          "unit_price": 0.059,
+          "unit": "oz",
+          "label": "Great Value Pinto Beans, No Salt Added, 15.5 oz",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Great-Value-Pinto-Beans-No-Salt-Added-15-5-oz/32250874",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 1.69,
           "promo_price": 1.25,
@@ -5475,7 +5825,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 0.65,
+          "promo_price": null,
+          "unit_price": 0.86,
+          "unit": "lb",
+          "label": "Fresh Whole Yellow Onion, Each",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Whole-Yellow-Onion-Each/51259212",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 1.12,
           "promo_price": null,
@@ -5532,7 +5896,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 2.32,
+          "promo_price": null,
+          "unit_price": 1.16,
+          "unit": "lb",
+          "label": "Fresh Baby-Cut Carrots, 2 lb Bag",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Baby-Cut-Carrots-2lb-Bag/10451316",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 0.35,
           "promo_price": null,
@@ -5589,7 +5967,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 2.24,
+          "promo_price": null,
+          "unit_price": 0.448,
+          "unit": "lb",
+          "label": "Fresh Whole Russet Potatoes, 5 lb Bag",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Whole-Russet-Potatoes-5lb-bag/10447837",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 2.49,
           "promo_price": null,
@@ -5703,7 +6095,21 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
+        {
+          "price": 1.97,
+          "promo_price": null,
+          "unit_price": 0.197,
+          "unit": "oz",
+          "label": "Marketside Fresh Spinach, 10 oz Bag",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Marketside-Fresh-Spinach-10-oz-Bag-Fresh/13893738",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 2.49,
           "promo_price": null,
@@ -5760,7 +6166,21 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        null,
+        {
+          "price": 3.32,
+          "promo_price": null,
+          "unit_price": 3.32,
+          "unit": "lb",
+          "label": "Fresh Strawberries, 1 lb Container",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Strawberries-1-lb-Container/44391605",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 8.99,
           "promo_price": 6.49,
@@ -5931,7 +6351,21 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        null,
+        {
+          "price": 0.68,
+          "promo_price": null,
+          "unit_price": 0.68,
+          "unit": "each",
+          "label": "Fresh Bulk Yellow Lemon, Each",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Lemon-Each/41752773",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 3.49,
           "promo_price": null,
@@ -5988,7 +6422,21 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        null,
+        {
+          "price": 2.97,
+          "promo_price": null,
+          "unit_price": 0.99,
+          "unit": "each",
+          "label": "Fresh Bell Peppers, 3 Count",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Color-Bell-Peppers-3-Count/47770124",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 4.99,
           "promo_price": null,
@@ -6045,7 +6493,21 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        null,
+        {
+          "price": 0.76,
+          "promo_price": null,
+          "unit_price": 0.76,
+          "unit": "each",
+          "label": "Fresh Cucumber, Each",
+          "sale": false,
+          "deal_type": "uploaded Walmart price",
+          "source": "Walmart.com — user-provided export",
+          "source_scope": "uploaded_export",
+          "source_url": "https://www.walmart.com/ip/Fresh-Cucumber-Each/44390954",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T00:00:00.000Z",
+          "automated": false
+        },
         {
           "price": 3.49,
           "promo_price": null,
