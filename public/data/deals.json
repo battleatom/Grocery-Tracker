@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "location": "Farmington, NM",
+    "updated_at": "2026-09-19T08:48:00-06:00",
+    "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper."
+  },
+  "stores": [
+    {
+      "store": "Sam's Club",
+      "address": "4500 E Main St",
+      "program": "Instant Savings",
+      "deal_url": "https://www.samsclub.com/browse/instant-savings/15660127",
+      "deals": [
+        {
+          "item": "Tyson Breaded Chicken Nuggets 5 lb",
+          "price": 9.97,
+          "was": 11.97,
+          "savings": 2,
+          "ends": "2026-09-20",
+          "type": "instant_savings"
+        }
+      ]
+    },
+    {
+      "store": "Walmart",
+      "address": "1400 W Main St",
+      "program": "Rollbacks",
+      "deal_url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services",
+      "deals": []
+    },
+    {
+      "store": "Albertsons",
+      "address": "4909 E Main St",
+      "program": "forU / Weekly Ad / Digital Coupons",
+      "deal_url": "https://local.albertsons.com/nm/farmington/4909-e-main-st.html",
+      "deals": []
+    },
+    {
+      "store": "Safeway",
+      "address": "3540 E Main St",
+      "program": "forU / Weekly Ad / Digital Coupons",
+      "deal_url": "https://local.safeway.com/safeway/nm/farmington/3540-e-main-st.html",
+      "deals": []
+    },
+    {
+      "store": "Smith's",
+      "address": "600 E 20th St",
+      "program": "Weekly Ad / Digital Coupons",
+      "deal_url": "https://www.smithsfoodanddrug.com/pr/fresh-deals",
+      "deals": []
+    }
+  ]
+}
