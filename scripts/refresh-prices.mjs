@@ -5,6 +5,8 @@ const data=JSON.parse(await fs.readFile(FILE,'utf8'));
 let history=[];try{history=JSON.parse(await fs.readFile(HISTORY,'utf8'))}catch{}
 let deals={meta:{location:'Farmington, NM'},stores:[]};try{deals=JSON.parse(await fs.readFile(DEALS,'utf8'))}catch{}
 const now=new Date().toISOString(), checks=[];
+// Never carry forward auto-matched Flipp cells: rebuild them from today's flyer using strict matching.
+for(const item of data.items) item.offers=item.offers.map(o=>(o?.automated&&String(o.source||'').includes('Flipp weekly ad'))?null:o);
 const storeIndex=Object.fromEntries(data.meta.stores.map((s,i)=>[s,i]));
 const aliases={safeway:'Safeway',albertsons:'Albertsons',walmart:'Walmart'};
 const clean=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
@@ -40,12 +42,18 @@ async function flipp(){
     const deal={name:row.name,price:p,regular_price:regular,valid_from:row.valid_from??flyer.valid_from??null,valid_to:row.valid_to??flyer.valid_to??null,type:row.display_type===25?'coupon':'weekly_ad',source:'Flipp/Wishabi',source_url:row.flyer_url??detailUrl};
     out[store].push(deal);
     let best=null,bestScore=0;
+    const nWords=new Set(clean(row.name).split(' '));
     for(const item of data.items){
-      const terms=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen'].includes(x));
-      const n=clean(row.name);const score=terms.reduce((a,t)=>a+(n.includes(t)?1:0),0);
-      if(score>bestScore){best=item;bestScore=score}
+      const terms=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen','boneless'].includes(x));
+      if(!terms.length)continue;
+      const hits=terms.filter(t=>nWords.has(t)).length;
+      // Multi-word catalog names require at least two exact word matches.
+      // Single-word names may match one exact word. This prevents "Large Brown Eggs"
+      // from being assigned an unrelated $104.99 flyer item merely sharing one broad token.
+      const required=terms.length===1?1:2;
+      if(hits>=required && hits/terms.length>=0.5 && hits>bestScore){best=item;bestScore=hits}
     }
-    if(!best||bestScore<1)continue;
+    if(!best)continue;
     const idx=storeIndex[store], old=best.offers[idx];
     const offer={...(old||{}),price:regular&&regular>p?regular:p,promo_price:regular&&regular>p?p:null,unit_price:null,unit:best.comparison_unit,label:String(row.name).slice(0,100),sale:true,deal_type:deal.type,deal_ends:deal.valid_to,source:`Flipp weekly ad — ${store}`,source_url:deal.source_url,observed:now.slice(0,10),observed_at:now,automated:true};
     best.offers[idx]=offer;addHistory(best,store,offer);matched++;
