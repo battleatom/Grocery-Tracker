@@ -1,0 +1,1 @@
+# Grocery Tracker\n\nOne-page grocery price information dashboard for Farmington, NM.\n\nCurrent displayed prices are prototype placeholders, not claimed live prices. Live retailer data integration is the next phase.\n\nCloudflare Pages: build command `npm run build`, output directory `dist`.\n
