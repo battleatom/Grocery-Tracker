@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 const FILE='public/data/prices.json',HISTORY='public/data/history.json',DEALS='public/data/deals.json';
-const ZIP='87401'; // refresh credentials check 2026-09-19
+const ZIP='87401'; // primary local market
+const NM_ZIPS=['87101','87501','88001','88201','87401']; // Albuquerque, Santa Fe, Las Cruces, Roswell, Farmington
 const data=JSON.parse(await fs.readFile(FILE,'utf8'));
 let history=[];try{history=JSON.parse(await fs.readFile(HISTORY,'utf8'))}catch{}
 let deals={meta:{location:'Farmington, NM'},stores:[]};try{deals=JSON.parse(await fs.readFile(DEALS,'utf8'))}catch{}
@@ -13,9 +14,9 @@ const clean=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 function relevant(name,item){const n=clean(name),terms=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item'].includes(x));return terms.some(t=>n.includes(t))}
 function priceNum(v){const n=Number(v);return Number.isFinite(n)&&n>0?n:null}
 function addHistory(item,store,offer){const last=history.at(-1);history.push({at:now,item:item.id,store,price:offer.price,promo_price:offer.promo_price??null,unit_price:offer.unit_price??null,unit:offer.unit??item.comparison_unit,source_type:offer.deal_type||'price',verified:true})}
-async function flipp(){
+async function flippAtZip(zip, fallback=false){
  try{
-  const listUrl=`https://backflipp.wishabi.com/flipp/flyers?locale=en-us&postal_code=${ZIP}`;
+  const listUrl=`https://backflipp.wishabi.com/flipp/flyers?locale=en-us&postal_code=${zip}`;
   const r=await fetch(listUrl,{headers:{Accept:'application/json','User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});
   if(!r.ok){checks.push({source:'Flipp/Wishabi',status:r.status,checked_at:now,stage:'flyers'});return 0}
   const j=await r.json(), flyers=Array.isArray(j)?j:(j.flyers||[]);
@@ -26,7 +27,7 @@ async function flipp(){
    const store=merchant.includes('safeway')?'Safeway':merchant.includes('albertsons')?'Albertsons':merchant.includes('walmart')?'Walmart':null;
    if(!store)continue;
    const id=flyer.id||flyer.flyer_id;if(!id)continue;
-   const detailUrl=`https://backflipp.wishabi.com/flipp/flyers/${id}?locale=en-us&postal_code=${ZIP}`;
+   const detailUrl=`https://backflipp.wishabi.com/flipp/flyers/${id}?locale=en-us&postal_code=${zip}`;
    const dr=await fetch(detailUrl,{headers:{Accept:'application/json','User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});
    if(!dr.ok)continue;
    const dj=await dr.json();
@@ -55,15 +56,18 @@ async function flipp(){
     }
     if(!best)continue;
     const idx=storeIndex[store], old=best.offers[idx];
-    const offer={...(old||{}),price:regular&&regular>p?regular:p,promo_price:regular&&regular>p?p:null,unit_price:null,unit:best.comparison_unit,label:String(row.name).slice(0,100),sale:true,deal_type:deal.type,deal_ends:deal.valid_to,source:`Flipp weekly ad — ${store}`,source_url:deal.source_url,observed:now.slice(0,10),observed_at:now,automated:true};
+    if(fallback&&old)continue;
+    const offer={...(old||{}),price:regular&&regular>p?regular:p,promo_price:regular&&regular>p?p:null,unit_price:null,unit:best.comparison_unit,label:String(row.name).slice(0,100),sale:true,deal_type:deal.type,deal_ends:deal.valid_to,source:fallback?`Flipp weekly ad — ${store} — New Mexico (${zip})`:`Flipp weekly ad — ${store}`,source_scope:fallback?'new_mexico':'farmington',source_zip:zip,source_url:deal.source_url,observed:now.slice(0,10),observed_at:now,automated:true};
     best.offers[idx]=offer;addHistory(best,store,offer);matched++;
    }
   }
   for(const store of ['Safeway','Albertsons','Walmart']){let rec=deals.stores.find(x=>x.store===store);if(!rec){rec={store,deals:[]};deals.stores.push(rec)}rec.deals=out[store]}
-  checks.push({source:'Flipp/Wishabi',status:200,checked_at:now,flyers:wanted.length,items:totalItems,deals:Object.fromEntries(Object.entries(out).map(([k,v])=>[k,v.length]))});
+  checks.push({source:fallback?`Flipp/Wishabi NM ${zip}`:'Flipp/Wishabi Farmington',status:200,checked_at:now,flyers:wanted.length,items:totalItems,deals:Object.fromEntries(Object.entries(out).map(([k,v])=>[k,v.length]))});
   return matched;
  }catch(e){checks.push({source:'Flipp/Wishabi',status:'error',checked_at:now,error:e.message});return 0}
 }
+
+async function flipp(){let n=await flippAtZip(ZIP,false);for(const zip of NM_ZIPS.filter(z=>z!==ZIP))n+=await flippAtZip(zip,true);return n}
 
 const SWY_KEY='e914eec9448c4d5eb672debf5011cf8f';
 async function albertsonsBanner(store,banner,storeid){
