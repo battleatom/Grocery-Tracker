@@ -32,6 +32,20 @@ export function validateUpload(body){
 
 export default {async fetch(request,env){
  const url=new URL(request.url);
+ if(url.pathname==='/api/catalog'){
+  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
+  const r=await env.UPLOADS.prepare('SELECT data FROM uploads ORDER BY imported_at, hash').all();
+  const products=new Map();
+  for(const batch of r.results){
+   let data;try{data=JSON.parse(batch.data)}catch{continue}
+   for(const p of data.products||[]){
+    const key=p.store+'|'+p.sku, prior=products.get(key);
+    const observations=[...(prior?.observations||[]),...(p.observations||[])];
+    products.set(key,{...p,observations});
+   }
+  }
+  return json({products:[...products.values()],batches:r.results.length});
+ }
  if(url.pathname==='/api/uploads'){
   if(!env.UPLOADS)return json({error:'Upload storage unavailable'},503);
   if(request.method==='GET'){
