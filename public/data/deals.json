@@ -1,38 +1,30 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T14:58:56.572Z",
+    "updated_at": "2026-09-19T15:09:59.277Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
-        "store": "Sam's #6347",
-        "status": 200,
-        "checked_at": "2026-09-19T14:58:56.572Z",
-        "url": "https://www.samsclub.com/club/6347/grocery"
+        "source": "Kroger API / Smith's",
+        "status": "credentials_missing",
+        "checked_at": "2026-09-19T15:09:59.277Z"
       },
       {
-        "store": "Walmart #3428",
+        "source": "Flipp/Wishabi",
         "status": 200,
-        "checked_at": "2026-09-19T14:58:56.572Z",
-        "url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services"
+        "checked_at": "2026-09-19T15:09:59.277Z"
       },
       {
-        "store": "Albertsons 4909 E Main",
+        "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-09-19T14:58:56.572Z",
-        "url": "https://local.albertsons.com/nm/farmington/4909-e-main-st.html"
+        "checked_at": "2026-09-19T15:09:59.277Z",
+        "blocked": true
       },
       {
-        "store": "Safeway 3540 E Main",
+        "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-09-19T14:58:56.572Z",
-        "url": "https://local.safeway.com/safeway/nm/farmington/3540-e-main-st.html"
-      },
-      {
-        "store": "Smith's Farmington pickup",
-        "status": 429,
-        "checked_at": "2026-09-19T14:58:56.572Z",
-        "url": "https://www.smithsfoodanddrug.com/?cid=loc_70600376_order&setModalityTo=PICKUP_70600376"
+        "checked_at": "2026-09-19T15:09:59.277Z",
+        "blocked": true
       }
     ]
   },
