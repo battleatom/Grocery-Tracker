@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T16:08:36.328Z",
+    "updated_at": "2026-09-19T16:34:30.693Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -25,19 +25,19 @@
       "personalized_coupon"
     ],
     "automation": {
-      "last_run": "2026-09-19T16:08:36.328Z",
+      "last_run": "2026-09-19T16:34:30.693Z",
       "matched": 401,
       "schedule": "daily",
       "source_checks": [
         {
           "source": "Safeway product API",
           "status": "store_not_found",
-          "checked_at": "2026-09-19T16:08:36.328Z"
+          "checked_at": "2026-09-19T16:34:30.693Z"
         },
         {
           "source": "Flipp/Wishabi",
           "status": 200,
-          "checked_at": "2026-09-19T16:08:36.328Z",
+          "checked_at": "2026-09-19T16:34:30.693Z",
           "flyers": 5,
           "items": 1115,
           "deals": {
@@ -49,19 +49,19 @@
         {
           "source": "Sam's Club",
           "status": 200,
-          "checked_at": "2026-09-19T16:08:36.328Z",
+          "checked_at": "2026-09-19T16:34:30.693Z",
           "blocked": true
         },
         {
           "source": "Walmart",
           "status": 200,
-          "checked_at": "2026-09-19T16:08:36.328Z",
+          "checked_at": "2026-09-19T16:34:30.693Z",
           "blocked": true
         },
         {
           "source": "Albertsons product API",
           "status": 200,
-          "checked_at": "2026-09-19T16:08:36.328Z",
+          "checked_at": "2026-09-19T16:34:30.693Z",
           "store_id": "824",
           "searched": 121,
           "matched": 114
@@ -69,8 +69,14 @@
         {
           "source": "Kroger API / Smith's",
           "status": 200,
-          "checked_at": "2026-09-19T16:08:36.328Z",
+          "checked_at": "2026-09-19T16:34:30.693Z",
           "location_id": "70600409"
+        },
+        {
+          "source": "Thunderbit / Sam's Club",
+          "status": 402,
+          "checked_at": "2026-09-19T16:34:30.693Z",
+          "error": "insufficient_credits"
         }
       ],
       "policy": "Public weekly-ad deals via Flipp; Smith's full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails."
@@ -97,7 +103,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960129763",
           "upc": "0020089700000"
@@ -114,7 +120,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -127,7 +133,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -152,7 +158,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971245775",
           "upc": "0002718256550"
@@ -169,7 +175,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -182,7 +188,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -196,21 +202,21 @@
         null,
         null,
         {
-          "price": 6.99,
+          "price": 7.49,
           "promo_price": null,
-          "unit_price": 4.66,
+          "unit_price": 0.62,
           "unit": "each",
-          "label": "Open Nature Eggs Cage Free Large Grade A Brown - 18 Count",
+          "label": "Open Nature Eggs Brown Free Range Large - 12 Count",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960079385",
-          "upc": "0007989311072"
+          "pid": "960453266",
+          "upc": "0007989310834"
         },
         null,
         {
@@ -223,7 +229,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -256,7 +262,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184020192",
           "upc": "0002113000750"
@@ -273,7 +279,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -286,7 +292,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -319,7 +325,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184100012",
           "upc": "0048410001201"
@@ -336,10 +342,22 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
-        null
+        {
+          "price": 2.79,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "lb",
+          "label": "Fresh California Seedless Red Grapes 1 lb",
+          "sale": false,
+          "deal_type": "regular",
+          "source": "Official Kroger API — Smith's Farmington",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T16:34:30.693Z",
+          "automated": true
+        }
       ]
     },
     {
@@ -370,7 +388,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970862402",
           "upc": "0002113032339"
@@ -386,7 +404,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -419,7 +437,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960131364",
           "upc": "0024204100000"
@@ -435,7 +453,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -470,7 +488,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         null,
@@ -484,7 +502,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -509,7 +527,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960085786",
           "upc": "0007045900573"
@@ -525,7 +543,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -558,7 +576,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971098950",
           "upc": "0002370006025"
@@ -574,7 +592,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -599,7 +617,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960471787",
           "upc": "0004280010921"
@@ -616,7 +634,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -629,7 +647,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -654,7 +672,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "196052271",
           "upc": "0001410008597"
@@ -670,7 +688,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -695,7 +713,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960190061",
           "upc": "0076770700214"
@@ -712,7 +730,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -725,7 +743,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -750,7 +768,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960477492",
           "upc": "0007989316035"
@@ -767,7 +785,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -780,7 +798,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -805,7 +823,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960050144",
           "upc": "0068954408302"
@@ -822,7 +840,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -835,7 +853,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -860,7 +878,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "188260029",
           "upc": "0020332800000"
@@ -876,7 +894,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -901,7 +919,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184710086",
           "upc": "0048471040601"
@@ -917,7 +935,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -942,7 +960,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184710086",
           "upc": "0048471040601"
@@ -958,7 +976,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -983,7 +1001,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184500022",
           "upc": "0048450006901"
@@ -1000,7 +1018,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1013,7 +1031,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1038,7 +1056,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "126400101",
           "upc": "0002970000145"
@@ -1054,7 +1072,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1069,20 +1087,20 @@
         null,
         {
           "price": 10.99,
-          "promo_price": 8.99,
-          "unit_price": 0.23,
+          "promo_price": 9.99,
+          "unit_price": 0.26,
           "unit": "each",
-          "label": "GoGo squeeZ Applesauce Variety Pack Apple Banana Strawberry - 12-3.2 Oz",
+          "label": "GoGo squeeZ Fruit & VeggieZ Variety Pack Pear Berry - 12 - 3.2 Oz",
           "sale": true,
           "deal_type": "sale",
-          "deal_ends": "2026-09-28T23:59:00",
+          "deal_ends": "2026-09-22T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960208423",
-          "upc": "0084886000049"
+          "pid": "960481362",
+          "upc": "0084886000255"
         },
         {
           "price": 17.99,
@@ -1096,7 +1114,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1109,7 +1127,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1134,7 +1152,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971044178",
           "upc": "0002113034818"
@@ -1151,7 +1169,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1164,7 +1182,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1178,21 +1196,21 @@
         null,
         null,
         {
-          "price": 3.49,
+          "price": 4.79,
           "promo_price": null,
-          "unit_price": 0.28,
+          "unit_price": 0.59,
           "unit": "each",
-          "label": "Marie Callender's Sweet Pineapple Chicken Teriyaki Bowl Frozen Meal - 12.3 Oz",
+          "label": "Annie Chuns Noodle Bowl Teriyaki - 8.16 OZ",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960453509",
-          "upc": "0002113190553"
+          "pid": "971304160",
+          "upc": "0080717654043"
         },
         null,
         {
@@ -1205,7 +1223,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1219,21 +1237,21 @@
         null,
         null,
         {
-          "price": 5.49,
+          "price": 5.99,
           "promo_price": null,
-          "unit_price": 0.34,
+          "unit_price": 0.37,
           "unit": "each",
-          "label": "Nature's Own Perfectly Crafted Brioche Style Hotdog Buns - 8-16 Oz",
+          "label": "Artesano Brioche Buns - 16.4 OZ",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960547429",
-          "upc": "0007225002524"
+          "pid": "971379303",
+          "upc": "0007016295873"
         },
         null,
         {
@@ -1246,7 +1264,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1284,7 +1302,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960304347",
           "upc": "0002113003152"
@@ -1301,7 +1319,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         null
@@ -1327,7 +1345,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971060023",
           "upc": "0001769600071"
@@ -1343,7 +1361,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1368,7 +1386,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970065380",
           "upc": "0007343500026"
@@ -1384,7 +1402,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1409,7 +1427,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "137050208",
           "upc": "0002113004223"
@@ -1425,7 +1443,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1450,7 +1468,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1475,7 +1493,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970762026",
           "upc": "0085001589252"
@@ -1491,7 +1509,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1516,7 +1534,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960226484",
           "upc": "0001480000369"
@@ -1533,7 +1551,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1546,7 +1564,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1571,7 +1589,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960053166",
           "upc": "0001590023554"
@@ -1588,7 +1606,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1601,7 +1619,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1626,7 +1644,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970107176",
           "upc": "0003000065960"
@@ -1643,7 +1661,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1656,7 +1674,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1670,21 +1688,21 @@
         null,
         null,
         {
-          "price": 9.49,
-          "promo_price": 8.99,
-          "unit_price": 0.22,
+          "price": 5.49,
+          "promo_price": null,
+          "unit_price": 0.34,
           "unit": "oz",
-          "label": "505 Southwestern Hatch Valley Sauce Green Chile Medium Jar - 40 Oz",
-          "sale": true,
-          "deal_type": "sale",
-          "deal_ends": "2026-11-08T23:59:00",
+          "label": "505 Southwestern Flame Roasted Green Chile-mild 16oz - 16 OZ",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960229597",
-          "upc": "0060205010381"
+          "pid": "971138419",
+          "upc": "0060205001324"
         },
         {
           "price": 9.99,
@@ -1698,7 +1716,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1711,7 +1729,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1736,7 +1754,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970002211",
           "upc": "0001330028064"
@@ -1752,7 +1770,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1777,7 +1795,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970029151",
           "upc": "0021347300000"
@@ -1794,7 +1812,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         null
@@ -1809,21 +1827,21 @@
         null,
         null,
         {
-          "price": 9.99,
+          "price": 16.99,
           "promo_price": null,
-          "unit_price": 9.99,
+          "unit_price": 1.63,
           "unit": "lb",
-          "label": "Deli Fried Chicken Mixed 8 Piece Hot - Each",
+          "label": "Cesar Simply Crafted Chicken And Beef Topper Adult Wet Dog Food Variety Pack - 8-1.3 Oz",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "970028885",
-          "upc": "0021343700000"
+          "pid": "970300141",
+          "upc": "0002310013253"
         },
         null,
         {
@@ -1836,7 +1854,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1861,7 +1879,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960279886",
           "upc": "0004400005296"
@@ -1877,7 +1895,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -1931,7 +1949,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971262727",
           "upc": "0002113035410"
@@ -1948,7 +1966,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         null
@@ -1981,7 +1999,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -1996,7 +2014,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970094606",
           "upc": "0078113871011"
@@ -2013,7 +2031,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -2026,7 +2044,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2059,7 +2077,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960570041",
           "upc": "0085176900775"
@@ -2076,7 +2094,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -2089,7 +2107,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2122,7 +2140,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970672013",
           "upc": "0002113032831"
@@ -2138,7 +2156,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2171,7 +2189,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960208423",
           "upc": "0084886000049"
@@ -2187,7 +2205,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2220,7 +2238,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184570068",
           "upc": "0048457006801"
@@ -2236,7 +2254,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2258,21 +2276,21 @@
           "observed": "2026-09-19"
         },
         {
-          "price": 8.99,
+          "price": 8.03,
           "promo_price": null,
-          "unit_price": 4.5,
+          "unit_price": 3.49,
           "unit": "lb",
-          "label": "O Organics Seedless Green Grapes - 2 Lb",
+          "label": "Green Seedless Grapes Prepacked Bag - 2.3 Lb",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "970308178",
-          "upc": "0007989344113"
+          "pid": "184100014",
+          "upc": "0048410001401"
         },
         null,
         {
@@ -2285,7 +2303,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2299,21 +2317,21 @@
         null,
         null,
         {
-          "price": 11.99,
-          "promo_price": null,
-          "unit_price": 0.53,
+          "price": 4.49,
+          "promo_price": 3.99,
+          "unit_price": 0.3,
           "unit": "each",
-          "label": "Tyson Frozen Country Fried Steaks with Gravy Mix - 22.75 Oz",
-          "sale": false,
-          "deal_type": "regular",
-          "deal_ends": null,
+          "label": "Boston Market Country Fried Steak - 13.2 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-09-22T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "971237302",
-          "upc": "0002370006030"
+          "pid": "960248107",
+          "upc": "0073891202241"
         },
         null,
         {
@@ -2326,7 +2344,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2377,7 +2395,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971102466",
           "upc": "0007774527677"
@@ -2406,7 +2424,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971295573",
           "upc": "0001708201640"
@@ -2422,7 +2440,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2495,25 +2513,25 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
-          "price": 19.99,
-          "promo_price": 15.99,
-          "unit_price": 0.11,
+          "price": 6.99,
+          "promo_price": null,
+          "unit_price": 0.07,
           "unit": "each",
-          "label": "Dixie Everyday Paper Plates Printed 10 1/16 Inch - 150 Count",
-          "sale": true,
-          "deal_type": "sale",
-          "deal_ends": "2026-10-06T23:59:00",
+          "label": "Signature SELECT Everyday Coated 9 Inch White Paper Plates - 100 Count",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960264004",
-          "upc": "0004200014444"
+          "pid": "130030382",
+          "upc": "0002113027327"
         },
         null,
         {
@@ -2526,7 +2544,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2561,7 +2579,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970782386",
           "upc": "0002840073756"
@@ -2577,7 +2595,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2612,7 +2630,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971307777",
           "upc": "0085004632183"
@@ -2651,7 +2669,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "195150023",
           "upc": "0022822700000"
@@ -2667,7 +2685,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2692,7 +2710,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960311660",
           "upc": "0002113051301"
@@ -2708,7 +2726,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2733,7 +2751,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960525704",
           "upc": "0002113004552"
@@ -2750,7 +2768,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -2763,7 +2781,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2788,7 +2806,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960021862",
           "upc": "0002113019345"
@@ -2805,7 +2823,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -2841,7 +2859,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "136200097",
           "upc": "0007342000024"
@@ -2858,7 +2876,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -2871,7 +2889,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2896,7 +2914,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "136250026",
           "upc": "0002113007361"
@@ -2912,7 +2930,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2937,7 +2955,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960463300",
           "upc": "0002113010128"
@@ -2953,7 +2971,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -2978,7 +2996,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960151172",
           "upc": "0002113021055"
@@ -2994,7 +3012,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3019,7 +3037,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960233350",
           "upc": "0020581900000"
@@ -3035,7 +3053,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3060,7 +3078,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960157363",
           "upc": "0002265571561"
@@ -3077,7 +3095,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3090,7 +3108,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3115,7 +3133,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "188560274",
           "upc": "0007080004118"
@@ -3132,7 +3150,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3145,7 +3163,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3170,7 +3188,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "188250040",
           "upc": "0020331000000"
@@ -3186,7 +3204,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3211,7 +3229,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970115576",
           "upc": "0073649000973"
@@ -3227,7 +3245,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3252,7 +3270,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960162980",
           "upc": "0020221300000"
@@ -3268,7 +3286,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3293,7 +3311,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960109081",
           "upc": "0020195600000"
@@ -3310,7 +3328,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3323,7 +3341,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3348,7 +3366,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960136572",
           "upc": "0027789400000"
@@ -3364,7 +3382,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3389,7 +3407,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960304347",
           "upc": "0002113003152"
@@ -3406,7 +3424,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3419,7 +3437,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3444,7 +3462,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "136010475",
           "upc": "0007989340065"
@@ -3460,7 +3478,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3485,7 +3503,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "136010014",
           "upc": "0002113007012"
@@ -3501,7 +3519,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3526,7 +3544,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "137050302",
           "upc": "0007283000201"
@@ -3542,7 +3560,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3567,7 +3585,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960105158",
           "upc": "0004610040012"
@@ -3583,7 +3601,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3608,7 +3626,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "137100631",
           "upc": "0002100000014"
@@ -3625,7 +3643,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3638,7 +3656,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3663,7 +3681,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960547061",
           "upc": "0007989312245"
@@ -3679,7 +3697,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3704,7 +3722,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960094483",
           "upc": "0007225001137"
@@ -3720,7 +3738,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3745,7 +3763,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960002359",
           "upc": "0007225003706"
@@ -3761,7 +3779,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3786,7 +3804,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "117100058",
           "upc": "0007101201050"
@@ -3802,7 +3820,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3827,7 +3845,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "117200038",
           "upc": "0007989340251"
@@ -3844,7 +3862,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3857,7 +3875,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3882,7 +3900,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "126150689",
           "upc": "0001740011130"
@@ -3898,7 +3916,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3923,7 +3941,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "128250110",
           "upc": "0002409407012"
@@ -3939,7 +3957,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -3964,7 +3982,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "128350143",
           "upc": "0004112907712"
@@ -3981,7 +3999,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -3994,7 +4012,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4019,7 +4037,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960110940",
           "upc": "0003760011075"
@@ -4035,7 +4053,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4049,21 +4067,21 @@
         null,
         null,
         {
-          "price": 4.29,
-          "promo_price": 3.5,
-          "unit_price": 0.18,
+          "price": 2.99,
+          "promo_price": null,
+          "unit_price": 0.09,
           "unit": "oz",
-          "label": "Welch's Concord Grape Jelly - 20 Oz",
-          "sale": true,
-          "deal_type": "sale",
-          "deal_ends": "2027-02-28T23:59:00",
+          "label": "Signature SELECT Jelly Concord Grape - 32 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960120668",
-          "upc": "0004180000019"
+          "pid": "960241056",
+          "upc": "0002113046251"
         },
         null,
         {
@@ -4076,7 +4094,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4101,7 +4119,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970962745",
           "upc": "0004119210375"
@@ -4117,7 +4135,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4135,17 +4153,17 @@
           "promo_price": 2.99,
           "unit_price": 0.37,
           "unit": "oz",
-          "label": "Quaker Instant Oatmeal Fruit & Cream Variety - 8.4 Oz",
+          "label": "Quaker Instant Oatmeal Low Sugar Variety - 9.3 OZ",
           "sale": true,
           "deal_type": "sale",
           "deal_ends": "2026-09-28T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960522790",
-          "upc": "0003000056828"
+          "pid": "970105994",
+          "upc": "0003000056860"
         },
         null,
         {
@@ -4158,7 +4176,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4183,7 +4201,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4208,7 +4226,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960051977",
           "upc": "0002113034016"
@@ -4225,7 +4243,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -4238,7 +4256,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4263,7 +4281,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971422359",
           "upc": "0003940001160"
@@ -4279,7 +4297,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4304,7 +4322,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4329,7 +4347,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4354,7 +4372,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "115150054",
           "upc": "0002113051284"
@@ -4371,7 +4389,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -4384,7 +4402,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4409,7 +4427,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970103314",
           "upc": "0007040400820"
@@ -4426,7 +4444,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -4439,7 +4457,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4464,7 +4482,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184450008",
           "upc": "0048445000901"
@@ -4480,7 +4498,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4505,7 +4523,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184320053",
           "upc": "0048432001701"
@@ -4521,7 +4539,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4535,21 +4553,21 @@
         null,
         null,
         {
-          "price": 2.49,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": 0.5,
           "unit": "lb",
-          "label": "Signature SELECT/FARMS Russet Potatoes In Bag - 5 Lb",
+          "label": "Signature SELECT/FARMS Russet Potatoes In Bag - 10 Lb",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "184500035",
-          "upc": "0002113053056"
+          "pid": "184500012",
+          "upc": "0048450008101"
         },
         null,
         {
@@ -4562,7 +4580,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4587,7 +4605,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971391344",
           "upc": "0007989340851"
@@ -4603,7 +4621,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4628,7 +4646,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "184550002",
           "upc": "0048455000201"
@@ -4644,7 +4662,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4669,7 +4687,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970531563",
           "upc": "0085001211716"
@@ -4685,7 +4703,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4701,19 +4719,19 @@
         {
           "price": 8.99,
           "promo_price": null,
-          "unit_price": 0.19,
+          "unit_price": 0.5,
           "unit": "oz",
-          "label": "Signature SELECT Blueberries Whole Unsweetened - 48 Oz",
+          "label": "Blueberries Prepacked - 18 Oz",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
-          "pid": "960070164",
-          "upc": "0002113009499"
+          "pid": "960015089",
+          "upc": "0002113025073"
         },
         null,
         {
@@ -4726,7 +4744,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4751,7 +4769,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960162611",
           "upc": "0002113019598"
@@ -4767,7 +4785,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4792,7 +4810,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970056457",
           "upc": "0007224054678"
@@ -4808,7 +4826,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4833,7 +4851,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960131566",
           "upc": "0024212600000"
@@ -4849,7 +4867,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4874,7 +4892,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970004388",
           "upc": "0048471041001"
@@ -4890,7 +4908,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4915,7 +4933,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960143197",
           "upc": "0001450002099"
@@ -4932,7 +4950,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -4945,7 +4963,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -4970,7 +4988,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971006223",
           "upc": "0007989316424"
@@ -4986,7 +5004,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5011,7 +5029,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "247100154",
           "upc": "0007033200129"
@@ -5027,7 +5045,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5051,7 +5069,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5066,7 +5084,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971230103",
           "upc": "0002113033969"
@@ -5083,7 +5101,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5096,7 +5114,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5121,7 +5139,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "147150021",
           "upc": "0001312001417"
@@ -5137,7 +5155,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5161,7 +5179,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5176,7 +5194,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "142100633",
           "upc": "0002113008818"
@@ -5193,7 +5211,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         null
@@ -5219,7 +5237,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "138500011",
           "upc": "0004494619036"
@@ -5236,7 +5254,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5249,7 +5267,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5274,7 +5292,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "970015427",
           "upc": "0085471200434"
@@ -5291,7 +5309,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5304,7 +5322,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5329,7 +5347,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "119010022",
           "upc": "0002113045269"
@@ -5345,7 +5363,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5370,7 +5388,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960042370",
           "upc": "0001630016574"
@@ -5387,7 +5405,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5400,7 +5418,7 @@
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5425,7 +5443,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "108010224",
           "upc": "0004900002891"
@@ -5441,7 +5459,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5465,7 +5483,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5480,7 +5498,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960044714",
           "upc": "0005400010060"
@@ -5496,7 +5514,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5521,7 +5539,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971312319",
           "upc": "0003040022276"
@@ -5538,7 +5556,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5576,7 +5594,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960542787",
           "upc": "0003700052364"
@@ -5592,7 +5610,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5616,7 +5634,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5631,7 +5649,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "971208601",
           "upc": "0007261347415"
@@ -5648,7 +5666,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         },
         {
@@ -5661,7 +5679,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
@@ -5686,7 +5704,7 @@
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true,
           "pid": "960133876",
           "upc": "0001258778685"
@@ -5702,7 +5720,7 @@
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T16:08:36.328Z",
+          "observed_at": "2026-09-19T16:34:30.693Z",
           "automated": true
         }
       ]
