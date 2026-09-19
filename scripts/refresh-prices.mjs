@@ -139,15 +139,61 @@ async function kroger(){
   checks.push({source:"Kroger API / Smith's",status:200,checked_at:now,location_id:loc.locationId});return matched;
  }catch(e){checks.push({source:"Kroger API / Smith's",status:'error',checked_at:now,error:e.message});return 0}
 }
+async function thunderbitSams(){
+ const key=process.env.THUNDERBIT_API_SCRAPER;
+ if(!key){checks.push({source:"Thunderbit / Sam's Club",status:'credentials_missing',checked_at:now});return 0}
+ let matched=0;
+ try{
+  for(const item of data.items){
+   if(/^Receipt item:/i.test(item.name))continue;
+   const q=encodeURIComponent(item.name.replace(/—.*/,'').trim());
+   const url=`https://www.samsclub.com/s/${q}?xid=hdr_search-typeahead_${q}`;
+   const r=await fetch('https://openapi.thunderbit.com/openapi/v1/extract',{
+    method:'POST',
+    headers:{Authorization:'Bearer '+key,'Content-Type':'application/json'},
+    body:JSON.stringify({url,renderMode:'full',waitFor:2500,forceRefresh:true,countryCode:'US',timeout:60000,schema:{
+     type:'object',properties:{products:{type:'array',items:{type:'object',properties:{
+      name:{type:'string',description:'Exact product title'},
+      price:{type:'number',description:'Current Sam’s Club member selling price in USD, not a sponsored or crossed-out price'},
+      regular_price:{type:'number',description:'Original or regular price in USD before discount, if shown'},
+      unit_price:{type:'number',description:'Displayed price per pound, ounce, count, or other unit as a number, if shown'},
+      unit:{type:'string',description:'Unit associated with unit_price, if shown'},
+      item_number:{type:'string',description:'Sam’s Club item number, if shown'},
+      url:{type:'string',description:'Product detail URL, if available'},
+      in_stock:{type:'boolean',description:'Whether the item is shown as available'}
+     },required:['name','price']}}},required:['products']}})
+   });
+   if(r.status===401||r.status===403){checks.push({source:"Thunderbit / Sam's Club",status:r.status,checked_at:now,error:'API authentication/authorization failed'});return matched}
+   if(r.status===402){checks.push({source:"Thunderbit / Sam's Club",status:402,checked_at:now,error:'insufficient_credits'});return matched}
+   if(r.status===429){checks.push({source:"Thunderbit / Sam's Club",status:429,checked_at:now,error:'rate_limited'});return matched}
+   if(!r.ok)continue;
+   const j=await r.json(); const out=j?.data?.result||j?.data?.json||j?.data||{};
+   const products=Array.isArray(out?.products)?out.products:[];
+   let best=null,bestScore=0;
+   const wanted=clean(item.name).split(' ').filter(x=>x.length>=3&&!['fresh','large','whole','receipt','item','frozen','boneless'].includes(x));
+   for(const p of products){
+    const words=new Set(clean(p.name).split(' ')); const hits=wanted.filter(t=>words.has(t)).length;
+    const required=wanted.length===1?1:Math.min(2,wanted.length);
+    if(hits>=required&&hits/Math.max(1,wanted.length)>=0.5&&hits>bestScore&&p.in_stock!==false){best=p;bestScore=hits}
+   }
+   if(!best)continue;
+   const current=priceNum(best.price),regular=priceNum(best.regular_price)||current;if(!current)continue;
+   const sale=regular>current;
+   const offer={price:regular,promo_price:sale?current:null,unit_price:priceNum(best.unit_price),unit:best.unit||item.comparison_unit,label:String(best.name).slice(0,120),sale,deal_type:sale?'sale':'regular',source:"Thunderbit live extraction — Sam's Club Farmington",source_url:best.url||url,observed:now.slice(0,10),observed_at:now,automated:true,item_number:best.item_number||null};
+   item.offers[0]=offer;addHistory(item,"Sam's Club",offer);matched++;
+  }
+  checks.push({source:"Thunderbit / Sam's Club",status:200,checked_at:now,matched});return matched;
+ }catch(e){checks.push({source:"Thunderbit / Sam's Club",status:'error',checked_at:now,error:e.message});return matched}
+}
 async function legacyPages(){
  const srcs=[["Sam's Club",0,'https://www.samsclub.com/club/6347/grocery'],['Walmart',1,'https://www.walmart.com/store/3428-farmington-nm/shopping-services']];
  for(const [name,idx,url] of srcs)try{const r=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 GroceryTracker/1.0'}});const body=await r.text();checks.push({source:name,status:r.status,checked_at:now,blocked:/robot or human|captcha/i.test(body)});}catch(e){checks.push({source:name,status:'error',checked_at:now,error:e.message})}
 }
-const [fm,km,am]=await Promise.all([flipp(),kroger(),albertsonsPrices(),legacyPages().then(()=>0)]);
-data.meta.automation={last_run:now,matched:fm+km+am,schedule:'daily',source_checks:checks,policy:'Public weekly-ad deals via Flipp; Smith\'s full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails.'};
-if(fm+km+am>0)data.meta.updated_at=now;
+const [fm,km,am,sm]=await Promise.all([flipp(),kroger(),albertsonsPrices(),thunderbitSams(),legacyPages().then(()=>0)]);
+data.meta.automation={last_run:now,matched:fm+km+am+sm,schedule:'daily',source_checks:checks,policy:'Public weekly-ad deals via Flipp; Smith\'s full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails.'};
+if(fm+km+am+sm>0)data.meta.updated_at=now;
 deals.meta.updated_at=now;deals.meta.source_checks=checks;
 await fs.writeFile(FILE,JSON.stringify(data,null,2)+'\n');
 await fs.writeFile(HISTORY,JSON.stringify(history.slice(-5000),null,2)+'\n');
 await fs.writeFile(DEALS,JSON.stringify(deals,null,2)+'\n');
-console.log('verified matches',fm+km+am,'flipp',fm,'kroger',km,'abs',am);
+console.log('verified matches',fm+km+am+sm,'flipp',fm,'kroger',km,'abs',am,'sams',sm);
