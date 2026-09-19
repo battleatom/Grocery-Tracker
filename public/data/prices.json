@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "location": "Farmington, NM",
+    "updated_at": "2026-09-19T00:00:00-06:00",
+    "mode": "verified",
+    "stores": [
+      "Sam's Club",
+      "Walmart",
+      "Albertsons",
+      "Safeway",
+      "Smith's"
+    ],
+    "note": "Only retailer-local observations verified from public local retailer pages are populated."
+  },
+  "items": [
+    {
+      "id": "chicken-breast",
+      "name": "Boneless Chicken Breast",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "price": 2.99,
+          "unit_price": 2.99,
+          "unit": "lb",
+          "label": "Simple Truth Natural Big Deal",
+          "sale": true,
+          "source": "Smith's Farmington pickup",
+          "observed": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ground-beef-80",
+      "name": "Ground Beef 80/20",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "price": 11.97,
+          "unit_price": 3.99,
+          "unit": "lb",
+          "label": "Kroger 3 lb",
+          "sale": true,
+          "source": "Smith's Farmington pickup",
+          "observed": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "eggs-18",
+      "name": "Large Brown Eggs",
+      "category": "Dairy",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        {
+          "price": 3.93,
+          "unit_price": 0.218,
+          "unit": "each",
+          "label": "Marketside Cage Free 18 ct",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "gala-apples",
+      "name": "Gala Apples",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        {
+          "price": 3.24,
+          "unit_price": 1.08,
+          "unit": "lb",
+          "label": "3 lb bag",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "red-grapes",
+      "name": "Red Seedless Grapes",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        {
+          "price": 5.97,
+          "unit_price": 1.99,
+          "unit": "lb",
+          "label": "3 lb",
+          "sale": false,
+          "source": "Sam's #6347",
+          "observed": "2026-09-19"
+        },
+        {
+          "price": 3.76,
+          "unit_price": 1.67,
+          "unit": "lb",
+          "label": "~2.25 lb bag",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "bananas",
+      "name": "Bananas",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        {
+          "price": 1.47,
+          "unit_price": 0.49,
+          "unit": "lb",
+          "label": "3 lb",
+          "sale": false,
+          "source": "Sam's #6347",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pineapple",
+      "name": "Fresh Pineapple",
+      "category": "Produce",
+      "comparison_unit": "each",
+      "offers": [
+        null,
+        {
+          "price": 1.98,
+          "unit_price": 1.98,
+          "unit": "each",
+          "label": "each",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "jalapeno",
+      "name": "Fresh Jalapeño",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        {
+          "price": 0.18,
+          "unit_price": 1.32,
+          "unit": "lb",
+          "label": "each / final by weight",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "texas-toast",
+      "name": "Five Cheese Texas Toast",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        {
+          "price": 2.08,
+          "unit_price": 0.154,
+          "unit": "oz",
+          "label": "Great Value 13.5 oz",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "chicken-nuggets",
+      "name": "Chicken Nuggets",
+      "category": "Frozen",
+      "comparison_unit": "lb",
+      "offers": [
+        {
+          "price": 9.97,
+          "unit_price": 1.99,
+          "unit": "lb",
+          "label": "Tyson 5 lb",
+          "sale": true,
+          "source": "Sam's #6347",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pizza-rolls",
+      "name": "Pizza Rolls",
+      "category": "Frozen",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        {
+          "price": 10.67,
+          "unit_price": 0.168,
+          "unit": "oz",
+          "label": "Totino's 63.5 oz",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Honey Wheat Bread",
+      "category": "Pantry",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        {
+          "price": 3.37,
+          "unit_price": 0.169,
+          "unit": "oz",
+          "label": "Nature's Own 20 oz",
+          "sale": true,
+          "source": "Walmart #3428",
+          "observed": "2026-09-19"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "Dairy",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "Whole Milk",
+      "category": "Dairy",
+      "comparison_unit": "gal",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yogurt",
+      "name": "Greek Yogurt",
+      "category": "Dairy",
+      "comparison_unit": "oz",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "pork-loin",
+      "name": "Pork Loin",
+      "category": "Meat",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "broccoli-fresh",
+      "name": "Broccoli — Fresh",
+      "category": "Produce",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "broccoli-frozen",
+      "name": "Broccoli — Frozen",
+      "category": "Frozen",
+      "comparison_unit": "lb",
+      "offers": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
