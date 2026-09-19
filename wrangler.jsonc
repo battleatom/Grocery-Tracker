@@ -10,7 +10,7 @@
   "d1_databases": [
     {
       "binding": "UPLOADS",
-      "database_name": "REPLACE_WITH_EXISTING_UPLOAD_DATABASE_NAME",
+      "database_name": "grocery-tracker-uploads",
       "database_id": "0fb34e49-3e99-4366-b7c6-ec3806e0edd5"
     }
   ]
