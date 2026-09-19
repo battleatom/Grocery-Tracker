@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T15:16:13.759Z",
+    "updated_at": "2026-09-19T15:29:58.951Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -25,19 +25,19 @@
       "personalized_coupon"
     ],
     "automation": {
-      "last_run": "2026-09-19T15:16:13.759Z",
-      "matched": 550,
+      "last_run": "2026-09-19T15:29:58.951Z",
+      "matched": 176,
       "schedule": "daily",
       "source_checks": [
         {
           "source": "Kroger API / Smith's",
           "status": "credentials_missing",
-          "checked_at": "2026-09-19T15:16:13.759Z"
+          "checked_at": "2026-09-19T15:29:58.951Z"
         },
         {
           "source": "Flipp/Wishabi",
           "status": 200,
-          "checked_at": "2026-09-19T15:16:13.759Z",
+          "checked_at": "2026-09-19T15:29:58.951Z",
           "flyers": 5,
           "items": 1115,
           "deals": {
@@ -49,13 +49,13 @@
         {
           "source": "Sam's Club",
           "status": 200,
-          "checked_at": "2026-09-19T15:16:13.759Z",
+          "checked_at": "2026-09-19T15:29:58.951Z",
           "blocked": true
         },
         {
           "source": "Walmart",
           "status": 200,
-          "checked_at": "2026-09-19T15:16:13.759Z",
+          "checked_at": "2026-09-19T15:29:58.951Z",
           "blocked": true
         }
       ],
@@ -83,7 +83,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -98,7 +98,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -132,7 +132,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -147,7 +147,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -168,51 +168,9 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        {
-          "price": 104.99,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Christopher Knight Home Vintage Nightstand with Pattern Carved Drawer, Skirted Bedside Table, Dark B",
-          "sale": true,
-          "source": "Flipp weekly ad — Walmart",
-          "observed": "2026-09-19",
-          "promo_price": null,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 4.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Eggland's Best Eggs",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Betty Crocker Favorites Brownie Mix",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -244,7 +202,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -259,7 +217,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -280,49 +238,35 @@
           "source": "Sam's #6347",
           "observed": "2026-09-19"
         },
+        null,
         {
-          "price": 36.99,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "TredSafe Women's Coil On Edge Slip Resistant Shoes",
-          "sale": true,
-          "source": "Flipp weekly ad — Walmart",
-          "observed": "2026-09-19",
-          "promo_price": null,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5.99,
+          "price": 0.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Signature Select Red or Gold Potatoes",
+          "label": "Green, Red or Black Seedless Grapes",
           "sale": true,
-          "deal_type": "weekly_ad",
+          "deal_type": "coupon",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 5.99,
+          "price": 0.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Signature Select Red or Gold Potatoes",
+          "label": "Green, Red or Black Seedless Grapes",
           "sale": true,
-          "deal_type": "weekly_ad",
+          "deal_type": "coupon",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -389,35 +333,21 @@
           "automated": false
         },
         {
-          "price": 1.99,
+          "price": 1.29,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Jalapeno Peppers",
+          "label": "Signature Select Diced Chilies or Jalapeños",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
-        {
-          "price": 1.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Jalapeno Peppers",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         null
       ]
     },
@@ -428,51 +358,9 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        {
-          "price": 27.87,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Toastmaster 2-Slice Toaster, Stainless Steel, Extra Wide Slots, High Rise Toast Lift, Gluten Free Se",
-          "sale": true,
-          "source": "Flipp weekly ad — Walmart",
-          "observed": "2026-09-19",
-          "promo_price": null,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Nabisco Ritz Crackers or Toasted Chips",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 1.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Eggo Pancakes or Waffles 8-10 ct, Ore Ida Bagel Bites 7 oz or Toaster Strudel 6 ct",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -504,49 +392,35 @@
       "comparison_unit": "oz",
       "offers": [
         null,
+        null,
         {
-          "price": 4.46,
+          "price": 8.99,
+          "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Great Value Rising Crust Pepperoni Pizza, Marinara Sauce",
+          "label": "Totino's Pizza Rolls",
           "sale": true,
-          "source": "Flipp weekly ad — Walmart",
-          "observed": "2026-09-19",
-          "promo_price": null,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Wild Mike's Prime Time Pizza",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 5.99,
+          "price": 8.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Freschetta Frozen Pizza 20.28-27.51 oz or El Monterey Taquitos 18-20 ct",
+          "label": "Totino's Pizza Rolls",
           "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_type": "weekly_ad",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -559,51 +433,9 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        {
-          "price": 142,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Better Homes & Gardens Springwood Storage Accent Cabinet, Light Honey Finish",
-          "sale": true,
-          "source": "Flipp weekly ad — Walmart",
-          "observed": "2026-09-19",
-          "promo_price": null,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Nabisco Honey Maid Graham Crackers",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Izzio Sourdough Artisan Bread",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -614,21 +446,7 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        {
-          "price": 160,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Beautiful Barrymore Accent Chair by Drew Barrymore, Butterscotch Shearling",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         {
           "price": 1.99,
           "promo_price": null,
@@ -641,7 +459,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -656,7 +474,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -682,7 +500,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -697,7 +515,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -712,33 +530,33 @@
         null,
         null,
         {
-          "price": 3.99,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Yogurt Parfait",
+          "label": "Yasso Frozen Greek Yogurt or Bars",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 3.99,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Yogurt Parfait",
+          "label": "Yasso Frozen Greek Yogurt 14 oz or Bars 4 ct",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -752,36 +570,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 9.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Del Real Pork Carnitas",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Signature Select Pork Sirloin Roast",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -820,33 +610,33 @@
         null,
         null,
         {
-          "price": 2.99,
+          "price": 5.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "McCain Specialty Frozen Potatoes",
+          "label": "Signature Select Red or Gold Potatoes",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 2.99,
+          "price": 5.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "McCain Specialty Frozen Potatoes",
+          "label": "Signature Select Red or Gold Potatoes",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -872,49 +662,35 @@
       "comparison_unit": "each",
       "offers": [
         null,
+        null,
         {
-          "price": 129,
+          "price": 17.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Graco Pack 'n Play Playard Anywhere Dreamer Portable Playpen, Pristine, Blue",
+          "label": "Frito Lay Variety Pack Chips",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Oscar Mayer Fun Pack Lunchables",
-          "sale": true,
-          "deal_type": "weekly_ad",
+          "deal_type": "coupon",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 16.99,
+          "price": 17.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Gillette Value Pack Disposable Razors",
+          "label": "Frito Lay Variety Pack Chips",
           "sale": true,
-          "deal_type": "weekly_ad",
+          "deal_type": "coupon",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -928,8 +704,36 @@
       "offers": [
         null,
         null,
-        null,
-        null,
+        {
+          "price": 5.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "each",
+          "label": "Overjoyed Mini Cupcakes",
+          "sale": true,
+          "deal_type": "weekly_ad",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Albertsons",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
+        {
+          "price": 5.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "each",
+          "label": "Overjoyed Mini Cupcakes",
+          "sale": true,
+          "deal_type": "weekly_ad",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Safeway",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
         null
       ]
     },
@@ -941,36 +745,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 7.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Panera Bowls",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 7.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Panera Bowls",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -1007,21 +783,7 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        {
-          "price": 22.5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Free Assembly Women's High Rise Cropped Wide Leg Jeans",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         {
           "price": 6.99,
           "promo_price": null,
@@ -1034,22 +796,22 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 12.99,
+          "price": 6.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Open Nature Free or Clear Baby Wipes",
+          "label": "Open Nature Cage Free Large Brown Eggs",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1101,51 +863,9 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        {
-          "price": 4.74,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Beautiful 3-Compartment Bamboo Melamine Sardine Serve Tray by Drew Barrymore",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 12.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Hormel Deli Party Tray",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 14.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Bean Dip Party Tray",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -1157,36 +877,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 3,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Trident Gum or Lindt Sticks",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-29T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Trident Gum or Lindt Sticks",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -1203,14 +895,14 @@
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Mott's Clamato Juice",
+          "label": "Mott's Applesauce Cups",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -1218,14 +910,14 @@
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Mott's Apple Juice",
+          "label": "Mott's Applesauce Cups",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1251,7 +943,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -1266,7 +958,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1279,21 +971,7 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        {
-          "price": 84.88,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Avenco Pearl 6\" Twin Size Medium Adult Supportive Innerspring Mattress",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         {
           "price": 1.99,
           "promo_price": null,
@@ -1306,7 +984,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -1321,7 +999,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1334,49 +1012,35 @@
       "comparison_unit": "oz",
       "offers": [
         null,
+        null,
         {
-          "price": 169.99,
+          "price": 9.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Delta Children Essex 4-in-1 Convertible Baby Crib - Greenguard Gold Certified, Ebony/Natural",
+          "label": "505 Southwestern Flame Roasted Green Chile",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 29.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Bloom Superfoods and Greens",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 29.99,
+          "price": 9.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Bloom Superfoods and Greens",
+          "label": "505 Southwestern Flame Roasted Green Chile",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1389,51 +1053,9 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        {
-          "price": 98.97,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Beautiful 5.3 Qt Stand Mixer, White Icing with Flat Beater, Dough Hook, Balloon Whisk",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 9.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Signature Select Trail Mix",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Krusteaz Muffin or Dessert Mix",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -1457,7 +1079,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -1472,7 +1094,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1498,21 +1120,7 @@
       "comparison_unit": "each",
       "offers": [
         null,
-        {
-          "price": 248,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "VIZIO 55 in Mini LED Quantum 4K QLED HDR Smart TV, 2026 Model, VQM55C-10",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         null,
         null,
         null
@@ -1533,51 +1141,9 @@
           "source": "Sam's Club #6347 Farmington grocery page",
           "observed": "2026-09-19"
         },
-        {
-          "price": 397,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Blackstone Original Outdoor Griddle, 36 Inch 4-Burner Flat Top Grill with Hood, Black",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Hot Pockets 4 ct or Kanzen Entree 10.3-11.6 oz,",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Halloween Hot Wheels",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -1596,21 +1162,7 @@
           "source": "Sam's Club #6347 Farmington grocery page",
           "observed": "2026-09-19"
         },
-        {
-          "price": 67.97,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Momcozy Portable Water Warmer & Bottle Warmer MW05, Light Pink",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         {
           "price": 4.49,
           "promo_price": null,
@@ -1623,22 +1175,22 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 7.99,
+          "price": 4.49,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Waterfront Bistro Cooked Shrimp",
+          "label": "Signature Select Refreshe Purified Water",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1671,7 +1223,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -1686,22 +1238,22 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 2.99,
+          "price": 1.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Tostitos Chips & Salsa",
+          "label": "Mission Tortilla Chips",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1724,18 +1276,18 @@
         },
         null,
         {
-          "price": 1.49,
+          "price": 10,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Signature SELECT Taco Shells",
+          "label": "Old El Paso Taco or Fajita Seasoning Mix",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -1750,7 +1302,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -1814,36 +1366,8 @@
           "source": "Walmart #3428 Farmington grocery page",
           "observed": "2026-09-19"
         },
-        {
-          "price": 1.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Del Monte Tomatoes or Hunt's Manwich Sloppy Joe Sauce",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 1.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Del Monte Tomatoes or Hunt's Manwich Sloppy Joe Sauce",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -1876,36 +1400,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 3.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Country Crock Spread",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Country Crock Spread",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -1943,36 +1439,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Guacamole",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Guacamole",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -1984,36 +1452,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 8.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Boost Original Shakes",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 8.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Boost Original Shakes",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -2038,36 +1478,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 7.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Purex, Snuggle, ALL, Persil Laundry Care",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 7.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Purex, Snuggle, ALL, Persil Laundry Care",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -2113,39 +1525,11 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Halloween Paper Party Goods",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-29T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Halloween Paper Party Goods",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -2189,51 +1573,9 @@
           "observed": "2026-09-19",
           "automated": false
         },
-        {
-          "price": 12.97,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Fisher-Price Calming Vibes Puppy Soother Portable Sound Machine Plush Toy for Newborns",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Overjoyed Mini Cupcakes",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Overjoyed Mini Cupcakes",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -2255,36 +1597,8 @@
           "observed": "2026-09-19",
           "automated": false
         },
-        {
-          "price": 8.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Dove Promises Chocolate Candies",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 8.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Dove Promises Chocolate Candies",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -2296,36 +1610,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Signature Select Avocados",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Signature Select Avocados",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         {
           "price": 0.99,
           "unit_price": 0.99,
@@ -2359,7 +1645,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -2374,7 +1660,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -2410,7 +1696,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -2425,7 +1711,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -2448,49 +1734,35 @@
       "comparison_unit": "each",
       "offers": [
         null,
+        null,
         {
-          "price": 197,
+          "price": 2.49,
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Better Homes & Gardens Marlow 2-Piece Outdoor Rocking Chairs With Cushions In White/Cream",
+          "label": "Lucerne Sour Cream",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.29,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Sour Patch or Swedish Fish Candy",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-29T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 3.28,
+          "price": 2.49,
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Sour Patch or Swedish Fish Candy",
+          "label": "Lucerne Sour Cream",
           "sale": true,
-          "deal_type": "coupon",
+          "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -2568,22 +1840,22 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 9.99,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Turkey",
+          "label": "Butterball 93% Lean Ground Turkey",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -2598,33 +1870,33 @@
         null,
         null,
         {
-          "price": 6.99,
+          "price": 3.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Smithfield Premium Smoked Bacon",
+          "label": "Smithfield Loin Filets Tenderloins 18.4-27.2 oz or Premium Smoked Bacon 16 oz",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 6.99,
+          "price": 3.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Smithfield Premium Smoked Bacon",
+          "label": "Smithfield Loin Filets Tenderloins 18.4-27.2 oz or Premium Smoked Bacon 16 oz",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -2650,21 +1922,7 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        {
-          "price": 14.98,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "No Boundaries Women's Faux Leather Moto Shoulder Bag, Doe",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         null,
         null,
         null
@@ -2703,7 +1961,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -2718,7 +1976,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -2745,8 +2003,36 @@
       "offers": [
         null,
         null,
-        null,
-        null,
+        {
+          "price": 4.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "each",
+          "label": "Eggland's Best Eggs",
+          "sale": true,
+          "deal_type": "coupon",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Albertsons",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
+        {
+          "price": 4.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "each",
+          "label": "Eggland's Best Eggs",
+          "sale": true,
+          "deal_type": "coupon",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Safeway",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
         null
       ]
     },
@@ -2822,7 +2108,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -2837,7 +2123,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -2851,36 +2137,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Halfday Prebiotic Tea",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Halfday Prebiotic Tea",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -2891,51 +2149,9 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        {
-          "price": 29.98,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Altec Lansing Hydra Jolt 2.0 Everything Proof Wireless Magnetic Portable Bluetooth Speaker, Periwink",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 18.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "White Claw, Twisted Tea, New Belgium or Angry Orchard",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 18.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "White Claw, Twisted Tea, New Belgium or Angry Orchard",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -2959,51 +2175,9 @@
       "comparison_unit": "lb",
       "offers": [
         null,
-        {
-          "price": 138,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Better Homes & Gardens by POLYWOOD Southlake Outdoor Modern Adirondack Chair, All-Weather HDPE, Pati",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 6.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Hershey Halloween Snack Size Candy",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 8.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Ferrero Assorted Halloween Bags",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -3027,7 +2201,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -3042,7 +2216,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3056,36 +2230,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 2.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Kellogg's Pop Tarts, Rice Krispie Treats, Special K Bars, or NutriGrain Bars",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.46,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Kellogg's Pop Tarts, Rice Krispie Treats, Special K Bars, or NutriGrain Bars",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -3097,36 +2243,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 6,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "De Cecco Pasta",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 6,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "De Cecco Pasta",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -3150,7 +2268,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -3165,7 +2283,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3205,36 +2323,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Kellogg's Cereal, Kashi Cereal, Bear Naked Granola",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Kellogg's Cereal, Kashi Cereal, Bear Naked Granola",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -3271,21 +2361,7 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        {
-          "price": 31.24,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Mainstays Westley End Table, Black Wood",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
         {
           "price": 5,
           "promo_price": null,
@@ -3298,22 +2374,22 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 2.99,
+          "price": 5,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "SOMO's Beans",
+          "label": "Bush's Black, Kidney or Pinto Beans",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3340,36 +2416,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Brach's Candy Corn",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Brach's Candy Corn",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -3393,49 +2441,35 @@
       "comparison_unit": "floz",
       "offers": [
         null,
+        null,
         {
-          "price": 168,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "NapQueen Elsa 8\" Queen, Bonnell Coil, Innerspring Mattress",
+          "label": "Signature SELECT canola or Vegetable or Corn Oil",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 2.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Boston Market Entree or Pictsweet Vegetables",
-          "sale": true,
-          "deal_type": "coupon",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 2.99,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Boston Market Entree or Pictsweet Vegetables",
+          "label": "Signature SELECT canola or Vegetable or Corn Oil",
           "sale": true,
-          "deal_type": "coupon",
+          "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3450,33 +2484,33 @@
         null,
         null,
         {
-          "price": 4.49,
+          "price": 32.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Signature Select Balsamic Glaze of Modena, or Olive Garden Salad Dressing",
+          "label": "Signature SELECT Extra Virgin Olive Oil",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 4.49,
+          "price": 32.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Signature Select Balsamic Glaze of Modena, or Olive Garden Salad Dressing",
+          "label": "Signature SELECT Extra Virgin Olive Oil",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "deal_ends": "2026-09-28T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3490,36 +2524,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 6.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Yellow Vyron Mum",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 16.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "lb",
-          "label": "Hello Yellow Bouquet",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -3635,36 +2641,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 1.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Campbell's Chunky Soup",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 1.49,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Campbell's Chunky Soup",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     },
@@ -3689,8 +2667,36 @@
       "offers": [
         null,
         null,
-        null,
-        null,
+        {
+          "price": 2.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "oz",
+          "label": "Brach's Candy Corn",
+          "sale": true,
+          "deal_type": "weekly_ad",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Albertsons",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
+        {
+          "price": 2.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "oz",
+          "label": "Brach's Candy Corn",
+          "sale": true,
+          "deal_type": "weekly_ad",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Safeway",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
         null
       ]
     },
@@ -3727,9 +2733,51 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        null,
-        null,
-        null,
+        {
+          "price": 4.46,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "oz",
+          "label": "Great Value Rising Crust Cheese Pizza",
+          "sale": true,
+          "deal_type": "weekly_ad",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Walmart",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
+        {
+          "price": 3.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "oz",
+          "label": "Wild Mike's Prime Time Pizza",
+          "sale": true,
+          "deal_type": "coupon",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Albertsons",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
+        {
+          "price": 5.99,
+          "promo_price": null,
+          "unit_price": null,
+          "unit": "oz",
+          "label": "Freschetta Frozen Pizza 20.28-27.51 oz or El Monterey Taquitos 18-20 ct",
+          "sale": true,
+          "deal_type": "coupon",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
+          "source": "Flipp weekly ad — Safeway",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
+          "observed": "2026-09-19",
+          "observed_at": "2026-09-19T15:29:58.951Z",
+          "automated": true
+        },
         null
       ]
     },
@@ -3754,33 +2802,33 @@
       "offers": [
         null,
         {
-          "price": 89.74,
+          "price": 12.58,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "nutribullet Juicer 700 Watt with 27 oz Juice Pitcher",
+          "label": "Melissa & Doug Ice Cream Take-Along Clip-On Infant Toy with Sound and Vibration",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 6,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Florida's Natural Juice Blends",
+          "label": "Halo Top Ice Cream",
           "sale": true,
           "deal_type": "weekly_ad",
           "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -3795,7 +2843,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3821,7 +2869,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -3836,7 +2884,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3851,33 +2899,33 @@
         null,
         null,
         {
-          "price": 4.49,
+          "price": 2.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Siete Salsa",
+          "label": "Tostitos Chips & Salsa",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
-          "price": 3.49,
+          "price": 2.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Signature SELECT Salsa",
+          "label": "Tostitos Chips & Salsa",
           "sale": true,
           "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
+          "deal_ends": "2026-09-22T23:59:59-04:00",
           "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3890,51 +2938,9 @@
       "comparison_unit": "oz",
       "offers": [
         null,
-        {
-          "price": 92.68,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Better Homes & Gardens Modern Farmhouse Lift-Top Coffee Table, Rustic Gray",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Seattle's Best Coffee",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 29.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "oz",
-          "label": "Signature Select Coffee Pods",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -3958,7 +2964,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -3973,7 +2979,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -3986,51 +2992,9 @@
       "comparison_unit": "floz",
       "offers": [
         null,
-        {
-          "price": 2.78,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Pepsi Cola Soda Pop",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Poppi Prebiotic Soda",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 5,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Poppi Prebiotic Soda",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -4053,7 +3017,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null,
@@ -4081,7 +3045,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -4096,7 +3060,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -4109,51 +3073,9 @@
       "comparison_unit": "floz",
       "offers": [
         null,
-        {
-          "price": 59,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Ninja Nutri-Blender 20-Oz Personal Blender, (2) 20-Oz Dishwasher-Safe To-Go Cups, Smoothie, BN300GY ",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Walmart",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 3,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Bob Evans Side Dishes",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 1.99,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "floz",
-          "label": "Wolf Brand Chili or Near East Side Dishes",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-09-22T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
+        null,
         null
       ]
     },
@@ -4176,7 +3098,7 @@
           "source": "Flipp weekly ad — Walmart",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139239?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -4191,7 +3113,7 @@
           "source": "Flipp weekly ad — Albertsons",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8129281?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         {
@@ -4206,7 +3128,7 @@
           "source": "Flipp weekly ad — Safeway",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8127895?locale=en-us&postal_code=87401",
           "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
+          "observed_at": "2026-09-19T15:29:58.951Z",
           "automated": true
         },
         null
@@ -4220,36 +3142,8 @@
       "offers": [
         null,
         null,
-        {
-          "price": 6,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Celestial Season Tea Bags",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099572?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
-        {
-          "price": 6,
-          "promo_price": null,
-          "unit_price": null,
-          "unit": "each",
-          "label": "Celestial Season Tea Bags",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-09-28T23:59:59-04:00",
-          "source": "Flipp weekly ad — Safeway",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8099576?locale=en-us&postal_code=87401",
-          "observed": "2026-09-19",
-          "observed_at": "2026-09-19T15:16:13.759Z",
-          "automated": true
-        },
+        null,
+        null,
         null
       ]
     }

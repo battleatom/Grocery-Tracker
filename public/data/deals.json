@@ -1,18 +1,18 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-19T15:16:13.759Z",
+    "updated_at": "2026-09-19T15:29:58.951Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Kroger API / Smith's",
         "status": "credentials_missing",
-        "checked_at": "2026-09-19T15:16:13.759Z"
+        "checked_at": "2026-09-19T15:29:58.951Z"
       },
       {
         "source": "Flipp/Wishabi",
         "status": 200,
-        "checked_at": "2026-09-19T15:16:13.759Z",
+        "checked_at": "2026-09-19T15:29:58.951Z",
         "flyers": 5,
         "items": 1115,
         "deals": {
@@ -24,13 +24,13 @@
       {
         "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-09-19T15:16:13.759Z",
+        "checked_at": "2026-09-19T15:29:58.951Z",
         "blocked": true
       },
       {
         "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-09-19T15:16:13.759Z",
+        "checked_at": "2026-09-19T15:29:58.951Z",
         "blocked": true
       }
     ]
