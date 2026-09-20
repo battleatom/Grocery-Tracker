@@ -1,3 +1,4 @@
+import albertsonsProduce from './imports/manual/albertsons-produce-2026-09-19.json';
 import smithsPasted from './src/data/smiths-farmington-pasted-2026-09-19.js';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 
@@ -10,6 +11,7 @@ const RETAILERS={
 };
 const stores=new Set(Object.keys(RETAILERS));
 const STOP=new Set(['the','a','an','and','or','of','with','fresh','all','natural','value','great','kroger','marketside','members','member','mark','brand','pack','ct','oz','lb','lbs','each','priced','per','pound','case','bundle','tray','roll','vacuum','cryovac']);
+function positivePrice(n){n=Number(n);return Number.isFinite(n)&&n>0?n:null}
 function norm(s){return String(s||'').toLowerCase().replace(/®|™/g,'').replace(/[^a-z0-9%]+/g,' ').trim()}
 function tokens(s){return norm(s).split(/\s+/).filter(x=>x.length>1&&!STOP.has(x))}
 function signature(p){
@@ -109,7 +111,14 @@ export default {async fetch(request,env){
     p.observations=(p.observations||[]).map(o=>({...o,price:o.price>0?o.price:null,promo_price:o.promo_price>0?o.promo_price:null,regular_price:o.regular_price>0?o.regular_price:null,unit_price:o.unit_price>0?o.unit_price:null})).filter(o=>o.price||o.promo_price||o.unit_price);
     if(!p.observations.length)continue;
     const key=p.store+'|'+p.sku, prior=products.get(key);
-    const observations=[...(prior?.observations||[]),...(p.observations||[])];
+    const observations=[...(prior?.observations||[]),.  for(const row of albertsonsProduce.products||[]){
+   const sku=String(row.sku);
+   const obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:albertsonsProduce.captured_at,source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:albertsonsProduce.location,source_url:'https://www.albertsons.com/'}};
+   if(!obs.price&&!obs.unit_price)continue;
+   const p={id:'albertsons-'+sku,sku,store:'Albertsons',name:row.name,package:row.package||'',observations:[obs]};
+   const key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+..(p.observations||[])];
     products.set(key,{...p,observations});
    }
   }
