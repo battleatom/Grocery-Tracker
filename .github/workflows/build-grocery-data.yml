@@ -5,6 +5,10 @@ on:
     paths:
       - 'imports/**.xlsx'
       - 'scripts/**'
+      - 'src/**'
+      - 'worker.js'
+      - 'wrangler.jsonc'
+      - 'package.json'
 jobs:
   build:
     runs-on: ubuntu-latest
