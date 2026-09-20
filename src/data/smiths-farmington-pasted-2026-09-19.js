@@ -851,6 +851,1718 @@ export default {
       "1 lb",
       null,
       null
+    ],
+    [
+      "Kroger® Salted Butter Sticks",
+      3.49,
+      3.49,
+      "4 sticks / 16 oz",
+      0.22,
+      "oz"
+    ],
+    [
+      "Kroger® Mexican Style Blend Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Velveeta Original Cheese",
+      7.99,
+      7.99,
+      "32 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Heavy Whipping Cream Pint",
+      3.39,
+      3.39,
+      "1 pt",
+      0.21,
+      "fl oz"
+    ],
+    [
+      "Pete & Gerry's Organic Free Range Large Eggs",
+      7.49,
+      7.99,
+      "12 ct",
+      0.62,
+      "each"
+    ],
+    [
+      "Kroger® Sharp Cheddar Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Unsalted Butter Sticks",
+      3.49,
+      3.49,
+      "4 sticks / 16 oz",
+      0.22,
+      "oz"
+    ],
+    [
+      "Kroger® Parmesan Shredded Cheese",
+      2,
+      2.49,
+      "6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Kroger® Heavy Whipping Cream Quart",
+      5.49,
+      5.49,
+      "1 qt",
+      0.17,
+      "fl oz"
+    ],
+    [
+      "Kroger® Half and Half Quart",
+      2.79,
+      2.79,
+      "1 qt",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Simple Truth™ Natural Cage Free Grade A Large Brown Eggs",
+      5.49,
+      5.49,
+      "18 ct / 36 oz",
+      0.3,
+      "each"
+    ],
+    [
+      "Daisy Pure and Natural Squeeze Sour Cream",
+      3.29,
+      3.49,
+      "14 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Kroger® Whole Milk Mozzarella Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Philadelphia Original Cream Cheese Brick",
+      3.49,
+      3.49,
+      "8 oz",
+      0.44,
+      "oz"
+    ],
+    [
+      "Daisy Pure and Natural Sour Cream",
+      2.99,
+      3.29,
+      "16 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Kroger® Mozzarella Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Colby Jack Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Kroger® 4% Milkfat Small Curd Cottage Cheese",
+      3.19,
+      3.19,
+      "24 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "fairlife Ultra-Filtered Milk, Lactose Free, High Protein, 2% Reduced Fat Milk",
+      5.99,
+      5.99,
+      "52 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Colby Jack Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Singles American Sliced Cheese",
+      2.79,
+      2.79,
+      "16 slices / 12 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Daisy Pure and Natural Sour Cream",
+      1.99,
+      1.99,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® 2% Low Fat Small Curd Cottage Cheese",
+      3.19,
+      3.19,
+      "24 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Kroger® Half and Half Pint",
+      1.99,
+      1.99,
+      "1 pt",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kraft Singles American Sliced Cheese",
+      4.29,
+      4.29,
+      "16 ct",
+      0.36,
+      "oz"
+    ],
+    [
+      "Kroger® Original Cream Cheese Brick",
+      1.99,
+      1.99,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Mild Cheddar Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Simple Truth™ Natural Cage Free Grade A Large Brown Eggs",
+      3.99,
+      3.99,
+      "12 ct / 24 oz",
+      0.33,
+      "each"
+    ],
+    [
+      "Kroger® 4% Milkfat Small Curd Cottage Cheese",
+      1.99,
+      2.59,
+      "16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Kroger® Parmesan Grated Cheese",
+      3.49,
+      3.49,
+      "8 oz",
+      0.44,
+      "oz"
+    ],
+    [
+      "Kroger® Original Sour Cream",
+      1.99,
+      1.99,
+      "16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Kroger® Original Cream Cheese",
+      3.29,
+      3.29,
+      "2 ct / 8 oz each",
+      0.21,
+      "oz"
+    ],
+    [
+      "Blue Bonnet Vegetable Oil Sticks",
+      1.49,
+      1.49,
+      "16 oz",
+      0.09,
+      "oz"
+    ],
+    [
+      "Kroger® Pepper Jack Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Kroger® Smoke Flavored Provolone Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Philadelphia Original Cream Cheese Brick",
+      5.49,
+      5.99,
+      "2 ct / 8 oz each",
+      0.34,
+      "oz"
+    ],
+    [
+      "Kroger® Swiss Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "fairlife Ultra-Filtered Milk, Lactose Free, High Protein, 2% Reduced Fat Chocolate Milk",
+      5.99,
+      5.99,
+      "52 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "fairlife Ultra-Filtered Milk, Lactose Free, High Protein, Fat Free Milk",
+      5.99,
+      5.99,
+      "52 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Mexican Style Blend Shredded Cheese Family Size",
+      7.29,
+      7.29,
+      "32 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Imperial Vegetable Oil Spread Sticks",
+      1.39,
+      1.39,
+      "4 sticks / 16 oz",
+      0.09,
+      "oz"
+    ],
+    [
+      "Fage® Total Plain Nonfat Greek Yogurt Tub",
+      7.29,
+      7.29,
+      "32 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Kroger® Colby Jack Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Sargento® Provolone Sliced Cheese",
+      3.33,
+      3.5,
+      "12 slices / 8 oz",
+      0.42,
+      "oz"
+    ],
+    [
+      "Good Culture Simply Cottage Cheese, 2% Milkfat",
+      4.29,
+      4.29,
+      "16 oz",
+      0.27,
+      "oz"
+    ],
+    [
+      "Kroger® Medium Cheddar Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Kroger® Lactose Free 2% Reduced Fat Milk Half Gallon",
+      3.39,
+      3.79,
+      "1/2 gal",
+      0.05,
+      "fl oz"
+    ],
+    [
+      "Sargento® Colby-Jack Sliced Cheese",
+      3.33,
+      3.5,
+      "11 slices / 7.5 oz",
+      0.44,
+      "oz"
+    ],
+    [
+      "Kroger® Cheddar Jack Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "fairlife Ultra-Filtered Milk, Lactose Free, High Protein, Whole Milk",
+      5.99,
+      5.99,
+      "52 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Simple Truth Organic® Vitamin D Whole Milk Half Gallon",
+      4.29,
+      4.29,
+      "1/2 gal",
+      0.07,
+      "fl oz"
+    ],
+    [
+      "Kroger® Sharp Cheddar Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® 2% Low Fat Small Curd Cottage Cheese",
+      1.99,
+      2.59,
+      "16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Kroger® Mozzarella String Cheese",
+      3.49,
+      3.49,
+      "12 ct / 1 oz",
+      0.29,
+      "oz"
+    ],
+    [
+      "Vital Farms® Pasture-Raised Large Brown Eggs",
+      7.49,
+      7.49,
+      "12 ct",
+      0.62,
+      "each"
+    ],
+    [
+      "Kroger® Italian Style Blend Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Whole Chocolate Milk Half Gallon",
+      3.29,
+      3.29,
+      "1/2 gal",
+      0.05,
+      "fl oz"
+    ],
+    [
+      "Kroger® Mexican Style Blend Shredded Cheese",
+      2.99,
+      3.69,
+      "16 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Kraft Singles American Sliced Cheese",
+      5.49,
+      5.49,
+      "24 ct",
+      0.34,
+      "oz"
+    ],
+    [
+      "Kroger® Singles American Sliced Cheese",
+      3.29,
+      3.29,
+      "24 slices / 16 oz",
+      0.21,
+      "oz"
+    ],
+    [
+      "Simple Truth Organic® 2% Reduced Fat Milk Half Gallon",
+      4.29,
+      4.29,
+      "1/2 gal",
+      0.07,
+      "fl oz"
+    ],
+    [
+      "Sargento® Pepper Jack Sliced Cheese",
+      3.33,
+      3.5,
+      "10 slices / 7.5 oz",
+      0.44,
+      "oz"
+    ],
+    [
+      "Philadelphia Original Cream Cheese Spread",
+      3.99,
+      4.29,
+      "8 oz",
+      0.5,
+      "oz"
+    ],
+    [
+      "Kroger® Extra Sharp Cheddar Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Dean's® French Onion Dip",
+      3.39,
+      3.39,
+      "16 oz",
+      0.21,
+      "oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat Harvest Peach Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Coffee Mate French Vanilla Flavored Coffee Creamer Non-Dairy Gluten-Free",
+      3.99,
+      4.49,
+      "32 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Reduced Fat Mexican Style Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Chobani® Vanilla with Mixed Berry Low Fat Greek Yogurt Cups",
+      3.99,
+      5.49,
+      "4 pk / 5.3 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Cacique® Ranchero® Part Skim Milk Queso Fresco Cheese",
+      2.99,
+      2.99,
+      "10 oz",
+      0.3,
+      "oz"
+    ],
+    [
+      "Kroger® Grade AA Large White Eggs",
+      1.79,
+      1.79,
+      "12 ct",
+      0.15,
+      "each"
+    ],
+    [
+      "Kroger® Grade A Large White Eggs",
+      8.75,
+      8.75,
+      "60 ct",
+      0.15,
+      "each"
+    ],
+    [
+      "Sargento Sharp Cheddar Natural Cheese 11 Slices",
+      3.33,
+      3.5,
+      "8 oz",
+      0.42,
+      "oz"
+    ],
+    [
+      "Oikos Triple Zero Vanilla High Protein Nonfat Greek Yogurt Tub",
+      7.49,
+      7.49,
+      "32 fl oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Kroger® 4% Milkfat Large Curd Cottage Cheese",
+      3.19,
+      3.19,
+      "24 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Lactaid® Lactose Free 2% Reduced Fat Milk",
+      6.79,
+      6.79,
+      "96 fl oz",
+      0.07,
+      "fl oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat Strawberry Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Chobani® Plain Nonfat Greek Yogurt Tub",
+      6.79,
+      6.79,
+      "32 oz",
+      0.21,
+      "oz"
+    ],
+    [
+      "Daisy Pure and Natural Sour Cream",
+      4.19,
+      4.19,
+      "24 oz",
+      0.17,
+      "oz"
+    ],
+    [
+      "Country Crock Original Spread Tub",
+      3.39,
+      3.69,
+      "15 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Kroger® Medium Cheddar Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Oikos Triple Zero Vanilla High Protein Nonfat Greek Yogurt Cups",
+      5.29,
+      5.29,
+      "4 pk / 5.3 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Vitamin D Whole Milk 16 fl. oz. Bottle",
+      1.39,
+      1.39,
+      "1 pt",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Kroger® Pepper Jack Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Smith's™ Vitamin D Whole Milk Gallon",
+      3.79,
+      3.79,
+      "1 gal",
+      0.03,
+      "fl oz"
+    ],
+    [
+      "Kroger® Salted Butter Sticks BIG DEAL!",
+      6.49,
+      6.49,
+      "4 sticks / 16 oz / 2 pk",
+      0.2,
+      "oz"
+    ],
+    [
+      "Kroger® Non-Dairy French Vanilla Coffee Creamer",
+      2.89,
+      2.89,
+      "32 fl oz",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Sargento® Off the Block Fine Cut 4 Cheese Mexican Blend Natural Cheese Shreds",
+      3.5,
+      4.19,
+      "8 oz",
+      0.44,
+      "oz"
+    ],
+    [
+      "Land O Lakes Salted Butter Half Sticks",
+      4.99,
+      4.99,
+      "8 sticks / 16 oz",
+      0.31,
+      "oz"
+    ],
+    [
+      "Kroger® Havarti Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Chobani® Flip® Chocolate Chip Cookie Dough™ Low Fat Greek Yogurt Cup",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Kroger® French Onion Sour Cream Dip and Spread",
+      1.99,
+      1.99,
+      "16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Chobani Sweet Cream Coffee Creamer",
+      4.5,
+      6.49,
+      "24 fl oz",
+      0.19,
+      "fl oz"
+    ],
+    [
+      "Kroger® Mozzarella Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Mozzarella Shredded Cheese Family Size",
+      7.29,
+      7.29,
+      "32 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Happy Egg Co.® Free Range Large Brown Eggs",
+      6.29,
+      6.29,
+      "12 ct",
+      0.52,
+      "each"
+    ],
+    [
+      "Kroger® Whole Vitamin D Milk 32 fl. oz. Bottle",
+      2.19,
+      2.19,
+      "1 qt",
+      0.07,
+      "fl oz"
+    ],
+    [
+      "Lactaid® Lactose-Free Whole Milk",
+      6.79,
+      6.79,
+      "96 fl oz",
+      0.07,
+      "fl oz"
+    ],
+    [
+      "Chobani Non-Fat Vanilla Greek Yogurt",
+      6.79,
+      6.79,
+      "32 oz",
+      0.21,
+      "oz"
+    ],
+    [
+      "Country Crock Original Buttery Vegetable Oil Spread",
+      6.49,
+      6.49,
+      "45 oz",
+      0.14,
+      "oz"
+    ],
+    [
+      "Vital Farms® Pasture-Raised Eggs Large",
+      10.49,
+      10.49,
+      "18 ct",
+      0.58,
+      "each"
+    ],
+    [
+      "Reddi-wip Original Whipped Topping",
+      3.69,
+      3.69,
+      "6.5 oz",
+      0.57,
+      "oz"
+    ],
+    [
+      "Kroger® Lactose Free Vitamin D Milk Half Gallon",
+      3.39,
+      3.79,
+      "1/2 gal",
+      0.05,
+      "fl oz"
+    ],
+    [
+      "Kroger® Aged Sharp White Cheddar Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat Cherry Orchard Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Philadelphia Original Cream Cheese Whipped Spread",
+      4.49,
+      4.49,
+      "8 oz",
+      0.56,
+      "oz"
+    ],
+    [
+      "Kroger® Extra Sharp Cheddar Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Simple Truth Organic® Plain Nonfat Greek Yogurt Tub",
+      4.49,
+      4.49,
+      "32 oz",
+      0.14,
+      "oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat Strawberry Banana Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Kerrygold Irish Grass-Fed Salted Butter Sticks",
+      5.29,
+      5.29,
+      "8 oz",
+      0.66,
+      "oz"
+    ],
+    [
+      "Kroger® Orange Rind Muenster Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Fage® Total Plain Low Fat Greek Yogurt Tub",
+      7.29,
+      7.29,
+      "32 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Simple Truth Organic® Vitamin D Whole Milk Gallon",
+      7.49,
+      7.49,
+      "1 gal",
+      0.06,
+      "fl oz"
+    ],
+    [
+      "Simple Truth® Plant Based Non Dairy Unsweetened Almondmilk Half Gallon",
+      2.69,
+      2.69,
+      "1/2 gal",
+      0.04,
+      "fl oz"
+    ],
+    [
+      "Sargento® Swiss Sliced Cheese",
+      3.33,
+      3.5,
+      "11 slices / 7 oz",
+      0.48,
+      "oz"
+    ],
+    [
+      "Kroger® Pizza Blend Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Chobani® Flip® Chocolate S'more S'mores™ Low Fat Greek Yogurt Cup",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Kroger® Zero Sugar French Vanilla Coffee Creamer",
+      2.89,
+      2.89,
+      "32 fl oz",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Kroger® Italian Sweet Cream Coffee Creamer",
+      2.89,
+      2.89,
+      "32 fl oz",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Kroger® Original Whipped Cream Cheese Spread",
+      2.19,
+      2.19,
+      "8 oz",
+      0.27,
+      "oz"
+    ],
+    [
+      "Chobani® Flip® Chocolate Peanut Butter Cup™ Low Fat Greek Yogurt Cup",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Kroger® Half and Half Half Gallon",
+      4.99,
+      4.99,
+      "1/2 gal",
+      0.08,
+      "fl oz"
+    ],
+    [
+      "Kroger® Mozzarella String Cheese",
+      6.79,
+      6.79,
+      "24 ct / 1 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Kroger® Medium Cheddar Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kraft Mexican Style Four Cheese Blend Shredded Cheese",
+      3.29,
+      3.79,
+      "8 oz",
+      0.41,
+      "oz"
+    ],
+    [
+      "Kroger® 2% Reduced Fat Milk 16 fl. oz. Bottle",
+      1.39,
+      1.39,
+      "1 pt",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Daisy Pure and Natural Light Squeeze Sour Cream",
+      3.29,
+      3.49,
+      "14 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Simple Truth® Cage Free Grade A Large Brown Eggs",
+      6.79,
+      6.79,
+      "24 ct",
+      0.28,
+      "each"
+    ],
+    [
+      "Kroger® Fat Free Small Curd Cottage Cheese",
+      3.19,
+      3.19,
+      "24 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Chobani Flip Greek Chocolate Covered Strawberry Yogurt",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Kroger® 2% Reduced Fat Milk 32 fl. oz. Bottle",
+      2.19,
+      2.19,
+      "1 qt",
+      0.07,
+      "fl oz"
+    ],
+    [
+      "Kroger® Caramel Vanilla Coffee Creamer",
+      2.89,
+      2.89,
+      "32 fl oz",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Chobani® Flip® Cookies & Cream™ Low Fat Greek Yogurt Cup",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Land O' Lakes Traditional Half And Half Quart",
+      3.99,
+      3.99,
+      "1 qt",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Whipping Cream Pint",
+      3.29,
+      3.29,
+      "1 pt",
+      0.21,
+      "fl oz"
+    ],
+    [
+      "Sargento® Whole Milk Mozzarella Shredded Cheese",
+      3.5,
+      4.19,
+      "8 oz",
+      0.44,
+      "oz"
+    ],
+    [
+      "Almond Breeze Dairy Free Unsweetened Original Almond Milk Half Gallon",
+      3.79,
+      3.79,
+      "1/2 gal",
+      0.06,
+      "fl oz"
+    ],
+    [
+      "Kroger® Gouda Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Kroger® Original Whipped Cream Cheese Spread",
+      3.19,
+      3.19,
+      "12 oz",
+      0.27,
+      "oz"
+    ],
+    [
+      "Kroger® Sharp Cheddar Shredded Cheese Family Size",
+      7.29,
+      7.29,
+      "32 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Kroger® Flaky Butter Flavored Jumbo Biscuits",
+      1.99,
+      1.99,
+      "8 ct / 16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "The Greek Gods® Honey Vanilla Greek Style Yogurt Tub",
+      4.59,
+      4.59,
+      "24 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Fage® Total Plain Whole Milk Greek Yogurt Tub",
+      7.29,
+      7.29,
+      "32 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Daisy Pure and Natural 2% Low Fat Cottage Cheese",
+      5.49,
+      5.49,
+      "24 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat French Vanilla Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Chobani® Flip® Key Lime Crumble™ Low Fat Greek Yogurt Cup",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat Mountain Blueberry Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Kraft Singles 2% Milk American Sliced Cheese",
+      4.29,
+      4.29,
+      "16 ct",
+      0.4,
+      "oz"
+    ],
+    [
+      "Kroger® Nacho & Taco Blend Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Yoplait™ Original Low Fat Mixed Berry Yogurt Cup",
+      0.8,
+      0.8,
+      "6 oz",
+      0.13,
+      "oz"
+    ],
+    [
+      "Yoplait® Original Smooth Style Strawberry Low Fat Yogurt Tub",
+      3.49,
+      3.49,
+      "32 oz",
+      0.11,
+      "oz"
+    ],
+    [
+      "International Delight French Vanilla Coffee Creamer",
+      3.99,
+      4.29,
+      "32 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Smith's™ 2% Reduced Fat Milk Gallon",
+      3.79,
+      3.79,
+      "1 gal",
+      0.03,
+      "fl oz"
+    ],
+    [
+      "Coffee mate French Vanilla Flavored Coffee Creamer Non-Dairy Gluten-Free",
+      7.79,
+      7.79,
+      "64 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Reduced Fat Mozzarella String Cheese",
+      3.49,
+      3.49,
+      "12 ct / 10 oz",
+      0.35,
+      "oz"
+    ],
+    [
+      "Coffee mate Zero Sugar French Vanilla Flavored Liquid Coffee Creamer",
+      3.99,
+      4.49,
+      "32 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Monterey Jack Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Simple Truth Organic® Half & Half Quart",
+      4.79,
+      4.79,
+      "1 qt",
+      0.15,
+      "fl oz"
+    ],
+    [
+      "Kroger® Low-Moisture Part Skim Mozzarella Shredded Cheese",
+      2.99,
+      3.69,
+      "16 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Chobani® Vanilla Nonfat Greek Yogurt Cups",
+      3.99,
+      5.49,
+      "4 ct / 5.3 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Smith's™ Vitamin D Whole Milk Half Gallon",
+      2.49,
+      2.49,
+      "1/2 gal",
+      0.04,
+      "fl oz"
+    ],
+    [
+      "Chobani Non-Fat Greek Strawberry on the Bottom Yogurt",
+      1.5,
+      1.5,
+      "5.3 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Vital Farms® Pasture-Raised Large Brown Grade-A Organic Eggs",
+      9.99,
+      9.99,
+      "12 ct",
+      0.83,
+      "each"
+    ],
+    [
+      "Pillsbury™ Cinnamon Rolls with Original Icing",
+      3.39,
+      3.39,
+      "8 rolls / 12.4 oz",
+      0.27,
+      "oz"
+    ],
+    [
+      "International Delight Caramel Macchiato Coffee Creamer",
+      3.99,
+      4.29,
+      "32 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Colby Jack Block Cheese",
+      2.99,
+      3.69,
+      "16 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Sargento® Off the Block 4 State Cheddar® Shredded Cheese",
+      3.5,
+      4.19,
+      "7.5 oz",
+      0.47,
+      "oz"
+    ],
+    [
+      "The Greek Gods® Plain Traditional Greek Style Yogurt Tub",
+      4.59,
+      4.59,
+      "24 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Kroger® Monterey Jack Block Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Daisy Pure and Natural 4% Cottage Cheese",
+      5.49,
+      5.49,
+      "24 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Chobani Vanilla Coffee Creamer",
+      4.5,
+      6.49,
+      "24 fl oz",
+      0.19,
+      "fl oz"
+    ],
+    [
+      "Kroger® Reduced Fat Sharp Cheddar Shredded Cheese",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Coffee mate Hazelnut Flavored Coffee Creamer Non-Dairy Gluten-Free",
+      3.99,
+      4.49,
+      "32 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Chobani® Non-Fat Greek Yogurt Peach on the Bottom",
+      1.5,
+      1.5,
+      "5.3 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Chobani® Flip® Strawberry Cheesecake™ Low Fat Greek Yogurt Cup",
+      1.79,
+      1.79,
+      "4.5 oz",
+      0.4,
+      "oz"
+    ],
+    [
+      "Kroger® Mild Cheddar Sliced Cheese",
+      2,
+      2.49,
+      "8 slices / 6 oz",
+      0.33,
+      "oz"
+    ],
+    [
+      "Almond Breeze Dairy Free Unsweetened Vanilla Almond Milk Half Gallon",
+      3.79,
+      3.79,
+      "1/2 gal",
+      0.06,
+      "fl oz"
+    ],
+    [
+      "natural bliss Sweet Cream Flavored Creamer Gluten Free Creamer Iced Hot Coffee",
+      4.99,
+      5.79,
+      "32 fl oz",
+      0.16,
+      "fl oz"
+    ],
+    [
+      "Kroger® Singles Pepper Jack Sliced Cheese",
+      2.79,
+      2.79,
+      "16 slices / 12 oz",
+      0.23,
+      "oz"
+    ],
+    [
+      "Smith's™ 2% Reduced Fat Milk Half Gallon",
+      2.49,
+      2.49,
+      "1/2 gal",
+      0.04,
+      "fl oz"
+    ],
+    [
+      "Chobani® Non-Fat Plain Greek Yogurt",
+      1.5,
+      1.5,
+      "5.3 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Kroger® Light Sour Cream",
+      1.99,
+      1.99,
+      "16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Kroger® Sharp Cheddar Shredded Cheese",
+      2.99,
+      3.69,
+      "16 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Tillamook Cut Triple Cheddar Cheese Blend Farmstyle Shreds Cheese",
+      4.99,
+      4.99,
+      "8 oz",
+      0.62,
+      "oz"
+    ],
+    [
+      "Yakult® Probiotic Nonfat Yogurt Drinks",
+      3.99,
+      3.99,
+      "5 ct / 2.7 fl oz",
+      0.3,
+      "fl oz"
+    ],
+    [
+      "Kroger® Colby & Monterey Jack Cheese Sticks",
+      3.49,
+      3.49,
+      "12 ct / .75 oz each",
+      0.39,
+      "oz"
+    ],
+    [
+      "Tillamook Farmstyle Thick Cut Mozzarella Shredded Cheese",
+      4.99,
+      4.99,
+      "8 oz",
+      0.62,
+      "oz"
+    ],
+    [
+      "Organic Valley® Whole Milk Half Gallon",
+      5.79,
+      6.29,
+      "64 fl oz",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Pillsbury™ Original Crescent Rolls Refrigerated Canned Pastry Dough",
+      3.39,
+      3.39,
+      "8 rolls / 8 oz",
+      0.42,
+      "oz"
+    ],
+    [
+      "Nellie's Free Range Eggs Large",
+      5.49,
+      5.49,
+      "12 ct",
+      0.46,
+      "each"
+    ],
+    [
+      "Silk Unsweet Dairy Free Vegan Almond Milk Half Gallon",
+      3.99,
+      3.99,
+      "1/2 gal",
+      0.06,
+      "fl oz"
+    ],
+    [
+      "Daisy Pure and Natural 2% Low Fat Cottage Cheese",
+      4.19,
+      4.19,
+      "16 oz",
+      0.26,
+      "oz"
+    ],
+    [
+      "Sargento® Mozzarella String Cheese® Sticks",
+      4.49,
+      6.29,
+      "12 ct / 1 oz each",
+      0.37,
+      "oz"
+    ],
+    [
+      "Chobani Nonfat Greek Vanilla Yogurt",
+      1.5,
+      1.5,
+      "5.3 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Pillsbury™ Ready to Bake Chocolate Chip Cookie Dough",
+      4.49,
+      4.99,
+      "24 ct / 0.67 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Kroger® Butter with Olive Oil and Sea Salt Spreadable Tub",
+      3.99,
+      3.99,
+      "15 oz",
+      0.27,
+      "oz"
+    ],
+    [
+      "Eggland's Best 100% USDA Organic Certified Large Brown Eggs",
+      6.29,
+      6.29,
+      "12 ct",
+      0.52,
+      "each"
+    ],
+    [
+      "Chobani Low-Fat Key Lime Blended Greek Yogurt",
+      3.99,
+      5.49,
+      "4 ct / 5.3 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Kroger® Mild Cheddar Cheese Block",
+      2,
+      2.49,
+      "8 oz",
+      0.25,
+      "oz"
+    ],
+    [
+      "Kroger® Butter Flavored Jumbo Biscuits",
+      1.99,
+      1.99,
+      "8 ct / 16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Fage® Total Plain 0% Milkfat Greek Yogurt Cup",
+      1.25,
+      1.59,
+      "5.3 oz",
+      0.24,
+      "oz"
+    ],
+    [
+      "Land O' Lakes Heavy Whipping Cream Pint",
+      4.69,
+      4.69,
+      "16 fl oz",
+      0.29,
+      "fl oz"
+    ],
+    [
+      "Coffee Mate Italian Sweet Crème Flavored Coffee Creamer Zero Added Sugar Gluten-Free",
+      3.99,
+      4.49,
+      "32 fl oz",
+      0.12,
+      "fl oz"
+    ],
+    [
+      "Kroger® Hazelnut Coffee Creamer",
+      2.89,
+      2.89,
+      "32 fl oz",
+      0.09,
+      "fl oz"
+    ],
+    [
+      "Simple Truth® Dairy Free Unsweetened Vanilla Almond Milk Half Gallon",
+      2.69,
+      2.69,
+      "1/2 gal",
+      0.04,
+      "fl oz"
+    ],
+    [
+      "Happy Egg Co.® Free Range Large Brown Eggs",
+      8.79,
+      8.79,
+      "18 ct",
+      0.49,
+      "each"
+    ],
+    [
+      "Kroger® Plain Nonfat Greek Yogurt Tub",
+      4.49,
+      4.49,
+      "32 oz",
+      0.14,
+      "oz"
+    ],
+    [
+      "Tillamook Farmstyle Thick Cut Mexican 4 Cheese Blend Shredded Cheese",
+      4.99,
+      4.99,
+      "8 oz",
+      0.62,
+      "oz"
+    ],
+    [
+      "Chobani Non-Fat Strawberry on the Bottom Greek Yogurt",
+      3.99,
+      5.49,
+      "4 ct / 5.3 oz",
+      0.19,
+      "oz"
+    ],
+    [
+      "Sargento® Medium Cheddar Sliced Cheese",
+      3.33,
+      3.5,
+      "11 slices / 8 oz",
+      0.42,
+      "oz"
+    ],
+    [
+      "Kroger® 4% Milkfat Large Curd Cottage Cheese",
+      1.99,
+      2.59,
+      "16 oz",
+      0.12,
+      "oz"
+    ],
+    [
+      "Lactaid® Lactose Free 2% Reduced Fat Milk Half Gallon",
+      4.99,
+      4.99,
+      "0.5 gal",
+      0.08,
+      "fl oz"
+    ],
+    [
+      "Chobani® Low-Fat Greek Yogurt Mixed Berry Blended",
+      1.5,
+      1.5,
+      "5.3 oz",
+      0.28,
+      "oz"
+    ],
+    [
+      "Daisy Pure and Natural Light Sour Cream",
+      2.99,
+      3.29,
+      "16 oz",
+      0.19,
+      "oz"
     ]
   ]
 };
