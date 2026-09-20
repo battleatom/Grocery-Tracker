@@ -1,3 +1,4 @@
+import samsAlbuquerqueBeef from './src/data/samsclub-albuquerque-beef-2026-09-20.js';
 import samsAlbuquerqueSavings from './src/data/samsclub-albuquerque-grocery-savings-2026-09-19.js';
 import safewayFarmingtonDairy from './src/data/safeway-farmington-dairy-new-trending-2026-09-19.js';
 import safewayFarmingtonMeat from './src/data/safeway-farmington-meat-2026-09-19.js';
@@ -175,4 +176,9 @@ export default {async fetch(request,env){
   }catch(e){return json({error:e.message||'Could not save spreadsheet.'},400)}
  }
  return env.ASSETS.fetch(request);
-}};
+}}for (const row of samsAlbuquerqueBeef.products) {
+  const obs={price:positivePrice(row.price),regular_price:null,promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:samsAlbuquerqueBeef.captured_at,out_of_stock:!!row.out_of_stock,source:{collector:'pasted-retailer-page',source_scope:'new_mexico',store_location:samsAlbuquerqueBeef.location,url:'https://www.samsclub.com/browse/beef/1548'}};
+  const p={id:'sams-abq-'+row.sku,sku:row.sku,store:"Sam's Club",name:row.name,package:'priced per pound',category:'Meat & Seafood',observations:[obs]};
+  const key=p.store+'|'+p.sku; if (byKey.has(key)) byKey.get(key).observations.push(obs); else { byKey.set(key,p); products.push(p); }
+}
+;
