@@ -80,7 +80,16 @@ export function validateUpload(body){
  return usable;
 }
 
-export default {async fetch(request,env){
+async function scrapeAndSave(env,maxQueries=8){
+ if(!env.UPLOADS)throw Error('Catalog storage unavailable');
+ const result=await runEssentialScrape(env,{stores:["Walmart","Smith's","Sam's Club"],queries:ESSENTIAL_SEARCHES,maxQueries:Math.max(1,Math.min(Number(maxQueries)||8,ESSENTIAL_SEARCHES.length))});
+ const now=new Date().toISOString(),hash='browser-'+now.replace(/[^0-9]/g,'');
+ const data={hash,filename:'Browser Run essentials '+now,imported_at:now,products:result.products,rows:[],usable_rows:result.products.length,source:'browser-run'};
+ await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
+ return result;
+}
+
+export default {async scheduled(controller,env,ctx){ctx.waitUntil(scrapeAndSave(env,8));},async fetch(request,env){
  const url=new URL(request.url);
  if(url.pathname==='/api/scrape/essentials'){
   if(request.method!=='POST')return json({error:'Method not allowed'},405);
@@ -88,10 +97,7 @@ export default {async fetch(request,env){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   try{
    const body=await request.json().catch(()=>({}));
-   const result=await runEssentialScrape(env,{stores:Array.isArray(body.stores)?body.stores:undefined,queries:Array.isArray(body.queries)?body.queries:ESSENTIAL_SEARCHES,maxQueries:Math.max(1,Math.min(Number(body.maxQueries)||8,ESSENTIAL_SEARCHES.length))});
-   const now=new Date().toISOString(),hash='browser-'+now.replace(/[^0-9]/g,'');
-   const data={hash,filename:'Browser Run essentials '+now,imported_at:now,products:result.products,rows:[],usable_rows:result.products.length,source:'browser-run'};
-   await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
+   const result=await scrapeAndSave(env,body.maxQueries);
    return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries});
   }catch(e){return json({error:e.message||'Essential scrape failed'},500)}
  }
