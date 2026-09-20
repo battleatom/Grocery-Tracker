@@ -1,0 +1,737 @@
+{
+  "source": "Albertsons in-season veggies page",
+  "captured_at": "2026-09-19",
+  "location": "Farmington, NM",
+  "source_scope": "user_provided_page_text",
+  "note": "Seed list transcribed from user-provided Albertsons page text. Preserve current price and unit price where supplied; page text may include approximate variable-weight totals.",
+  "products": [
+    {
+      "sku": "manual-produce-001",
+      "name": "Brussels Sprouts - 1 Lb",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-002",
+      "name": "O Organics Baby Spinach - 11 Oz",
+      "price": 5.49,
+      "unit_price": 0.5,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-003",
+      "name": "Green Asparagus",
+      "price": 5.99,
+      "unit_price": 5.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-004",
+      "name": "Green Zucchini Squash",
+      "price": 0.8,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-005",
+      "name": "Taylor Farms Sweet Kale Chopped Salad Kit Bag - 12 Oz",
+      "price": 4.59,
+      "unit_price": 0.38,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-006",
+      "name": "Yellow Crookneck Squash",
+      "price": 1.33,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-007",
+      "name": "Green Acorn Squash",
+      "price": 2.24,
+      "unit_price": 1.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-008",
+      "name": "Butternut Squash",
+      "price": 3.73,
+      "unit_price": 1.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-009",
+      "name": "Green Jalapeno Peppers",
+      "price": 0.5,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-010",
+      "name": "Iceberg Lettuce",
+      "price": 2.49,
+      "unit_price": 2.49,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-011",
+      "name": "On The Vine Red Tomato - Each",
+      "price": 0.37,
+      "unit_price": 2.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-012",
+      "name": "Broccoli Crown",
+      "price": 1.34,
+      "unit_price": 1.79,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-013",
+      "name": "Yellow Onion - 3 Lb",
+      "price": 2.99,
+      "unit_price": 1,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-014",
+      "name": "Organic Cucumber",
+      "price": 2.29,
+      "unit_price": 2.29,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-015",
+      "name": "Carrots Prepackaged - 2 Lb",
+      "price": 2.49,
+      "unit_price": 1.25,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-016",
+      "name": "White Onion",
+      "price": 0.97,
+      "unit_price": 1.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-017",
+      "name": "Red Roma Tomato",
+      "price": 0.37,
+      "unit_price": 1.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-018",
+      "name": "Ginger Root",
+      "price": 1.25,
+      "unit_price": 4.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-019",
+      "name": "Signature SELECT/FARMS Russet Potatoes In Bag - 5 Lb",
+      "price": 2.49,
+      "unit_price": 0.5,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-020",
+      "name": "Yellow Onion",
+      "price": 0.74,
+      "unit_price": 0.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-021",
+      "name": "Green Cabbage",
+      "price": 1.58,
+      "unit_price": 0.79,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-022",
+      "name": "Serrano Chili Peppers",
+      "price": 1,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-023",
+      "name": "White Cauliflower",
+      "price": 5.23,
+      "unit_price": 2.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-024",
+      "name": "Bell Peppers Prepacked - 3 Count",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-025",
+      "name": "Red Bell Pepper",
+      "price": 1,
+      "unit_price": 1,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-026",
+      "name": "Green Onions 1 Bunch",
+      "price": 0.99,
+      "unit_price": 0.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-027",
+      "name": "Yellow Sweet Onion",
+      "price": 1.12,
+      "unit_price": 1.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-028",
+      "name": "Red Onion",
+      "price": 0.97,
+      "unit_price": 1.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-029",
+      "name": "Romaine Lettuce Heart - 3 Count",
+      "price": 4.99,
+      "unit_price": 1.66,
+      "unit": "count",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-030",
+      "name": "Signature SELECT/FARMS Spinach - 8 Oz",
+      "price": 2.29,
+      "unit_price": 0.29,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-031",
+      "name": "Mini Sweet Bell Peppers Prepackaged - 16 Oz",
+      "price": 4.49,
+      "unit_price": 0.28,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-032",
+      "name": "Tomatoes Campari - 16 Oz",
+      "price": 4.99,
+      "unit_price": 0.31,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-033",
+      "name": "Garlic",
+      "price": 0.69,
+      "unit_price": 0.69,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-034",
+      "name": "Organic Yellow Onion",
+      "price": 1.49,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-035",
+      "name": "Buurma Farms Radishes Red Prepacked - 1 Lb",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-036",
+      "name": "Signature SELECT/FARMS Mini Cucumbers Tray - 1 Lb",
+      "price": 3.99,
+      "unit_price": 0.25,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-037",
+      "name": "Organic Red Onion",
+      "price": 1.49,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-038",
+      "name": "Baby Bok Choy Bunch",
+      "price": 4.99,
+      "unit_price": 4.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-039",
+      "name": "Organic Red Bell Pepper",
+      "price": 3.29,
+      "unit_price": 3.29,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-040",
+      "name": "Poblano/Pasilla Peppers",
+      "price": 3.49,
+      "unit_price": 4.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-041",
+      "name": "Organic Green Zucchini Squash",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-042",
+      "name": "Signature SELECT/FARMS Baby-Cut Peeled Carrots - 16 Oz",
+      "price": 1.49,
+      "unit_price": 1.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-043",
+      "name": "Cucumber",
+      "price": 0.99,
+      "unit_price": 0.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-044",
+      "name": "Organic Cilantro - 1 Bunch",
+      "price": 1.99,
+      "unit_price": 1.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-045",
+      "name": "Sweet Corn",
+      "price": 0.99,
+      "unit_price": 0.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-046",
+      "name": "Yellow Bell Pepper",
+      "price": 1,
+      "unit_price": 1,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-047",
+      "name": "Cucumber Long Hot House English",
+      "price": 1,
+      "unit_price": 1,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-048",
+      "name": "Organic Green Asparagus",
+      "price": 6.99,
+      "unit_price": 6.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-049",
+      "name": "Orange Bell Pepper",
+      "price": 1,
+      "unit_price": 1,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-050",
+      "name": "Signature SELECT/FARMS Gold Potatoes Prepackaged - 5 Lb",
+      "price": 5.99,
+      "unit_price": 1.2,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-051",
+      "name": "Signature SELECT/FARMS Mini Multi Color Potatoes - 1.5 Lb",
+      "price": 4.49,
+      "unit_price": 2.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-052",
+      "name": "Vine Ripe Tomato",
+      "price": 1,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-053",
+      "name": "Jumbo Artichoke",
+      "price": 5.99,
+      "unit_price": 5.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-054",
+      "name": "Organic Green Bell Pepper",
+      "price": 3.29,
+      "unit_price": 3.29,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-055",
+      "name": "Organic Celery 1 Bunch",
+      "price": 2.49,
+      "unit_price": 2.49,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-056",
+      "name": "Organic Red Roma Tomato",
+      "price": 1.25,
+      "unit_price": 4.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-057",
+      "name": "Signature FARMS Minced Garlic - 8 Oz",
+      "price": 3.99,
+      "unit_price": 0.5,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-058",
+      "name": "Habanero Peppers",
+      "price": 1.7,
+      "unit_price": 9.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-059",
+      "name": "Eggplant",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-060",
+      "name": "O Organics Organic Carrots - 16 Oz",
+      "price": 1.99,
+      "unit_price": 1.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-061",
+      "name": "Spaghetti Squash",
+      "price": 5.96,
+      "unit_price": 1.49,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-062",
+      "name": "Red Cabbage",
+      "price": 3.58,
+      "unit_price": 1.79,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-063",
+      "name": "Tomatillo",
+      "price": 0.56,
+      "unit_price": 2.79,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-064",
+      "name": "Signature SELECT/FARMS Kale Cut Super Greens - 10 Oz",
+      "price": 3.49,
+      "unit_price": 0.35,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-065",
+      "name": "Hothouse Large Tomato",
+      "price": 2.6,
+      "unit_price": 2.89,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-066",
+      "name": "Sweet Corn 4 Count - Each",
+      "price": 5.99,
+      "unit_price": 1.5,
+      "unit": "count",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-067",
+      "name": "Romaine Lettuce",
+      "price": 2.99,
+      "unit_price": 2.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-068",
+      "name": "Organic Carrots 1 Bunch",
+      "price": 2.99,
+      "unit_price": 2.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-069",
+      "name": "Organic Green Onions 1 Bunch",
+      "price": 1.29,
+      "unit_price": 1.29,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-070",
+      "name": "Signature SELECT/FARMS Baby Mini Red Potatoes - 1.5 Lb",
+      "price": 4.49,
+      "unit_price": 2.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-071",
+      "name": "Whole Crimini Mushroom - 1 Lb",
+      "price": 4.99,
+      "unit_price": 4.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-072",
+      "name": "Italian Parsley 1 Bunch",
+      "price": 1.29,
+      "unit_price": 1.29,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-073",
+      "name": "Red Radishes 1 Bunch",
+      "price": 1.99,
+      "unit_price": 1.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-074",
+      "name": "Red Sweet Potato/Yam With Red Skin & Orange Flesh",
+      "price": 2.69,
+      "unit_price": 2.69,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-075",
+      "name": "Green Leaf Lettuce - Each",
+      "price": 2.99,
+      "unit_price": 2.99,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-076",
+      "name": "Celery Sticks - 1 Lb",
+      "price": 2.99,
+      "unit_price": 2.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-077",
+      "name": "O Organics Baby Spinach - 5 Oz",
+      "price": 3.49,
+      "unit_price": 0.7,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-078",
+      "name": "Signature SELECT/FARMS Russet Potatoes In Bag - 10 Lb",
+      "price": 4.99,
+      "unit_price": 0.5,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-079",
+      "name": "Jicama",
+      "price": 3.21,
+      "unit_price": 2.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-080",
+      "name": "Radishes Daikon - 1 Lb",
+      "price": 2.29,
+      "unit_price": 2.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-081",
+      "name": "Carrots",
+      "price": 0.35,
+      "unit_price": 1.4,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-082",
+      "name": "Signature Select Mushrooms White Whole - 8 Oz",
+      "price": 2.99,
+      "unit_price": 0.37,
+      "unit": "oz",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-083",
+      "name": "O Organics Onions Yellow Prepacked Bag - 2 Lb",
+      "price": 4.99,
+      "unit_price": 2.5,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-084",
+      "name": "Organic Yellow Crookneck Squash",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-085",
+      "name": "Peppers Chile Anaheim - 0.25 Lb",
+      "price": 1,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-086",
+      "name": "Red Potatoes",
+      "price": 0.52,
+      "unit_price": 1.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-087",
+      "name": "Yellow Gold Potatoes",
+      "price": 0.77,
+      "unit_price": 1.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-088",
+      "name": "Whole White Mushrooms - 1 Lb",
+      "price": 3.99,
+      "unit_price": 3.99,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-089",
+      "name": "Organic Green Kale",
+      "price": 2.79,
+      "unit_price": 2.79,
+      "unit": "each",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-090",
+      "name": "Red Beet",
+      "price": 1.72,
+      "unit_price": 2.29,
+      "unit": "lb",
+      "store": "Albertsons"
+    },
+    {
+      "sku": "manual-produce-091",
+      "name": "Green Kale",
+      "price": 1.99,
+      "unit_price": 1.99,
+      "unit": "each",
+      "store": "Albertsons"
+    }
+  ]
+}
