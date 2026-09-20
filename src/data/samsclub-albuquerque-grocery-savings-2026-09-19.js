@@ -1,6 +1,28 @@
 export default {
  store:"Sam's Club",location:"Albuquerque, NM 87112",store_id:"6672",source_scope:"new_mexico",captured_at:"2026-09-19T00:00:00Z",category:"Grocery Savings",
  products:[
+["manual-realemon","ReaLemon 100% Lemon Juice 48 fl. oz. bottles, 2 pk.",6.48,null,3.24,"ea"],
+["manual-fruit-rollups","Fruit Roll-Ups Fruit Flavored Snacks Variety Pack, 0.5 oz., 64 pk.",13.98,null,0.44,"oz"],
+["manual-chex-pb-bars","Chex Mix Peanut Butter Chocolate Treat Bars, 20 pk.",7.98,null,0.4,"ea"],
+["manual-crowd-pleaser-pods","Crowd Pleaser Variety Pack, Single Serve Pods, 80 ct.",43.98,null,0.55,"ea"],
+["manual-dukes-mayo","Duke's Real Mayonnaise, 64 fl. oz.",8.48,null,0.13,"fl oz"],
+["manual-smartwater","SmartWater Vapor Distilled Premium Water Bottles, 1 L., 15 pk.",17.98,null,0.04,"fl oz"],
+["manual-sunbutter","Sunbutter Original Sunflower Seed Butter, 28 oz",7.48,8.48,0.27,"oz"],
+["manual-green-mountain-breakfast","Green Mountain Coffee Roasters Light Roast Coffee Pods, Breakfast Blend, 80 ct.",42.98,null,0.54,"ea"],
+["manual-arrowhead-water","Arrowhead Mountain Spring Bottled Water, 16.9 fl. oz., 40 pk.",6.98,null,0.01,"fl oz"],
+["manual-green-mountain-nantucket","Green Mountain Coffee Roasters Medium Roast K-Cup, Nantucket Blend, 80 ct.",42.98,null,0.54,"ea"],
+["manual-tullys-hawaiian","Tully's Coffee Medium Roast K-Cup Pods, Hawaiian Blend, 80 ct.",44.98,null,0.56,"ea"],
+["manual-newmans-special","Newman's Own Organics Medium Roast K-Cup, Special Blend, 80 ct.",44.98,null,0.56,"ea"],
+["manual-caribou-daybreak","Caribou Coffee Light Roast K-Cup, Daybreak Morning Blend, 80 ct.",44.98,null,0.56,"ea"],
+["manual-krispy-kreme-pods","Krispy Kreme Medium Roast Coffee Pods, Classic, 80 ct.",44.98,null,0.56,"ea"],
+["manual-wilde-crackers","WILDE Protein Crackers Classic Cheddar, 7.4 oz.",8.28,null,1.12,"oz"],
+["manual-spindrift","Spindrift Sparkling Water Variety Pack 12 fl. oz., 24 pk.",15.98,null,0.06,"fl oz"],
+["manual-chobani-flip","Chobani Flip Low-Fat Greek Yogurt Variety Pack, 4.5 oz., 16 ct.",16.46,17.46,1.03,"ea"],
+["manual-gogo-dairy","GoGo Dairy Protein Pouches, Variety Pack, 4.2 oz., 16 pk.",9.98,19.98,0.62,"ea"],
+["manual-kize-bars","KiZE Life Changing Protein Bars, Chocolate Chip Cookie, 12 ct.",13.98,null,1.17,"ea"],
+["manual-takis-pickle","Takis Pickle Punch Spicy Rolled Tortilla Chips, 24.7 oz.",3.91,5.88,0.16,"oz"],
+["manual-mariani-blueberries","Mariani Yogurt Coated Blueberries with Chia Seed Crunch, 20 oz.",7.98,10.98,null,null],
+["manual-raisin-bran","Raisin Bran Breakfast Cereal, 56 oz.",8.48,null,0.15,"oz"],
 ["manual-mm-tortellini","Member's Mark Five Cheese Tortellini (24 oz., 2 pk.)",9.53,10.53,.20,"oz"],
 ["manual-mm-beef-bites","Member's Mark Seasoned Beef Bites with Garlic and Herb Compound Butter, 1.5 lbs.",15.94,17.94,10.63,"lb"],
 ["manual-annasea-tuna-poke","Annasea Yellowfin Tuna Trio Poke Kit, 10 oz., 3 pk., Frozen",19.96,null,6.65,"ea"],
@@ -94,6 +116,7 @@ export default {
 ["15004019875","Member's Mark Dried Mango, 24 oz.",6.98,null,.29,"oz"]
 ].map(r=>({sku:r[0],name:r[1],price:r[2],regular_price:r[3],unit_price:r[4],unit:r[5],source_url:"https://www.samsclub.com/ip/"+r[0]})),
  unpriced:[
+ {"sku":"manual-aloha-bars","name":"Aloha Plant-Based Protein Bars, Variety Pack, 12 ct.","promo_text":"Members-only price; $1.30 off"},
  {sku:"manual-oats-overnight",name:"Oats Overnight High Protein Oatmeal Shake Variety Pack, 8 pk.",promo_text:"Members-only price"},
  {sku:"85177000853",name:"Orgain Organic 21g Plant-Based Protein Powder, Vanilla Bean 2.74 lbs.",promo_text:"Members-only price; $8 off; ends Sep 20"},
  {sku:"85177000852",name:"Orgain Organic 21g Plant-Based Protein Powder, Creamy Chocolate Fudge 2.74 lbs.",promo_text:"Members-only price; $8 off; ends Sep 20"}
