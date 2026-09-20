@@ -89,7 +89,19 @@ async function scrapeAndSave(env,maxQueries=8){
  return result;
 }
 
-export default {async scheduled(controller,env,ctx){ctx.waitUntil(scrapeAndSave(env,8));},async fetch(request,env){
+export default {async scheduled(controller,env,ctx){
+ console.log('ESSENTIAL_SCRAPER_START',new Date().toISOString());
+ ctx.waitUntil(scrapeAndSave(env,8).then(result=>{
+  console.log('ESSENTIAL_SCRAPER_SUCCESS',JSON.stringify({products:result.products.length,errors:result.errors.length,stores:result.stores,queries:result.queries}));
+ }).catch(async e=>{
+  console.error('ESSENTIAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));
+  try{
+   const now=new Date().toISOString(),hash='scraper-error-'+now.replace(/[^0-9]/g,'');
+   const data={hash,filename:'Scraper error '+now,imported_at:now,products:[],rows:[],usable_rows:0,source:'scraper-error',error:e?.stack||e?.message||String(e)};
+   await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
+  }catch(logError){console.error('ESSENTIAL_SCRAPER_ERROR_SAVE_FAILED',logError?.message||String(logError))}
+ }));
+},async fetch(request,env){
  const url=new URL(request.url);
  if(url.pathname==='/api/scrape/essentials'){
   if(request.method!=='POST')return json({error:'Method not allowed'},405);
