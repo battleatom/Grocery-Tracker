@@ -115,36 +115,29 @@ export default {async fetch(request,env){
     p.observations=(p.observations||[]).map(o=>({...o,price:o.price>0?o.price:null,promo_price:o.promo_price>0?o.promo_price:null,regular_price:o.regular_price>0?o.regular_price:null,unit_price:o.unit_price>0?o.unit_price:null})).filter(o=>o.price||o.promo_price||o.unit_price);
     if(!p.observations.length)continue;
     const key=p.store+'|'+p.sku, prior=products.get(key);
-    const observations=[...(prior?.observations||[]),.  for(const row of samsAlbuquerqueSavings.products||[]){
-   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:samsAlbuquerqueSavings.captured_at,availability:'available',source:{collector:'pasted-retailer-page',source_scope:'new_mexico',store_location:samsAlbuquerqueSavings.location,store_id:samsAlbuquerqueSavings.store_id,source_url:row.source_url||'https://www.samsclub.com/'}};
-   if(!obs.price&&!obs.unit_price)continue;
-   const p={id:'sams-'+sku,sku,store:"Sam's Club",name:row.name,package:'',category:'Grocery Savings',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);
-   products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
-  }
-  for(const row of safewayFarmingtonDairy.products||[]){
-   const sku=String(row.sku);
-   const obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:safewayFarmingtonDairy.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:safewayFarmingtonDairy.location,source_url:row.source_url||'https://www.safeway.com/'}};
-   if(!obs.price&&!obs.unit_price)continue;
-   const p={id:'safeway-'+sku,sku,store:'Safeway',name:row.name,package:(row.name.match(/-\s*([\d.]+\s*(?:fl\.?\s*oz|lb|oz|gallon)|\d+\s*count)\.?$/i)||[])[1]||'',category:row.category||'Dairy, Eggs & Cheese',observations:[obs]};
-   const key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
-  }
-  for(const row of safewayFarmingtonMeat.products||[]){
-   const sku=String(row.sku);
-   const obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:safewayFarmingtonMeat.captured_at,source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:safewayFarmingtonMeat.location,source_url:'https://www.safeway.com/'}};
-   if(!obs.price&&!obs.unit_price)continue;
-   const p={id:'safeway-'+sku,sku,store:'Safeway',name:row.name,package:(row.name.match(/-\s*([\d.]+\s*(?:lb|oz)|\d+\s*count)\.?$/i)||[])[1]||'',category:row.category||'Meat & Seafood',observations:[obs]};
-   const key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
-  }
-  for(const row of albertsonsProduce.products||[]){
-   const sku=String(row.sku);
-   const obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:albertsonsProduce.captured_at,source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:albertsonsProduce.location,source_url:'https://www.albertsons.com/'}};
-   if(!obs.price&&!obs.unit_price)continue;
-   const p={id:'albertsons-'+sku,sku,store:'Albertsons',name:row.name,package:row.package||'',observations:[obs]};
-   const key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
-  }
-..(p.observations||[])];
+    const observations=[...(prior?.observations||[]),...(p.observations||[])];
     products.set(key,{...p,observations});
    }
+  }
+  for(const row of samsAlbuquerqueSavings.products||[]){
+   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:samsAlbuquerqueSavings.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'new_mexico',store_location:samsAlbuquerqueSavings.location,store_id:samsAlbuquerqueSavings.store_id,source_url:row.source_url||'https://www.samsclub.com/'}};
+   if(!obs.price&&!obs.unit_price)continue;const p={id:'sams-'+sku,sku,store:"Sam's Club",name:row.name,package:'',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+  for(const row of samsAlbuquerqueBeef.products||[]){
+   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:null,promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||'lb',observed_at:samsAlbuquerqueBeef.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'new_mexico',store_location:samsAlbuquerqueBeef.location,store_id:samsAlbuquerqueBeef.store_id,source_url:'https://www.samsclub.com/browse/beef/1548'}};
+   if(!obs.price&&!obs.unit_price)continue;const p={id:'sams-'+sku,sku,store:"Sam's Club",name:row.name,package:'priced per pound',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+  for(const row of safewayFarmingtonDairy.products||[]){
+   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:safewayFarmingtonDairy.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:safewayFarmingtonDairy.location,source_url:row.source_url||'https://www.safeway.com/'}};
+   if(!obs.price&&!obs.unit_price)continue;const p={id:'safeway-'+sku,sku,store:'Safeway',name:row.name,package:'',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+  for(const row of safewayFarmingtonMeat.products||[]){
+   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:safewayFarmingtonMeat.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:safewayFarmingtonMeat.location,source_url:row.source_url||'https://www.safeway.com/'}};
+   if(!obs.price&&!obs.unit_price)continue;const p={id:'safeway-'+sku,sku,store:'Safeway',name:row.name,package:'',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+  for(const row of albertsonsProduce.products||[]){
+   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:albertsonsProduce.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:albertsonsProduce.location,source_url:'https://www.albertsons.com/'}};
+   if(!obs.price&&!obs.unit_price)continue;const p={id:'albertsons-'+sku,sku,store:'Albertsons',name:row.name,package:row.package||'',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
   }
   for(const [i,row] of smithsPasted.products.entries()){
    const [name,price,regular_price,pkg,unit_price,unit]=row;
@@ -176,9 +169,4 @@ export default {async fetch(request,env){
   }catch(e){return json({error:e.message||'Could not save spreadsheet.'},400)}
  }
  return env.ASSETS.fetch(request);
-}}for (const row of samsAlbuquerqueBeef.products) {
-  const obs={price:positivePrice(row.price),regular_price:null,promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:samsAlbuquerqueBeef.captured_at,out_of_stock:!!row.out_of_stock,source:{collector:'pasted-retailer-page',source_scope:'new_mexico',store_location:samsAlbuquerqueBeef.location,url:'https://www.samsclub.com/browse/beef/1548'}};
-  const p={id:'sams-abq-'+row.sku,sku:row.sku,store:"Sam's Club",name:row.name,package:'priced per pound',category:'Meat & Seafood',observations:[obs]};
-  const key=p.store+'|'+p.sku; if (byKey.has(key)) byKey.get(key).observations.push(obs); else { byKey.set(key,p); products.push(p); }
-}
-;
+}};
