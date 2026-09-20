@@ -79,11 +79,24 @@ export function validateUpload(body){
  return usable;
 }
 
+async function importCollectorSnapshot(env,snapshot){
+ if(!env.UPLOADS||!Array.isArray(snapshot?.products))throw Error('Invalid collector snapshot');
+ const now=new Date().toISOString(),hash='collector-'+now.replace(/[^0-9]/g,'');
+ const products=snapshot.products.filter(p=>stores.has(p.store)&&p.sku&&Array.isArray(p.observations)&&p.observations.some(o=>Number(o.price)>0||Number(o.unit_price)>0));
+ const data={hash,filename:'Automated direct/API collectors '+now,imported_at:now,products,rows:[],usable_rows:products.length,source:'direct-api-collectors',checks:snapshot.checks||[]};
+ await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
+ return products.length;
+}
 export default {async fetch(request,env){
  const url=new URL(request.url);
 
 
 
+ if(url.pathname==='/api/collector-import'&&request.method==='POST'){
+  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
+  if(!env.COLLECTOR_IMPORT_KEY||request.headers.get('Authorization')!==`Bearer ${env.COLLECTOR_IMPORT_KEY}`)return json({error:'Unauthorized'},401);
+  try{const body=await request.json();const saved=await importCollectorSnapshot(env,body);return json({saved:true,products:saved})}catch(e){return json({error:e.message||'Collector import failed'},400)}
+ }
  if(url.pathname==='/api/catalog'){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   const r=await env.UPLOADS.prepare('SELECT data FROM uploads ORDER BY imported_at, hash').all();
