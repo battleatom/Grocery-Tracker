@@ -80,7 +80,7 @@ export function validateUpload(body){
  return usable;
 }
 
-async function scrapeAndSave(env,maxQueries=8){
+async function scrapeAndSave(env,maxQueries=2){
  if(!env.UPLOADS)throw Error('Catalog storage unavailable');
  const result=await runEssentialScrape(env,{stores:["Walmart","Smith's","Sam's Club"],queries:ESSENTIAL_SEARCHES,maxQueries:Math.max(1,Math.min(Number(maxQueries)||8,ESSENTIAL_SEARCHES.length))});
  const now=new Date().toISOString(),hash='browser-'+now.replace(/[^0-9]/g,'');
@@ -91,7 +91,7 @@ async function scrapeAndSave(env,maxQueries=8){
 
 export default {async scheduled(controller,env,ctx){
  console.log('ESSENTIAL_SCRAPER_START',new Date().toISOString());
- ctx.waitUntil(scrapeAndSave(env,8).then(result=>{
+ ctx.waitUntil(scrapeAndSave(env,2).then(result=>{
   console.log('ESSENTIAL_SCRAPER_SUCCESS',JSON.stringify({products:result.products.length,errors:result.errors.length,stores:result.stores,queries:result.queries}));
  }).catch(async e=>{
   console.error('ESSENTIAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));
@@ -109,7 +109,7 @@ export default {async scheduled(controller,env,ctx){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   try{
    const body=await request.json().catch(()=>({}));
-   const result=await scrapeAndSave(env,body.maxQueries);
+   const result=await scrapeAndSave(env,body.maxQueries||2);
    return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries});
   }catch(e){return json({error:e.message||'Essential scrape failed'},500)}
  }
@@ -123,7 +123,7 @@ export default {async scheduled(controller,env,ctx){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   const auth=request.headers.get('Authorization'),key=url.searchParams.get('key');
   if((!env.UPLOAD_PASSWORD||auth!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(!env.SCRAPER_TRIGGER_KEY||key!==env.SCRAPER_TRIGGER_KEY))return json({error:'Unauthorized'},401);
-  try{const result=await scrapeAndSave(env,8);return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries})}catch(e){console.error('MANUAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));return json({error:e?.message||String(e)},500)}
+  try{const result=await scrapeAndSave(env,2);return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries})}catch(e){console.error('MANUAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));return json({error:e?.message||String(e)},500)}
  }
  if(url.pathname==='/api/catalog'){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
