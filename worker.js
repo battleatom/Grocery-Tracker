@@ -1,3 +1,4 @@
+import smithsPasted from './src/data/smiths-farmington-pasted-2026-09-19.js';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 
 const RETAILERS={
@@ -98,6 +99,7 @@ export default {async fetch(request,env){
   try{const body=await request.json();const saved=await importCollectorSnapshot(env,body);return json({saved:true,products:saved})}catch(e){return json({error:e.message||'Collector import failed'},400)}
  }
  if(url.pathname==='/api/catalog'){
+  // Merge retailer page data pasted directly by the user. These observations are Farmington-local.
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   const r=await env.UPLOADS.prepare('SELECT data FROM uploads ORDER BY imported_at, hash').all();
   const products=new Map();
@@ -111,7 +113,7 @@ export default {async fetch(request,env){
     products.set(key,{...p,observations});
    }
   }
-  const list=[...products.values()].map(p=>({...p,category:categoryFor(p)}));const groups=canonicalize(list).map(g=>({...g,category:g.products[0]?.category||'Other Grocery'}));return json({products:list,groups,batches:r.results.length,category_order:CATEGORY_RULES.map(x=>x[0]).concat(['Other Grocery'])});
+  for(const [i,row] of smithsPasted.products.entries()){\n   const [name,price,regular_price,pkg,unit_price,unit]=row;\n   const sku='pasted-'+String(i+1).padStart(3,'0')+'-'+norm(name).replace(/\\s+/g,'-').slice(0,70);\n   const obs={price,regular_price:regular_price>price?regular_price:null,promo_price:regular_price>price?price:null,unit_price,unit,observed_at:smithsPasted.captured,source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:smithsPasted.location,source_url:'https://www.smithsfoodanddrug.com/',page:'On Sale - 104 results'}};\n   const p={id:'smiths-'+sku,sku,store:"Smith's",name,package:pkg||'',observations:[obs]};\n   const key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});\n  }\n  const list=[...products.values()].map(p=>({...p,category:categoryFor(p)}));const groups=canonicalize(list).map(g=>({...g,category:g.products[0]?.category||'Other Grocery'}));return json({products:list,groups,batches:r.results.length,category_order:CATEGORY_RULES.map(x=>x[0]).concat(['Other Grocery'])});
  }
  if(url.pathname==='/api/uploads'){
   if(!env.UPLOADS)return json({error:'Upload storage unavailable'},503);
