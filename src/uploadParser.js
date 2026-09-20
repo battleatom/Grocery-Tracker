@@ -22,7 +22,8 @@ function retailerFromUrl(raw){
 function skuFromUrl(url,store){
  const text=decodeURIComponent(url.pathname+url.search);
  if(store==='Albertsons'||store==='Safeway'){
-  return text.match(/(?:\/|\b)(\d{6,})(?:\?|$)/)?.[1]\n    || text.match(/product-details[/.]([A-Za-z0-9._-]+)/i)?.[1]
+  return text.match(/(?:\/|\b)(\d{6,})(?:\?|$)/)?.[1]
+    || text.match(/product-details[/.]([A-Za-z0-9._-]+)/i)?.[1]
     || text.match(/(?:productId|sku|upc)=([A-Za-z0-9._-]+)/i)?.[1]
     || text.match(/(?:^|\/)(\d{6,})(?:[/.?]|$)/)?.[1]
     || null;
@@ -45,7 +46,12 @@ export function parseSpreadsheetSheets(sheets,filename,importedAt=new Date().toI
 
    let productName=store==="Smith's"?first(row,['color-text-primary','name','normal','title']):store==='Albertsons'||store==='Safeway'?first(row,['title-xxs 2','title-xxs','name','normal','title','Product']):first(row,['normal','color-text-primary','name','title','Product']);
    let price=null,regularPrice=null,packageText='';
-   if(store==='Albertsons'||store==='Safeway'){\n    price=numberFrom(first(row,['color-neutral-90','sr-only','price','Price']));\n    regularPrice=numberFrom(first(row,['body-text-xxs 2','sr-only 3','regular_price','Regular Price']));\n    const unitRaw=String(first(row,['body-text-xxs','sr-only 2'])||'');\n    packageText=String(productName||'').match(/(?:-|\\b)(\\d+(?:\\.\\d+)?\\s*(?:lb|lbs|oz|ounce|ounces|ct|count|fl oz))\\b/i)?.[1]||'';\n   }else if(store==="Smith's"){
+   if(store==='Albertsons'||store==='Safeway'){
+    price=numberFrom(first(row,['color-neutral-90','sr-only','price','Price']));
+    regularPrice=numberFrom(first(row,['body-text-xxs 2','sr-only 3','regular_price','Regular Price']));
+    const unitRaw=String(first(row,['body-text-xxs','sr-only 2'])||'');
+    packageText=String(productName||'').match(/(?:-|\\b)(\\d+(?:\\.\\d+)?\\s*(?:lb|lbs|oz|ounce|ounces|ct|count|fl oz))\\b/i)?.[1]||'';
+   }else if(store==="Smith's"){
     price=numberFrom(first(row,['citrus-Price--current-price','citrus-RelativePrice--current-price-value','price']));
     const sr=String(first(row,['citrus-Price--sr-description'])||'').match(/discounted from \$([\d.]+)/);
     regularPrice=numberFrom(first(row,['citrus-Price--original-price-value']))||(sr?Number(sr[1]):null);
