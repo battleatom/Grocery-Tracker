@@ -8,6 +8,37 @@ const RETAILERS={
   Safeway:{prefix:'safeway-',hosts:['www.safeway.com','safeway.com']}
 };
 const stores=new Set(Object.keys(RETAILERS));
+const STOP=new Set(['the','a','an','and','or','of','with','fresh','all','natural','value','great','kroger','marketside','brand','pack','ct','oz','lb','lbs','each']);
+function norm(s){return String(s||'').toLowerCase().replace(/®|™/g,'').replace(/[^a-z0-9%]+/g,' ').trim()}
+function tokens(s){return norm(s).split(/\s+/).filter(x=>x.length>1&&!STOP.has(x))}
+function signature(p){
+ const s=norm((p.name||'')+' '+(p.package||''));
+ const lean=s.match(/(\d{2})\s*%?\s*(?:lean)?\s*[\/-]\s*(\d{1,2})\s*%?/);
+ const size=s.match(/(\d+(?:\.\d+)?)\s*(lb|lbs|oz|fl oz|ct|count|pk|pack)\b/);
+ const kind=tokens(p.name).filter(x=>!/^\d/.test(x)).slice(0,8);
+ return {lean:lean?lean[1]+'/'+lean[2]:null,size:size?size[1]+' '+size[2].replace('lbs','lb').replace('count','ct').replace('pack','pk'):null,kind};
+}
+function similarity(a,b){
+ const A=new Set(a.kind),B=new Set(b.kind);let common=0;for(const x of A)if(B.has(x))common++;
+ return common/Math.max(1,Math.min(A.size,B.size));
+}
+function canonicalize(products){
+ const groups=[];
+ for(const p of products){
+  const sig=signature(p);let best=null,bestScore=0;
+  for(const g of groups){
+   const gs=g.signature;
+   if(sig.lean&&gs.lean&&sig.lean!==gs.lean)continue;
+   if(sig.size&&gs.size&&sig.size!==gs.size)continue;
+   const score=similarity(sig,gs);
+   if(score>bestScore){bestScore=score;best=g}
+  }
+  if(!best||bestScore<0.62){best={id:'group-'+groups.length,signature:sig,name:p.name,products:[]};groups.push(best)}
+  best.products.push(p);
+ }
+ return groups.map(g=>({id:g.id,name:g.name,variant:{lean:g.signature.lean,size:g.signature.size},stores:Object.fromEntries(g.products.map(p=>[p.store,p])),products:g.products}));
+}
+
 
 export function validateUpload(body){
  if(!/^[a-f0-9]{64}$/.test(body.hash||'')||typeof body.filename!=='string'||body.filename.length>180||!Array.isArray(body.products)||!body.products.length||body.products.length>3000||!Array.isArray(body.rows)||body.rows.length>10000)throw Error('Invalid spreadsheet payload.');
@@ -44,7 +75,7 @@ export default {async fetch(request,env){
     products.set(key,{...p,observations});
    }
   }
-  return json({products:[...products.values()],batches:r.results.length});
+  const list=[...products.values()];return json({products:list,groups:canonicalize(list),batches:r.results.length});
  }
  if(url.pathname==='/api/uploads'){
   if(!env.UPLOADS)return json({error:'Upload storage unavailable'},503);
