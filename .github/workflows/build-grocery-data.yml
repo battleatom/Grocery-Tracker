@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,15 +30,12 @@ jobs:
           done
       - name: Build generated catalog
         run: python scripts/build_catalog.py 'normalized/*.json' public/data/generated-catalog.json
-      - name: Commit generated data
+      - name: Verify generated catalog
         run: |
-          git config user.name "grocery-data-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add normalized public/data/generated-catalog.json
-          if git diff --cached --quiet; then
-            echo "Generated catalog unchanged"
-            exit 0
-          fi
-          git commit -m "Rebuild normalized grocery catalog"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          python - <<'PY'
+          import json
+          p='public/data/generated-catalog.json'
+          with open(p,encoding='utf-8') as f:
+              data=json.load(f)
+          print('Generated catalog verified:', p)
+          PY
