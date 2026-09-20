@@ -1,0 +1,225 @@
+{
+  "retailer": "Smith's",
+  "location": "600 E 20TH ST, Farmington, NM",
+  "source_scope": "farmington",
+  "captured_at": "2026-09-19",
+  "provenance": "User-provided Smith's My Sale Items page; explicitly In-Store at 600 E 20TH ST FARMINGTON NM.",
+  "products": [
+    {
+      "internal_sku": "manual-smiths-sale-001",
+      "name": "Beef for Stew Family Pack",
+      "price": 19.98,
+      "regular_price": 21.98,
+      "unit_price": 9.99,
+      "unit": "lb",
+      "size": null
+    },
+    {
+      "internal_sku": "manual-smiths-sale-002",
+      "name": "Fritos Original Bean Dip",
+      "price": 3.59,
+      "regular_price": 4.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "9 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-003",
+      "name": "Butcher Counter Private Selection 85% Lean 15% Fat Ground Round Angus Beef",
+      "price": 9.81,
+      "regular_price": 11.78,
+      "unit_price": 7.49,
+      "unit": "lb",
+      "size": null
+    },
+    {
+      "internal_sku": "manual-smiths-sale-004",
+      "name": "Simple Truth Organic Whole Carrots Bag",
+      "price": 2.59,
+      "regular_price": 2.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "2 lb"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-005",
+      "name": "Mission Round Yellow Corn Tortilla Chips",
+      "price": 2.49,
+      "regular_price": 2.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "11 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-006",
+      "name": "HONEY MAID Honey Graham Crackers",
+      "price": 5.49,
+      "regular_price": 5.79,
+      "unit_price": null,
+      "unit": null,
+      "size": "14.4 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-007",
+      "name": "Wright Brand Applewood Smoked Thick Cut Bacon",
+      "price": 9.99,
+      "regular_price": 11.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "1.5 lb"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-008",
+      "name": "Kroger Chicken Caesar Salad Kit",
+      "price": 3.67,
+      "regular_price": 3.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "6 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-009",
+      "name": "Farmland Hickory Smoked Thick Cut Bacon",
+      "price": 5.99,
+      "regular_price": 6.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "16 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-010",
+      "name": "Kroger Original Breakfast Sausage Patties",
+      "price": 2.49,
+      "regular_price": 2.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "8 ct / 12 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-011",
+      "name": "Don Julio Restaurant Style Tortilla Chips",
+      "price": 3.29,
+      "regular_price": 3.79,
+      "unit_price": null,
+      "unit": null,
+      "size": "16 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-012",
+      "name": "Kroger Maple Breakfast Sausage Links",
+      "price": 2.49,
+      "regular_price": 2.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "14 ct / 12 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-013",
+      "name": "Bakery Fresh Pumpkin Chocolate Chip Soft Top Cookies",
+      "price": 6,
+      "regular_price": 6.49,
+      "unit_price": null,
+      "unit": null,
+      "size": "10 count"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-014",
+      "name": "Little Debbie Nutty Buddy Peanut Butter Wafer Bars",
+      "price": 3,
+      "regular_price": 3.19,
+      "unit_price": null,
+      "unit": null,
+      "size": "12 ct / 12 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-015",
+      "name": "A.1. Original Steak Sauce",
+      "price": 5.49,
+      "regular_price": 5.79,
+      "unit_price": null,
+      "unit": null,
+      "size": "10 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-016",
+      "name": "Kroger Big K Cola Soda 12 Pack",
+      "price": 4,
+      "regular_price": 4.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "144 fl oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-017",
+      "name": "SPAM 25% Less Sodium",
+      "price": 4.49,
+      "regular_price": 4.59,
+      "unit_price": null,
+      "unit": null,
+      "size": "12 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-018",
+      "name": "Sweet Baby Ray's Original Barbecue Sauce",
+      "price": 2.49,
+      "regular_price": 2.69,
+      "unit_price": null,
+      "unit": null,
+      "size": "18 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-019",
+      "name": "Oroweat Whole Wheat Bread",
+      "price": 4.49,
+      "regular_price": 4.99,
+      "unit_price": null,
+      "unit": null,
+      "size": "24 oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-020",
+      "name": "Pork Tenderloin Boneless Whole",
+      "price": 12.72,
+      "regular_price": 15.27,
+      "unit_price": 4.99,
+      "unit": "lb",
+      "size": null
+    },
+    {
+      "internal_sku": "manual-smiths-sale-021",
+      "name": "Coffee Mate French Vanilla Coffee Creamer",
+      "price": 3.99,
+      "regular_price": 4.49,
+      "unit_price": null,
+      "unit": null,
+      "size": "32 fl oz"
+    },
+    {
+      "internal_sku": "manual-smiths-sale-022",
+      "name": "Fresh Bunch of Bananas 5-7 Bananas",
+      "price": 1.16,
+      "regular_price": null,
+      "unit_price": 0.55,
+      "unit": "lb",
+      "size": null
+    },
+    {
+      "internal_sku": "manual-smiths-sale-023",
+      "name": "Fresh Roma Tomato",
+      "price": 0.24,
+      "regular_price": null,
+      "unit_price": 0.99,
+      "unit": "lb",
+      "size": null
+    },
+    {
+      "internal_sku": "manual-smiths-sale-024",
+      "name": "Smith's Vitamin D Whole Milk Gallon",
+      "price": 3.79,
+      "regular_price": 3.79,
+      "unit_price": null,
+      "unit": null,
+      "size": "1 gal"
+    }
+  ]
+}
