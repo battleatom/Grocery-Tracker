@@ -257,3 +257,21 @@ await fs.writeFile(FILE,JSON.stringify(data,null,2)+'\n');
 await fs.writeFile(HISTORY,JSON.stringify(history.slice(-5000),null,2)+'\n');
 await fs.writeFile(DEALS,JSON.stringify(deals,null,2)+'\n');
 console.log('verified matches',fm+km+am+sm+wm+swm+om,'flipp',fm,'kroger',km,'abs',am,'sams',sm,'walmart',wm,'scrapeops_walmart',swm);
+
+async function publishUnifiedCatalog(){
+ const endpoint=process.env.GROCERY_COLLECTOR_ENDPOINT,key=process.env.COLLECTOR_IMPORT_KEY;
+ if(!endpoint||!key){console.log('unified D1 publish skipped: endpoint/key not configured');return}
+ const products=[];
+ for(const item of data.items){
+  for(let i=0;i<data.meta.stores.length;i++){
+   const store=data.meta.stores[i],o=item.offers?.[i];if(!o)continue;
+   const price=priceNum(o.promo_price)||priceNum(o.price),unitPrice=priceNum(o.unit_price);if(!price&&!unitPrice)continue;
+   const sku=String(o.item_number||o.upc||o.pid||item.id).replace(/[^A-Za-z0-9._-]/g,'-').slice(0,120);
+   products.push({id:(RETAILER_PREFIX[store]||'auto-')+sku,store,sku,name:o.label||item.name,package:item.package||null,observations:[{price:priceNum(o.price),promo_price:priceNum(o.promo_price),regular_price:priceNum(o.price),unit_price:unitPrice,unit:o.unit||item.comparison_unit||null,observed_at:o.observed_at||now,source:{collector:'direct-api',source:o.source||'Automated collector',source_scope:o.source_scope||'farmington',source_url:o.source_url||null}}]});
+  }
+ }
+ const r=await fetch(endpoint,{method:'POST',headers:{Authorization:'Bearer '+key,'Content-Type':'application/json'},body:JSON.stringify({products,checks})});
+ console.log('unified D1 publish',r.status,await r.text());
+}
+const RETAILER_PREFIX={"Sam's Club":'sams-',Walmart:'walmart-',Albertsons:'albertsons-',Safeway:'safeway-',"Smith's":'smiths-'};
+await publishUnifiedCatalog();
