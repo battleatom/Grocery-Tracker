@@ -1,0 +1,17 @@
+name: Run essential grocery scrape
+on:
+  workflow_dispatch:
+    inputs:
+      max_queries:
+        description: Essential searches per store
+        required: false
+        default: '8'
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger production scraper
+        env:
+          MAX_QUERIES: ${{ inputs.max_queries }}
+        run: |
+          curl --fail-with-body --max-time 600 -H "Content-Type: application/json" --data "{\"stores\":[\"Walmart\",\"Smith's\",\"Sam's Club\"],\"maxQueries\":$MAX_QUERIES}" "https://grocery-tracker.luckynumbers7ven.workers.dev/api/scrape/essentials?key=${{ secrets.SCRAPER_TRIGGER_KEY }}"
