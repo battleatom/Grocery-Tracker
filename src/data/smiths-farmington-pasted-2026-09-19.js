@@ -2563,6 +2563,238 @@ export default {
       "16 oz",
       0.19,
       "oz"
+    ],
+    [
+      "Fresh Large Ripe Avocado",
+      1.29,
+      2.5,
+      "1 each",
+      null,
+      null
+    ],
+    [
+      "Fresh Jalapeno Peppers",
+      0.22,
+      0.28,
+      null,
+      1.49,
+      "lb"
+    ],
+    [
+      "Fresh Strawberries – 1 LB Clamshell",
+      2.99,
+      3.99,
+      "1 lb",
+      null,
+      null
+    ],
+    [
+      "Russet Potatoes Bag",
+      2.49,
+      3.49,
+      "5 lb",
+      null,
+      null
+    ],
+    [
+      "Seedless Mandarin Clementine Oranges in 3lb Bag",
+      3.99,
+      4.99,
+      "3 lb",
+      null,
+      null
+    ],
+    [
+      "Kroger® Purified Bottled Water",
+      3.33,
+      3.79,
+      "24 bottles / 16.9 fl oz",
+      null,
+      null
+    ],
+    [
+      "Fresh Red Raspberries - 6 OZ Clamshell",
+      2.99,
+      3.49,
+      "6 oz",
+      null,
+      null
+    ],
+    [
+      "Fresh Blackberries - 6 OZ Clamshell",
+      2.99,
+      3.79,
+      "6 oz",
+      null,
+      null
+    ],
+    [
+      "Private Selection® Fresh Colossal Blueberries",
+      3.99,
+      6.99,
+      "9.8 oz",
+      null,
+      null
+    ],
+    [
+      "Large Honeycrisp Apple – Each",
+      1.25,
+      1.75,
+      null,
+      2.49,
+      "lb"
+    ],
+    [
+      "Kroger® Sweet Corn on the Cob",
+      3.99,
+      4.99,
+      "4 ct",
+      null,
+      null
+    ],
+    [
+      "Kroger® Natural Pork Baby Back Ribs",
+      11.77,
+      13.25,
+      null,
+      3.99,
+      "lb"
+    ],
+    [
+      "Mission Super Soft Yellow Corn Tortillas, 30 Count",
+      1.99,
+      2.89,
+      "30 count",
+      null,
+      null
+    ],
+    [
+      "Kroger® Yellow Onion 3 lb Bag",
+      3.49,
+      3.79,
+      "3 lb",
+      null,
+      null
+    ],
+    [
+      "Mini Seedless Whole Watermelon",
+      4.49,
+      4.69,
+      "1 ct",
+      null,
+      null
+    ],
+    [
+      "Kroger® Original Saltines Crackers",
+      2,
+      2.19,
+      "16 oz",
+      null,
+      null
+    ],
+    [
+      "Sara Lee 100% Whole Wheat Bread",
+      3.99,
+      4.49,
+      "20 oz",
+      null,
+      null
+    ],
+    [
+      "Bar‑S Naturally Hardwood Smoked Bacon, 100% Pork, 12 oz",
+      4.99,
+      5.99,
+      "12 oz",
+      null,
+      null
+    ],
+    [
+      "Ruffles® Original Potato Chips",
+      6.49,
+      6.99,
+      "13 oz",
+      null,
+      null
+    ],
+    [
+      "Seedless Mandarin Clementine Oranges in 5lb Bag",
+      6.49,
+      8.49,
+      "5 lb",
+      null,
+      null
+    ],
+    [
+      "Coca-Cola® Soda Cans",
+      13,
+      16.98,
+      "24 pk / 12 fl oz",
+      null,
+      null
+    ],
+    [
+      "Ball Park White Burger Buns",
+      3.49,
+      4.19,
+      "8 ct / 15 oz",
+      null,
+      null
+    ],
+    [
+      "Maruchan Ramen® Noodle Soup, Chicken Flavor Instant Noodles",
+      3.5,
+      3.99,
+      "1 ea",
+      null,
+      null
+    ],
+    [
+      "Kroger® Fresh Natural Pork Shoulder Butt Bone In",
+      14.93,
+      22.43,
+      null,
+      1.99,
+      "lb"
+    ],
+    [
+      "Simply® Pulp-Free Orange Juice Bottle",
+      4.49,
+      4.99,
+      "46 fl oz",
+      null,
+      null
+    ],
+    [
+      "Mission Super Soft White Corn Tortillas, 30 Count",
+      1.99,
+      2.89,
+      "25 oz",
+      null,
+      null
+    ],
+    [
+      "Rosarita Traditional Refried Beans, Canned Beans",
+      1.5,
+      1.89,
+      "16 oz",
+      null,
+      null
+    ],
+    [
+      "SPAM® Classic",
+      4.49,
+      4.59,
+      "12 oz",
+      null,
+      null
+    ],
+    [
+      "Kroger® Fresh California Seedless Green Grapes",
+      6.99,
+      7.99,
+      "3 lb",
+      null,
+      null
     ]
   ]
 };
