@@ -2,8 +2,8 @@
   "source": "Albertsons in-season veggies page",
   "captured_at": "2026-09-19",
   "location": "Farmington, NM",
-  "source_scope": "user_provided_page_text",
-  "note": "Seed list transcribed from user-provided Albertsons page text. Preserve current price and unit price where supplied; page text may include approximate variable-weight totals.",
+  "source_scope": "farmington",
+  "note": "Seed list transcribed from user-provided Farmington, NM Albertsons page text. Preserve current price and unit price where supplied; page text may include approximate variable-weight totals.",\n  "provenance": "user-provided Farmington Albertsons page text",
   "products": [
     {
       "sku": "manual-produce-001",
