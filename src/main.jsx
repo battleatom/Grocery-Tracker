@@ -25,4 +25,4 @@ function App(){
  <div className="freshness">Catalog source: <b>retailer spreadsheets + automated collectors</b>{legacy?.meta?.updated_at?' · legacy history retained':''}</div>
  </main></>
 }
-createRoot(document.getElementById('root')).render(<App/>);+Number(n).toFixed(2):null;const displayPrice=o=>positive(o?.promo_price)||positive(o?.price);const sourceLabel=o=>o?.source?.collector==='browser-run'?'Browser':o?.source?.file?'XLSX':(o?.source?.collector||o?.source?.source||'Price');
+createRoot(document.getElementById('root')).render(<App/>);
