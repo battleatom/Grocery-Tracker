@@ -84,7 +84,7 @@ export default {async fetch(request,env){
  const url=new URL(request.url);
  if(url.pathname==='/api/scrape/essentials'){
   if(request.method!=='POST')return json({error:'Method not allowed'},405);
-  if(!env.UPLOAD_PASSWORD||((request.headers.get('Authorization')!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(url.searchParams.get('key')!==env.SCRAPER_TRIGGER_KEY)))return json({error:'Not authorized.'},401);
+  if((!env.UPLOAD_PASSWORD||request.headers.get('Authorization')!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(!env.SCRAPER_TRIGGER_KEY||url.searchParams.get('key')!==env.SCRAPER_TRIGGER_KEY))return json({error:'Not authorized.'},401);
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   try{
    const body=await request.json().catch(()=>({}));
@@ -102,6 +102,8 @@ export default {async fetch(request,env){
   for(const batch of r.results){
    let data;try{data=JSON.parse(batch.data)}catch{continue}
    for(const p of data.products||[]){
+    p.observations=(p.observations||[]).map(o=>({...o,price:o.price>0?o.price:null,promo_price:o.promo_price>0?o.promo_price:null,regular_price:o.regular_price>0?o.regular_price:null,unit_price:o.unit_price>0?o.unit_price:null})).filter(o=>o.price||o.promo_price||o.unit_price);
+    if(!p.observations.length)continue;
     const key=p.store+'|'+p.sku, prior=products.get(key);
     const observations=[...(prior?.observations||[]),...(p.observations||[])];
     products.set(key,{...p,observations});
