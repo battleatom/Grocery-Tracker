@@ -3,7 +3,8 @@
   "captured_at": "2026-09-19",
   "location": "Farmington, NM",
   "source_scope": "farmington",
-  "note": "Seed list transcribed from user-provided Farmington, NM Albertsons page text. Preserve current price and unit price where supplied; page text may include approximate variable-weight totals.",\n  "provenance": "user-provided Farmington Albertsons page text",
+  "note": "Seed list transcribed from user-provided Farmington, NM Albertsons page text. Preserve current price and unit price where supplied; page text may include approximate variable-weight totals.",
+  "provenance": "user-provided Farmington Albertsons page text",
   "products": [
     {
       "sku": "manual-produce-001",
