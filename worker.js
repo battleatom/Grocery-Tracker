@@ -30,38 +30,95 @@ function similarity(a,b){
  return common/Math.max(1,Math.min(A.size,B.size));
 }
 const CATEGORY_RULES=[
- ['Meat & Seafood',/\b(beef|steak|ground beef|chicken|turkey|pork|bacon|sausage|ham|fish|salmon|shrimp|seafood|meat)\b/],
+ ['Meat & Seafood',/\b(beef|steak|chuck|sirloin|ribeye|brisket|roast|tenderloin|round|flank|skirt|short ribs?|ground beef|chicken|turkey|pork|bacon|sausage|ham|fish|salmon|shrimp|seafood|meat)\b/],
  ['Milk & Dairy',/\b(milk|half and half|creamer)\b/],
- ['Bread & Bakery',/\b(bread|bun|roll|tortilla|bagel|english muffin|bakery)\b/],
+ ['Bread & Bakery',/\b(bread|bun|tortilla|bagel|english muffin|bakery)\b/],
  ['Eggs',/\b(egg|eggs)\b/],
  ['Butter & Margarine',/\b(butter|margarine)\b/],
  ['Cheese',/\b(cheese|cheddar|mozzarella|parmesan|colby|swiss|provolone)\b/],
  ['Produce',/\b(apple|banana|orange|lemon|lime|berry|berries|strawberry|grape|potato|onion|carrot|broccoli|spinach|lettuce|pepper|cucumber|tomato|avocado|produce|fruit|vegetable)\b/],
  ['Coffee & Tea',/\b(coffee|espresso|k cup|k-cup|tea|cold brew)\b/],
  ['Breakfast',/\b(cereal|oatmeal|pancake|waffle|syrup|breakfast)\b/],
- ['Pantry',/\b(pasta|rice|bean|beans|sauce|flour|sugar|oil|peanut butter|jelly|jam|spice|seasoning|canned)\b/],
+ ['Pantry',/\b(pasta|spaghetti|rice|bean|beans|sauce|flour|sugar|oil|peanut butter|jelly|jam|spice|seasoning|canned)\b/],
  ['Frozen',/\b(frozen|ice cream|pizza)\b/],
  ['Snacks',/\b(chip|cracker|cookie|snack|popcorn|granola)\b/],
  ['Beverages',/\b(water|juice|soda|drink|beverage)\b/],
  ['Prepared Foods',/\b(deli|prepared|rotisserie|meal|taquito|bowl)\b/]
 ];
 function categoryFor(p){const t=norm((p.name||'')+' '+(p.package||''));for(const [name,re] of CATEGORY_RULES)if(re.test(t))return name;return 'Other Grocery'}
+
+const FAMILY_RULES=[
+ ['ground-beef',/\bground\s+(beef|chuck|sirloin|round)\b/],
+ ['beef-steak',/\b(ribeye|strip steak|new york strip|t-bone|porterhouse|sirloin steak|flank steak|skirt steak|beef steak)\b/],
+ ['beef-roast',/\b(chuck roast|beef roast|rump roast|round roast|pot roast)\b/],
+ ['brisket',/\bbrisket\b/],['chicken-breast',/\bchicken\b.*\bbreast/],['chicken-thigh',/\bchicken\b.*\bthigh/],
+ ['chicken-drumstick',/\bchicken\b.*\bdrumstick/],['whole-chicken',/\b(whole chicken|whole fryer|whole roaster)\b/],
+ ['pork-chop',/\bpork\b.*\bchop/],['pork-loin',/\bpork\b.*\bloin/],['pork-shoulder',/\b(pork shoulder|pork butt|boston butt)\b/],
+ ['bacon',/\bbacon\b/],['sausage',/\bsausage\b/],['ground-turkey',/\bground turkey\b/],
+ ['milk',/\bmilk\b/],['creamer',/\bcreamer\b/],['butter',/\bbutter\b/],['margarine',/\bmargarine\b/],
+ ['eggs',/\beggs?\b/],['shredded-cheese',/\b(shredded|shreds)\b.*\bcheese\b|\bcheese\b.*\b(shredded|shreds)\b/],
+ ['sliced-cheese',/\b(sliced|slices)\b.*\bcheese\b|\bcheese\b.*\b(sliced|slices)\b/],
+ ['cream-cheese',/\bcream cheese\b/],['sour-cream',/\bsour cream\b/],
+ ['sandwich-bread',/\b(white|wheat|sandwich)\b.*\bbread\b|\bbread\b.*\b(white|wheat|sandwich)\b/],
+ ['hamburger-buns',/\b(hamburger|burger) buns?\b/],['hotdog-buns',/\b(hot dog|hotdog) buns?\b/],
+ ['tortillas',/\btortillas?\b/],['spaghetti',/\bspaghetti\b/],['pasta-sauce',/\b(pasta|spaghetti|marinara) sauce\b/],
+ ['rice',/\brice\b/],['coffee',/\bcoffee\b/]
+];
+function familyFor(p){const t=norm((p.name||'')+' '+(p.package||''));for(const [family,re] of FAMILY_RULES)if(re.test(t))return family;return null}
+function attrFlag(t,re){return re.test(t)}
+function parseQty(t){
+ const multi=t.match(/(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(lb|lbs|oz|fl oz|gal|gallon|qt|ct|count)\b/);
+ let count=1,value=null,unit=null;
+ if(multi){count=Number(multi[1]);value=Number(multi[2]);unit=multi[3]}else{const m=t.match(/(\d+(?:\.\d+)?)\s*(lb|lbs|oz|fl oz|gal|gallon|qt|ct|count)\b/);if(m){value=Number(m[1]);unit=m[2]}}
+ if(!value)return {value:null,unit:null,total:null,basis:null};
+ unit=unit.replace('lbs','lb').replace('gallon','gal').replace('count','ct');
+ let total=value*count,basis=unit;
+ if(unit==='lb'){total*=16;basis='oz'}else if(unit==='gal'){total*=128;basis='fl oz'}else if(unit==='qt'){total*=32;basis='fl oz'}
+ return {value,unit,total,basis,count};
+}
+function productIdentity(p){
+ const t=norm((p.name||'')+' '+(p.package||'')), family=familyFor(p), qty=parseQty(t);
+ const lean=t.match(/\b(73|75|80|81|85|90|93|96)\s*%?\s*(?:lean)?\s*[\/-]\s*(27|25|20|19|15|10|7|4)\b/)||t.match(/\b(73|75|80|81|85|90|93|96)\s*%\s*lean\b/);
+ return {family,lean:lean?(lean[2]?lean[1]+'/'+lean[2]:lean[1]+'%'):null,qty,
+  frozen:attrFlag(t,/\bfrozen\b/),organic:attrFlag(t,/\borganic\b/),grassFed:attrFlag(t,/\bgrass fed\b/),
+  patties:attrFlag(t,/\bpatt(y|ies)\b/),boneless:attrFlag(t,/\bboneless\b/),boneIn:attrFlag(t,/\bbone in\b/),
+  whole:attrFlag(t,/\bwhole milk\b/),twoPct:attrFlag(t,/\b2\s*%\b/),onePct:attrFlag(t,/\b1\s*%\b/),skim:attrFlag(t,/\b(skim|fat free)\b/),
+  salted:attrFlag(t,/\bsalted\b/)&&!attrFlag(t,/\bunsalted\b/),unsalted:attrFlag(t,/\bunsalted\b/),
+  white:attrFlag(t,/\bwhite\b/),wheat:attrFlag(t,/\bwheat\b/),
+  tokens:new Set(tokens(p.name).filter(x=>!/^\d/.test(x)))};
+}
+function hardConflict(a,b){
+ if(!a.family||a.family!==b.family)return true;
+ for(const k of ['lean','frozen','organic','grassFed','patties','boneless','boneIn','whole','twoPct','onePct','skim','salted','unsalted','white','wheat']){
+  if(typeof a[k]==='boolean'&&typeof b[k]==='boolean'&&a[k]!==b[k]&&(a[k]||b[k]))return true;
+  if(k==='lean'&&a[k]&&b[k]&&a[k]!==b[k])return true;
+ }
+ return false;
+}
+function tokenScore(a,b){let common=0;for(const x of a.tokens)if(b.tokens.has(x))common++;const union=new Set([...a.tokens,...b.tokens]).size;return union?common/union:0}
+function relation(a,b){
+ if(hardConflict(a,b))return null;
+ const sameBasis=a.qty.basis&&a.qty.basis===b.qty.basis;
+ const sameSize=sameBasis&&a.qty.total!=null&&b.qty.total!=null&&Math.abs(a.qty.total-b.qty.total)<0.01;
+ const score=tokenScore(a,b);
+ if(sameSize)return {type:'equivalent',score:Math.max(.9,score)};
+ if(sameBasis)return {type:'unit-comparable',score:Math.max(.82,score)};
+ if(score>=.62)return {type:'equivalent',score};
+ return null;
+}
 function canonicalize(products){
  const groups=[];
  for(const p of products){
-  const sig=signature(p);let best=null,bestScore=0;
+  const identity=productIdentity(p);let best=null,bestRel=null;
+  if(!identity.family){groups.push({id:'group-'+groups.length,identity,name:p.name,products:[p],relations:{[p.store]:'unmatched'}});continue}
   for(const g of groups){
-   const gs=g.signature;
-   if(sig.lean&&gs.lean&&sig.lean!==gs.lean)continue;
-   if(sig.size&&gs.size&&sig.size!==gs.size)continue;
-   const score=similarity(sig,gs);
-   const crossStore=!g.products.some(x=>x.store===p.store);
-   if(crossStore&&score>bestScore){bestScore=score;best=g}
+   if(g.products.some(x=>x.store===p.store))continue;
+   const rel=relation(identity,g.identity);if(rel&&(!bestRel||rel.score>bestRel.score)){best=g;bestRel=rel}
   }
-  if(!best||bestScore<0.72){best={id:'group-'+groups.length,signature:sig,name:p.name,products:[]};groups.push(best)}
-  best.products.push(p);
+  if(!best){best={id:'group-'+groups.length,identity,name:p.name,products:[],relations:{}};groups.push(best);bestRel={type:'unmatched',score:1}}
+  best.products.push(p);best.relations[p.store]=best.products.length===1?'reference':bestRel.type;
  }
- return groups.map(g=>({id:g.id,name:g.name,variant:{lean:g.signature.lean,size:g.signature.size},stores:Object.fromEntries(g.products.map(p=>[p.store,p])),products:g.products}));
+ return groups.map(g=>({id:g.id,name:g.name,variant:{family:g.identity.family,lean:g.identity.lean,size:g.identity.qty.total!=null?(g.identity.qty.total+' '+g.identity.qty.basis):null},relations:g.relations,stores:Object.fromEntries(g.products.map(p=>[p.store,p])),products:g.products}));
 }
 
 
