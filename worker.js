@@ -1,3 +1,4 @@
+import safewayFarmingtonMeat from './src/data/safeway-farmington-meat-2026-09-19.js';
 import albertsonsProduce from './imports/manual/albertsons-produce-2026-09-19.json';
 import smithsPasted from './src/data/smiths-farmington-pasted-2026-09-19.js';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -111,7 +112,14 @@ export default {async fetch(request,env){
     p.observations=(p.observations||[]).map(o=>({...o,price:o.price>0?o.price:null,promo_price:o.promo_price>0?o.promo_price:null,regular_price:o.regular_price>0?o.regular_price:null,unit_price:o.unit_price>0?o.unit_price:null})).filter(o=>o.price||o.promo_price||o.unit_price);
     if(!p.observations.length)continue;
     const key=p.store+'|'+p.sku, prior=products.get(key);
-    const observations=[...(prior?.observations||[]),.  for(const row of albertsonsProduce.products||[]){
+    const observations=[...(prior?.observations||[]),.  for(const row of safewayFarmingtonMeat.products||[]){
+   const sku=String(row.sku);
+   const obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:safewayFarmingtonMeat.captured_at,source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:safewayFarmingtonMeat.location,source_url:'https://www.safeway.com/'}};
+   if(!obs.price&&!obs.unit_price)continue;
+   const p={id:'safeway-'+sku,sku,store:'Safeway',name:row.name,package:(row.name.match(/-\s*([\d.]+\s*(?:lb|oz)|\d+\s*count)\.?$/i)||[])[1]||'',category:row.category||'Meat & Seafood',observations:[obs]};
+   const key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+  for(const row of albertsonsProduce.products||[]){
    const sku=String(row.sku);
    const obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:albertsonsProduce.captured_at,source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:albertsonsProduce.location,source_url:'https://www.albertsons.com/'}};
    if(!obs.price&&!obs.unit_price)continue;
