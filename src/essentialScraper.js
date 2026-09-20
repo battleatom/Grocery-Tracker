@@ -35,7 +35,7 @@ async function scrapeSearch(page,store,query){
 
 export async function runEssentialScrape(env,{stores=Object.keys(STORES),queries=ESSENTIAL_SEARCHES,maxQueries=8}={}){
  if(!env.BROWSER)throw Error('Browser Run binding is not configured');
- const browser=await puppeteer.launch(env.BROWSER,{keep_alive:600000});const page=await browser.newPage();
+ const browser=await puppeteer.launch(env.BROWSER);const page=await browser.newPage();
  await page.setRequestInterception(true);page.on('request',r=>['image','media','font'].includes(r.resourceType())?r.abort():r.continue());
  const found=new Map(),errors=[];try{
   for(const store of stores.filter(x=>STORES[x])){
