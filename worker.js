@@ -22,6 +22,23 @@ function similarity(a,b){
  const A=new Set(a.kind),B=new Set(b.kind);let common=0;for(const x of A)if(B.has(x))common++;
  return common/Math.max(1,Math.min(A.size,B.size));
 }
+const CATEGORY_RULES=[
+ ['Meat & Seafood',/\b(beef|steak|ground beef|chicken|turkey|pork|bacon|sausage|ham|fish|salmon|shrimp|seafood|meat)\b/],
+ ['Milk & Dairy',/\b(milk|half and half|creamer)\b/],
+ ['Bread & Bakery',/\b(bread|bun|roll|tortilla|bagel|english muffin|bakery)\b/],
+ ['Eggs',/\b(egg|eggs)\b/],
+ ['Butter & Margarine',/\b(butter|margarine)\b/],
+ ['Cheese',/\b(cheese|cheddar|mozzarella|parmesan|colby|swiss|provolone)\b/],
+ ['Produce',/\b(apple|banana|orange|lemon|lime|berry|berries|strawberry|grape|potato|onion|carrot|broccoli|spinach|lettuce|pepper|cucumber|tomato|avocado|produce|fruit|vegetable)\b/],
+ ['Coffee & Tea',/\b(coffee|espresso|k cup|k-cup|tea|cold brew)\b/],
+ ['Breakfast',/\b(cereal|oatmeal|pancake|waffle|syrup|breakfast)\b/],
+ ['Pantry',/\b(pasta|rice|bean|beans|sauce|flour|sugar|oil|peanut butter|jelly|jam|spice|seasoning|canned)\b/],
+ ['Frozen',/\b(frozen|ice cream|pizza)\b/],
+ ['Snacks',/\b(chip|cracker|cookie|snack|popcorn|granola)\b/],
+ ['Beverages',/\b(water|juice|soda|drink|beverage)\b/],
+ ['Prepared Foods',/\b(deli|prepared|rotisserie|meal|taquito|bowl)\b/]
+];
+function categoryFor(p){const t=norm((p.name||'')+' '+(p.package||''));for(const [name,re] of CATEGORY_RULES)if(re.test(t))return name;return 'Other Grocery'}
 function canonicalize(products){
  const groups=[];
  for(const p of products){
@@ -75,7 +92,7 @@ export default {async fetch(request,env){
     products.set(key,{...p,observations});
    }
   }
-  const list=[...products.values()];return json({products:list,groups:canonicalize(list),batches:r.results.length});
+  const list=[...products.values()].map(p=>({...p,category:categoryFor(p)}));const groups=canonicalize(list).map(g=>({...g,category:g.products[0]?.category||'Other Grocery'}));return json({products:list,groups,batches:r.results.length,category_order:CATEGORY_RULES.map(x=>x[0]).concat(['Other Grocery'])});
  }
  if(url.pathname==='/api/uploads'){
   if(!env.UPLOADS)return json({error:'Upload storage unavailable'},503);
