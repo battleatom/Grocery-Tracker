@@ -8,7 +8,7 @@ const RETAILERS={
   Safeway:{prefix:'safeway-',hosts:['www.safeway.com','safeway.com']}
 };
 const stores=new Set(Object.keys(RETAILERS));
-const STOP=new Set(['the','a','an','and','or','of','with','fresh','all','natural','value','great','kroger','marketside','brand','pack','ct','oz','lb','lbs','each']);
+const STOP=new Set(['the','a','an','and','or','of','with','fresh','all','natural','value','great','kroger','marketside','members','member','mark','brand','pack','ct','oz','lb','lbs','each','priced','per','pound','case','bundle','tray','roll','vacuum','cryovac']);
 function norm(s){return String(s||'').toLowerCase().replace(/®|™/g,'').replace(/[^a-z0-9%]+/g,' ').trim()}
 function tokens(s){return norm(s).split(/\s+/).filter(x=>x.length>1&&!STOP.has(x))}
 function signature(p){
@@ -48,9 +48,9 @@ function canonicalize(products){
    if(sig.lean&&gs.lean&&sig.lean!==gs.lean)continue;
    if(sig.size&&gs.size&&sig.size!==gs.size)continue;
    const score=similarity(sig,gs);
-   if(score>bestScore){bestScore=score;best=g}
+   const crossStore=!g.products.some(x=>x.store===p.store);\n   if(crossStore&&score>bestScore){bestScore=score;best=g}
   }
-  if(!best||bestScore<0.62){best={id:'group-'+groups.length,signature:sig,name:p.name,products:[]};groups.push(best)}
+  if(!best||bestScore<0.72){best={id:'group-'+groups.length,signature:sig,name:p.name,products:[]};groups.push(best)}
   best.products.push(p);
  }
  return groups.map(g=>({id:g.id,name:g.name,variant:{lean:g.signature.lean,size:g.signature.size},stores:Object.fromEntries(g.products.map(p=>[p.store,p])),products:g.products}));
