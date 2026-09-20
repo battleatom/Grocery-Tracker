@@ -19,6 +19,6 @@
   },
   // Scraper retry deployment: keep this frequent only while validating Browser Run.
   "triggers": {
-    "crons": ["*/5 * * * *"]
+    "crons": ["0 */6 * * *"]
   }
 }
