@@ -49,7 +49,8 @@ function canonicalize(products){
    if(sig.lean&&gs.lean&&sig.lean!==gs.lean)continue;
    if(sig.size&&gs.size&&sig.size!==gs.size)continue;
    const score=similarity(sig,gs);
-   const crossStore=!g.products.some(x=>x.store===p.store);\n   if(crossStore&&score>bestScore){bestScore=score;best=g}
+   const crossStore=!g.products.some(x=>x.store===p.store);
+   if(crossStore&&score>bestScore){bestScore=score;best=g}
   }
   if(!best||bestScore<0.72){best={id:'group-'+groups.length,signature:sig,name:p.name,products:[]};groups.push(best)}
   best.products.push(p);
