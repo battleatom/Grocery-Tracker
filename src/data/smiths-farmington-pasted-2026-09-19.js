@@ -2795,6 +2795,214 @@ export default {
       "3 lb",
       null,
       null
+    ],
+    [
+      "Tostitos® Medium Con Queso Salsa Dip",
+      4.99,
+      5.49,
+      "15 oz",
+      null,
+      null
+    ],
+    [
+      "Ball Park White Hot Dog Buns",
+      3.49,
+      4.19,
+      "8 ct / 14 oz",
+      null,
+      null
+    ],
+    [
+      "Bar‑S Naturally Hardwood Smoked Thick Cut Bacon, 100% Pork, 12 oz",
+      4.99,
+      5.99,
+      "12 oz",
+      null,
+      null
+    ],
+    [
+      "Nature's Own 100% Whole Wheat Bread",
+      3.49,
+      4.29,
+      "20 oz",
+      null,
+      null
+    ],
+    [
+      "HORMEL Chili with Beans 15oz",
+      2.5,
+      2.89,
+      "15 oz",
+      null,
+      null
+    ],
+    [
+      "Oroweat Oatnut Whole Grain Bread",
+      4.49,
+      4.99,
+      "24 oz",
+      null,
+      null
+    ],
+    [
+      "Thomas' Original English Muffins",
+      3.99,
+      4.49,
+      "6 ct / 13 oz",
+      null,
+      null
+    ],
+    [
+      "Bar-S Classic Jumbo Franks, 8-Count, 1 lb",
+      1.5,
+      1.59,
+      "1 lb",
+      null,
+      null
+    ],
+    [
+      "Bar-S Classic Bologna, Sliced Deli Lunch Meat, 12 oz",
+      1.5,
+      1.79,
+      "12 oz",
+      null,
+      null
+    ],
+    [
+      "Dr Pepper Soda Bottles",
+      7.49,
+      7.49,
+      "6 pk / 16.9 fl oz",
+      null,
+      null
+    ],
+    [
+      "Doritos® Nacho Cheese Flavored Tortilla Chips Party Size",
+      6.49,
+      6.99,
+      "14.5 oz",
+      null,
+      null
+    ],
+    [
+      "Premium Original Saltine Crackers",
+      3,
+      4.49,
+      "16 oz",
+      null,
+      null
+    ],
+    [
+      "Carne Asada Flap Steak",
+      12.99,
+      14.99,
+      null,
+      12.99,
+      "lb"
+    ],
+    [
+      "Dr Pepper Soda Bottle",
+      3.49,
+      3.49,
+      "2 L",
+      null,
+      null
+    ],
+    [
+      "Dole Ultimate Caesar Premium Salad Kit",
+      3.67,
+      4.59,
+      "11.3 oz",
+      null,
+      null
+    ],
+    [
+      "Kroger® Vanilla Frozen Dairy Dessert Sandwiches",
+      3,
+      3.29,
+      "12 ct",
+      null,
+      null
+    ],
+    [
+      "Dr Pepper® Soda Cans",
+      15.99,
+      16.98,
+      "24 pk / 12 fl oz",
+      null,
+      null
+    ],
+    [
+      "Maruchan Ramen® Noodle Soup, Beef Flavor Instant Noodles",
+      3.5,
+      3.99,
+      "2.25 lb",
+      null,
+      null
+    ],
+    [
+      "Takis Fuego, Hot Chili Pepper & Lime Rolled Tortilla Chips",
+      3.49,
+      4.29,
+      "9.9 oz",
+      null,
+      null
+    ],
+    [
+      "Simply Potatoes Shredded Hash Browns",
+      3,
+      3.59,
+      "20 oz",
+      null,
+      null
+    ],
+    [
+      "Guerrero Tostadas Caseras Amarillas, 22 Count",
+      2.49,
+      2.89,
+      "12.8 oz",
+      null,
+      null
+    ],
+    [
+      "Coca-Cola® Soda Bottle",
+      3.49,
+      3.49,
+      "2 liter",
+      null,
+      null
+    ],
+    [
+      "Lay's® Classic Potato Chips Party Size",
+      4.99,
+      5.99,
+      "13 oz",
+      null,
+      null
+    ],
+    [
+      "Fresh California Seedless Red Grapes",
+      6.99,
+      7.99,
+      "3 lb",
+      null,
+      null
+    ],
+    [
+      "Sara Lee Classic Bread",
+      2.99,
+      3.19,
+      "20 oz",
+      null,
+      null
+    ],
+    [
+      "Kroger® Chef Salad Kit",
+      3.67,
+      3.99,
+      "6.7 oz",
+      null,
+      null
     ]
   ]
 };
