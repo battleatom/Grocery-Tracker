@@ -1,3 +1,4 @@
+import { runEssentialScrape, ESSENTIAL_SEARCHES } from './src/essentialScraper.js';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 
 const RETAILERS={
@@ -80,6 +81,19 @@ export function validateUpload(body){
 
 export default {async fetch(request,env){
  const url=new URL(request.url);
+ if(url.pathname==='/api/scrape/essentials'){
+  if(request.method!=='POST')return json({error:'Method not allowed'},405);
+  if(!env.UPLOAD_PASSWORD||request.headers.get('Authorization')!==`Bearer ${env.UPLOAD_PASSWORD}`)return json({error:'Enter the correct upload password.'},401);
+  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
+  try{
+   const body=await request.json().catch(()=>({}));
+   const result=await runEssentialScrape(env,{stores:Array.isArray(body.stores)?body.stores:undefined,queries:Array.isArray(body.queries)?body.queries:ESSENTIAL_SEARCHES,maxQueries:Math.max(1,Math.min(Number(body.maxQueries)||8,ESSENTIAL_SEARCHES.length))});
+   const now=new Date().toISOString(),hash='browser-'+now.replace(/[^0-9]/g,'');
+   const data={hash,filename:'Browser Run essentials '+now,imported_at:now,products:result.products,rows:[],usable_rows:result.products.length,source:'browser-run'};
+   await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
+   return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries});
+  }catch(e){return json({error:e.message||'Essential scrape failed'},500)}
+ }
  if(url.pathname==='/api/catalog'){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   const r=await env.UPLOADS.prepare('SELECT data FROM uploads ORDER BY imported_at, hash').all();
