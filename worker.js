@@ -84,7 +84,7 @@ export default {async fetch(request,env){
  const url=new URL(request.url);
  if(url.pathname==='/api/scrape/essentials'){
   if(request.method!=='POST')return json({error:'Method not allowed'},405);
-  if(!env.UPLOAD_PASSWORD||request.headers.get('Authorization')!==`Bearer ${env.UPLOAD_PASSWORD}`)return json({error:'Enter the correct upload password.'},401);
+  if(!env.UPLOAD_PASSWORD||((request.headers.get('Authorization')!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(url.searchParams.get('key')!==env.SCRAPER_TRIGGER_KEY)))return json({error:'Not authorized.'},401);
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   try{
    const body=await request.json().catch(()=>({}));
