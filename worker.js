@@ -1,4 +1,3 @@
-import { runEssentialScrape, ESSENTIAL_SEARCHES } from './src/essentialScraper.js';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 
 const RETAILERS={
@@ -80,51 +79,11 @@ export function validateUpload(body){
  return usable;
 }
 
-async function scrapeAndSave(env,maxQueries=2){
- if(!env.UPLOADS)throw Error('Catalog storage unavailable');
- const result=await runEssentialScrape(env,{stores:["Walmart","Smith's","Sam's Club"],queries:ESSENTIAL_SEARCHES,maxQueries:Math.max(1,Math.min(Number(maxQueries)||8,ESSENTIAL_SEARCHES.length))});
- const now=new Date().toISOString(),hash='browser-'+now.replace(/[^0-9]/g,'');
- const data={hash,filename:'Browser Run essentials '+now,imported_at:now,products:result.products,rows:[],usable_rows:result.products.length,source:'browser-run'};
- await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
- return result;
-}
-
-export default {async scheduled(controller,env,ctx){
- console.log('ESSENTIAL_SCRAPER_START',new Date().toISOString());
- ctx.waitUntil(scrapeAndSave(env,2).then(result=>{
-  console.log('ESSENTIAL_SCRAPER_SUCCESS',JSON.stringify({products:result.products.length,errors:result.errors.length,stores:result.stores,queries:result.queries}));
- }).catch(async e=>{
-  console.error('ESSENTIAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));
-  try{
-   const now=new Date().toISOString(),hash='scraper-error-'+now.replace(/[^0-9]/g,'');
-   const data={hash,filename:'Scraper error '+now,imported_at:now,products:[],rows:[],usable_rows:0,source:'scraper-error',error:e?.stack||e?.message||String(e)};
-   await env.UPLOADS.prepare('INSERT OR REPLACE INTO uploads (hash,filename,imported_at,data) VALUES (?,?,?,?)').bind(hash,data.filename,now,JSON.stringify(data)).run();
-  }catch(logError){console.error('ESSENTIAL_SCRAPER_ERROR_SAVE_FAILED',logError?.message||String(logError))}
- }));
-},async fetch(request,env){
+export default {async fetch(request,env){
  const url=new URL(request.url);
- if(url.pathname==='/api/scrape/essentials'){
-  if(request.method!=='POST')return json({error:'Method not allowed'},405);
-  if((!env.UPLOAD_PASSWORD||request.headers.get('Authorization')!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(!env.SCRAPER_TRIGGER_KEY||url.searchParams.get('key')!==env.SCRAPER_TRIGGER_KEY))return json({error:'Not authorized.'},401);
-  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
-  try{
-   const body=await request.json().catch(()=>({}));
-   const result=await scrapeAndSave(env,body.maxQueries||2);
-   return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries});
-  }catch(e){return json({error:e.message||'Essential scrape failed'},500)}
- }
- if(url.pathname==='/api/scrape/status'){
-  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
-  const r=await env.UPLOADS.prepare("SELECT data FROM uploads WHERE data LIKE '%browser-run%' OR data LIKE '%scraper-error%' ORDER BY imported_at DESC LIMIT 10").all();
-  const runs=r.results.map(x=>{try{const d=JSON.parse(x.data);return{filename:d.filename,imported_at:d.imported_at,source:d.source,products:(d.products||[]).length,error:d.error||null}}catch{return null}}).filter(Boolean);
-  return json({scheduled:true,runs});
- }
- if(url.pathname==='/api/scrape/run'&&request.method==='POST'){
-  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
-  const auth=request.headers.get('Authorization'),key=url.searchParams.get('key');
-  if((!env.UPLOAD_PASSWORD||auth!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(!env.SCRAPER_TRIGGER_KEY||key!==env.SCRAPER_TRIGGER_KEY))return json({error:'Unauthorized'},401);
-  try{const result=await scrapeAndSave(env,2);return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries})}catch(e){console.error('MANUAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));return json({error:e?.message||String(e)},500)}
- }
+
+
+
  if(url.pathname==='/api/catalog'){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   const r=await env.UPLOADS.prepare('SELECT data FROM uploads ORDER BY imported_at, hash').all();
