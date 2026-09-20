@@ -113,6 +113,18 @@ export default {async scheduled(controller,env,ctx){
    return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries});
   }catch(e){return json({error:e.message||'Essential scrape failed'},500)}
  }
+ if(url.pathname==='/api/scrape/status'){
+  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
+  const r=await env.UPLOADS.prepare("SELECT data FROM uploads WHERE data LIKE '%browser-run%' OR data LIKE '%scraper-error%' ORDER BY imported_at DESC LIMIT 10").all();
+  const runs=r.results.map(x=>{try{const d=JSON.parse(x.data);return{filename:d.filename,imported_at:d.imported_at,source:d.source,products:(d.products||[]).length,error:d.error||null}}catch{return null}}).filter(Boolean);
+  return json({scheduled:true,runs});
+ }
+ if(url.pathname==='/api/scrape/run'&&request.method==='POST'){
+  if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
+  const auth=request.headers.get('Authorization'),key=url.searchParams.get('key');
+  if((!env.UPLOAD_PASSWORD||auth!==`Bearer ${env.UPLOAD_PASSWORD}`)&&(!env.SCRAPER_TRIGGER_KEY||key!==env.SCRAPER_TRIGGER_KEY))return json({error:'Unauthorized'},401);
+  try{const result=await scrapeAndSave(env,8);return json({saved:true,products:result.products.length,errors:result.errors,stores:result.stores,queries:result.queries})}catch(e){console.error('MANUAL_SCRAPER_ERROR',e?.stack||e?.message||String(e));return json({error:e?.message||String(e)},500)}
+ }
  if(url.pathname==='/api/catalog'){
   if(!env.UPLOADS)return json({error:'Catalog storage unavailable'},503);
   const r=await env.UPLOADS.prepare('SELECT data FROM uploads ORDER BY imported_at, hash').all();
