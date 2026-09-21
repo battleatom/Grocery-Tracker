@@ -4,6 +4,7 @@ import safewayFarmingtonDairy from './src/data/safeway-farmington-dairy-new-tren
 import safewayFarmingtonMeat from './src/data/safeway-farmington-meat-2026-09-19.js';
 import albertsonsProduce from './imports/manual/albertsons-produce-2026-09-19.json';
 import smithsPasted from './src/data/smiths-farmington-pasted-2026-09-19.js';
+import walmartScreenRecording from './src/data/walmart-farmington-screenrecording-2026-09-20.js';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 
 const RETAILERS={
@@ -195,6 +196,10 @@ export default {async fetch(request,env){
   for(const row of albertsonsProduce.products||[]){
    const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:albertsonsProduce.captured_at,availability:row.out_of_stock?'out_of_stock':'available',source:{collector:'pasted-retailer-page',source_scope:'farmington',store_location:albertsonsProduce.location,source_url:'https://www.albertsons.com/'}};
    if(!obs.price&&!obs.unit_price)continue;const p={id:'albertsons-'+sku,sku,store:'Albertsons',name:row.name,package:row.package||'',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
+  }
+  for(const row of walmartScreenRecording.products||[]){
+   const sku=String(row.sku),obs={price:positivePrice(row.price),regular_price:positivePrice(row.regular_price),promo_price:null,unit_price:positivePrice(row.unit_price),unit:row.unit||null,observed_at:walmartScreenRecording.captured_at,availability:'available',source:{collector:'screen-recording',source_scope:'farmington',store_location:walmartScreenRecording.location,source_url:row.source_url||'https://www.walmart.com/search?q=all%20grocery'}};
+   if(!obs.price&&!obs.unit_price)continue;const p={id:'walmart-'+sku,sku,store:'Walmart',name:row.name,package:'',observations:[obs]},key=p.store+'|'+p.sku,prior=products.get(key);products.set(key,{...p,observations:[...(prior?.observations||[]),obs]});
   }
   for(const [i,row] of smithsPasted.products.entries()){
    const [name,price,regular_price,pkg,unit_price,unit]=row;
