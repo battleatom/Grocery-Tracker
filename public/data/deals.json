@@ -1,124 +1,124 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-09-22T16:56:40.527Z",
+    "updated_at": "2026-09-23T16:56:16.228Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Thunderbit / Sam's Club",
         "status": 402,
-        "checked_at": "2026-09-22T16:56:40.527Z",
+        "checked_at": "2026-09-23T16:56:16.228Z",
         "error": "insufficient_credits"
       },
       {
         "source": "ScrapeOps / Walmart",
         "status": 403,
-        "checked_at": "2026-09-22T16:56:40.527Z",
+        "checked_at": "2026-09-23T16:56:16.228Z",
         "attempted": 1,
         "matched": 0
       },
       {
         "source": "Thunderbit / Walmart",
         "status": 402,
-        "checked_at": "2026-09-22T16:56:40.527Z"
-      },
-      {
-        "source": "Open Prices",
-        "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "nearby_rows": 0,
-        "matched": 0
-      },
-      {
-        "source": "Sam's Club",
-        "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "blocked": true
-      },
-      {
-        "source": "Walmart",
-        "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "blocked": true
+        "checked_at": "2026-09-23T16:56:16.228Z"
       },
       {
         "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "flyers": 0,
-        "items": 0,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "flyers": 5,
+        "items": 1032,
         "deals": {
-          "Safeway": 0,
-          "Albertsons": 0,
-          "Walmart": 0
+          "Safeway": 310,
+          "Albertsons": 314,
+          "Walmart": 144
         }
       },
       {
         "source": "Flipp/Wishabi NM 87101",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "flyers": 0,
-        "items": 0,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "flyers": 2,
+        "items": 532,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
-          "Walmart": 0
+          "Albertsons": 185,
+          "Walmart": 144
         }
+      },
+      {
+        "source": "Open Prices",
+        "status": 200,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "nearby_rows": 0,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "flyers": 0,
-        "items": 0,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "flyers": 2,
+        "items": 532,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
-          "Walmart": 0
+          "Albertsons": 185,
+          "Walmart": 144
         }
+      },
+      {
+        "source": "Sam's Club",
+        "status": 200,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "blocked": true
       },
       {
         "source": "Flipp/Wishabi NM 88001",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "flyers": 0,
-        "items": 0,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "flyers": 3,
+        "items": 598,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
-          "Walmart": 0
+          "Albertsons": 254,
+          "Walmart": 144
         }
+      },
+      {
+        "source": "Walmart",
+        "status": 200,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "blocked": true
       },
       {
         "source": "Flipp/Wishabi NM 88201",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
-        "flyers": 0,
-        "items": 0,
+        "checked_at": "2026-09-23T16:56:16.228Z",
+        "flyers": 2,
+        "items": 532,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
-          "Walmart": 0
+          "Albertsons": 185,
+          "Walmart": 144
         }
       },
       {
         "source": "Safeway product API",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
+        "checked_at": "2026-09-23T16:56:16.228Z",
         "store_id": "2004",
         "searched": 121,
-        "matched": 114
+        "matched": 112
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
+        "checked_at": "2026-09-23T16:56:16.228Z",
         "location_id": "70600409"
       },
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-09-22T16:56:40.527Z",
+        "checked_at": "2026-09-23T16:56:16.228Z",
         "store_id": "824",
         "searched": 121,
         "matched": 114
@@ -147,14 +147,3306 @@
       "address": "1400 W Main St",
       "program": "Rollbacks",
       "deal_url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services",
-      "deals": []
+      "deals": [
+        {
+          "name": "Chefman Fast Boiling 1.8L Electric Glass Kettle, Removable Tea Infuser, LED Lights, Stainless Steel",
+          "price": 26.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Scenario Women's V-Neck Lightweight Sweater with Short Sleeves",
+          "price": 14.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful 1-Liter Electric Gooseneck Kettle 1200 W, Sage Green by Drew Barrymore",
+          "price": 29.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Wyatt Velvet Sofa, Blue Cove",
+          "price": 213,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "George Foreman 4‑Serving Electric Grill & Panini Press, Easy‑Clean Removable Dishwasher‑Safe Nonstick Plates",
+          "price": 39.96,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful Portable to-Go Blender 2.0, 70 W, 16 oz, White Icing by Drew Barrymore",
+          "price": 33.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Celebrity Pink Women's and Women's Plus Fleece Wide Leg Sweatpant",
+          "price": 18.5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GTRACING Ergonomic GTWD-200 Gaming and Office Chair with Adjustable Pillows and Footrest, White",
+          "price": 129,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Springwood Horizontal Bookcase, Charcoal",
+          "price": 91.78,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "No Boundaries Poplin Cargo Pants, 31.5'' Inseam",
+          "price": 16.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "No Boundaries Mineral Wash Fleece Barrel Leg Pants, 29'' Inseam",
+          "price": 14.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Zinus Gel Airflow 8\" Full Mattress, Gel Memory Foam Mattress CertiPUR-US Certified",
+          "price": 118,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Sparkle Tear-A-Square Paper Towels",
+          "price": 3.77,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Champion Women's Knit Sleep Pants with Pockets",
+          "price": 18,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja Blast Portable Personal 18 Oz Blender w/ Leak Proof Lid & Easy Sip Spout, Rechargeable Base, BC150BK Black",
+          "price": 39.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Magic Bullet Mini Juicer, 400-Watt, Silver, MBJ10100WM",
+          "price": 39.96,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Free Assembly Women's And Women's Plus Cap Sleeve Tee",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Garnier Fructis Pure Clean Smoothing, Straightening, Shampoo, Conditioner, All Hair Types, Everyday Use",
+          "price": 6.47,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Zinus Core Comfort 6\" Twin Mattress, Innerspring Mattress in a Box",
+          "price": 74.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Protege 18 in Softside Pilot Case Carry-On Luggage, 2 Wheels, Black",
+          "price": 31.76,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mountain Dew Citrus Soda Pop, 16.9 fl oz, 12 Pack Bottles",
+          "price": 11.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pepsi Cola Soda Pop",
+          "price": 2.78,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Rising Crust Cheese Pizza",
+          "price": 4.46,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Doritos Nacho Cheese Tortilla Snack Chips",
+          "price": 5.94,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Marketside Bite-Sized Freshly Baked Moist Ultimate Chocolate Brownies",
+          "price": 5.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Marketside Caesar Salad Kit",
+          "price": 2.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Keurig K-Express Essentials Black Single-Serve K-Cup Pod Coffee Maker",
+          "price": 49.47,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Avenco CozyNest 6\" Twin Size Medium Supportive Innerspring Mattress",
+          "price": 68.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Revlon Glimmer Lip Treat Balm + Mask for Dry Lips, Overnight, 011 Strawberry Swirl, 0.4 fl oz",
+          "price": 8.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Serta Air Lumbar Bonded Leather Manager Office Chair, Gray Faux Leather",
+          "price": 149,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "e.l.f. Lash It Loud Mascara",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful Cordless Immersion Blender with Chopper, Whisk & Measuring Cup, White Icing by Drew Barrymore",
+          "price": 49.96,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Revlon Super Lustrous Glass Shine Hydrating Tinted Lip Balm, 008 Rum Raisin",
+          "price": 8.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful Personal Blender Set with 12 Pieces, 240 W, Rose by Drew Barrymore",
+          "price": 37.64,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Protege 4-Piece Ergonomic Memory Foam Neck Pillow Travel Set",
+          "price": 21.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Razer Basilisk V3 Ergonomic Wired Gaming Mouse with 26K DPI Optical Sensor, 11 Programmable Buttons, Chroma RGB and HyperScroll Tilt Wheel - Black",
+          "price": 34.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chefman 1L Electric Glass Kettle w/ LED Indicator Light, Automatic Shutoff - Black",
+          "price": 16.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "COVERGIRL Clean Fresh Blurring Skin Tint SPF30, 415 Light Neutral",
+          "price": 8.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MONDAY Haircare VOLUME Conditioner Plumps Thin Fine Hair, Hydrolyzed Collagen, Coconut Oil",
+          "price": 6.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "onn. Wired Video Gaming Headset with 3.5mm Connector, Flip-to-Mute Mic, Lightweight Steel, For Nintendo Switch 2",
+          "price": 19.67,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Modern Farmhouse Lift-Top Coffee Table, Rustic Gray",
+          "price": 92.68,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "HP LaserJet MFP M235sdw Laser Printer, Black And White Mobile Print, Copy, Scan",
+          "price": 179,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Razer Huntsman Mini 60% Optical Gaming Keyboard, Clicky Switch, Quartz",
+          "price": 69,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Disposable Foam Cups, 50 Count",
+          "price": 1.82,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Heavy Duty Aluminum Foil",
+          "price": 3.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Freezer Guard Slider Zipper Freezer Bags",
+          "price": 2.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Fresh Seal Slider Zipper Storage Bags",
+          "price": 4.82,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "VIZIO 55 in Mini LED Quantum 4K QLED HDR Smart TV, 2026 Model, VQM55C-10",
+          "price": 248,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "No Boundaries Button Front Trousers, 33'' Inseam",
+          "price": 15.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "No Boundaries Mini Waistband Wide Leg Pants, 31'' Inseam",
+          "price": 15.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ozark Trail 70L Coated Polyester Ripstop Duffel Bag with Backpack Straps, Blue",
+          "price": 38.62,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "American Tourister Kontour Hardside Expandable Spinner Luggage Set with Divider Pockets - Black",
+          "price": 99.33,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Canon MegaTank PIXMA G3272 All-In-One, Wireless Color Inkjet Printer for Home Office Use",
+          "price": 159,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "BTL 20-inch Carry-On Expandable Nylon Softside Upright Luggage with 360-Spinner Wheels and Divider Pockets, Black",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "American Tourister Cargo Max 29\" Softside Large Checked Spinner Luggage with Divider Pockets, Olive",
+          "price": 119,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Securitech by Delsey, Patrol Carry-on Hardside Spinner Luggage Blue",
+          "price": 54,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mills by Millie Bobby Brown Women's Scoop Short Sleeve T-Shirt",
+          "price": 15.5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Blue Lizard Kids SPF 50 Mineral Sunscreen Spray, Broad Spectrum",
+          "price": 16.94,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Toastmaster 2-Slice Toaster, Stainless Steel, Extra Wide Slots, High Rise Toast Lift, Gluten Free Setting, 900W",
+          "price": 27.87,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Milani Make It Last Charcoal Jumbo XL Setting Spray, Matte Finish, Long-Lasting, Mattifying",
+          "price": 14.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Linenspa Explorer 6\" Firm Tight Top Innerspring Mattress, Twin",
+          "price": 108,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "e.l.f. Contour Palette, Light/Medium",
+          "price": 9,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Caress Shea Butter & Brown Sugar Body Wash, Exfoliating & Moisturizing, Hyaluronic Acid",
+          "price": 6.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful 2 Slice Toaster with Touch-Activated Display, White Icing by Drew Barrymore",
+          "price": 39.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "e.l.f. Primer-Infused Bronzer, Forever Sunkissed",
+          "price": 7,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Milani Conceal + Perfect Longwear Liquid Concealer, Light Vanilla",
+          "price": 9.78,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mainstays 1.7L Electric Kettle with Auto Shut-Off, White",
+          "price": 14.84,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "SheaMoisture Shampoo for Type 3 & 4 Dry Hair, Jamaican Black Castor Oil With Apple Cider Vinegar And Shea Butter, 13 fl oz",
+          "price": 9.87,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Marketside Three Cheese Garlic Bread Knots",
+          "price": 3.57,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Travelers Club 5-Piece Kid's Hard-Side Luggage Set with 18\" Spinner Rolling Carry-on- Rainbow",
+          "price": 49.96,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mielle Kalahari Melon and Aloe Vera Deep Hydration Multi-Tasking Leave-In Conditioner",
+          "price": 13.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "btL 16-inch Nylon Convertible Travel Backpack Tote with 15-inch Laptop Sleeve, Black",
+          "price": 48,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Rising Crust Pepperoni Pizza, Marinara Sauce",
+          "price": 4.46,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful 6-Speed Electric Hand Mixer, White Icing by Drew Barrymore",
+          "price": 34.86,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "e.l.f. SKIN Bronzing Drops, Pure Gold",
+          "price": 11,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Renwick Corduroy Fabric Barrel Chair for Living Room, Dark Green",
+          "price": 118,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens 6 Cube Storage Organizer, Textured White",
+          "price": 64.44,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens EcoChoice 4.9 qt Round Olive Beige Bamboo Melamine Plastic Serving Bowl, Reusable, Dishwasher-Safe",
+          "price": 6.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Emma Papasan Accent Chair, Gray Linen",
+          "price": 164,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Renwick Modern Upholstered Accent Chair, Set of 2, Black Velvet",
+          "price": 174.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "John Frieda Frizz Ease Daily Nourishment Leave-In Conditioner, Anti-Frizz Spray",
+          "price": 7.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja NeverClog Cold Press Juicer 150W, 18oz Jug, 30oz Pulp Container, 2-Speed, Compact, JC150",
+          "price": 119,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Alden Design Modern Accent Chair with Wooden Frame, Warm Brown Faux Leather",
+          "price": 100,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Alden Design Mid-Century Modern Faux Leather Wingback Accent Chair, Brown",
+          "price": 143,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja CREAMi Ice Cream Maker, for Mix-ins, Milkshakes, Sorbet, 5 One-Touch Programs, (2) 16 Oz Pint Containers & Lids, NC300WH White",
+          "price": 149,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Emerson Curvy Accent Chair, Ochre Velvet",
+          "price": 144,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "The Pioneer Woman Colette Cream 7-Piece Serving Tray Set with 3 Bowls and Lids",
+          "price": 15.48,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Vivitar Creator Series USB 3.0 Universal Card Reader for iPhone, iPad, Mac & PC, Magnetic USB-C & Lightning SD/MicroSD Card Adapter, Photo & Video Memory Reader, High-Speed Data Transfer",
+          "price": 29.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Springwood Storage Accent Cabinet, Light Honey Finish",
+          "price": 142,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Disposable Plastic White Forks, 48 Count",
+          "price": 2.24,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "onn 25\" FHD (1920 x 1080p) 200Hz 1ms AMD FreeSync Gaming Monitor with Cables, Black",
+          "price": 89,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Renwick Faux Leather Armchair for Living Room, Dark Brown",
+          "price": 139,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GoBig Party Mini Shot Disposable Plastic Cups",
+          "price": 2.78,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hamilton Beach FlexBrew 5-in-1 Coffee Maker, Hot or Iced, Single Serve Pod or Coffee Grounds, 12 Cup Coffee Pot, Black",
+          "price": 87,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Disposable Paper Food Trays, Holds Up to 3 lb, 50 Count",
+          "price": 4.64,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Vanity Fair Everyday 6.5 in x 6.35 in 2-Ply White Napkins (100 Count)",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dixie Ultra Disposable Paper Bowls",
+          "price": 3.32,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Value Star Foam Charola Tray 200ct",
+          "price": 55.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Kids Disposable Paper Bowls, 8 oz, Multicolor, 20 Count",
+          "price": 2.62,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja Pods & Grounds Hot & Iced Single-Serve Coffee Maker, K-Cup Pod Compatible, Rapid Cold Brew, PB045, Black",
+          "price": 79.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lee® Women's Legendary Bootcut Jean",
+          "price": 18,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Disposable Plastic Party Cups, Red, 18 oz, 25 Count",
+          "price": 3.18,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Kids Disposable Paper Plates, 25 Count, Assortment May Vary",
+          "price": 2.62,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Plastic Disposable Flexible Straws, Multi-Color",
+          "price": 1.62,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "KODAK PIXPRO FZ45-SL (Silver) 4X Optical Friendly Zoom Digital Camera",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lenovo IdeaPad 5a 2-in-1 15\" Laptop, Touchscreen, AMD Ryzen AI 7 445, 16GB RAM, 1TB SSD, Luna Grey - 3 Months of Microsoft 365 Personal included",
+          "price": 849,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Floral Green Serving Tray, 15.6 in x 10.1 in, Dishwasher Safe",
+          "price": 6.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful 3-Compartment Bamboo Melamine Sardine Serve Tray by Drew Barrymore",
+          "price": 4.74,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "RTC Group Vurban Furniture Padded Folding Chairs with Cushion, Durable & Portable Foldable Fabric Chairs for Indoor & Outdoor, Party, Dining, Work, Banquet - Citrus Orange",
+          "price": 43.37,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value White Disposable Paper Napkins",
+          "price": 3.66,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Altec Lansing Hydra Jolt 2.0 Everything Proof Wireless Magnetic Portable Bluetooth Speaker, Periwinkle Blue White, IMW1202-PERIWT",
+          "price": 29.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tide Ultra Odor Defense Plus Oxi Liquid Laundry Detergent",
+          "price": 17.94,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Liquipel Powertek Type-C Fast Charger Cable, 6ft USB-C for Galaxy, Note, Tab, MacBook, Premium White",
+          "price": 7.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "HP 15.6 inch HD Windows Laptop Intel Processor N250 4GB 128GB UFS Moonlight Blue",
+          "price": 229,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hisense R632 3.1 Channel 380W Soundbar with Wireless Subwoofer with Dolby Atmos, DTS:X, Easy Connect",
+          "price": 129,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Brookstone Keane 21\" Hardside Carry On Expandable Spinner Luggage for Travel, Charcoal",
+          "price": 104,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens 16 Cube Storage Organizer, Rustic Gray",
+          "price": 111.44,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Ezra Glass Door Storage Accent Cabinet, Warm Walnut finish",
+          "price": 198,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Athletic Works Women's ButterCore Flare Leggings with Fold Over Waist, 31\" Inseam",
+          "price": 16.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Celebrity Pink Women's and Women's Plus Long Sleeve Mockneck Sweater Top",
+          "price": 15.5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Zinus Calm 6\" Twin Tight Top Cooling Gel Memory Foam Mattress, Pressure Relieving",
+          "price": 94.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Celebrity Pink Women's Long Sleeve Square Neck Lace Trim Top",
+          "price": 16.5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Sony MDR-ZX110 Wired On-Ear Headphones, Black",
+          "price": 11.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Protege 3-Piece Softside Luggage Travel Set, Includes Medium Checked Luggage, Carry On Duffel and Boarding Tote, Gray",
+          "price": 57,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "American Tourister Dash XLT Softside Medium Checked Luggage with Spinner Wheels Single Piece - Sapphire Blue",
+          "price": 79.2,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Jessica Simpson Women's Ivy Tee",
+          "price": 16.5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Scenario Women's and Women's Plus Tee with Short Cap Sleeves",
+          "price": 6.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Women's Thankful Graphic Seasonal Fall Tee, from Positivitees",
+          "price": 8.98,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chefman Smart Touch 2 Slice Digital Toaster with 6 Touchscreen Shade Settings – Stainless Steel",
+          "price": 34.96,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Serta Air Lumbar Bonded Leather Manager Office Chair, Black",
+          "price": 129,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "btL 20-inch Carry-On Expandable Hardside Upright Luggage With 360-Spinner Wheels and Divider Pockets, Taupe",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Protege 7-Piece Softside Polyester Luggage Set with 360 Spinner Wheels, 3 Suitcases and 4 Packing Cubes, Gray",
+          "price": 164,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mainstays 8 Cube Storage Organizer, White",
+          "price": 39.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Toastmaster 2-Slice Multi-Function Toaster - Star White with Lever and Dial Controls, Extra Wide Slots, High Rise Toast Lift and Gluten Free Setting, 900W",
+          "price": 30.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Protege 3-Piece Softside Luggage Travel Set, Includes Medium Checked Luggage, Carry On Duffel and Boarding Tote, Soothing Gray",
+          "price": 57,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "American Tourister Armour XLT Hardside Large Checked Luggage with Spinner Wheels - Grey",
+          "price": 89.38,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mainstays Collapsible Fabric Cube Storage Bins, Green Boucle, 4 Pack, 10.5 in x 10.5 in x 10.75 in",
+          "price": 19.68,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "JLab JBuddies Studio On-Ear Kids Wired Headphones, Grey/Blue, Studio Volume Safe, Volume Limiter, Folding, Adjustable, Noise Isolation, with Mic",
+          "price": 11.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samsung 34\" Odyssey G55T WQHD 165Hz 1ms(MPRT) AMD FreeSync HDR Curved Gaming Monitor - LC34G55TWDNXZA",
+          "price": 279,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samsung 75\" Class M70HB Series Mini LED 4K UHD Samsung Vision AI Companion Smart Tizen TV 2026 - UN75M70HBFXZA",
+          "price": 548,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beats Studio Pro Wireless Headphones - Matte White",
+          "price": 149,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "HP OmniStudio 23.8 Inch All-in-One Desktop PC, Full HD Display, Windows 11 Home, Cashmere White",
+          "price": 599,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hisense 55\" M7 Mini-LED QLED 4K UHD Google Smart TV (55M7SG, 2026 Model) - Hi - QLED, MiniLED, Full Array Local Dimming, Dolby Vision, HDR10+, Built-in Subwoofer, Game Mode Pro, Google Assistant",
+          "price": 284,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "RAZER BARRACUDA X (2022) - 2.4GHz Wireless/BT Headset, Multi-Platform Gaming and Mobile - Mercury (White)",
+          "price": 69,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8157039?locale=en-us&postal_code=88201"
+        }
+      ]
     },
     {
       "store": "Albertsons",
       "address": "4909 E Main St",
       "program": "forU / Weekly Ad / Digital Coupons",
       "deal_url": "https://local.albertsons.com/nm/farmington/4909-e-main-st.html",
-      "deals": []
+      "deals": [
+        {
+          "name": "Lucerne Extra Large Eggs",
+          "price": 2.47,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Red Baron Pizza, French Bread Pizza or Deep Dish Singles",
+          "price": 3.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Taylor Farms Chopped Salad Kits",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Butcher's Blend Marinated Chicken Breast",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Arm & Hammer Laundry Detergent or Oxi Clean",
+          "price": 6.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Blue Bell Ice Cream and Cups",
+          "price": 6.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Land O' Frost DeliShaved Lunch Meat",
+          "price": 1.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tropicana Orange Juice",
+          "price": 3.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Green Mountain Coffee K Cups",
+          "price": 6.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Sweet White Seedless Grapes",
+          "price": 1.47,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Michelob Ultra, Corona, Modelo, Pacifico, or Sol",
+          "price": 14.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Variety Beans",
+          "price": 0.87,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "General Mills Large Cereal",
+          "price": 2.47,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Care™ Baby Wipes",
+          "price": 1.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Pickles or Sauerkraut",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Smoked Gouda Pimento Spread",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lucerne® Cream Cheese Spread",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Cookies",
+          "price": 2.79,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Tuxedos",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O Organics® Baby Puffs",
+          "price": 2.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lucerne® Shredded Cheese",
+          "price": 6.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Select® Pretzels",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Deli Style Chips",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Bratwurst or Italian Sausage",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Canned Vegetables",
+          "price": 0.89,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Apples",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT Plastic Cups or Heavy Duty Flatware",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lucerne® Pumpkin Pecan or Maple Brown Sugar Coffee Creamer",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Brightly Paper Towels",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT Canned Chicken",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Made Green Beans with Parmesan Black Pepper Butter",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Sweet Honeycrisp Apples",
+          "price": 4.79,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Pancake & Sausage On A Stick",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Instant Oatmeal",
+          "price": 1.79,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Sloppy Joe Sauce",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Dish Detergent",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dasani Water",
+          "price": 9,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Himalaya Kids Toothpaste",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Starkist Tuna Pouches",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fomin Deodorant Wipes",
+          "price": 4.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Zum Hand & Bar Soap",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Blue Bunny Mini Swirl Cones or Sandwiches",
+          "price": 7,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chobani Coffee Creamer",
+          "price": 9,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lumineux Complete Care Mouthwash",
+          "price": 8.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Crystal Deodorant",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Desert Essence Hand and Body Lotion",
+          "price": 8.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pillsbury Cookies Ready To Bake or Roll",
+          "price": 7,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Gatorade",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dawn Dish Detergent",
+          "price": 8.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Healthy Choice Steamers",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Land O Lakes Butter Quarters, Half Sticks or Spreadables",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dole Fruit Bowls",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Charmin or Bounty",
+          "price": 14.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nabisco Family Size Cookies and Crackers",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Eggo Protein Waffles or Grab & Go",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Kraft Shredded Cheese",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Temptations Cat Treats",
+          "price": 10,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samyang Buldak Ramen Multi Packs",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pilgrim's Chicken Breast Tenderloins",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Classic Chicken Salad",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hillshire Farm Snacking or Jimmy Dean Simple Scrambles",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Keystone Light, Natural Light, Busch, or Miller High Life",
+          "price": 16.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Sweet Large Navel Oranges",
+          "price": 1.29,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Garden Fresh Long Slicer Cucumbers or Green Bell Peppers",
+          "price": 1,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Maple Glazed Honey Ham",
+          "price": 12.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Golden Classic Chicken",
+          "price": 13.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Jimmy Dean Breakfast Sausage",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Faroe Inland Salmon Fillets",
+          "price": 15.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Garden Fresh Red, Yellow or Orange Bell Pepper",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Surimi Crab Tray with Cocktail Sauce",
+          "price": 8,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Main ST Bistro Baked or Roasted Side Dishes",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hormel Marinated Pork Loins or Tenderloins",
+          "price": 6.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Snow Crab Clusters",
+          "price": 13.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Sweet Blackberries",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Russet Potatoes",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Made Stuffed Mushrooms",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Favorite Color is Fall Bouquet",
+          "price": 15,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Waterfront BISTRO Black Mussels",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Open Nature® 93% Lean Ground Beef",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Jack-O-Lantern Pumpkins",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Sweet California Grapery Specialty Grapes",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Sunflower Wishes Arrangement",
+          "price": 21.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dove Promise",
+          "price": 10.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hershey's Halloween Jumbo Bags",
+          "price": 8.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Werther's Candy",
+          "price": 4.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Containers",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Rubbermaid TakeAlongs",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Werther's or Riesen Peg Bag",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lindt Classic Recipe Bars",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mars Mixed Variety Bags",
+          "price": 14.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Trident Gum",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Raid",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "JoyRide Halloween Party Packs",
+          "price": 19.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mars Candy Bars",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Trick or Treat Buckets",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lindt Sticks",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Combat Max Roach Killing Bait",
+          "price": 10.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Halloween Paper Party Goods",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tic Tac Mints",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ferrero Assorted Halloween Bags",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® or Care™ Baby Wipes",
+          "price": 11.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Harry's Plus Razor",
+          "price": 10.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® or Care™ Advantage Premium Infant Formula",
+          "price": 31.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Enfusia Spa Bath Soak",
+          "price": 8.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Billie or Schick Disposable Razors",
+          "price": 6.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Disinfecting Wipes",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O Organics® Baby Food Variety Pack",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® or Care™ Gentle Premium Infant Formula",
+          "price": 36.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "One-A-Day or Aleve",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "KIND Nutrition Bars",
+          "price": 0.88,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Boost Original Shakes",
+          "price": 8.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "CLIF Bars",
+          "price": 12.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "think! Protein Bar",
+          "price": 8.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "CLIF and LUNA Bars",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "CLIF BUILDERS Protein Bar",
+          "price": 10.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Larabar Nutrition Bars",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Michelob Ultra",
+          "price": 17.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "White and Yellow American Cheese",
+          "price": 8.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Grama's All-Natural Sweet Chilli Sauce",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Frozen Meals",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Boneless Marinated Tri Tip Roast",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O Organics® Baby Food Jars",
+          "price": 0.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® refreshe™ Sparkling Water",
+          "price": 0.79,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Bleach",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pink Lady Apples",
+          "price": 1.59,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nabisco Tate's Cookies and Multipacks",
+          "price": 4.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pillsbury Brownie Mixes",
+          "price": 1.89,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Frito Lay Multipacks",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® or Care™ Supreme Diapers",
+          "price": 16.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Open Nature® Glass or Toilet Bowl Cleaner",
+          "price": 3.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Sponge Mop Refill",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT Candy",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Goodles Mac and Cheese",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lucerne® Pumpkin Pecan, Caramel Toffee or Pumpkin Whipped Topping, Aerosol",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Swai Fillets",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Soules Kitchen Jurassic World or Minions Breaded Chicken Nuggets",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Coke, Dr Pepper or Pepsi",
+          "price": 10.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Jarritos Party Pack",
+          "price": 11.19,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Cacique Authentic Chunk, Crema or Shredded Cheese",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Large Avocados",
+          "price": 0.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Peeled and Deveined Shrimp",
+          "price": 6.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Microfiber Floor Duster or Roller Mop Refills",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chicken Breast Fillets",
+          "price": 1.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pikasos Candy",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Gillette Multi Pack Disposable Razors",
+          "price": 16.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Acure Facial Cleanser",
+          "price": 8.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lysol Disinfecting Wipes",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Cottonelle, Viva, or Scott 1000",
+          "price": 15.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® or Care™ Jumbo Diapers",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Cloralen Scented Bleach",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tostitos Tortilla Chips",
+          "price": 2.47,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh White Onions",
+          "price": 0.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fabuloso Lavender Multi-Purpose Cleaner",
+          "price": 8.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Imusa Salsa Dish",
+          "price": 1.79,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "El Mexicano Cotija or Oaxaca Queso Cheese",
+          "price": 7,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Goya Arroa Con Leche Rice Pudding or Mexican Chocolate Pudding",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GOYA Canned Beans",
+          "price": 1.59,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mission Street Tacos",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Hot Jalapeño Peppers",
+          "price": 0.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Made Strawberry Bowls",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wonder Bread",
+          "price": 2.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Open Nature Free & Clear Baby Wipes",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Dust Ease or Mop Ease Refills",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hefty Plates or Cups",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Imusa Tricolored Salsa Dishes",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Café Bustelo Coffee",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Calidad Tortilla Chips",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tide, Gain, Downy or Bounce",
+          "price": 7.97,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Julio's Salsa or Queso",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "José Olé Taquitos and Mini Tacos",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Cacique Chorizo",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Butterball® 93% Lean, Taco Seasoned or Italian Seasoned Ground Turkey",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-09-29T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Herdez Salsa",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Brightly Paper Towels",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Deli Style Chips",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Skirt Steak for Fajitas",
+          "price": 11.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Spanglish Asadero Seasonings",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nescafé Instant Coffee",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tamales",
+          "price": 6.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GOYA Coconut Water with Pulp",
+          "price": 1.79,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Seasoned Chicken Breast Fajitas",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "El Monterey Burritos",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Mild, Spicy or Hatch Guacamole",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lucas Skwinkles",
+          "price": 1,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fresh Roma Tomatoes",
+          "price": 0.99,
+          "regular_price": null,
+          "valid_from": "2026-09-23T00:00:00-04:00",
+          "valid_to": "2026-10-15T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8139124?locale=en-us&postal_code=88201"
+        }
+      ]
     },
     {
       "store": "Safeway",
