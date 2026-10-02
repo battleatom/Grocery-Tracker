@@ -1,38 +1,20 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-10-01T18:25:02.642Z",
+    "updated_at": "2026-10-02T17:51:50.061Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
-        "source": "Thunderbit / Walmart",
-        "status": 402,
-        "checked_at": "2026-10-01T18:25:02.642Z"
-      },
-      {
-        "source": "Thunderbit / Sam's Club",
-        "status": 402,
-        "checked_at": "2026-10-01T18:25:02.642Z",
-        "error": "insufficient_credits"
-      },
-      {
         "source": "ScrapeOps / Walmart",
         "status": 403,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "attempted": 1,
-        "matched": 0
-      },
-      {
-        "source": "Open Prices",
-        "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
-        "nearby_rows": 0,
         "matched": 0
       },
       {
         "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "flyers": 5,
         "items": 1039,
         "deals": {
@@ -42,15 +24,16 @@
         }
       },
       {
-        "source": "Sam's Club",
+        "source": "Open Prices",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
-        "blocked": true
+        "checked_at": "2026-10-02T17:51:50.061Z",
+        "nearby_rows": 0,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi NM 87101",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "flyers": 2,
         "items": 560,
         "deals": {
@@ -62,7 +45,7 @@
       {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "flyers": 2,
         "items": 560,
         "deals": {
@@ -72,15 +55,15 @@
         }
       },
       {
-        "source": "Walmart",
+        "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "blocked": true
       },
       {
         "source": "Flipp/Wishabi NM 88001",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "flyers": 3,
         "items": 648,
         "deals": {
@@ -92,7 +75,7 @@
       {
         "source": "Flipp/Wishabi NM 88201",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "flyers": 2,
         "items": 560,
         "deals": {
@@ -102,26 +85,43 @@
         }
       },
       {
+        "source": "Thunderbit / Walmart",
+        "status": 402,
+        "checked_at": "2026-10-02T17:51:50.061Z"
+      },
+      {
+        "source": "Thunderbit / Sam's Club",
+        "status": 402,
+        "checked_at": "2026-10-02T17:51:50.061Z",
+        "error": "insufficient_credits"
+      },
+      {
+        "source": "Walmart",
+        "status": 200,
+        "checked_at": "2026-10-02T17:51:50.061Z",
+        "blocked": true
+      },
+      {
         "source": "Safeway product API",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "store_id": "2004",
         "searched": 121,
-        "matched": 112
+        "matched": 113
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "location_id": "70600409"
       },
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-10-01T18:25:02.642Z",
+        "checked_at": "2026-10-02T17:51:50.061Z",
         "store_id": "824",
         "searched": 121,
-        "matched": 114
+        "matched": 113
       }
     ]
   },
