@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-10-15T16:59:03.573Z",
+    "updated_at": "2026-10-16T16:37:22.339Z",
     "mode": "verified",
     "stores": [
       "Sam's Club",
@@ -25,27 +25,32 @@
       "personalized_coupon"
     ],
     "automation": {
-      "last_run": "2026-10-15T16:59:03.573Z",
-      "matched": 490,
+      "last_run": "2026-10-16T16:37:22.339Z",
+      "matched": 496,
       "schedule": "daily",
       "source_checks": [
         {
           "source": "ScrapeOps / Walmart",
           "status": 403,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "attempted": 1,
           "matched": 0
         },
         {
           "source": "Thunderbit / Sam's Club",
           "status": 402,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "error": "insufficient_credits"
+        },
+        {
+          "source": "Thunderbit / Walmart",
+          "status": 402,
+          "checked_at": "2026-10-16T16:37:22.339Z"
         },
         {
           "source": "Flipp/Wishabi Farmington",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "flyers": 5,
           "items": 982,
           "deals": {
@@ -55,14 +60,16 @@
           }
         },
         {
-          "source": "Thunderbit / Walmart",
-          "status": 402,
-          "checked_at": "2026-10-15T16:59:03.573Z"
+          "source": "Open Prices",
+          "status": 200,
+          "checked_at": "2026-10-16T16:37:22.339Z",
+          "nearby_rows": 0,
+          "matched": 0
         },
         {
           "source": "Flipp/Wishabi NM 87101",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "flyers": 2,
           "items": 513,
           "deals": {
@@ -72,16 +79,9 @@
           }
         },
         {
-          "source": "Open Prices",
-          "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
-          "nearby_rows": 0,
-          "matched": 0
-        },
-        {
           "source": "Flipp/Wishabi NM 87501",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "flyers": 2,
           "items": 513,
           "deals": {
@@ -93,7 +93,7 @@
         {
           "source": "Flipp/Wishabi NM 88001",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "flyers": 3,
           "items": 624,
           "deals": {
@@ -103,9 +103,15 @@
           }
         },
         {
+          "source": "Sam's Club",
+          "status": 200,
+          "checked_at": "2026-10-16T16:37:22.339Z",
+          "blocked": true
+        },
+        {
           "source": "Flipp/Wishabi NM 88201",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "flyers": 2,
           "items": 513,
           "deals": {
@@ -115,38 +121,32 @@
           }
         },
         {
-          "source": "Sam's Club",
-          "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
-          "blocked": true
-        },
-        {
           "source": "Walmart",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "blocked": true
-        },
-        {
-          "source": "Kroger API / Smith's",
-          "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
-          "location_id": "70600409"
         },
         {
           "source": "Safeway product API",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "store_id": "2004",
           "searched": 121,
-          "matched": 109
+          "matched": 111
+        },
+        {
+          "source": "Kroger API / Smith's",
+          "status": 200,
+          "checked_at": "2026-10-16T16:37:22.339Z",
+          "location_id": "70600409"
         },
         {
           "source": "Albertsons product API",
           "status": 200,
-          "checked_at": "2026-10-15T16:59:03.573Z",
+          "checked_at": "2026-10-16T16:37:22.339Z",
           "store_id": "824",
           "searched": 121,
-          "matched": 107
+          "matched": 111
         }
       ],
       "policy": "Public weekly-ad deals via Flipp; Smith's full catalog via official Kroger API when credentials are configured. Preserve prior verified values when a source fails."
@@ -186,8 +186,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971302552",
           "upc": "0020480100000"
@@ -203,23 +203,23 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971285562",
           "upc": "0020786500000"
         },
         {
-          "price": 4.99,
+          "price": 2.59,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Tyson® All Natural Fresh Boneless Skinless Chicken Breasts 1 lb",
+          "label": "Heritage Farm® Boneless Skinless Chicken Breasts 1 lb",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -257,8 +257,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971077080",
           "upc": "0002113035054"
@@ -274,23 +274,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971077080",
           "upc": "0002113035054"
         },
         {
-          "price": 12,
-          "promo_price": null,
+          "price": 7.29,
+          "promo_price": 4.99,
           "unit_price": null,
           "unit": "lb",
-          "label": "Kroger® 80/20 Ground Beef Patties 8 ct / 30.4 ounce",
-          "sale": false,
-          "deal_type": "regular",
+          "label": "Kroger® 80/20 Ground Beef Roll 1 LB 1 lb",
+          "sale": true,
+          "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -314,8 +314,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "138350308",
           "upc": "0007989340150"
@@ -331,8 +331,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960096423",
           "upc": "0007989340154"
@@ -346,8 +346,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -379,8 +379,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184020192",
           "upc": "0002113000750"
@@ -396,23 +396,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184020192",
           "upc": "0002113000750"
         },
         {
-          "price": 1.69,
+          "price": 3.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Small Gala Apple – Each 1 lb",
+          "label": "Kroger® Gala Apples – 3 Pound Bag 3 lb",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -444,8 +444,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184100012",
           "upc": "0048410001201"
@@ -461,8 +461,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184100012",
           "upc": "0048410001201"
@@ -476,8 +476,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -509,8 +509,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970067832",
           "upc": "0002113014845"
@@ -526,8 +526,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970067832",
           "upc": "0002113014845"
@@ -541,8 +541,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -574,8 +574,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184150173",
           "upc": "0048415030902"
@@ -591,8 +591,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960131462",
           "upc": "0024217000000"
@@ -606,8 +606,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -641,8 +641,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -666,8 +666,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960085786",
           "upc": "0007045900573"
@@ -683,8 +683,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "148100302",
           "upc": "0002113009536"
@@ -698,8 +698,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -731,8 +731,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971098948",
           "upc": "0002370006026"
@@ -748,8 +748,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "188660203",
           "upc": "0007527890969"
@@ -763,8 +763,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -788,8 +788,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960472086",
           "upc": "0004280010953"
@@ -805,8 +805,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960472086",
           "upc": "0004280010953"
@@ -820,8 +820,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -845,8 +845,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960002359",
           "upc": "0007225003706"
@@ -862,8 +862,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960002359",
           "upc": "0007225003706"
@@ -877,8 +877,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -902,8 +902,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960267545",
           "upc": "0002113008283"
@@ -919,8 +919,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960267545",
           "upc": "0002113008283"
@@ -934,8 +934,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -973,8 +973,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136010121",
           "upc": "0002113007002"
@@ -990,8 +990,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136010121",
           "upc": "0002113007002"
@@ -1005,8 +1005,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1044,8 +1044,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960050143",
           "upc": "0068954408301"
@@ -1061,8 +1061,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960050143",
           "upc": "0068954408301"
@@ -1076,8 +1076,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1101,8 +1101,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "188260100",
           "upc": "0020323500000"
@@ -1118,8 +1118,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "188260100",
           "upc": "0020323500000"
@@ -1133,8 +1133,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1172,8 +1172,8 @@
           "deal_ends": "2026-11-03T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184290007",
           "upc": "0048429000701"
@@ -1189,8 +1189,8 @@
           "deal_ends": "2026-11-03T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184290007",
           "upc": "0048429000701"
@@ -1204,8 +1204,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1229,8 +1229,8 @@
           "deal_ends": "2026-11-03T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184290007",
           "upc": "0048429000701"
@@ -1246,8 +1246,8 @@
           "deal_ends": "2026-11-03T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184290007",
           "upc": "0048429000701"
@@ -1261,8 +1261,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1286,8 +1286,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184500035",
           "upc": "0002113053056"
@@ -1303,8 +1303,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184500035",
           "upc": "0002113053056"
@@ -1318,8 +1318,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1343,8 +1343,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "126400108",
           "upc": "0002970000141"
@@ -1360,8 +1360,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "126400108",
           "upc": "0002970000141"
@@ -1375,8 +1375,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1400,8 +1400,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960481641",
           "upc": "0084886004126"
@@ -1417,8 +1417,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960481641",
           "upc": "0084886004126"
@@ -1432,8 +1432,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1457,8 +1457,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "195100144",
           "upc": "0022214200000"
@@ -1474,23 +1474,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "195100144",
           "upc": "0022214200000"
         },
         {
-          "price": 9.99,
+          "price": 8.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "each",
-          "label": "Bakery Fresh Chocolate and White Halloween Cupcakes with Buttercreme Icing 12 ct / 24 oz",
+          "label": "Bakery Fresh Mini Vanilla & Chocolate Fall Cupcakes 24 ct",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1514,8 +1514,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960453509",
           "upc": "0002113190553"
@@ -1531,8 +1531,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960453509",
           "upc": "0002113190553"
@@ -1546,8 +1546,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1571,8 +1571,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960547430",
           "upc": "0007225002525"
@@ -1588,8 +1588,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960547430",
           "upc": "0007225002525"
@@ -1603,8 +1603,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1641,8 +1641,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970116262",
           "upc": "0002113016895"
@@ -1658,8 +1658,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970116262",
           "upc": "0002113016895"
@@ -1686,8 +1686,8 @@
           "deal_ends": "2026-10-25T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971059991",
           "upc": "0001769600061"
@@ -1703,23 +1703,23 @@
           "deal_ends": "2026-10-25T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971059991",
           "upc": "0001769600061"
         },
         {
-          "price": 7.79,
-          "promo_price": 6.99,
+          "price": 6.79,
+          "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Jose Ole Beef Corn Taquitos 20 oz, 20 Count (Frozen) 20 oz",
-          "sale": true,
-          "deal_type": "promo",
+          "label": "Delimex Beef & Cheese Taquitos Frozen Snacks, Box 19.2 oz",
+          "sale": false,
+          "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1743,8 +1743,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "196010254",
           "upc": "0007343500004"
@@ -1760,8 +1760,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "196010254",
           "upc": "0007343500004"
@@ -1775,8 +1775,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1800,8 +1800,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960019676",
           "upc": "0002113004598"
@@ -1817,8 +1817,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960019676",
           "upc": "0002113004598"
@@ -1832,8 +1832,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1857,8 +1857,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1882,8 +1882,8 @@
           "deal_ends": "2026-10-18T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970006074",
           "upc": "0085658400486"
@@ -1899,8 +1899,8 @@
           "deal_ends": "2026-10-18T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970006074",
           "upc": "0085658400486"
@@ -1914,8 +1914,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1939,8 +1939,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960226484",
           "upc": "0001480000369"
@@ -1956,8 +1956,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960226484",
           "upc": "0001480000369"
@@ -1971,8 +1971,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -1986,23 +1986,21 @@
         null,
         null,
         {
-          "price": 3.99,
-          "promo_price": null,
-          "unit_price": null,
+          "price": 6.99,
+          "promo_price": 5.99,
+          "unit_price": 0.15,
           "unit": "lb",
-          "label": "Signature SELECT Pork Breakfast Sausage",
+          "label": "Bar-S Smoked Skinless Polish Sausage - 40 Oz",
           "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-10-26T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8158273?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "deal_type": "sale",
+          "deal_ends": "2026-12-29T23:59:00",
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "960052994",
-          "upc": "0001590023565",
-          "source_scope": "farmington",
-          "source_zip": "87401"
+          "pid": "960052992",
+          "upc": "0001590023548"
         },
         {
           "price": 6.99,
@@ -2015,8 +2013,8 @@
           "deal_ends": "2026-12-29T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960052992",
           "upc": "0001590023548"
@@ -2030,8 +2028,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2055,8 +2053,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970107100",
           "upc": "0003000065970"
@@ -2072,8 +2070,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970107100",
           "upc": "0003000065970"
@@ -2087,8 +2085,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2112,8 +2110,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960193148",
           "upc": "0060205010350"
@@ -2129,8 +2127,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960193148",
           "upc": "0060205010350"
@@ -2140,12 +2138,12 @@
           "promo_price": 3.9,
           "unit_price": null,
           "unit": "oz",
-          "label": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile 16 oz",
+          "label": "505 Southwestern® Mild Hatch Valley Green Chile Sauce 16 oz",
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2169,8 +2167,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960230110",
           "upc": "0003000065300"
@@ -2186,23 +2184,23 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960230110",
           "upc": "0003000065300"
         },
         {
-          "price": 7.99,
-          "promo_price": 6.99,
+          "price": 3.49,
+          "promo_price": 2.99,
           "unit_price": null,
           "unit": "lb",
-          "label": "Krusteaz Buttermilk Pancake & Waffle Mix, 5lb. 5 lb",
+          "label": "Krusteaz Buttermilk Pancake & Waffle Mix, 32oz 32 oz",
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2226,8 +2224,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970028838",
           "upc": "0021374700000"
@@ -2243,8 +2241,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970028838",
           "upc": "0021374700000"
@@ -2271,8 +2269,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971302552",
           "upc": "0020480100000"
@@ -2288,8 +2286,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971285562",
           "upc": "0020786500000"
@@ -2303,8 +2301,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2328,28 +2326,28 @@
           "deal_ends": "2026-11-03T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970569814",
           "upc": "0002840073742"
         },
         {
-          "price": 27.49,
-          "promo_price": 19.99,
-          "unit_price": 0.48,
+          "price": 13.99,
+          "promo_price": 11.99,
+          "unit_price": 0.67,
           "unit": "each",
-          "label": "Frito-Lay Flavor Mix Variety Pack Snack Chips Multipack - 42 Count",
+          "label": "Frito-Lay Classic Mix Variety Pack Snack Chips Multipack - 18 Count",
           "sale": true,
           "deal_type": "sale",
-          "deal_ends": "2026-10-20T23:59:00",
+          "deal_ends": "2026-11-03T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "970125552",
-          "upc": "0002840073738"
+          "pid": "970782396",
+          "upc": "0002840073740"
         },
         {
           "price": 7.29,
@@ -2360,8 +2358,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2395,8 +2393,8 @@
           "source_scope": "new_mexico",
           "source_zip": "88001",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8179224?locale=en-us&postal_code=88001",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         },
         null,
@@ -2430,8 +2428,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971206056",
           "upc": "0002113035283"
@@ -2447,8 +2445,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971206056",
           "upc": "0002113035283"
@@ -2484,8 +2482,8 @@
           "source_scope": "farmington",
           "source_zip": "87401",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187582?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         },
         {
@@ -2499,8 +2497,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970035319",
           "upc": "0007794800906"
@@ -2516,8 +2514,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970035319",
           "upc": "0007794800906"
@@ -2531,8 +2529,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2564,8 +2562,8 @@
           "deal_ends": "2026-12-06T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960169763",
           "upc": "0005210003491"
@@ -2581,23 +2579,23 @@
           "deal_ends": "2026-12-06T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960169763",
           "upc": "0005210003491"
         },
         {
-          "price": 0.5,
+          "price": 0.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Kroger® Taco Seasoning 1 oz",
+          "label": "McCormick Original Taco Seasoning Mix 1 oz",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2629,8 +2627,8 @@
           "deal_ends": "2026-12-31T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960443136",
           "upc": "0089470001043"
@@ -2646,8 +2644,8 @@
           "deal_ends": "2026-12-31T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960443136",
           "upc": "0089470001043"
@@ -2661,8 +2659,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2688,34 +2686,34 @@
           "promo_price": null,
           "unit_price": 0.29,
           "unit": "oz",
-          "label": "GoGo squeeZ Applesauce Apple Apple - 12-3.2 Oz",
+          "label": "GoGo squeeZ Applesauce Variety Pack Apple Banana Strawberry - 12-3.2 Oz",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "960100889",
-          "upc": "0089000000115"
+          "pid": "960208423",
+          "upc": "0084886000049"
         },
         {
           "price": 10.99,
           "promo_price": null,
           "unit_price": 0.29,
           "unit": "oz",
-          "label": "GoGo squeeZ Applesauce Apple Apple - 12-3.2 Oz",
+          "label": "GoGo squeeZ Applesauce Variety Pack Apple Banana Strawberry - 12-3.2 Oz",
           "sale": false,
           "deal_type": "regular",
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "960100889",
-          "upc": "0089000000115"
+          "pid": "960208423",
+          "upc": "0084886000049"
         },
         {
           "price": 13.99,
@@ -2726,8 +2724,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2759,8 +2757,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184570068",
           "upc": "0048457006801"
@@ -2776,8 +2774,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184570068",
           "upc": "0048457006801"
@@ -2791,8 +2789,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2824,8 +2822,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184100014",
           "upc": "0048410001401"
@@ -2841,8 +2839,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184100014",
           "upc": "0048410001401"
@@ -2856,8 +2854,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2881,8 +2879,8 @@
           "deal_ends": "2026-12-01T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960248107",
           "upc": "0073891202241"
@@ -2898,8 +2896,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971237302",
           "upc": "0002370006030"
@@ -2913,8 +2911,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -2964,8 +2962,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971102466",
           "upc": "0007774527677"
@@ -2981,8 +2979,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971102466",
           "upc": "0007774527677"
@@ -3009,8 +3007,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971408161",
           "upc": "0001708287400"
@@ -3026,8 +3024,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971408161",
           "upc": "0001708287400"
@@ -3041,8 +3039,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3115,8 +3113,8 @@
           "deal_ends": "2026-11-10T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960189398",
           "upc": "0004200015717"
@@ -3132,8 +3130,8 @@
           "deal_ends": "2026-11-10T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960189398",
           "upc": "0004200015717"
@@ -3147,8 +3145,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3182,8 +3180,8 @@
           "deal_ends": "2026-12-31T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960127148",
           "upc": "0004400004100"
@@ -3199,8 +3197,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970125552",
           "upc": "0002840073738"
@@ -3214,8 +3212,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3249,8 +3247,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971307777",
           "upc": "0085004632183"
@@ -3304,8 +3302,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "195150023",
           "upc": "0022822700000"
@@ -3321,8 +3319,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "195150023",
           "upc": "0022822700000"
@@ -3332,12 +3330,12 @@
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Bakery Fresh Chocolate Chip Muffins 4 ct / 3.75 oz",
+          "label": "Bakery Fresh Double Chocolate Chip Muffins 4 ct / 15 oz",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3361,8 +3359,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184040158",
           "upc": "0048404007501"
@@ -3378,8 +3376,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184040158",
           "upc": "0048404007501"
@@ -3393,8 +3391,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3449,8 +3447,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960525704",
           "upc": "0002113004552"
@@ -3464,8 +3462,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3489,8 +3487,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960021862",
           "upc": "0002113019345"
@@ -3506,8 +3504,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960021862",
           "upc": "0002113019345"
@@ -3544,8 +3542,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960134623",
           "upc": "0007342001614"
@@ -3561,8 +3559,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960134623",
           "upc": "0007342001614"
@@ -3576,8 +3574,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3601,8 +3599,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-14",
-          "observed_at": "2026-10-14T17:08:41.383Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960434389",
           "upc": "0085997700527"
@@ -3618,8 +3616,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960434389",
           "upc": "0085997700527"
@@ -3633,8 +3631,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3658,8 +3656,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960284451",
           "upc": "0020780500000"
@@ -3675,8 +3673,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960284451",
           "upc": "0020780500000"
@@ -3690,8 +3688,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3729,8 +3727,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "188300172",
           "upc": "0026061900000"
@@ -3746,8 +3744,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960262878",
           "upc": "0020963100000"
@@ -3761,8 +3759,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3832,8 +3830,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3861,23 +3859,21 @@
           "automated": false
         },
         {
-          "price": 4.49,
+          "price": 7.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.47,
           "unit": "lb",
-          "label": "Jennie-O 85% Lean Ground Turkey",
-          "sale": true,
-          "deal_type": "weekly_ad",
-          "deal_ends": "2026-10-20T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8179105?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "label": "Jennie-O 93% Lean 7% Fat Ground Turkey - 16 oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "960514370",
-          "upc": "0002113015833",
-          "source_scope": "farmington",
-          "source_zip": "87401"
+          "pid": "960138390",
+          "upc": "0004222230200"
         },
         {
           "price": 5.99,
@@ -3890,8 +3886,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960514370",
           "upc": "0002113015833"
@@ -3905,8 +3901,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -3944,28 +3940,28 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960167222",
           "upc": "0002113015843"
         },
         {
-          "price": 6.49,
-          "promo_price": null,
-          "unit_price": 6.49,
+          "price": 8.99,
+          "promo_price": 6.49,
+          "unit_price": 0.41,
           "unit": "oz",
-          "label": "Hartz Dura Play Dog Toy Bone Bacon Scented Medium - Each",
-          "sale": false,
-          "deal_type": "regular",
-          "deal_ends": null,
+          "label": "Hormel Black Label Bacon Original - 16 Oz",
+          "sale": true,
+          "deal_type": "sale",
+          "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "132900751",
-          "upc": "0003270099282"
+          "pid": "188560113",
+          "upc": "0003760035160"
         },
         {
           "price": 4.79,
@@ -3976,8 +3972,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4001,8 +3997,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "188250050",
           "upc": "0020335600000"
@@ -4018,8 +4014,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "188250050",
           "upc": "0020335600000"
@@ -4033,8 +4029,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4072,8 +4068,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "288250001",
           "upc": "0020318800000"
@@ -4089,8 +4085,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "288250001",
           "upc": "0020318800000"
@@ -4104,8 +4100,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4143,8 +4139,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960109445",
           "upc": "0020221500000"
@@ -4160,8 +4156,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960109446",
           "upc": "0020221600000"
@@ -4175,8 +4171,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4214,8 +4210,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960109081",
           "upc": "0020195600000"
@@ -4231,8 +4227,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960109081",
           "upc": "0020195600000"
@@ -4246,8 +4242,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4271,8 +4267,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970576377",
           "upc": "0027748200000"
@@ -4288,8 +4284,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-14",
-          "observed_at": "2026-10-14T17:08:41.383Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970576377",
           "upc": "0027748200000"
@@ -4303,8 +4299,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4342,8 +4338,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960273951",
           "upc": "0002113003234"
@@ -4359,8 +4355,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960273951",
           "upc": "0002113003234"
@@ -4374,8 +4370,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4413,8 +4409,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136010246",
           "upc": "0002113007067"
@@ -4430,8 +4426,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-14",
-          "observed_at": "2026-10-14T17:08:41.383Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136010246",
           "upc": "0002113007067"
@@ -4445,8 +4441,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4470,8 +4466,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136010449",
           "upc": "0002113007066"
@@ -4487,8 +4483,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136010449",
           "upc": "0002113007066"
@@ -4502,8 +4498,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4541,8 +4537,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-14",
-          "observed_at": "2026-10-14T17:08:41.383Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "137050432",
           "upc": "0002113004275"
@@ -4558,8 +4554,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "137050432",
           "upc": "0002113004275"
@@ -4573,8 +4569,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4612,8 +4608,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "137150113",
           "upc": "0002113004741"
@@ -4629,8 +4625,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "137150113",
           "upc": "0002113004741"
@@ -4644,8 +4640,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4673,23 +4669,21 @@
           "automated": false
         },
         {
-          "price": 5.49,
+          "price": 2.49,
           "promo_price": null,
-          "unit_price": null,
+          "unit_price": 0.31,
           "unit": "oz",
-          "label": "Philadelphia Cream Cheese, Dutch Bros Iced Coffee",
-          "sale": true,
-          "deal_type": "coupon",
-          "deal_ends": "2026-10-20T23:59:59-04:00",
-          "source": "Flipp weekly ad — Albertsons",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8179105?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "label": "Lucerne Cream Cheese - 8 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
+          "source": "Albertsons Companies product API — Albertsons",
+          "source_url": null,
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "137100658",
-          "upc": "0002113004380",
-          "source_scope": "farmington",
-          "source_zip": "87401"
+          "upc": "0002113004380"
         },
         {
           "price": 2.49,
@@ -4702,8 +4696,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "137100658",
           "upc": "0002113004380"
@@ -4717,8 +4711,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4742,8 +4736,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136450055",
           "upc": "0002113007108"
@@ -4759,8 +4753,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "136450055",
           "upc": "0002113007108"
@@ -4774,8 +4768,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4799,8 +4793,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960094483",
           "upc": "0007225001137"
@@ -4816,8 +4810,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960094483",
           "upc": "0007225001137"
@@ -4831,8 +4825,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4856,8 +4850,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960002359",
           "upc": "0007225003706"
@@ -4873,8 +4867,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960002359",
           "upc": "0007225003706"
@@ -4888,8 +4882,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4913,8 +4907,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "117100059",
           "upc": "0002113053001"
@@ -4930,23 +4924,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "117100059",
           "upc": "0002113053001"
         },
         {
-          "price": 2.59,
-          "promo_price": 1.99,
+          "price": 3.29,
+          "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Kroger® Bleached All Purpose Flour 5 lb",
-          "sale": true,
-          "deal_type": "promo",
+          "label": "Gold Medal™ All Purpose Flour 32 oz",
+          "sale": false,
+          "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -4970,8 +4964,8 @@
           "deal_ends": "2026-11-26T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960041240",
           "upc": "0002113025006"
@@ -4987,8 +4981,8 @@
           "deal_ends": "2026-11-26T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960041240",
           "upc": "0002113025006"
@@ -5002,8 +4996,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5028,8 +5022,8 @@
           "source_scope": "farmington",
           "source_zip": "87401",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187582?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         },
         {
@@ -5043,8 +5037,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "126150019",
           "upc": "0002113050202"
@@ -5060,8 +5054,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "126150019",
           "upc": "0002113050202"
@@ -5075,8 +5069,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5114,40 +5108,40 @@
           "deal_ends": "2026-12-29T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "128200289",
           "upc": "0007680828008"
         },
         {
-          "price": 2.29,
-          "promo_price": 1.99,
-          "unit_price": 0.12,
+          "price": 1.29,
+          "promo_price": null,
+          "unit_price": 0.08,
           "unit": "oz",
-          "label": "Barilla Spaghetti Pasta - 16 Oz",
-          "sale": true,
-          "deal_type": "sale",
-          "deal_ends": "2026-12-29T23:59:00",
+          "label": "Signature SELECT Pasta Spaghetti Box - 16 Oz",
+          "sale": false,
+          "deal_type": "regular",
+          "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
-          "pid": "128200289",
-          "upc": "0007680828008"
+          "pid": "128200111",
+          "upc": "0002113050544"
         },
         {
-          "price": 1.33,
+          "price": 1.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Kroger® Spaghetti 16 oz",
+          "label": "Barilla Spaghetti Pasta, Quality Non-GMO and Kosher Certified Pasta 16 oz",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5185,8 +5179,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "128350185",
           "upc": "0002113049341"
@@ -5202,8 +5196,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "128350185",
           "upc": "0002113049341"
@@ -5217,8 +5211,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5256,8 +5250,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "204100011",
           "upc": "0005150025516"
@@ -5273,8 +5267,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "204100011",
           "upc": "0005150025516"
@@ -5288,8 +5282,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5327,8 +5321,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "104050190",
           "upc": "0002113046247"
@@ -5344,8 +5338,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "104050190",
           "upc": "0002113046247"
@@ -5359,8 +5353,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5408,16 +5402,16 @@
           "upc": "0004119210474"
         },
         {
-          "price": 3.79,
-          "promo_price": 2.49,
+          "price": 4.99,
+          "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Fruity PEBBLES Gluten Free Breakfast Cereal 11 oz",
-          "sale": true,
-          "deal_type": "promo",
+          "label": "General Mills Honey Nut Chex™ Cereal 12.5 oz",
+          "sale": false,
+          "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5441,8 +5435,8 @@
           "deal_ends": "2026-10-27T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960434094",
           "upc": "0003000056728"
@@ -5458,23 +5452,23 @@
           "deal_ends": "2026-10-27T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960434094",
           "upc": "0003000056728"
         },
         {
-          "price": 2,
-          "promo_price": 1.49,
+          "price": 3.29,
+          "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "FRUIT & CREAM VARIETY PACK NATURALLY FLAVORED INSTANT OATMEAL 8 PK - KROGER - 8.4 OZ 8.4 oz",
-          "sale": true,
-          "deal_type": "promo",
+          "label": "Quaker® Maple & Brown Sugar Instant Oatmeal 8 ct",
+          "sale": false,
+          "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5498,8 +5492,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5537,8 +5531,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960009146",
           "upc": "0002113034117"
@@ -5554,8 +5548,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960009146",
           "upc": "0002113034117"
@@ -5569,8 +5563,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5608,8 +5602,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "124150009",
           "upc": "0002113034103"
@@ -5625,8 +5619,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "124150009",
           "upc": "0002113034103"
@@ -5640,8 +5634,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5665,8 +5659,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5722,8 +5716,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5747,8 +5741,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "115150046",
           "upc": "0002113051281"
@@ -5764,8 +5758,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "115150047",
           "upc": "0002113051282"
@@ -5779,8 +5773,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5804,8 +5798,8 @@
           "deal_ends": "2026-11-08T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960141422",
           "upc": "0007040400278"
@@ -5821,8 +5815,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "115200002",
           "upc": "0002113051267"
@@ -5836,8 +5830,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5875,8 +5869,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184450054",
           "upc": "0048445004401"
@@ -5892,8 +5886,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184450054",
           "upc": "0048445004401"
@@ -5907,8 +5901,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -5946,8 +5940,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960053953",
           "upc": "0002113098335"
@@ -5963,8 +5957,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960053953",
           "upc": "0002113098335"
@@ -5978,8 +5972,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6017,8 +6011,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184500035",
           "upc": "0002113053056"
@@ -6034,8 +6028,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184500035",
           "upc": "0002113053056"
@@ -6049,8 +6043,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6074,8 +6068,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-14",
-          "observed_at": "2026-10-14T17:08:41.383Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184420001",
           "upc": "0048442000101"
@@ -6091,8 +6085,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184420001",
           "upc": "0048442000101"
@@ -6106,8 +6100,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6145,8 +6139,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960469903",
           "upc": "0002113098134"
@@ -6162,8 +6156,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960469903",
           "upc": "0002113098134"
@@ -6177,8 +6171,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6216,8 +6210,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184070124",
           "upc": "0067170400001"
@@ -6233,23 +6227,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960012546",
           "upc": "0067170400004"
         },
         {
           "price": 3.69,
-          "promo_price": null,
+          "promo_price": 2.5,
           "unit_price": null,
           "unit": "lb",
           "label": "Fresh Strawberries – 1 LB Clamshell 1 lb",
-          "sale": false,
-          "deal_type": "regular",
+          "sale": true,
+          "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6273,8 +6267,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184070083",
           "upc": "0081588701026"
@@ -6290,11 +6284,11 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960015089",
-          "upc": "0081588701024"
+          "upc": "0002113025073"
         },
         {
           "price": 6.99,
@@ -6305,8 +6299,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6330,8 +6324,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960162611",
           "upc": "0002113019598"
@@ -6347,23 +6341,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960162611",
           "upc": "0002113019598"
         },
         {
-          "price": 5,
+          "price": 4.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "lb",
-          "label": "Medium Fresh Navel Oranges- Each 1 lb",
+          "label": "Dracula Citrus Blood Oranges 2 lb",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6401,8 +6395,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960513482",
           "upc": "0002113010537"
@@ -6418,8 +6412,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960513482",
           "upc": "0002113010537"
@@ -6433,8 +6427,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6472,8 +6466,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960048205",
           "upc": "0062607404002"
@@ -6489,8 +6483,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960131566",
           "upc": "0024212600000"
@@ -6504,8 +6498,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6543,8 +6537,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184360021",
           "upc": "0048436002101"
@@ -6560,8 +6554,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "184360021",
           "upc": "0048436002101"
@@ -6575,8 +6569,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6600,8 +6594,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "147010060",
           "upc": "0002113009021"
@@ -6617,8 +6611,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "147010060",
           "upc": "0002113009021"
@@ -6632,8 +6626,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6657,8 +6651,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "147010061",
           "upc": "0002113009029"
@@ -6674,8 +6668,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "147010061",
           "upc": "0002113009029"
@@ -6689,8 +6683,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6714,8 +6708,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "147100084",
           "upc": "0002113009042"
@@ -6731,8 +6725,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "147100084",
           "upc": "0002113009042"
@@ -6746,8 +6740,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6772,8 +6766,8 @@
           "source_scope": "farmington",
           "source_zip": "87401",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187582?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         },
         {
@@ -6787,8 +6781,8 @@
           "deal_ends": "2026-10-26T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960131004",
           "upc": "0007218063811"
@@ -6804,8 +6798,8 @@
           "deal_ends": "2026-10-26T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960131004",
           "upc": "0007218063811"
@@ -6819,8 +6813,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6844,8 +6838,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960223098",
           "upc": "0004330130581"
@@ -6861,23 +6855,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960223098",
           "upc": "0004330130581"
         },
         {
-          "price": 4.49,
+          "price": 3.29,
           "promo_price": null,
           "unit_price": null,
           "unit": "oz",
-          "label": "Ore-Ida Crispy Straight-Cut Frozen French Fries 32 oz",
+          "label": "Kroger® Frozen French Fries 32 oz",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6901,8 +6895,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "142200243",
           "upc": "0007457003310"
@@ -6918,8 +6912,8 @@
           "deal_ends": "2026-10-20T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "142200243",
           "upc": "0007457003310"
@@ -6933,8 +6927,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -6958,8 +6952,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "127101868",
           "upc": "0007373100415"
@@ -6975,8 +6969,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "127101868",
           "upc": "0007373100415"
@@ -6990,8 +6984,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7015,8 +7009,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "127100031",
           "upc": "0004156514016"
@@ -7032,8 +7026,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960072458",
           "upc": "0007873200413"
@@ -7047,8 +7041,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7072,8 +7066,8 @@
           "deal_ends": "2026-10-27T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970388842",
           "upc": "0002550030407"
@@ -7089,8 +7083,8 @@
           "deal_ends": "2026-10-27T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970388842",
           "upc": "0002550030407"
@@ -7104,8 +7098,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7129,8 +7123,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971288985",
           "upc": "0002500013678"
@@ -7146,8 +7140,8 @@
           "deal_ends": "2027-01-05T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "971288985",
           "upc": "0002500013678"
@@ -7161,8 +7155,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7186,8 +7180,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "108050651",
           "upc": "0004900002892"
@@ -7203,8 +7197,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "108050651",
           "upc": "0004900002892"
@@ -7214,12 +7208,12 @@
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Sprite® Lemon-Lime Caffeine Free Soda Fridge Pack Cans 12 pk / 12 fl oz",
+          "label": "Dr Pepper Soda Cans 12 pk / 12 fl oz",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7243,8 +7237,8 @@
           "deal_ends": "2026-10-26T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970581643",
           "upc": "0003040079397"
@@ -7260,8 +7254,8 @@
           "deal_ends": "2026-10-26T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970581643",
           "upc": "0003040079397"
@@ -7275,8 +7269,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7300,8 +7294,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960155610",
           "upc": "0002113026190"
@@ -7317,8 +7311,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960155610",
           "upc": "0002113026190"
@@ -7332,8 +7326,8 @@
           "sale": true,
           "deal_type": "promo",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7358,8 +7352,8 @@
           "source_scope": "farmington",
           "source_zip": "87401",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187582?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         },
         {
@@ -7373,8 +7367,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970591102",
           "upc": "0002113030322"
@@ -7390,8 +7384,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970591102",
           "upc": "0002113030322"
@@ -7405,8 +7399,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7431,8 +7425,8 @@
           "source_scope": "farmington",
           "source_zip": "87401",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187582?locale=en-us&postal_code=87401",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         },
         {
@@ -7446,8 +7440,8 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970509091",
           "upc": "0003320097578"
@@ -7463,23 +7457,23 @@
           "deal_ends": null,
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "970509091",
           "upc": "0003320097578"
         },
         {
-          "price": 9.99,
+          "price": 15.99,
           "promo_price": null,
           "unit_price": null,
           "unit": "floz",
-          "label": "Tide Evo Free & Gentle Laundry Detergent Tiles 16 ct",
+          "label": "Tide Evo Spring Blast Laundry Detergent Sheet 30 ct",
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
@@ -7503,8 +7497,8 @@
           "deal_ends": "2026-12-15T23:59:00",
           "source": "Albertsons Companies product API — Albertsons",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960154212",
           "upc": "0001258778459"
@@ -7520,8 +7514,8 @@
           "deal_ends": "2026-12-15T23:59:00",
           "source": "Albertsons Companies product API — Safeway",
           "source_url": null,
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true,
           "pid": "960154212",
           "upc": "0001258778459"
@@ -7535,8 +7529,8 @@
           "sale": false,
           "deal_type": "regular",
           "source": "Official Kroger API — Smith's Farmington",
-          "observed": "2026-10-15",
-          "observed_at": "2026-10-15T16:59:03.573Z",
+          "observed": "2026-10-16",
+          "observed_at": "2026-10-16T16:37:22.339Z",
           "automated": true
         }
       ]
