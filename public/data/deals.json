@@ -1,31 +1,24 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-10-21T17:10:12.754Z",
+    "updated_at": "2026-10-22T17:08:48.055Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Thunderbit / Sam's Club",
         "status": 402,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "error": "insufficient_credits"
       },
       {
         "source": "Thunderbit / Walmart",
         "status": 402,
-        "checked_at": "2026-10-21T17:10:12.754Z"
-      },
-      {
-        "source": "ScrapeOps / Walmart",
-        "status": 403,
-        "checked_at": "2026-10-21T17:10:12.754Z",
-        "attempted": 1,
-        "matched": 0
+        "checked_at": "2026-10-22T17:08:48.055Z"
       },
       {
         "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "flyers": 5,
         "items": 841,
         "deals": {
@@ -37,14 +30,14 @@
       {
         "source": "Open Prices",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "nearby_rows": 0,
         "matched": 0
       },
       {
         "source": "Flipp/Wishabi NM 87101",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "flyers": 2,
         "items": 372,
         "deals": {
@@ -56,7 +49,7 @@
       {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "flyers": 2,
         "items": 372,
         "deals": {
@@ -66,15 +59,9 @@
         }
       },
       {
-        "source": "Sam's Club",
-        "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
-        "blocked": true
-      },
-      {
         "source": "Flipp/Wishabi NM 88001",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "flyers": 3,
         "items": 459,
         "deals": {
@@ -84,15 +71,22 @@
         }
       },
       {
-        "source": "Walmart",
+        "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "blocked": true
+      },
+      {
+        "source": "ScrapeOps / Walmart",
+        "status": 403,
+        "checked_at": "2026-10-22T17:08:48.055Z",
+        "attempted": 1,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi NM 88201",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "flyers": 2,
         "items": 372,
         "deals": {
@@ -102,9 +96,15 @@
         }
       },
       {
+        "source": "Walmart",
+        "status": 200,
+        "checked_at": "2026-10-22T17:08:48.055Z",
+        "blocked": true
+      },
+      {
         "source": "Safeway product API",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "store_id": "2004",
         "searched": 121,
         "matched": 111
@@ -112,16 +112,16 @@
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "location_id": "70600409"
       },
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-10-21T17:10:12.754Z",
+        "checked_at": "2026-10-22T17:08:48.055Z",
         "store_id": "824",
         "searched": 121,
-        "matched": 109
+        "matched": 112
       }
     ]
   },
@@ -2217,16 +2217,6 @@
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187421?locale=en-us&postal_code=88201"
         },
         {
-          "name": "Chef Boyardee Skillet Meals",
-          "price": 4,
-          "regular_price": null,
-          "valid_from": "2026-10-21T00:00:00-04:00",
-          "valid_to": "2026-10-27T23:59:59-04:00",
-          "type": "weekly_ad",
-          "source": "Flipp/Wishabi",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187421?locale=en-us&postal_code=88201"
-        },
-        {
           "name": "Boston Market Frozen Entrees",
           "price": 5,
           "regular_price": null,
@@ -2399,16 +2389,6 @@
         {
           "name": "Meow Mix",
           "price": 5.49,
-          "regular_price": null,
-          "valid_from": "2026-10-21T00:00:00-04:00",
-          "valid_to": "2026-10-27T23:59:59-04:00",
-          "type": "weekly_ad",
-          "source": "Flipp/Wishabi",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187421?locale=en-us&postal_code=88201"
-        },
-        {
-          "name": "Nissin Top Ramen",
-          "price": 4,
           "regular_price": null,
           "valid_from": "2026-10-21T00:00:00-04:00",
           "valid_to": "2026-10-27T23:59:59-04:00",
@@ -3273,6 +3253,26 @@
           "valid_from": "2026-10-21T00:00:00-04:00",
           "valid_to": "2026-10-27T23:59:59-04:00",
           "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187421?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chef Boyardee Skillet Meals",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-10-21T00:00:00-04:00",
+          "valid_to": "2026-10-27T23:59:59-04:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187421?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nissin Top Ramen",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-10-21T00:00:00-04:00",
+          "valid_to": "2026-10-27T23:59:59-04:00",
+          "type": "weekly_ad",
           "source": "Flipp/Wishabi",
           "source_url": "https://backflipp.wishabi.com/flipp/flyers/8187421?locale=en-us&postal_code=88201"
         },
