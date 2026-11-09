@@ -1,24 +1,31 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-11-08T17:54:59.529Z",
+    "updated_at": "2026-11-09T22:18:54.025Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Thunderbit / Sam's Club",
         "status": 402,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "error": "insufficient_credits"
       },
       {
         "source": "Thunderbit / Walmart",
         "status": 402,
-        "checked_at": "2026-11-08T17:54:59.529Z"
+        "checked_at": "2026-11-09T22:18:54.025Z"
+      },
+      {
+        "source": "ScrapeOps / Walmart",
+        "status": 403,
+        "checked_at": "2026-11-09T22:18:54.025Z",
+        "attempted": 1,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "flyers": 5,
         "items": 992,
         "deals": {
@@ -28,16 +35,9 @@
         }
       },
       {
-        "source": "ScrapeOps / Walmart",
-        "status": 403,
-        "checked_at": "2026-11-08T17:54:59.529Z",
-        "attempted": 1,
-        "matched": 0
-      },
-      {
         "source": "Flipp/Wishabi NM 87101",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "flyers": 2,
         "items": 568,
         "deals": {
@@ -47,16 +47,9 @@
         }
       },
       {
-        "source": "Open Prices",
-        "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
-        "nearby_rows": 0,
-        "matched": 0
-      },
-      {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "flyers": 2,
         "items": 568,
         "deals": {
@@ -68,13 +61,20 @@
       {
         "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "blocked": true
+      },
+      {
+        "source": "Open Prices",
+        "status": 200,
+        "checked_at": "2026-11-09T22:18:54.025Z",
+        "nearby_rows": 0,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi NM 88001",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "flyers": 3,
         "items": 625,
         "deals": {
@@ -84,9 +84,15 @@
         }
       },
       {
+        "source": "Walmart",
+        "status": 200,
+        "checked_at": "2026-11-09T22:18:54.025Z",
+        "blocked": true
+      },
+      {
         "source": "Flipp/Wishabi NM 88201",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "flyers": 2,
         "items": 569,
         "deals": {
@@ -96,21 +102,15 @@
         }
       },
       {
-        "source": "Walmart",
-        "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
-        "blocked": true
-      },
-      {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "location_id": "70600409"
       },
       {
         "source": "Safeway product API",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "store_id": "2004",
         "searched": 121,
         "matched": 113
@@ -118,10 +118,10 @@
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-11-08T17:54:59.529Z",
+        "checked_at": "2026-11-09T22:18:54.025Z",
         "store_id": "824",
         "searched": 121,
-        "matched": 111
+        "matched": 113
       }
     ]
   },
