@@ -1,31 +1,13 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-11-14T17:59:07.614Z",
+    "updated_at": "2026-11-15T18:49:34.316Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
-        "source": "Thunderbit / Sam's Club",
-        "status": 402,
-        "checked_at": "2026-11-14T17:59:07.614Z",
-        "error": "insufficient_credits"
-      },
-      {
-        "source": "Thunderbit / Walmart",
-        "status": 402,
-        "checked_at": "2026-11-14T17:59:07.614Z"
-      },
-      {
-        "source": "ScrapeOps / Walmart",
-        "status": 403,
-        "checked_at": "2026-11-14T17:59:07.614Z",
-        "attempted": 1,
-        "matched": 0
-      },
-      {
         "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "flyers": 5,
         "items": 1001,
         "deals": {
@@ -35,22 +17,27 @@
         }
       },
       {
-        "source": "Sam's Club",
-        "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
-        "blocked": true
+        "source": "ScrapeOps / Walmart",
+        "status": 403,
+        "checked_at": "2026-11-15T18:49:34.316Z",
+        "attempted": 1,
+        "matched": 0
       },
       {
-        "source": "Open Prices",
-        "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
-        "nearby_rows": 0,
-        "matched": 0
+        "source": "Thunderbit / Sam's Club",
+        "status": 402,
+        "checked_at": "2026-11-15T18:49:34.316Z",
+        "error": "insufficient_credits"
+      },
+      {
+        "source": "Thunderbit / Walmart",
+        "status": 402,
+        "checked_at": "2026-11-15T18:49:34.316Z"
       },
       {
         "source": "Flipp/Wishabi NM 87101",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "flyers": 2,
         "items": 556,
         "deals": {
@@ -62,7 +49,7 @@
       {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "flyers": 2,
         "items": 556,
         "deals": {
@@ -72,9 +59,16 @@
         }
       },
       {
+        "source": "Open Prices",
+        "status": 200,
+        "checked_at": "2026-11-15T18:49:34.316Z",
+        "nearby_rows": 0,
+        "matched": 0
+      },
+      {
         "source": "Flipp/Wishabi NM 88001",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "flyers": 3,
         "items": 609,
         "deals": {
@@ -84,15 +78,15 @@
         }
       },
       {
-        "source": "Walmart",
+        "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "blocked": true
       },
       {
         "source": "Flipp/Wishabi NM 88201",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "flyers": 2,
         "items": 556,
         "deals": {
@@ -102,26 +96,32 @@
         }
       },
       {
+        "source": "Walmart",
+        "status": 200,
+        "checked_at": "2026-11-15T18:49:34.316Z",
+        "blocked": true
+      },
+      {
         "source": "Safeway product API",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "store_id": "2004",
         "searched": 121,
-        "matched": 113
+        "matched": 111
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "location_id": "70600409"
       },
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-11-14T17:59:07.614Z",
+        "checked_at": "2026-11-15T18:49:34.316Z",
         "store_id": "824",
         "searched": 121,
-        "matched": 113
+        "matched": 115
       }
     ]
   },
