@@ -1,124 +1,124 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-11-18T20:28:49.233Z",
+    "updated_at": "2026-11-19T20:33:19.489Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
-        "source": "Flipp/Wishabi Farmington",
-        "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
-        "flyers": 4,
-        "items": 694,
-        "deals": {
-          "Safeway": 321,
-          "Albertsons": 321,
-          "Walmart": 0
-        }
-      },
-      {
         "source": "ScrapeOps / Walmart",
         "status": 403,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "attempted": 1,
         "matched": 0
       },
       {
         "source": "Thunderbit / Sam's Club",
         "status": 402,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "error": "insufficient_credits"
       },
       {
         "source": "Thunderbit / Walmart",
         "status": 402,
-        "checked_at": "2026-11-18T20:28:49.233Z"
+        "checked_at": "2026-11-19T20:33:19.489Z"
       },
       {
-        "source": "Flipp/Wishabi NM 87101",
+        "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
-        "flyers": 1,
-        "items": 242,
+        "checked_at": "2026-11-19T20:33:19.489Z",
+        "flyers": 5,
+        "items": 1011,
         "deals": {
-          "Safeway": 0,
-          "Albertsons": 208,
-          "Walmart": 0
+          "Safeway": 321,
+          "Albertsons": 321,
+          "Walmart": 144
         }
       },
       {
         "source": "Open Prices",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "nearby_rows": 0,
         "matched": 0
       },
       {
+        "source": "Flipp/Wishabi NM 87101",
+        "status": 200,
+        "checked_at": "2026-11-19T20:33:19.489Z",
+        "flyers": 2,
+        "items": 559,
+        "deals": {
+          "Safeway": 0,
+          "Albertsons": 208,
+          "Walmart": 144
+        }
+      },
+      {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
-        "flyers": 1,
-        "items": 242,
-        "deals": {
-          "Safeway": 0,
-          "Albertsons": 208,
-          "Walmart": 0
-        }
-      },
-      {
-        "source": "Flipp/Wishabi NM 88001",
-        "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "flyers": 2,
-        "items": 277,
-        "deals": {
-          "Safeway": 0,
-          "Albertsons": 259,
-          "Walmart": 0
-        }
-      },
-      {
-        "source": "Flipp/Wishabi NM 88201",
-        "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
-        "flyers": 1,
-        "items": 242,
+        "items": 559,
         "deals": {
           "Safeway": 0,
           "Albertsons": 208,
-          "Walmart": 0
+          "Walmart": 144
         }
       },
       {
         "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "blocked": true
+      },
+      {
+        "source": "Flipp/Wishabi NM 88001",
+        "status": 200,
+        "checked_at": "2026-11-19T20:33:19.489Z",
+        "flyers": 3,
+        "items": 594,
+        "deals": {
+          "Safeway": 0,
+          "Albertsons": 259,
+          "Walmart": 144
+        }
       },
       {
         "source": "Walmart",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "blocked": true
+      },
+      {
+        "source": "Flipp/Wishabi NM 88201",
+        "status": 200,
+        "checked_at": "2026-11-19T20:33:19.489Z",
+        "flyers": 2,
+        "items": 559,
+        "deals": {
+          "Safeway": 0,
+          "Albertsons": 208,
+          "Walmart": 144
+        }
       },
       {
         "source": "Safeway product API",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "store_id": "2004",
         "searched": 121,
-        "matched": 113
+        "matched": 112
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "location_id": "70600409"
       },
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-11-18T20:28:49.233Z",
+        "checked_at": "2026-11-19T20:33:19.489Z",
         "store_id": "824",
         "searched": 121,
         "matched": 114
@@ -147,7 +147,1448 @@
       "address": "1400 W Main St",
       "program": "Rollbacks",
       "deal_url": "https://www.walmart.com/store/3428-farmington-nm/shopping-services",
-      "deals": []
+      "deals": [
+        {
+          "name": "Piranha Eyewear Bloom Eco-Pact Sunglasses for Women with Blue to Peach Ombre Lens",
+          "price": 12.65,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "SOONTRANS Gaming Chair, Blue Gamer Chair with Footrest, Ergonomic Office Chair for Adult, Reclining Computer Chair with Massage Lumbar, Adjustable Game Chair",
+          "price": 80.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "The Pink Stuff Bathroom Foam Cleaner, Soap Scum and Hard Water Stain Remover for Shower, Tub and Sink",
+          "price": 4.47,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "1 Supermax TR-1 205/65R15 94H All Season Performance 500AA [50K Mi Warranty] TR1 PCR-1504-SX / 205/65/15 / 2056515",
+          "price": 54.05,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ottocast Express Play2vIdeo Car Multimedia Ai Box Wireless CarPlay + Android Auto Adapter 2+16G , with Y0TuBe and More",
+          "price": 59.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dowellia Wireless CarPlay Adapter, 2-in-1 CarPlay & Android Auto for Factory Wired Vehicles, USB Plug & Play, Stable Connection, Auto Reconnect",
+          "price": 22.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Better Homes & Gardens Artisan Round Green Stoneware Serving Bowl, 10 in, 18 oz",
+          "price": 10,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chefman 1L Electric Glass Kettle w/ LED Indicator Light, Automatic Shutoff - Black",
+          "price": 16.97,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Apple AirPods Pro 3",
+          "price": 179,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Frigidaire 7.5 Cu. ft. Top Mount Refrigerator, Apartment Size Fridge with Reversible Doors, Platinum",
+          "price": 218,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Alden Design Mid-Century Modern Accent Chair with Wooden Frame, Light Brown Faux Leather",
+          "price": 100,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "KitchenAid Deluxe Series 4.5 Quart Tilt-Head Stand Mixer with Stainless Bowl, Contour Silver, KSM97CU",
+          "price": 279,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful 10 in 1, 6 Qt Electric Multi-Cooker, White Icing by Drew Barrymore",
+          "price": 59,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Athletic Works Men's Fleece Crewneck Sweatshirt",
+          "price": 10.98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Apakowa Kids Boys Girls Winter Snow Boots Waterproof Outdoor Insulated Snow Boots (Little Kid/Big Kid)",
+          "price": 29.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chefman TurboFry 2-Quart Digital Air Fryer, Compact Design for Quick Meals, Dishwasher-Safe – Grey",
+          "price": 34.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Chefman Countertop Microwave Oven 0.7 Cu. Ft., 700 Watts with 3 Presets and 10 Power Levels - Black",
+          "price": 69.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "EMONIA White Fleece Throw Blanket for Couch, 320GSM Super Soft Cozy Blankets and Throws, Decorative Fleece Blankets for Women Men Gifts, Throws with Stripes for Sofa Bed Decor, 50''x60''",
+          "price": 10.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fitbit Charge 6 Fitness Tracker with Heart Rate, GPS, Premium Membership, and Health Tools - Gold Case w/ Coral Band, 1.04 Screen",
+          "price": 113.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "LEGO Star Wars Grogu with Hover Pram Building Toy Set - Star Wars Toy for Kids, Boys & Girls, Ages 10+ - Gift for Birthdays - 75403",
+          "price": 69.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dyson V8 Cyclone + Car Cleaning Kit Cordless Vacuum | Black/Khaki | New | Newest Gen",
+          "price": 299.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Acer Chromebook 315 15.6\" Touchscreen Laptop FHD 1920x1080 Intel N50 8GB RAM 128GB Flash ChromeOS",
+          "price": 275,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Camco Eaz-Lift 24\" Stabilizing RV Scissor Jack, 5,000 lb Load Capacity (48810)",
+          "price": 79.19,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fantaslook Long Sleeve Shirts for Women Crew Neck Casual Tunic Tops Lightweight Pullover",
+          "price": 10.59,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Charmin Toilet Paper Ultra Strong, 12 Mega XL Rolls, 2-ply Bath Tissue",
+          "price": 17.96,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hiphuta 47\"Farmhouse Sideboard Storage Cabinets with 4 Doors & 2 Drawers, Coffee Bar with Brown Top for Living Room, White",
+          "price": 149.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "AIRMSEN 12-Cup Drip Coffee Maker with K Cup Combo, Programmable Coffee Machine with 1-4 Cup Setting, Single Serve or Coffee Pot, Auto Shut-off, Spill-Free Spout",
+          "price": 74.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Kleenex Lotion with Coconut Oil 3-Ply Cube Box Facial Tissues",
+          "price": 5.88,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lacoo Office Desk Chair, Executive Mid-Back Ribbed Faux Leather Conference Chair, Ergonomic Swivel Chair with Arms , White",
+          "price": 85.27,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "SWISSGEAR Stride Expandable Carry-on Spinner Luggage with TSA Lock, 8 Wheels, Black",
+          "price": 105,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "American Tourister Cargo Max 21\" Hardside Durable Carry-on Spinner Luggage with Divider Pockets, Olive",
+          "price": 74,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Keurig K-Express Essentials Black Single-Serve K-Cup Pod Coffee Maker",
+          "price": 49.47,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MINTREUS Lounge Sets for Women Knit Short Sleeve Tops and Long Pants Soft Comfy Pajamas Set Oversized 2 Piece Outfits",
+          "price": 17.83,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "NEXPOW Cordless Tire Inflator, 150 PSI Portable Air Compressor with Digital Pressure Gauge & LED Light, Rechargeable Air Pump for Cars, Bikes & Motorcycles",
+          "price": 23.39,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "edx 3FT Bean Bag Sofa Chair, Removable and Washable Matte Velvet Fabric Cover, Memory Foam Filling for Home Apartment,Grey",
+          "price": 54.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful by Drew Barrymore 6 qt Air Fryer with TurboCrisp Technology, EverGood Ceramic Nonstick Coating, White Icing",
+          "price": 59,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Virtu King Headboard Only, King Size Upholstered Velvet Bed Headboard, Wall Mounted, Peel and Stick, No Tools Required, Black",
+          "price": 53.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja Hot & Iced 10-Cup Drip Coffee Maker, 4 Brew Styles, Rapid Cold Brew, CM360WM, Black",
+          "price": 98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Travelers Club 20\" Hard Side Expandable Rolling Spinner Carry-on, Dark Slate",
+          "price": 49,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "btL 20-inch Carry-On Expandable Hardside Upright Luggage With 360-Spinner Wheels and Divider Pockets, Black",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Frozen Traditional 9-inch Pie Crusts and Pans, 15 oz, 2 Count",
+          "price": 1.36,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "\"JIFFY\" Corn Muffin Mix, 8.5 oz Box",
+          "price": 0.5,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Arctus 8\" Twin Mattress, Gel Memory Foam Twin Size Mattress in a Box, Medium Firm",
+          "price": 102.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "COOLHUT Leather Office Chair, Big and Tall Office Chair 400LBS Wide Seat Ergonomic Computer Desk Chair High Back Executive Leather Chair Adjustable Task Chair Lumbar Back with 8-Year Warranty, Black",
+          "price": 63.15,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Bocaoying 6 Pairs Winter Gloves for Women - Touchscreen Gloves for Women Cold Weather, Fashion Knit Mittens Warm Winter Gloves",
+          "price": 14.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beats by Dr. Dre Solo4 On-Ear Wireless Bluetooth Headphones, Drenched Gray",
+          "price": 129,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "RAINSMORE Mens Messenger Bag 15.6 inch Laptop Bag with Padded Vintage PU Leather Briefcase for Men Satchel for Work Business Office Travel,Brown",
+          "price": 38.59,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Skyway Luggage Camano Hardshell 20\" Expandable Carry on Hardside Luggage with Spinner Wheels, Black",
+          "price": 54,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Gowill 4 Piece Luggage Sets,14/20 inch Hardside Lightweight ABS Carry-On Suitcase With Expandable Duffle Bag (Rose Red)",
+          "price": 59.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Sony PS5 DualSense Wireless Controller - Midnight Black",
+          "price": 54,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fujifilm Instax Mini SE Instant Camera with Bonus 10 pack Mini Film, Seafoam Green (Value Pack)",
+          "price": 64,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ktaxon Swivel Salon Stool Chair with Backrest, Adjustable Hydraulic Rolling Stool Work Salon Drafting Swivel Task Chair",
+          "price": 37.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pompeii 1/2 - 2 Ct Single Diamond Stud in 14k Gold One Earring Lab Grown (G/H,VS2-SI1)",
+          "price": 89.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Americus Rugged ATR All Terrain 265/70R17 115T Light Truck Tire",
+          "price": 161.04,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Goodyear Wrangler Fortitude HT All Terrain 255/65R17 110T Light Truck Tire",
+          "price": 217.58,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Auto Drive 4PC Carpet Floor Mat Tufted Carpet Black - Universal Fit, 202WM38",
+          "price": 19.96,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja DualZone FlexBasket Air Fryer 8-Qt, 4-in-1, Smart Finish, Cook 2 Foods 2 Ways,1690 Watts, DZ100WMWH Dove",
+          "price": 109,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "2 Pack iPhone wired earbuds,USB C Headphones for iPhone 18 17 16 16e 15 Pro Max Plus iPad, Earphones with Microphone & Delivers Crisp Stereo Sound with Rich bass Earbuds",
+          "price": 13.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Elgato Stream Deck Neo (Black) – USB Productivity Controller, 8 Customizable Keys, Speed Through Tasks & Workflows, for Working/Streaming/Music/Gaming, Laptop Friendly, Drag-'n-Drop Setup on Mac/PC",
+          "price": 79,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "CORSAIR K65 PLUS WIRELESS 75% RGB Hot-Swappable Mechanical Gaming Keyboard - Pre-Lubricated CORSAIR MLX Fusion tactile Switches - 2.4GHz Wireless - Bluetooth®",
+          "price": 79,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mainstays Traditional 5 Shelf Bookcase with Doors, Weathered Oak Finish",
+          "price": 62.88,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Google Fitbit Air Screenless Fitness and Health Tracker for Adults, Obsidian, One Size",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Brite by Scotch-Brite 2-Sided Scrub & Wipe, Scrubbing Kitchen and Dish Sponge, Fuchsia Frenzy",
+          "price": 3.48,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Matein Rolling Travel Backpack for Women, 17 inch Waterproof Carry on Luggage Bag with Wheels , Pink",
+          "price": 58.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Apple AirPods 4",
+          "price": 89,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value 4-Gallon Small Drawstring Trash Bags, Eucalyptus Mint Scent",
+          "price": 4.36,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Stove Top Stuffing Mix, 1 Box, for Dinner Sides and Thanksgiving Dinner, Turkey, 6 oz",
+          "price": 1.58,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Thermal Underwear Women's Super Soft Long John Set Bottom Ski Winter Warm Top and Bottom Black",
+          "price": 16.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "ASUS Chromebook CX15 Laptop, 15.6\" FHD Display, Intel® Processor N50, 128GB Storage, 4GB RAM, ChromeOS, Forging Blue",
+          "price": 197,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "WOWIPER 22\"+21\" Premium Silicone Wiper Blades 2 Pack – Water Repellent Beam Fit J-Hook – OEM All-Season for Toyota Tacoma 2005-2015 and more",
+          "price": 17.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hanes EcoSmart Women's Full-Zip Fleece Hoodie Pale Pink",
+          "price": 23,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MINTREUS Women's Mock Neck Lounge Set 3/4 Sleeve Tops and Elastic Waist Shorts Cozy Loungewear Sweatsuit with Pockets",
+          "price": 19.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "DAKIMOE Silk Satin Pajama Set for Women Capri Pajamas Short Sleeve Button Down Two Piece Pjs Sleepwear Soft Loungewear Nightwear",
+          "price": 16.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fantaslook Plaid Flannel Shirts for Women Oversized Long Sleeve Button Down Shirts Blouses Tops",
+          "price": 12.59,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "UHIAGREE Curved Car Wash Brush,40 inch Long Handle Microfiber Car Cleaning Brush",
+          "price": 17.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Taoset Twin Size Bed Frame, 11.2\" Height Classic Metal Bed Frame with Under Bed Storage/No Box Spring Needed,Black",
+          "price": 42.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samsung 55\" Class M70HB Series Mini LED 4K UHD Samsung Vision AI Companion Smart Tizen TV 2026 - UN55M70HBFXZA",
+          "price": 298,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "UPFENDER Tire Covers 4 Pack Waterproof Wheel Tire Covers Protector for Truck, SUV, Trailer, Camper, RV - Universa Fit 23-25.75 inches Diameter Wheel",
+          "price": 36.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "UVN Long Robes for Women Winter Plush Fleece Hooded Bathrobe Soft Cozy Fluffy Sleepwear Nightgown with Pockets",
+          "price": 23.69,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Fasjewly 14k Gold Plated 925 Sterling Silver Hoop Earrings,December Blue Birthstone Studs Earrings Birthday Christmas Valentines Mother's Day Jewelry Gifts for Women/Mom/Wife,Stocking Stuffers Ideas",
+          "price": 21.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Canon IVY2 Pure White",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lenovo IdeaPad 5a 2-in-1 15\" Laptop, Touchscreen, AMD Ryzen AI 7 445, 16GB RAM, 1TB SSD, Luna Grey - 3 Months of Microsoft 365 Personal included",
+          "price": 849,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Loritta Wool Socks for Women, 6 Pairs Thermal Crew Winter Boot Socks, Shoe",
+          "price": 12.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "CONCETTA 20 inch Carry on Luggage, Lightweight Expandable Rolling Suitcase, Hard Shell ABS & TSA Lock Double Spinner Wheels Suit Case, Pink",
+          "price": 50.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "migui Car Glass Oil Film Remover Paste, Glass Polishing Cleaning Kit, Eliminates Glare Wiper Smears, Repels Rain, Works on All Glass, Sponge Included,(3pc50G)",
+          "price": 19.13,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wonder Nation Little & Big Girls Casual Skate Sneakers",
+          "price": 12.98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Piranha Eyewear Aimee Retro Black and Gold Hybrid Cat Eye Sunglasses for Women",
+          "price": 10.95,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MRUAKA Wicker Patio Furniture Set, 4 Piece Outdoor Sectional Conversation Sets, Brown PE Rattan Patio Sofa Set for Backyard, Balcony, Deck, Porch",
+          "price": 169.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Eplumivor 300 Pcs Square Air Fryer Liners Disposable, 7.5 inch Natural Wood Pulp Parchment Baking Paper for Fried Chicken Fries Wings Veggies",
+          "price": 15.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Renwick Fabric Push Back Theater Recliner Chair with Footrest, Light Blue",
+          "price": 134,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Suavitel Complete Liquid Fabric Softener with Protection, Field Flowers Scent",
+          "price": 3.98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Scenario Women's Crewneck Sweatshirt, Fireside Red,",
+          "price": 14.98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "HP 15.6 inch HD Windows Laptop Intel Processor N250 4GB 128GB UFS Moonlight Blue",
+          "price": 282,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Auto Drive Automotive Steering Wheel Cover, Black Diamond-Quilt, PVC, Universal Fit, AD061728M",
+          "price": 15.38,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "EcoNour Cooling Gel Seat Cushion for Long Sitting – Memory Foam Coccyx Support for Tailbone & Sciatica Pain Relief, Office Chair & Car Seat, Black",
+          "price": 20.69,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nespresso Vertuo Next Coffee and Espresso Maker by De'Longhi, Glossy Black",
+          "price": 116,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Gain Plus Laundry Detergent Liquid, Now with Odor Defense + OXI, Waterfall Delight Scent",
+          "price": 21.94,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Armor All Protectant Car Cleaning Spray",
+          "price": 4.97,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samsung Galaxy Tab A11+ Widescreen Tablet, 128GB, Android 16, Gray",
+          "price": 238,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Finish Ultimate Quantum Dishwasher Pods, Dishwasher Detergent Dish Soap, 50% More Cleaning Power",
+          "price": 20.48,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ktaxon Accent Chair, Solid Wood and Jute Rope Armrests Armchair, Single sofa with Lumbar Pillow for Living Room Bedroom Office Off White",
+          "price": 110.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Homall Gaming Chair Massage Ergonomic Gamer Chair Height Adjustable Racing Chair PU Leather Computer Chair with Footrest & Lumbar Support, White",
+          "price": 79.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samsung 65\" Class U8000H Series Crystal UHD 4K UHD Samsung Vision AI Companion Smart Tizen TV 2026 - UN65U8000HFXZA",
+          "price": 298,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pinmoco Cross Legged Office Chair, White Boucle Ergonomic Criss Cross Swivel Desk Chair, Heavy Duty Wide Seat for Meditation & ADHD, Armless",
+          "price": 88.66,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Maircle Mattress Vacuum Cleaner with UV Light, Bed Vacuum with Dust Detection, 18KPa Handheld Vacuum with LED Display, 40,000 Beats/Min Tapping, 150°F Heat, HEPA Filter for Bed, Couch",
+          "price": 79.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja CREAMi Ice Cream Maker, for Mix-ins, Milkshakes, Sorbet, Dairy-Free, 5 One-Touch Programs, (2) 16-Oz Pint Containers & Lids, NC350 White",
+          "price": 149,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wrangler 20\" Sport & Travel Duffel Luggage Bag with Water Bottle Holder, Black",
+          "price": 18,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Petyoung Heated Car Seat Cover, 12V Auto Seat Warmer Cushion with 2 Temp Settings, Universal Fit for Truck SUV Van, Fast Heating & Overheat Protection",
+          "price": 22.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wyze Battery Video Doorbell Camera 1536 x 1536 HD Wireless Security, 1 Month Cam Plus Included",
+          "price": 49.98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Travel Backpack 50L New Premium - Unisex Extra Large Laptop Backpack for Hiking, Climbing & Business Trips, Waterproof, Black",
+          "price": 29.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Corsair M55 WIRELESS Gaming Mouse - GRAY",
+          "price": 24,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wclvor 2-Slice Slim Toaster, 6 Shade Settings with Cancel, Reheat & Defrost, 10\" Long Slot, Auto Shut off, Removable Crumb Tray, Black",
+          "price": 19.25,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "BLACK+DECKER 0.9 Cu Ft Microwave Oven Countertop , 6 Auto Menus, 10 Power Levels, Digital Panel, 900W",
+          "price": 89.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "KODAK PIXPRO AZ528 Astro Zoom BSI-CMOS Bridge Digital Camera - 16MP 52X 1080p Wi-Fi (Midnight Blue)",
+          "price": 242,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Livhil 8Pcs Packing Cubes for Luggage, Packing Cubes for Travel Luggage Packing Organizers ( Khaki Plaid )",
+          "price": 13.29,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Skullcandy Smokin' Buds 360 XT True Wireless in-Ear Earbuds, Hazard",
+          "price": 14.88,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Vivitar Popsnap Compact Digital Camera, Mint, 16X Zoom, 1080p, Built-in Flash, Micro SD, Slim Lightweight Pocket Design",
+          "price": 25.58,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "edx 24 Inch Hardside Expandable Luggage with Spinner Wheels, Checked-Medium Lightweight Expandable Rolling Luggage with TSA Lock, Blue",
+          "price": 51.89,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Bliss Atomizer Spray Bottle Set - 4 Pack Leak Proof Refillable Perfume Atomizer Travel Spray Bottle",
+          "price": 7.5,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "JBL Cinema SB550 3.1 Channel Soundbar with Wireless Subwoofer, Corded Electric, Bluetooth",
+          "price": 159,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Taygeer Travel Laptop Backpack for Women Men, 35L Carry on Luggage Backpacks with Shoe Pouch, Blue",
+          "price": 22.99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja Crispi Glass Air Fryer 4-Qt, 3-in-1, Air Fry Recrisp, Portable, Dishwasher Safe, FN100WH White",
+          "price": 134,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wrangler 4-Piece 8-Wheel Expandable Hard Side Trunk-Style Luggage Set - Black",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Swiffer Wet Jet Mop Cleaning Pads Refill, Floor Cleaner for Mopping Wood, Laminate, Tile",
+          "price": 12.94,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Pine-Sol Multi-Surface Cleaner, Original",
+          "price": 11.28,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Large Capacity Expandable Stylish Color Block Travel Duffel Bag Multi-Pocket Weekender Overnight Bag with Adjustable Shoulder Strap, Perfect for Sports Gym Vacation",
+          "price": 27.8,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Glade® Scent Flow PlugIns® Air Freshener Starter Kit, Clean Linen, 1 Device + 1 Refill",
+          "price": 11.98,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O-Cedar EasyWring Microfiber Spin Mop Head Replacement, Machine Washable & Reusable",
+          "price": 8.53,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dawn Platinum Plus, Liquid Dish Soap",
+          "price": 9.94,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value Brown Gravy Mix, 0.87 oz Packet",
+          "price": 0.28,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Jet-Puffed Mini Marshmallows, 10 oz Bag",
+          "price": 1,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lysol Disinfecting Wipes Multi Surface Cleaner, 80 Count Each, Pack of 4, Lemon & Mango Scent",
+          "price": 13.47,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O-Cedar H2prO™ Flat Mop System",
+          "price": 44.96,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Apple Watch SE 3 [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/M",
+          "price": 199,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Great Value French Fried Onions Salad Topping, 6 oz (Resealable Bag)",
+          "price": 1.06,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Campbell's Condensed Cream of Mushroom Soup, 10.5 oz Can",
+          "price": 1,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja Professional Plus DUO 2-in-1 Blender, 2 Auto-iQ Programs for Smoothies & Ice Crush, 4 Speeds, 72-Oz Pitcher, 24-Oz To-Go Cup, 1400PW, BN750NV Navy",
+          "price": 99,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ninja French Door 8-in-1 Countertop Oven, with Smart Surroundair Technology and Air Fry Function, Dishwasher Safe, 6 Pieces, FO100 Silver",
+          "price": 169,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Beautiful 5.3 Qt Stand Mixer, White Icing with Flat Beater, Dough Hook, Balloon Whisk",
+          "price": 98.97,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "KitchenAid 2-Speed Hand Blender, Empire Red, KHB1231ER",
+          "price": 39,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "DARESAY Men's Pajama Pants 3-Pack, Soft Knit Lounge & Sleep Pants with Pockets, Elastic Waist & Drawstring",
+          "price": 30.49,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Butterball Frozen Whole Turkey, All Natural, 10-16 lbs., Serves 7-11, 21g of Protein Per Serving",
+          "price": 13.14,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Crock-Pot Manual 7-Quart Slow Cooker, Mussel Grey",
+          "price": 34.96,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Samsung 55\" Class U8000H Series Crystal UHD 4K UHD Samsung Vision AI Companion Smart Tizen TV 2026 - UN55U8000HFXZA",
+          "price": 248,
+          "regular_price": null,
+          "valid_from": "2026-11-19T00:00:00-05:00",
+          "valid_to": "2026-11-24T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8234416?locale=en-us&postal_code=88201"
+        }
+      ]
     },
     {
       "store": "Albertsons",
@@ -178,16 +1619,6 @@
         {
           "name": "Fresh Celery or Sweet Onions",
           "price": 0.99,
-          "regular_price": null,
-          "valid_from": "2026-11-18T00:00:00-05:00",
-          "valid_to": "2026-11-25T23:59:59-05:00",
-          "type": "weekly_ad",
-          "source": "Flipp/Wishabi",
-          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8225533?locale=en-us&postal_code=88201"
-        },
-        {
-          "name": "Signature SELECT® Baby Wipes",
-          "price": 4,
           "regular_price": null,
           "valid_from": "2026-11-18T00:00:00-05:00",
           "valid_to": "2026-11-25T23:59:59-05:00",
@@ -328,6 +1759,16 @@
         {
           "name": "Signature SELECT® Cranberry Juice",
           "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-18T00:00:00-05:00",
+          "valid_to": "2026-11-25T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8225533?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Baby Wipes",
+          "price": 4,
           "regular_price": null,
           "valid_from": "2026-11-18T00:00:00-05:00",
           "valid_to": "2026-11-25T23:59:59-05:00",
