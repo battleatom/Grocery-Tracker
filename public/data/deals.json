@@ -1,86 +1,74 @@
 {
   "meta": {
     "location": "Farmington, NM",
-    "updated_at": "2026-11-26T21:28:42.264Z",
+    "updated_at": "2026-11-27T21:14:42.652Z",
     "note": "Publicly verifiable store deals. Personalized account-only offers are tracked by type but cannot be assumed available to every shopper.",
     "source_checks": [
       {
         "source": "Thunderbit / Sam's Club",
         "status": 402,
-        "checked_at": "2026-11-26T21:28:42.264Z",
+        "checked_at": "2026-11-27T21:14:42.652Z",
         "error": "insufficient_credits"
-      },
-      {
-        "source": "Thunderbit / Walmart",
-        "status": 402,
-        "checked_at": "2026-11-26T21:28:42.264Z"
       },
       {
         "source": "ScrapeOps / Walmart",
         "status": 403,
-        "checked_at": "2026-11-26T21:28:42.264Z",
+        "checked_at": "2026-11-27T21:14:42.652Z",
         "attempted": 1,
         "matched": 0
       },
       {
-        "source": "Open Prices",
-        "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "nearby_rows": 0,
-        "matched": 0
-      },
-      {
-        "source": "Sam's Club",
-        "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "blocked": true
-      },
-      {
         "source": "Flipp/Wishabi Farmington",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "flyers": 7,
-        "items": 1076,
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "flyers": 5,
+        "items": 610,
         "deals": {
-          "Safeway": 352,
-          "Albertsons": 352,
+          "Safeway": 143,
+          "Albertsons": 143,
           "Walmart": 144
         }
       },
       {
-        "source": "Walmart",
+        "source": "Thunderbit / Walmart",
+        "status": 402,
+        "checked_at": "2026-11-27T21:14:42.652Z"
+      },
+      {
+        "source": "Open Prices",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "blocked": true
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "nearby_rows": 0,
+        "matched": 0
       },
       {
         "source": "Flipp/Wishabi NM 87101",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "flyers": 1,
-        "items": 318,
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "flyers": 2,
+        "items": 439,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
+          "Albertsons": 92,
           "Walmart": 144
         }
       },
       {
         "source": "Flipp/Wishabi NM 87501",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "flyers": 1,
-        "items": 318,
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "flyers": 2,
+        "items": 439,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
+          "Albertsons": 92,
           "Walmart": 144
         }
       },
       {
         "source": "Flipp/Wishabi NM 88001",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
+        "checked_at": "2026-11-27T21:14:42.652Z",
         "flyers": 3,
         "items": 529,
         "deals": {
@@ -92,36 +80,48 @@
       {
         "source": "Flipp/Wishabi NM 88201",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "flyers": 1,
-        "items": 318,
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "flyers": 2,
+        "items": 439,
         "deals": {
           "Safeway": 0,
-          "Albertsons": 0,
+          "Albertsons": 92,
           "Walmart": 144
         }
       },
       {
-        "source": "Safeway product API",
+        "source": "Sam's Club",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
-        "store_id": "2004",
-        "searched": 121,
-        "matched": 111
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "blocked": true
+      },
+      {
+        "source": "Walmart",
+        "status": 200,
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "blocked": true
       },
       {
         "source": "Kroger API / Smith's",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
+        "checked_at": "2026-11-27T21:14:42.652Z",
         "location_id": "70600409"
+      },
+      {
+        "source": "Safeway product API",
+        "status": 200,
+        "checked_at": "2026-11-27T21:14:42.652Z",
+        "store_id": "2004",
+        "searched": 121,
+        "matched": 110
       },
       {
         "source": "Albertsons product API",
         "status": 200,
-        "checked_at": "2026-11-26T21:28:42.264Z",
+        "checked_at": "2026-11-27T21:14:42.652Z",
         "store_id": "824",
         "searched": 121,
-        "matched": 114
+        "matched": 113
       }
     ]
   },
@@ -1595,7 +1595,928 @@
       "address": "4909 E Main St",
       "program": "forU / Weekly Ad / Digital Coupons",
       "deal_url": "https://local.albertsons.com/nm/farmington/4909-e-main-st.html",
-      "deals": []
+      "deals": [
+        {
+          "name": "Signature SELECT® Mayonnaise",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Osem Chicken Soup Consomme",
+          "price": 6.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Werther's Christmas Candy",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hershey Christmas Filled Canes",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Shredded Lettuce",
+          "price": 0.97,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dasani Water",
+          "price": 9,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Roll Wrap",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Screamin' Sicilian Pizza",
+          "price": 4.97,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-11-27T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nature's Own or Wonder Half Loaf Bread",
+          "price": 0.97,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-11-27T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Tostitos or Fritos Chips",
+          "price": 2.97,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-11-27T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lucerne Milk",
+          "price": 2.47,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-11-27T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Garden Fresh Field Grown Tomatoes",
+          "price": 1.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Gain",
+          "price": 12.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Throws",
+          "price": 15,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Kedem Tea Biscuits",
+          "price": 0.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Egg and Onion Matzo Crackers",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Kedem Grape Juice",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Lipton Recipe Secrets Kosher Soup Mix",
+          "price": 2.69,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Chocolate Coins",
+          "price": 0.89,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Snickers or Twix Christmas Candy",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Swiffer",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Colgate Kids Electric Toothbrushes",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Soft & Strong Bathroom Tissue 12 Double Roll, Brightly 6 Double Roll",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Orange Juice",
+          "price": 3.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Holiday Toys or Games",
+          "price": 12,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Michelob Ultra",
+          "price": 15.97,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hershey Christmas Candy",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Jumbo Diapers",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Mr. Clean",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Clorox Clean-Up",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Stocking Stuffers",
+          "price": 10,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ferrero Rocher or Collection",
+          "price": 6.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Dove Promises Candy",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Vicks DayQuil and NyQuil, Combo Packs",
+          "price": 21.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Edge or Skintimate Shave Gel",
+          "price": 8,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Pasta Sauce",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Chanukah Decorating House",
+          "price": 18.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Kedem Sparkling Juices",
+          "price": 4.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Osem Israeli Toasted Couscous",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Promised Land Chanukah Candles",
+          "price": 1.29,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nerds, SweeTARTS or Trolli Candy Canes",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Holiday Paper Party",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Holiday Toys or Games",
+          "price": 25,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ferrero Rocher Chocolate Squares",
+          "price": 4.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Christmas M&M'S",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Ghirardelli Christmas Candy",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Russell Stover or Pangburns Box Chocolate",
+          "price": 9.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Hershey Christmas Candy Bars",
+          "price": 3,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Flipz Pretzels",
+          "price": 4.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Care™ or SELECT® Electrolytes",
+          "price": 3.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O Organics® Baby Food Pouch",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "O Organics® Baby Snacks",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Nabisco Newtons, Cracker Packs, Snak-Saks, or Teddy Grahams",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "General Mills Cereal, Nature Valley Bars, or Fruit Snacks",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GoGo Squeez",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Skinner Pasta",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Stocking Stuffers",
+          "price": 10,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Starbucks Coffee",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Potato Chips",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MANUAL VACUUM PUMP",
+          "price": 2.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "SMALL GLASS CONTAINER",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MEDIUM GLASS CONTAINER",
+          "price": 5.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GLASS MEASURING JUG",
+          "price": 4.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Large Avocados",
+          "price": 0.97,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-11-27T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Corona, Pacifico, or Modelo",
+          "price": 16.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "K-Pop Demon Hunters Collectible Toys",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Care™ Mucus Relief",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "LARGE GLASS CONTAINER",
+          "price": 9.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Matzo Crackers",
+          "price": 3.29,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Care™ Naproxen Caplets or Tablets",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Containers",
+          "price": 6,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Rubbermaid TakeAlongs",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "MINI GLASS CONTAINERS",
+          "price": 5.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Coke, Dr Pepper, or Pepsi",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-11-27T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Russell Stover Marshmallow Christmas Candy",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Knorr Kosher Instant Soups",
+          "price": 2.79,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Matzo Ball Mixes",
+          "price": 2.29,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Egg Noodles",
+          "price": 2.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Care™ Children's Pain Relief",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Baby Wipes",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Wild Mike's Pizza",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "K-Pop Demon Hunters Collectible Toys",
+          "price": 7.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature SELECT® Roll Wrap",
+          "price": 4,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Chicken Broth",
+          "price": 2.29,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Matzo Ball Soup",
+          "price": 7.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Potato Kugel Mix",
+          "price": 3.49,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Osem Bamba Snack",
+          "price": 2.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Manischewitz Homestyle Potato Latke",
+          "price": 3.29,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Signature Care™ Day or Night Cold & Flu",
+          "price": 3.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Colgate Max Fresh Oral Care",
+          "price": 1.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "coupon",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "GLASS COOKWARE SET",
+          "price": 19.99,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        },
+        {
+          "name": "Boston Market Frozen Entrees",
+          "price": 5,
+          "regular_price": null,
+          "valid_from": "2026-11-27T00:00:00-05:00",
+          "valid_to": "2026-12-01T23:59:59-05:00",
+          "type": "weekly_ad",
+          "source": "Flipp/Wishabi",
+          "source_url": "https://backflipp.wishabi.com/flipp/flyers/8232831?locale=en-us&postal_code=88201"
+        }
+      ]
     },
     {
       "store": "Safeway",
